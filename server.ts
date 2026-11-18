@@ -54,16 +54,14 @@ STRICT RULES:
 - Questions must be GENUINELY HARD — suitable for hardcore football fans, not casual viewers
 - Avoid overused superstars as answers: do NOT make Messi, Ronaldo, Mbappé, or Haaland the answer more than once per generated batch
 - Focus on: squad players who made pivotal contributions, cult heroes, niche transfers, obscure records, lesser-known award winners, players with surprising club moves, specific season stats of non-superstar players
-- Good niche answer examples: Michu, Kasper Dolberg, Emil Forsberg, Sofiane Feghouli, Roberto Pereyra, Shinji Kagawa, Joel Matip, Jonjo Shelvey, Riyad Mahrez before 2016, the goalkeeper who saved penalties in a CL shootout, a free transfer who changed a title race
-- options must be VERY PLAUSIBLE — same position, same era, same nationality or league — genuinely hard to distinguish
-- Every correctAnswer must be 100% factually accurate — do not hallucinate stats, fees, or dates
-- hints: never mention the player's name or nationality in hint 1. Work up gradually.
-- explanation must cite a specific fact: year, stat, club, trophy, or record
-- In the options array, place the correctAnswer at a RANDOM position (index 0, 1, 2, or 3), never always first${excludeRule}
+- Good niche answer examples: Michu, Kasper Dolberg, Emil Forsberg, Sofiane Feghouli, Roberto Pereyra, Shinji Kagawa, Joel Matip, Jonjo Shelvey, Riyad Mahrez before 2016, a CL shootout keeper, a free transfer who changed a title race
+- Every correctAnswer must be 100% factually accurate — do not hallucinate clubs, stats, fees, or dates
+- explanation must be 1 concise sentence citing a specific year, stat, club, or record${excludeRule}
 - Return ONLY a valid JSON array, no markdown, no extra text`;
 
   const schemas: Record<string, string> = {
     'three-clubs': `${base}
+- hints: 3 progressive clues, never mentioning the player's name or nationality in hint 1.
 MODE: Three Clubs. User sees 3 club badges and must name the player who played senior official matches for all three.
 JSON schema for each question:
 {
@@ -74,14 +72,14 @@ JSON schema for each question:
   "question": "Which player represented all three of these clubs?",
   "clubs": ["<club-id-1>", "<club-id-2>", "<club-id-3>"],
   "correctAnswer": "<Full Player Name>",
-  "options": ["<option1>", "<option2>", "<option3>", "<option4>"],
   "hints": ["<hint1>", "<hint2>", "<hint3>"],
   "playerClubStints": { "<club-id>": "<year-year>" },
-  "explanation": "<factual explanation>"
+  "explanation": "<1-sentence factual explanation>"
 }
 Valid club IDs to use: man-city, man-united, liverpool, chelsea, arsenal, tottenham, real-madrid, barcelona, atletico-madrid, psg, bayern-munich, juventus, inter-milan, ac-milan, napoli, dortmund, ajax, porto, benfica, sevilla, lyon, roma, lazio, leicester, west-ham, everton, newcastle, aston-villa, rb-leipzig, leverkusen, monaco, sporting-cp`,
 
     'career-path': `${base}
+- hints: 3 progressive clues, never mentioning the player's name or nationality in hint 1.
 MODE: Career Path. User sees a list of clubs in chronological order and must name the player.
 JSON schema for each question:
 {
@@ -94,9 +92,8 @@ JSON schema for each question:
     { "clubId": "<id>", "clubName": "<name>", "period": "<YYYY-YYYY>", "apps": <number>, "goals": <number> }
   ],
   "correctAnswer": "<Full Player Name>",
-  "options": ["<option1>", "<option2>", "<option3>", "<option4>"],
   "hints": ["<hint1>", "<hint2>", "<hint3>"],
-  "explanation": "<factual explanation>"
+  "explanation": "<1-sentence factual explanation>"
 }
 Include 3 to 5 clubs in the career path. All club stints must start from 2010 or later.`,
 
@@ -118,13 +115,12 @@ JSON schema for each question:
     { "label": "Key Stat", "value": "<value>" }
   ],
   "correctAnswer": "<Full Player Name>",
-  "options": ["<option1>", "<option2>", "<option3>", "<option4>"],
-  "hints": ["<hint1>", "<hint2>", "<hint3>"],
-  "explanation": "<factual explanation>"
+  "explanation": "<1-sentence factual explanation>"
 }`,
 
     'football-quiz': `${base}
-MODE: Football Quiz. Standard multiple choice trivia about football facts, records, and history post-2010.
+- options must be 4 VERY PLAUSIBLE choices (same position/era/league), placing correctAnswer at a RANDOM position (index 0, 1, 2, or 3), never always first.
+MODE: Football Quiz. Multiple choice trivia about football facts, records, and history post-2010.
 JSON schema for each question:
 {
   "id": "fq-gen-<number>",
@@ -134,8 +130,7 @@ JSON schema for each question:
   "question": "<specific trivia question>",
   "correctAnswer": "<answer>",
   "options": ["<option1>", "<option2>", "<option3>", "<option4>"],
-  "hints": ["<hint1>", "<hint2>", "<hint3>"],
-  "explanation": "<factual explanation>"
+  "explanation": "<1-sentence factual explanation>"
 }
 Vary categories across the ${count} questions. Focus on records, stats, lesser-known award winners, finals, clubs.`,
 
@@ -150,18 +145,18 @@ JSON schema for each question:
   "question": "Unscramble the letters to find the footballer:",
   "correctAnswer": "<Full Player Name>",
   "jumbledLetters": "<ALL LETTERS UPPERCASE NO SPACES SCRAMBLED>",
-  "options": ["<option1>", "<option2>", "<option3>", "<option4>"],
   "hints": ["<hint1: club/league clue without name or nationality>", "<hint2: trophy/stat/career clue>", "<hint3: nationality and defining career detail>"],
-  "explanation": "<factual explanation>",
+  "explanation": "<1-sentence factual explanation>",
   "nationality": "<country>",
   "position": "<GK|DF|MF|FW>",
   "era": "<e.g. 2015-present>"
 }
 CRITICAL FOR jumbled-name:
-- hints MUST be 3 progressive clues (ordered easiest-to-hardest/most specific, never mentioning the player's name, and keeping nationality out of hint 1).
+- hints MUST be 3 progressive clues (never mentioning the player's name, and keeping nationality out of hint 1).
 - For jumbledLetters: take the full name, remove spaces and accents, uppercase all letters, then scramble them randomly. Make sure jumbledLetters has the exact same letters as correctAnswer without spaces!`,
 
     'transfer-quiz': `${base}
+- options must be 4 VERY PLAUSIBLE choices, placing correctAnswer at a RANDOM position (index 0, 1, 2, or 3), never always first.
 MODE: Transfer Market Quiz. Questions about transfer fees, destination clubs, and seasons post-2010.
 JSON schema for each question:
 {
@@ -172,12 +167,12 @@ JSON schema for each question:
   "question": "<specific transfer question>",
   "correctAnswer": "<answer>",
   "options": ["<option1>", "<option2>", "<option3>", "<option4>"],
-  "hints": ["<hint1>", "<hint2>", "<hint3>"],
-  "explanation": "<factual explanation including fee and year>"
+  "explanation": "<1-sentence factual explanation including fee and year>"
 }
 Cover: niche transfers, swap deals, surprise moves, loan deals, free transfers, club-record signings outside the obvious 4 superstars. All post-2010.`,
 
     'shirt-number': `${base}
+- options must be 4 VERY PLAUSIBLE choices, placing correctAnswer at a RANDOM position (index 0, 1, 2, or 3), never always first.
 MODE: Shirt Number Quiz. Questions about which player wore a specific shirt number for a club or national team post-2010.
 JSON schema for each question:
 {
@@ -188,8 +183,7 @@ JSON schema for each question:
   "question": "<specific shirt number question>",
   "correctAnswer": "<player or number>",
   "options": ["<option1>", "<option2>", "<option3>", "<option4>"],
-  "hints": ["<hint1>", "<hint2>", "<hint3>"],
-  "explanation": "<factual explanation>"
+  "explanation": "<1-sentence factual explanation>"
 }
 Focus on squad players, cult heroes, and memorable post-2010 number stories (e.g. Kagawa at Man Utd, Michu at Swansea, squad numbers in title races and UCL runs).`,
   };
@@ -292,6 +286,24 @@ function getQuotaCooldownMs(err: unknown): number {
   return 15 * 60 * 1000;
 }
 
+function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
+  return new Promise<T>((resolve, reject) => {
+    const timer = setTimeout(() => {
+      reject(new Error(`${label} timed out after ${ms}ms`));
+    }, ms);
+    promise.then(
+      (val) => {
+        clearTimeout(timer);
+        resolve(val);
+      },
+      (err) => {
+        clearTimeout(timer);
+        reject(err);
+      }
+    );
+  });
+}
+
 async function generateJsonTextWithFallback(
   contents: string,
   maxOutputTokens?: number
@@ -302,6 +314,7 @@ async function generateJsonTextWithFallback(
 
   let sawQuotaError = false;
   let lastError: unknown = null;
+  const isLargePool = typeof maxOutputTokens === 'number' && maxOutputTokens > 16000;
 
   for (const candidate of MODEL_CHAIN) {
     const blockedUntil = modelCooldownUntil.get(candidate.model) || 0;
@@ -321,11 +334,21 @@ async function generateJsonTextWithFallback(
         config.maxOutputTokens = maxOutputTokens;
       }
 
-      const response = await ai.models.generateContent({
-        model: candidate.model,
-        contents,
-        config,
-      });
+      const timeoutMs = isLargePool
+        ? 45000
+        : candidate.model === 'gemini-4-hydrogen'
+        ? 20000
+        : 28000;
+
+      const response = await withTimeout(
+        ai.models.generateContent({
+          model: candidate.model,
+          contents,
+          config,
+        }),
+        timeoutMs,
+        candidate.model
+      );
       return response.text ?? '';
     } catch (err) {
       lastError = err;
@@ -339,6 +362,10 @@ async function generateJsonTextWithFallback(
             `[Server] Gemini quota limit reached on ${candidate.model}; cooling down ${Math.round(cooldownMs / 1000)}s.`
           );
         }
+        continue;
+      }
+      if (String((err as Error)?.message || '').includes('timed out')) {
+        console.warn(`[Server] ${candidate.model} timed out; falling back to next model.`);
         continue;
       }
       throw err;

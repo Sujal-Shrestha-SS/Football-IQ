@@ -66,11 +66,11 @@ export async function generateQuestions(
 
   const requestPromise = (async (): Promise<AnyQuestion[] | null> => {
     const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 28000);
+    const timeoutId = setTimeout(() => controller.abort(), 50000);
 
     try {
-    const base = import.meta.env.VITE_API_URL ?? '';
-    const response = await fetch(`${base}/api/questions/generate`, {
+      const base = import.meta.env.VITE_API_URL ?? '';
+      const response = await fetch(`${base}/api/questions/generate`, {
           method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
