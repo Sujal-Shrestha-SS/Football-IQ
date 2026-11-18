@@ -1,32 +1,9199 @@
 [
-  { "id": "fb-kagawa", "name": "Shinji Kagawa", "nationality": "Japan", "position": "MF", "era": "2010-2023", "clubs": ["dortmund", "man-united"] },
-  { "id": "fb-michu", "name": "Michu", "nationality": "Spain", "position": "FW", "era": "2011-2017", "clubs": ["swansea-city", "napoli"] },
-  { "id": "fb-dolberg", "name": "Kasper Dolberg", "nationality": "Denmark", "position": "FW", "era": "2016-present", "clubs": ["ajax", "nice", "sevilla", "anderlecht"] },
-  { "id": "fb-forsberg", "name": "Emil Forsberg", "nationality": "Sweden", "position": "MF", "era": "2013-present", "clubs": ["rb-leipzig"] },
-  { "id": "fb-feghouli", "name": "Sofiane Feghouli", "nationality": "Algeria", "position": "MF", "era": "2010-present", "clubs": ["valencia", "west-ham", "galatasaray"] },
-  { "id": "fb-pereyra", "name": "Roberto Pereyra", "nationality": "Argentina", "position": "MF", "era": "2011-present", "clubs": ["udinese", "juventus", "watford"] },
-  { "id": "fb-matip", "name": "Joel Matip", "nationality": "Cameroon", "position": "DF", "era": "2010-2024", "clubs": ["schalke", "liverpool"] },
-  { "id": "fb-shelvey", "name": "Jonjo Shelvey", "nationality": "England", "position": "MF", "era": "2010-present", "clubs": ["liverpool", "swansea-city", "newcastle"] },
-  { "id": "fb-strootman", "name": "Kevin Strootman", "nationality": "Netherlands", "position": "MF", "era": "2011-2024", "clubs": ["psv", "roma", "marseille"] },
-  { "id": "fb-meireles", "name": "Raul Meireles", "nationality": "Portugal", "position": "MF", "era": "2010-2016", "clubs": ["porto", "liverpool", "chelsea"] },
-  { "id": "fb-moutinho", "name": "João Moutinho", "nationality": "Portugal", "position": "MF", "era": "2010-present", "clubs": ["porto", "monaco", "wolves"] },
-  { "id": "fb-digne", "name": "Lucas Digne", "nationality": "France", "position": "DF", "era": "2011-present", "clubs": ["psg", "roma", "barcelona", "everton", "aston-villa"] },
-  { "id": "fb-javimartinez", "name": "Javi Martínez", "nationality": "Spain", "position": "MF", "era": "2010-present", "clubs": ["athletic-bilbao", "bayern-munich"] },
-  { "id": "fb-mkhitaryan", "name": "Henrikh Mkhitaryan", "nationality": "Armenia", "position": "MF", "era": "2010-present", "clubs": ["dortmund", "man-united", "arsenal", "roma", "inter-milan"] },
-  { "id": "fb-zaha", "name": "Wilfried Zaha", "nationality": "Ivory Coast", "position": "FW", "era": "2010-present", "clubs": ["crystal-palace", "man-united", "lyon"] },
-  { "id": "fb-lallana", "name": "Adam Lallana", "nationality": "England", "position": "MF", "era": "2010-present", "clubs": ["southampton", "liverpool", "brighton"] },
-  { "id": "fb-gotze", "name": "Mario Götze", "nationality": "Germany", "position": "MF", "era": "2010-present", "clubs": ["dortmund", "bayern-munich", "psv", "eintracht-frankfurt"] },
-  { "id": "fb-defoe", "name": "Jermain Defoe", "nationality": "England", "position": "FW", "era": "2010-2022", "clubs": ["tottenham", "sunderland", "bournemouth", "rangers"] },
-  { "id": "fb-bony", "name": "Wilfried Bony", "nationality": "Ivory Coast", "position": "FW", "era": "2011-2023", "clubs": ["swansea-city", "man-city", "stoke-city"] },
-  { "id": "fb-snodgrass", "name": "Robert Snodgrass", "nationality": "Scotland", "position": "MF", "era": "2010-2024", "clubs": ["leeds", "norwich", "hull", "west-ham", "aston-villa"] },
-  { "id": "fb-papugomez", "name": "Papu Gómez", "nationality": "Argentina", "position": "MF", "era": "2010-present", "clubs": ["atalanta", "sevilla", "monza"] },
-  { "id": "fb-fabianruiz", "name": "Fabián Ruiz", "nationality": "Spain", "position": "MF", "era": "2014-present", "clubs": ["real-betis", "napoli", "psg"] },
-  { "id": "fb-schmeichel", "name": "Kasper Schmeichel", "nationality": "Denmark", "position": "GK", "era": "2010-present", "clubs": ["leicester", "nice", "anderlecht", "celtic"] },
-  { "id": "fb-pjanic", "name": "Miralem Pjanić", "nationality": "Bosnia", "position": "MF", "era": "2010-present", "clubs": ["lyon", "roma", "juventus", "barcelona"] },
-  { "id": "fb-depaul", "name": "Rodrigo De Paul", "nationality": "Argentina", "position": "MF", "era": "2012-present", "clubs": ["valencia", "udinese", "atletico-madrid"] },
-  { "id": "fb-kolarov", "name": "Aleksandar Kolarov", "nationality": "Serbia", "position": "DF", "era": "2010-2022", "clubs": ["lazio", "man-city", "roma", "inter-milan"] },
-  { "id": "fb-perisic", "name": "Ivan Perišić", "nationality": "Croatia", "position": "MF", "era": "2010-present", "clubs": ["dortmund", "wolfsburg", "inter-milan", "bayern-munich", "tottenham"] },
-  { "id": "fb-shaqiri", "name": "Xherdan Shaqiri", "nationality": "Switzerland", "position": "MF", "era": "2010-present", "clubs": ["bayern-munich", "inter-milan", "liverpool", "lyon"] },
-  { "id": "fb-darmian", "name": "Matteo Darmian", "nationality": "Italy", "position": "DF", "era": "2010-present", "clubs": ["torino", "man-united", "inter-milan"] },
-  { "id": "fb-dzeko", "name": "Edin Džeko", "nationality": "Bosnia", "position": "FW", "era": "2010-present", "clubs": ["man-city", "roma", "inter-milan"] }
+  {
+    "id": "fb-aaron-hunt",
+    "name": "Aaron Hunt",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-aaron-lennon",
+    "name": "Aaron Lennon",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "tottenham",
+      "everton",
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-aaron-ramsdale",
+    "name": "Aaron Ramsdale",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-aaron-ramsey",
+    "name": "Aaron Ramsey",
+    "nationality": "Wales",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-abdoulaye-doucoure",
+    "name": "Abdoulaye Doucouré",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-achraf-hakimi",
+    "name": "Achraf Hakimi",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "dortmund",
+      "inter-milan",
+      "psg",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-lallana",
+    "name": "Adam Lallana",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "southampton",
+      "liverpool",
+      "brighton"
+    ]
+  },
+  {
+    "id": "fb-adam-ounas",
+    "name": "Adam Ounas",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-adama-traore",
+    "name": "Adama Traoré",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-adem-ljajic",
+    "name": "Adem Ljajić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ademola-lookman",
+    "name": "Ademola Lookman",
+    "nationality": "Nigeria",
+    "position": "FW",
+    "era": "2015–present",
+    "clubs": [
+      "everton",
+      "rb-leipzig",
+      "leicester",
+      "man-city",
+      "atalanta",
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-admir-mehmedi",
+    "name": "Admir Mehmedi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-adnan-januzaj",
+    "name": "Adnan Januzaj",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-adrien-rabiot",
+    "name": "Adrien Rabiot",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "psg",
+      "juventus",
+      "marseille"
+    ]
+  },
+  {
+    "id": "fb-adrien-silva",
+    "name": "Adrien Silva",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-adrien-trebel",
+    "name": "Adrien Trebel",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-aduriz",
+    "name": "Aduriz",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ainsley-maitland-niles",
+    "name": "Ainsley Maitland-Niles",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "roma",
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-alban-lafont",
+    "name": "Alban Lafont",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alberto-gilardino",
+    "name": "Alberto Gilardino",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alberto-moreno",
+    "name": "Alberto Moreno",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-aleix-vidal",
+    "name": "Aleix Vidal",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "sevilla",
+      "barcelona",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-alejandro-gomez",
+    "name": "Alejandro Gómez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alejandro-grimaldo",
+    "name": "Alejandro Grimaldo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kolarov",
+    "name": "Aleksandar Kolarov",
+    "nationality": "Serbia",
+    "position": "DF",
+    "era": "2010-2022",
+    "clubs": [
+      "lazio",
+      "man-city",
+      "roma",
+      "inter-milan",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-aleksandar-mitrovic",
+    "name": "Aleksandar Mitrović",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alessandro-bastoni",
+    "name": "Alessandro Bastoni",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2017–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan",
+      "atalanta"
+    ]
+  },
+  {
+    "id": "fb-alessandro-florenzi",
+    "name": "Alessandro Florenzi",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "atalanta",
+      "valencia",
+      "roma",
+      "barcelona",
+      "psg",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-alessandro-matri",
+    "name": "Alessandro Matri",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alex",
+    "name": "Alex",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alex-grimaldo",
+    "name": "Álex Grimaldo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alex-iwobi",
+    "name": "Alex Iwobi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "everton",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-alex-meret",
+    "name": "Alex Meret",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alex-oxlade-chamberlain",
+    "name": "Alex Oxlade-Chamberlain",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alex-sandro",
+    "name": "Alex Sandro",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alex-song",
+    "name": "Alex Song",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alex-telles",
+    "name": "Alex Telles",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "porto",
+      "sevilla",
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-alexander-isak",
+    "name": "Alexander Isak",
+    "nationality": "Sweden",
+    "position": "FW",
+    "era": "2016–present",
+    "clubs": [
+      "liverpool",
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-alexander-s-rloth",
+    "name": "Alexander Sørloth",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alexandre-lacazette",
+    "name": "Alexandre Lacazette",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2010–2024",
+    "clubs": [
+      "arsenal",
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-alexis-mac-allister",
+    "name": "Alexis Mac Allister",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2016–present",
+    "clubs": [
+      "liverpool",
+      "brighton",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-alexis-sanchez",
+    "name": "Alexis Sánchez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona",
+      "arsenal",
+      "man-united",
+      "inter-milan"
+    ]
+  },
+  {
+    "id": "fb-alisson",
+    "name": "Alisson",
+    "nationality": "International",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "athletic-bilbao"
+    ]
+  },
+  {
+    "id": "fb-alisson-becker",
+    "name": "Alisson Becker",
+    "nationality": "International",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-allan-saint-maximin",
+    "name": "Allan Saint-Maximin",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alphonse-areola",
+    "name": "Alphonse Areola",
+    "nationality": "Spain",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "psg",
+      "real-madrid",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-alphonso-davies",
+    "name": "Alphonso Davies",
+    "nationality": "Canada",
+    "position": "DF",
+    "era": "2016–present",
+    "clubs": [
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-alvaro-arbeloa",
+    "name": "Álvaro Arbeloa",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alvaro-morata",
+    "name": "Álvaro Morata",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "juventus",
+      "chelsea",
+      "atletico-madrid",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-alvaro-negredo",
+    "name": "Álvaro Negredo",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2010–2024",
+    "clubs": [
+      "sevilla",
+      "man-city",
+      "valencia",
+      "middlesbrough"
+    ]
+  },
+  {
+    "id": "fb-alvaro-odriozola",
+    "name": "Álvaro Odriozola",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-alvaro-vazquez",
+    "name": "Álvaro Vázquez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-amadou-onana",
+    "name": "Amadou Onana",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ander-herrera",
+    "name": "Ander Herrera",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-anders-lindegaard",
+    "name": "Anders Lindegaard",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andre-ayew",
+    "name": "André Ayew",
+    "nationality": "Ghana",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "swansea-city",
+      "marseille",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-andre-gomes",
+    "name": "André Gomes",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andre-onana",
+    "name": "André Onana",
+    "nationality": "England",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "ajax",
+      "inter-milan",
+      "man-united",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-andre-schurrle",
+    "name": "André Schürrle",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–2024",
+    "clubs": [
+      "leverkusen",
+      "chelsea",
+      "wolfsburg",
+      "dortmund"
+    ]
+  },
+  {
+    "id": "fb-andre-silva",
+    "name": "André Silva",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "porto",
+      "ac-milan",
+      "rb-leipzig",
+      "frankfurt"
+    ]
+  },
+  {
+    "id": "fb-andre-pierre-gignac",
+    "name": "André-Pierre Gignac",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andrea-barzagli",
+    "name": "Andrea Barzagli",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "juventus",
+      "wolfsburg"
+    ]
+  },
+  {
+    "id": "fb-andrea-belotti",
+    "name": "Andrea Belotti",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andrea-conti",
+    "name": "Andrea Conti",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andrea-pirlo",
+    "name": "Andrea Pirlo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-andrea-ranocchia",
+    "name": "Andrea Ranocchia",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andreas-christensen",
+    "name": "Andreas Christensen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andrej-kramaric",
+    "name": "Andrej Kramarić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andres-fernandez",
+    "name": "Andrés Fernández",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andres-iniesta",
+    "name": "Andrés Iniesta",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-andros-townsend",
+    "name": "Andros Townsend",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "tottenham",
+      "newcastle",
+      "everton"
+    ]
+  },
+  {
+    "id": "fb-andy-carroll",
+    "name": "Andy Carroll",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-angel-correa",
+    "name": "Ángel Correa",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-angel-di-maria",
+    "name": "Ángel Di María",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "man-united",
+      "psg",
+      "juventus",
+      "benfica"
+    ]
+  },
+  {
+    "id": "fb-ansu-fati",
+    "name": "Ansu Fati",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona",
+      "psg",
+      "brighton"
+    ]
+  },
+  {
+    "id": "fb-ante-budimir",
+    "name": "Ante Budimir",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ante-rebic",
+    "name": "Ante Rebić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-anthony-martial",
+    "name": "Anthony Martial",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2012–2024",
+    "clubs": [
+      "lyon",
+      "monaco",
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-anthony-modeste",
+    "name": "Anthony Modeste",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-anthony-ujah",
+    "name": "Anthony Ujah",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-antoine-griezmann",
+    "name": "Antoine Griezmann",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "atletico-madrid",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-antonio-cassano",
+    "name": "Antonio Cassano",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-antonio-di-natale",
+    "name": "Antonio Di Natale",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-antonio-rudiger",
+    "name": "Antonio Rüdiger",
+    "nationality": "Germany",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "real-madrid",
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-antony",
+    "name": "Antony",
+    "nationality": "Brazil",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "ajax"
+    ]
+  },
+  {
+    "id": "fb-arda-turan",
+    "name": "Arda Turan",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2011–2024",
+    "clubs": [
+      "atletico-madrid",
+      "barcelona",
+      "galatasaray"
+    ]
+  },
+  {
+    "id": "fb-arjen-robben",
+    "name": "Arjen Robben",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "real-madrid",
+      "bayern-munich",
+      "dortmund"
+    ]
+  },
+  {
+    "id": "fb-arkadiusz-milik",
+    "name": "Arkadiusz Milik",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-aron-gunnarsson",
+    "name": "Aron Gunnarsson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-arouna-kone",
+    "name": "Arouna Koné",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-artem-dovbyk",
+    "name": "Artem Dovbyk",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-arthur-melo",
+    "name": "Arthur Melo",
+    "nationality": "Brazil",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona",
+      "liverpool",
+      "juventus",
+      "fiorentina"
+    ]
+  },
+  {
+    "id": "fb-arturo-vidal",
+    "name": "Arturo Vidal",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "juventus",
+      "bayern-munich",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-ashley-cole",
+    "name": "Ashley Cole",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-asmir-begovic",
+    "name": "Asmir Begović",
+    "nationality": "Bosnia",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "ac-milan",
+      "everton"
+    ]
+  },
+  {
+    "id": "fb-athletico-paranaense",
+    "name": "Athletico Paranaense",
+    "nationality": "Brazil",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-aurelien-tchouameni",
+    "name": "Aurélien Tchouaméni",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2018–present",
+    "clubs": [
+      "real-madrid",
+      "monaco"
+    ]
+  },
+  {
+    "id": "fb-axel-tuanzebe",
+    "name": "Axel Tuanzebe",
+    "nationality": "DR Congo",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "aston-villa",
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-axel-witsel",
+    "name": "Axel Witsel",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-aymeric-laporte",
+    "name": "Aymeric Laporte",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ayoze-perez",
+    "name": "Ayoze Pérez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bacary-sagna",
+    "name": "Bacary Sagna",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bafetimbi-gomis",
+    "name": "Bafétimbi Gomis",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bakary-sako",
+    "name": "Bakary Sako",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bart-verbruggen",
+    "name": "Bart Verbruggen",
+    "nationality": "Netherlands",
+    "position": "GK",
+    "era": "2020–present",
+    "clubs": [
+      "brighton"
+    ]
+  },
+  {
+    "id": "fb-bas-dost",
+    "name": "Bas Dost",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bastian-schweinsteiger",
+    "name": "Bastian Schweinsteiger",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ben-chilwell",
+    "name": "Ben Chilwell",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ben-davies",
+    "name": "Ben Davies",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-benedikt-howedes",
+    "name": "Benedikt Höwedes",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-benjamin-mendy",
+    "name": "Benjamin Mendy",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2014–2024",
+    "clubs": [
+      "marseille",
+      "monaco",
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-benjamin-pavard",
+    "name": "Benjamin Pavard",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "stuttgart",
+      "bayern-munich",
+      "inter-milan",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-bernardo-silva",
+    "name": "Bernardo Silva",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bernd-leno",
+    "name": "Bernd Leno",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-blaise-matuidi",
+    "name": "Blaise Matuidi",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "psg",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-boca-juniors",
+    "name": "Boca Juniors",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bojan-krkic",
+    "name": "Bojan Krkić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-borja-mayoral",
+    "name": "Borja Mayoral",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-boubakary-soumare",
+    "name": "Boubakary Soumaré",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-boudewijn-zenden",
+    "name": "Boudewijn Zenden",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bradley-barcola",
+    "name": "Bradley Barcola",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-brandon-williams",
+    "name": "Brandon Williams",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-branislav-ivanovic",
+    "name": "Branislav Ivanović",
+    "nationality": "Serbia",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "benfica"
+    ]
+  },
+  {
+    "id": "fb-breel-embolo",
+    "name": "Breel Embolo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-brennan-johnson",
+    "name": "Brennan Johnson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bruno-alves",
+    "name": "Bruno Alves",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bruno-fernandes",
+    "name": "Bruno Fernandes",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-bruno-guimaraes",
+    "name": "Bruno Guimarães",
+    "nationality": "Brazil",
+    "position": "MF",
+    "era": "2017–present",
+    "clubs": [
+      "newcastle",
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-bruno-martins-indi",
+    "name": "Bruno Martins Indi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bryan-cristante",
+    "name": "Bryan Cristante",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-bryan-mbeumo",
+    "name": "Bryan Mbeumo",
+    "nationality": "Cameroon",
+    "position": "FW",
+    "era": "2017–present",
+    "clubs": [
+      "man-united",
+      "brentford"
+    ]
+  },
+  {
+    "id": "fb-bryan-ruiz",
+    "name": "Bryan Ruiz",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "sporting-cp",
+      "fulham"
+    ]
+  },
+  {
+    "id": "fb-bukayo-saka",
+    "name": "Bukayo Saka",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2018–present",
+    "clubs": [
+      "arsenal"
+    ]
+  },
+  {
+    "id": "fb-burak-y-lmaz",
+    "name": "Burak Yılmaz",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "psg",
+      "lyon",
+      "lille"
+    ]
+  },
+  {
+    "id": "fb-caglar-soyuncu",
+    "name": "Çağlar Söyüncü",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-callum-hudson-odoi",
+    "name": "Callum Hudson-Odoi",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2018–present",
+    "clubs": [
+      "chelsea",
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-callum-wilson",
+    "name": "Callum Wilson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-calvin-ramsay",
+    "name": "Calvin Ramsay",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-caoimhin-kelleher",
+    "name": "Caoimhín Kelleher",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-carles-alena",
+    "name": "Carles Aleñá",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-carlos-bacca",
+    "name": "Carlos Bacca",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2012–2024",
+    "clubs": [
+      "club-brugge",
+      "sevilla",
+      "ac-milan",
+      "villarreal"
+    ]
+  },
+  {
+    "id": "fb-carlos-soler",
+    "name": "Carlos Soler",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-carlos-tevez",
+    "name": "Carlos Tevez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "man-city",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-carlos-vela",
+    "name": "Carlos Vela",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-casemiro",
+    "name": "Casemiro",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-cedric-soares",
+    "name": "Cédric Soares",
+    "nationality": "Portugal",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "sporting-cp",
+      "inter-milan",
+      "arsenal",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-celso-borges",
+    "name": "Celso Borges",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-cesar-azpilicueta",
+    "name": "César Azpilicueta",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "marseille",
+      "porto"
+    ]
+  },
+  {
+    "id": "fb-cesc-fabregas",
+    "name": "Cesc Fàbregas",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "barcelona",
+      "chelsea",
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-charles-de-ketelaere",
+    "name": "Charles De Ketelaere",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-charlie-adam",
+    "name": "Charlie Adam",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-charlie-austin",
+    "name": "Charlie Austin",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-chris-smalling",
+    "name": "Chris Smalling",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-christian-benteke",
+    "name": "Christian Benteke",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2012–2024",
+    "clubs": [
+      "aston-villa",
+      "liverpool",
+      "crystal-palace"
+    ]
+  },
+  {
+    "id": "fb-christian-bolanos",
+    "name": "Christian Bolaños",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-christian-eriksen",
+    "name": "Christian Eriksen",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "ajax",
+      "tottenham",
+      "inter-milan",
+      "brentford",
+      "man-united",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-christian-fuchs",
+    "name": "Christian Fuchs",
+    "nationality": "Austria",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-christian-pulisic",
+    "name": "Christian Pulisic",
+    "nationality": "United States",
+    "position": "FW",
+    "era": "2016–present",
+    "clubs": [
+      "chelsea",
+      "ac-milan",
+      "dortmund"
+    ]
+  },
+  {
+    "id": "fb-christophe-galtier",
+    "name": "Christophe Galtier",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "psg",
+      "lille"
+    ]
+  },
+  {
+    "id": "fb-christopher-nkunku",
+    "name": "Christopher Nkunku",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ciro-immobile",
+    "name": "Ciro Immobile",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2008–present",
+    "clubs": [
+      "lazio",
+      "dortmund",
+      "sevilla",
+      "torino"
+    ]
+  },
+  {
+    "id": "fb-claude-puel",
+    "name": "Claude Puel",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-claudio-marchisio",
+    "name": "Claudio Marchisio",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-claudio-pizarro",
+    "name": "Claudio Pizarro",
+    "nationality": "Peru",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-clement-grenier",
+    "name": "Clément Grenier",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-clement-lenglet",
+    "name": "Clément Lenglet",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-clermont-foot",
+    "name": "Clermont Foot",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-cole-palmer",
+    "name": "Cole Palmer",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2020–present",
+    "clubs": [
+      "man-city",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-conor-bradley",
+    "name": "Conor Bradley",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-corentin-tolisso",
+    "name": "Corentin Tolisso",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2013–2024",
+    "clubs": [
+      "lyon",
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-cristian-romero",
+    "name": "Cristian Romero",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-cristiano-piccini",
+    "name": "Cristiano Piccini",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-cristiano-ronaldo",
+    "name": "Cristiano Ronaldo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "real-madrid",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-daley-blind",
+    "name": "Daley Blind",
+    "nationality": "Netherlands",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "ajax"
+    ]
+  },
+  {
+    "id": "fb-dan-burn",
+    "name": "Dan Burn",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-dani-alves",
+    "name": "Dani Alves",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "juventus",
+      "barcelona",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-dani-ceballos",
+    "name": "Dani Ceballos",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "arsenal",
+      "real-betis"
+    ]
+  },
+  {
+    "id": "fb-dani-olmo",
+    "name": "Dani Olmo",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2015–present",
+    "clubs": [
+      "barcelona",
+      "rb-leipzig"
+    ]
+  },
+  {
+    "id": "fb-dani-parejo",
+    "name": "Dani Parejo",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "getafe",
+      "valencia",
+      "villarreal"
+    ]
+  },
+  {
+    "id": "fb-daniel-munoz",
+    "name": "Daniel Muñoz",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-daniel-sturridge",
+    "name": "Daniel Sturridge",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-danilo",
+    "name": "Danilo",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2012–2024",
+    "clubs": [
+      "porto",
+      "real-madrid",
+      "man-city",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-danilo-d-ambrosio",
+    "name": "Danilo D'Ambrosio",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-danilo-pereira",
+    "name": "Danilo Pereira",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-danny-drinkwater",
+    "name": "Danny Drinkwater",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "leicester",
+      "chelsea",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-danny-graham",
+    "name": "Danny Graham",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-danny-ings",
+    "name": "Danny Ings",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-danny-ward",
+    "name": "Danny Ward",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-danny-welbeck",
+    "name": "Danny Welbeck",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-dante",
+    "name": "Dante",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2012–2024",
+    "clubs": [
+      "bayern-munich",
+      "wolfsburg",
+      "nice"
+    ]
+  },
+  {
+    "id": "fb-darren-bent",
+    "name": "Darren Bent",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-darren-fletcher",
+    "name": "Darren Fletcher",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-darron-gibson",
+    "name": "Darron Gibson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "everton",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-david-alaba",
+    "name": "David Alaba",
+    "nationality": "Germany",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "real-madrid",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-david-de-gea",
+    "name": "David de Gea",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-david-luiz",
+    "name": "David Luiz",
+    "nationality": "Brazil",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "leicester",
+      "chelsea",
+      "arsenal",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-david-raya",
+    "name": "David Raya",
+    "nationality": "Spain",
+    "position": "GK",
+    "era": "2012–present",
+    "clubs": [
+      "arsenal",
+      "brentford"
+    ]
+  },
+  {
+    "id": "fb-david-silva",
+    "name": "David Silva",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "valencia"
+    ]
+  },
+  {
+    "id": "fb-david-villa",
+    "name": "David Villa",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-davide-santon",
+    "name": "Davide Santon",
+    "nationality": "England",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "newcastle",
+      "roma",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-davide-zappacosta",
+    "name": "Davide Zappacosta",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-davinson-sanchez",
+    "name": "Davinson Sánchez",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "ajax",
+      "tottenham",
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-davy-klaassen",
+    "name": "Davy Klaassen",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "ajax",
+      "everton",
+      "werder-bremen"
+    ]
+  },
+  {
+    "id": "fb-dayot-upamecano",
+    "name": "Dayot Upamecano",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2015–present",
+    "clubs": [
+      "bayern-munich",
+      "rb-leipzig"
+    ]
+  },
+  {
+    "id": "fb-declan-rice",
+    "name": "Declan Rice",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2017–present",
+    "clubs": [
+      "arsenal",
+      "chelsea",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-deco",
+    "name": "Deco",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-dejan-kulusevski",
+    "name": "Dejan Kulusevski",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-dejan-lovren",
+    "name": "Dejan Lovren",
+    "nationality": "England",
+    "position": "DF",
+    "era": "2010–2024",
+    "clubs": [
+      "lyon",
+      "southampton",
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-dele-alli",
+    "name": "Dele Alli",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-demarai-gray",
+    "name": "Demarai Gray",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "leicester",
+      "leverkusen",
+      "everton"
+    ]
+  },
+  {
+    "id": "fb-demba-ba",
+    "name": "Demba Ba",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-denis-suarez",
+    "name": "Denis Suárez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-deniz-undav",
+    "name": "Deniz Undav",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-dennis-praet",
+    "name": "Dennis Praet",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-desire-doue",
+    "name": "Désiré Doué",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-deulofeu",
+    "name": "Deulofeu",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-diant-ramaj",
+    "name": "Diant Ramaj",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-didier-drogba",
+    "name": "Didier Drogba",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-diego-costa",
+    "name": "Diego Costa",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-diego-forlan",
+    "name": "Diego Forlán",
+    "nationality": "Uruguay",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-diego-godin",
+    "name": "Diego Godín",
+    "nationality": "Uruguay",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan",
+      "atletico-madrid",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-diego-milito",
+    "name": "Diego Milito",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "inter-milan",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-dimitar-berbatov",
+    "name": "Dimitar Berbatov",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "fulham",
+      "monaco"
+    ]
+  },
+  {
+    "id": "fb-dimitri-payet",
+    "name": "Dimitri Payet",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2011–2024",
+    "clubs": [
+      "lille",
+      "marseille",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-dinamo-batumi",
+    "name": "Dinamo Batumi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-dinamo-tbilisi",
+    "name": "Dinamo Tbilisi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-dinamo-zagreb",
+    "name": "Dinamo Zagreb",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-diogo-dalot",
+    "name": "Diogo Dalot",
+    "nationality": "Portugal",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "porto",
+      "man-united",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-dirk-kuyt",
+    "name": "Dirk Kuyt",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-divock-origi",
+    "name": "Divock Origi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-domenico-berardi",
+    "name": "Domenico Berardi",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-domenico-criscito",
+    "name": "Domenico Criscito",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-dominic-solanke",
+    "name": "Dominic Solanke",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2015–present",
+    "clubs": [
+      "chelsea",
+      "liverpool",
+      "tottenham",
+      "bournemouth"
+    ]
+  },
+  {
+    "id": "fb-dominik-livakovic",
+    "name": "Dominik Livaković",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-dominik-szoboszlai",
+    "name": "Dominik Szoboszlai",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-donny-van-de-beek",
+    "name": "Donny van de Beek",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-donyell-malen",
+    "name": "Donyell Malen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-douglas-costa",
+    "name": "Douglas Costa",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-dries-mertens",
+    "name": "Dries Mertens",
+    "nationality": "Belgium",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "napoli",
+      "psv"
+    ]
+  },
+  {
+    "id": "fb-dusan-tadic",
+    "name": "Dušan Tadić",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2012–2024",
+    "clubs": [
+      "twente",
+      "southampton",
+      "ajax"
+    ]
+  },
+  {
+    "id": "fb-dusan-vlahovic",
+    "name": "Dušan Vlahović",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-duvan-zapata",
+    "name": "Duván Zapata",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-eberechi-eze",
+    "name": "Eberechi Eze",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2016–present",
+    "clubs": [
+      "man-city",
+      "arsenal",
+      "crystal-palace"
+    ]
+  },
+  {
+    "id": "fb-eddie-nketiah",
+    "name": "Eddie Nketiah",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-eden-hazard",
+    "name": "Eden Hazard",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "real-madrid",
+      "tottenham",
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-ederson",
+    "name": "Ederson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-edgar-davids",
+    "name": "Edgar Davids",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-dzeko",
+    "name": "Edin Džeko",
+    "nationality": "Bosnia",
+    "position": "FW",
+    "era": "2010-present",
+    "clubs": [
+      "man-city",
+      "roma",
+      "inter-milan",
+      "ac-milan",
+      "wolfsburg"
+    ]
+  },
+  {
+    "id": "fb-edin-terzic",
+    "name": "Edin Terzić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-edinson-cavani",
+    "name": "Edinson Cavani",
+    "nationality": "Uruguay",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "napoli",
+      "psg",
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-edmilson",
+    "name": "Edmilson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-edouard-mendy",
+    "name": "Édouard Mendy",
+    "nationality": "Senegal",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-eduardo-camavinga",
+    "name": "Eduardo Camavinga",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2019–present",
+    "clubs": [
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-edwin-van-der-sar",
+    "name": "Edwin van der Sar",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ei-ur-gu-johnsen",
+    "name": "Eiður Guðjohnsen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-eliaquim-mangala",
+    "name": "Eliaquim Mangala",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2011–2024",
+    "clubs": [
+      "porto",
+      "man-city",
+      "valencia"
+    ]
+  },
+  {
+    "id": "fb-eljero-elia",
+    "name": "Eljero Elia",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-eljif-elmas",
+    "name": "Eljif Elmas",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-elseid-hysaj",
+    "name": "Elseid Hysaj",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-emerson-palmieri",
+    "name": "Emerson Palmieri",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "roma",
+      "chelsea",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-forsberg",
+    "name": "Emil Forsberg",
+    "nationality": "Sweden",
+    "position": "MF",
+    "era": "2013–present",
+    "clubs": [
+      "rb-leipzig"
+    ]
+  },
+  {
+    "id": "fb-emile-smith-rowe",
+    "name": "Emile Smith Rowe",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-emiliano-martinez",
+    "name": "Emiliano Martínez",
+    "nationality": "Argentina",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "aston-villa"
+    ]
+  },
+  {
+    "id": "fb-emmanuel-adebayor",
+    "name": "Emmanuel Adebayor",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "arsenal",
+      "tottenham"
+    ]
+  },
+  {
+    "id": "fb-emmanuel-emenike",
+    "name": "Emmanuel Emenike",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-emre-belozoglu",
+    "name": "Emre Belözoğlu",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-emre-can",
+    "name": "Emre Can",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "leverkusen",
+      "juventus",
+      "dortmund",
+      "liverpool",
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-enzo-fernandez",
+    "name": "Enzo Fernández",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-eric-abidal",
+    "name": "Eric Abidal",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-eric-bailly",
+    "name": "Eric Bailly",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2014–2024",
+    "clubs": [
+      "espanol",
+      "villarreal",
+      "man-united",
+      "marseille"
+    ]
+  },
+  {
+    "id": "fb-eric-dier",
+    "name": "Eric Dier",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-eric-garcia",
+    "name": "Eric Garcia",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-erik-lamela",
+    "name": "Érik Lamela",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-erling-haaland",
+    "name": "Erling Haaland",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-etienne-capoue",
+    "name": "Étienne Capoue",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ever-banega",
+    "name": "Éver Banega",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan",
+      "sevilla",
+      "valencia"
+    ]
+  },
+  {
+    "id": "fb-exequiel-palacios",
+    "name": "Exequiel Palacios",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2016–present",
+    "clubs": [
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-ezequiel-lavezzi",
+    "name": "Ezequiel Lavezzi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-fabian-delph",
+    "name": "Fabian Delph",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "everton",
+      "aston-villa"
+    ]
+  },
+  {
+    "id": "fb-fabianruiz",
+    "name": "Fabián Ruiz",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2014–present",
+    "clubs": [
+      "real-betis",
+      "napoli",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-fabian-schar",
+    "name": "Fabian Schär",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-fabinho",
+    "name": "Fabinho",
+    "nationality": "Brazil",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "monaco",
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-fabio-coentrao",
+    "name": "Fábio Coentrão",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-fabio-quagliarella",
+    "name": "Fabio Quagliarella",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "torino",
+      "juventus",
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-faouzi-ghoulam",
+    "name": "Faouzi Ghoulam",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-federico-bernardeschi",
+    "name": "Federico Bernardeschi",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "fiorentina",
+      "juventus",
+      "roma"
+    ]
+  },
+  {
+    "id": "fb-federico-chiesa",
+    "name": "Federico Chiesa",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2016–2024",
+    "clubs": [
+      "fiorentina",
+      "juventus",
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-federico-dimarco",
+    "name": "Federico Dimarco",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2017–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-federico-gatti",
+    "name": "Federico Gatti",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-federico-valverde",
+    "name": "Federico Valverde",
+    "nationality": "Uruguay",
+    "position": "MF",
+    "era": "2016–present",
+    "clubs": [
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-felipe-anderson",
+    "name": "Felipe Anderson",
+    "nationality": "Brazil",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "lazio",
+      "west-ham",
+      "porto"
+    ]
+  },
+  {
+    "id": "fb-felipe-santana",
+    "name": "Felipe Santana",
+    "nationality": "Brazil",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund"
+    ]
+  },
+  {
+    "id": "fb-ferland-mendy",
+    "name": "Ferland Mendy",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-fernandinho",
+    "name": "Fernandinho",
+    "nationality": "Brazil",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-fernando",
+    "name": "Fernando",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "porto",
+      "man-city",
+      "sevilla"
+    ]
+  },
+  {
+    "id": "fb-fernando-llorente",
+    "name": "Fernando Llorente",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-fernando-torres",
+    "name": "Fernando Torres",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "atletico-madrid",
+      "benfica",
+      "lyon",
+      "marseille"
+    ]
+  },
+  {
+    "id": "fb-ferran-torres",
+    "name": "Ferran Torres",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-fikayo-tomori",
+    "name": "Fikayo Tomori",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-filip-kostic",
+    "name": "Filip Kostić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-filipe-luis",
+    "name": "Filipe Luís",
+    "nationality": "Brazil",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-florian-thauvin",
+    "name": "Florian Thauvin",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2012–2024",
+    "clubs": [
+      "lille",
+      "marseille",
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-florian-wirtz",
+    "name": "Florian Wirtz",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2020–present",
+    "clubs": [
+      "liverpool",
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-fran-garcia",
+    "name": "Fran García",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-francesco-caputo",
+    "name": "Francesco Caputo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-franck-kessie",
+    "name": "Franck Kessié",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2015–2024",
+    "clubs": [
+      "atalanta",
+      "ac-milan",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-franck-ribery",
+    "name": "Franck Ribéry",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-frank-lampard",
+    "name": "Frank Lampard",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-fraser-forster",
+    "name": "Fraser Forster",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-fred",
+    "name": "Fred",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-frederik-r-nnow",
+    "name": "Frederik Rønnow",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-free-transfer",
+    "name": "Free transfer",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gabi",
+    "name": "Gabi",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-gabriel-jesus",
+    "name": "Gabriel Jesus",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gabriel-martinelli",
+    "name": "Gabriel Martinelli",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gabriel-paulista",
+    "name": "Gabriel Paulista",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gael-clichy",
+    "name": "Gaël Clichy",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gareth-bale",
+    "name": "Gareth Bale",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-gareth-barry",
+    "name": "Gareth Barry",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gary-cahill",
+    "name": "Gary Cahill",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gavi",
+    "name": "Gavi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gedson-fernandes",
+    "name": "Gedson Fernandes",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gelson-martins",
+    "name": "Gelson Martins",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-geoffrey-kondogbia",
+    "name": "Geoffrey Kondogbia",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "sevilla",
+      "monaco",
+      "inter-milan",
+      "arsenal",
+      "ac-milan",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-george-weah",
+    "name": "George Weah",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-georges-mikautadze",
+    "name": "Georges Mikautadze",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-georginio-wijnaldum",
+    "name": "Georginio Wijnaldum",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2011–2024",
+    "clubs": [
+      "psv",
+      "newcastle",
+      "liverpool",
+      "psg",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-gerard-deulofeu",
+    "name": "Gerard Deulofeu",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2011–2024",
+    "clubs": [
+      "barcelona",
+      "everton",
+      "sevilla",
+      "ac-milan",
+      "watford"
+    ]
+  },
+  {
+    "id": "fb-gerard-moreno",
+    "name": "Gerard Moreno",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-german-pezzella",
+    "name": "Germán Pezzella",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-geronimo-rulli",
+    "name": "Gerónimo Rulli",
+    "nationality": "Argentina",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "villareal",
+      "villarreal"
+    ]
+  },
+  {
+    "id": "fb-gervinho",
+    "name": "Gervinho",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "lille",
+      "arsenal",
+      "roma"
+    ]
+  },
+  {
+    "id": "fb-giampaolo-pazzini",
+    "name": "Giampaolo Pazzini",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gianluca-caprari",
+    "name": "Gianluca Caprari",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gianluca-scamacca",
+    "name": "Gianluca Scamacca",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2016–present",
+    "clubs": [
+      "west-ham",
+      "atalanta"
+    ]
+  },
+  {
+    "id": "fb-gianluigi-donnarumma",
+    "name": "Gianluigi Donnarumma",
+    "nationality": "Italy",
+    "position": "GK",
+    "era": "2015–present",
+    "clubs": [
+      "ac-milan",
+      "psg",
+      "man-city",
+      "lille"
+    ]
+  },
+  {
+    "id": "fb-giorgi-mamardashvili",
+    "name": "Giorgi Mamardashvili",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-giorgio-chiellini",
+    "name": "Giorgio Chiellini",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-giorgio-scalvini",
+    "name": "Giorgio Scalvini",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-giovani-lo-celso",
+    "name": "Giovani Lo Celso",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-giovanni-di-lorenzo",
+    "name": "Giovanni Di Lorenzo",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2012–present",
+    "clubs": [
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-giovanni-simeone",
+    "name": "Giovanni Simeone",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-glen-johnson",
+    "name": "Glen Johnson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-goncalo-guedes",
+    "name": "Gonçalo Guedes",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-goncalo-paciencia",
+    "name": "Gonçalo Paciência",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-gonzalo-higuain",
+    "name": "Gonzalo Higuaín",
+    "nationality": "Argentina",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "napoli",
+      "juventus",
+      "ac-milan",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-goran-pandev",
+    "name": "Goran Pandev",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-granit-xhaka",
+    "name": "Granit Xhaka",
+    "nationality": "Switzerland",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "monchengladbach",
+      "arsenal",
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-grant-holt",
+    "name": "Grant Holt",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-graziano-pelle",
+    "name": "Graziano Pellè",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-grzegorz-krychowiak",
+    "name": "Grzegorz Krychowiak",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "tottenham",
+      "psg",
+      "sevilla"
+    ]
+  },
+  {
+    "id": "fb-gylfi-sigurdsson",
+    "name": "Gylfi Sigurdsson",
+    "nationality": "Iceland",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "everton",
+      "tottenham"
+    ]
+  },
+  {
+    "id": "fb-hakan-calhanoglu",
+    "name": "Hakan Çalhanoğlu",
+    "nationality": "Turkey",
+    "position": "MF",
+    "era": "2011–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan",
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-hakim-ziyech",
+    "name": "Hakim Ziyech",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2014–2024",
+    "clubs": [
+      "twente",
+      "ajax",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-hal-robson-kanu",
+    "name": "Hal Robson-Kanu",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-haris-seferovic",
+    "name": "Haris Seferović",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-harry-kane",
+    "name": "Harry Kane",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "tottenham"
+    ]
+  },
+  {
+    "id": "fb-harry-maguire",
+    "name": "Harry Maguire",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-harvey-barnes",
+    "name": "Harvey Barnes",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-hatem-ben-arfa",
+    "name": "Hatem Ben Arfa",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-havard-nordtveit",
+    "name": "Håvard Nordtveit",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-hector-bellerin",
+    "name": "Héctor Bellerín",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "barcelona",
+      "sporting-cp"
+    ]
+  },
+  {
+    "id": "fb-hector-herrera",
+    "name": "Héctor Herrera",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mkhitaryan",
+    "name": "Henrikh Mkhitaryan",
+    "nationality": "Armenia",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "dortmund",
+      "man-united",
+      "arsenal",
+      "roma",
+      "inter-milan",
+      "shakhtar",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-hertha-berlin",
+    "name": "Hertha Berlin",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-heung-min-son",
+    "name": "Heung-min Son",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-hirving-lozano",
+    "name": "Hirving Lozano",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-houssem-aouar",
+    "name": "Houssem Aouar",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-hugo-ekitike",
+    "name": "Hugo Ekitike",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2020–present",
+    "clubs": [
+      "liverpool",
+      "psg",
+      "frankfurt"
+    ]
+  },
+  {
+    "id": "fb-hugo-lloris",
+    "name": "Hugo Lloris",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-hulk",
+    "name": "Hulk",
+    "nationality": "Brazil",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "porto"
+    ]
+  },
+  {
+    "id": "fb-iago-aspas",
+    "name": "Iago Aspas",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ibrahima-konate",
+    "name": "Ibrahima Konaté",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-idrissa-gueye",
+    "name": "Idrissa Gueye",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "aston-villa",
+      "everton",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-ignazio-abate",
+    "name": "Ignazio Abate",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-iker-casillas",
+    "name": "Iker Casillas",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ilkay-gundogan",
+    "name": "Ilkay Gündoğan",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2011–2024",
+    "clubs": [
+      "dortmund",
+      "man-city",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-independiente-del-valle",
+    "name": "Independiente del Valle",
+    "nationality": "Ecuador",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "brighton"
+    ]
+  },
+  {
+    "id": "fb-inigo-martinez",
+    "name": "Iñigo Martínez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-isco",
+    "name": "Isco",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-islam-slimani",
+    "name": "Islam Slimani",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "sporting-cp",
+      "leicester",
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-ismael-bennacer",
+    "name": "Ismaël Bennacer",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ismaila-sarr",
+    "name": "Ismaïla Sarr",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-perisic",
+    "name": "Ivan Perišić",
+    "nationality": "Croatia",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "wolfsburg",
+      "inter-milan",
+      "bayern-munich",
+      "tottenham",
+      "club-brugge",
+      "ac-milan",
+      "psv"
+    ]
+  },
+  {
+    "id": "fb-ivan-rakitic",
+    "name": "Ivan Rakitić",
+    "nationality": "Croatia",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona",
+      "sevilla",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-ivan-toney",
+    "name": "Ivan Toney",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2013–present",
+    "clubs": [
+      "brentford"
+    ]
+  },
+  {
+    "id": "fb-jack-cork",
+    "name": "Jack Cork",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jack-grealish",
+    "name": "Jack Grealish",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jack-wilshere",
+    "name": "Jack Wilshere",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jackson-martinez",
+    "name": "Jackson Martínez",
+    "nationality": "Portugal",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "porto",
+      "atletico-madrid",
+      "monaco"
+    ]
+  },
+  {
+    "id": "fb-jadon-sancho",
+    "name": "Jadon Sancho",
+    "nationality": "Germany",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "man-united",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-jake-livermore",
+    "name": "Jake Livermore",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jamal-musiala",
+    "name": "Jamal Musiala",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2020–present",
+    "clubs": [
+      "chelsea",
+      "bayern-munich",
+      "stuttgart"
+    ]
+  },
+  {
+    "id": "fb-james-forrest",
+    "name": "James Forrest",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-james-maddison",
+    "name": "James Maddison",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-james-milner",
+    "name": "James Milner",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "liverpool",
+      "aston-villa"
+    ]
+  },
+  {
+    "id": "fb-james-rodriguez",
+    "name": "James Rodríguez",
+    "nationality": "Portugal",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "porto",
+      "monaco",
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-james-ward-prowse",
+    "name": "James Ward-Prowse",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jamie-vardy",
+    "name": "Jamie Vardy",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-jan-oblak",
+    "name": "Jan Oblak",
+    "nationality": "Slovenia",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "atletico-madrid",
+      "benfica"
+    ]
+  },
+  {
+    "id": "fb-jan-vertonghen",
+    "name": "Jan Vertonghen",
+    "nationality": "Belgium",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "ajax",
+      "tottenham",
+      "benfica"
+    ]
+  },
+  {
+    "id": "fb-jari-litmanen",
+    "name": "Jari Litmanen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jasper-cillessen",
+    "name": "Jasper Cillessen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-javimartinez",
+    "name": "Javi Martínez",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "athletic-bilbao",
+      "bayern-munich",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-javier-hernandez",
+    "name": "Javier Hernández",
+    "nationality": "Mexico",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "leverkusen",
+      "west-ham",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-javier-pastore",
+    "name": "Javier Pastore",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-javier-saviola",
+    "name": "Javier Saviola",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "benfica",
+      "sevilla",
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-jay-rodriguez",
+    "name": "Jay Rodriguez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jean-kevin-augustin",
+    "name": "Jean-Kévin Augustin",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jean-philippe-mateta",
+    "name": "Jean-Philippe Mateta",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jens-grahl",
+    "name": "Jens Grahl",
+    "nationality": "International",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "frankfurt",
+      "rangers"
+    ]
+  },
+  {
+    "id": "fb-jeremie-frimpong",
+    "name": "Jeremie Frimpong",
+    "nationality": "Netherlands",
+    "position": "DF",
+    "era": "2019–present",
+    "clubs": [
+      "liverpool",
+      "leverkusen",
+      "celtic"
+    ]
+  },
+  {
+    "id": "fb-jeremy-mathieu",
+    "name": "Jérémy Mathieu",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2011–2024",
+    "clubs": [
+      "valencia",
+      "barcelona",
+      "sporting-cp"
+    ]
+  },
+  {
+    "id": "fb-jeremy-menez",
+    "name": "Jérémy Ménez",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "roma",
+      "psg",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-defoe",
+    "name": "Jermain Defoe",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2010–2022",
+    "clubs": [
+      "tottenham",
+      "sunderland",
+      "bournemouth",
+      "rangers",
+      "west-ham",
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-jese-rodriguez",
+    "name": "Jesé Rodríguez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jesse-lingard",
+    "name": "Jesse Lingard",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "leicester",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-jesus-navas",
+    "name": "Jesús Navas",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jesus-vallejo",
+    "name": "Jesús Vallejo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jetro-willems",
+    "name": "Jetro Willems",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-joao-cancelo",
+    "name": "João Cancelo",
+    "nationality": "Portugal",
+    "position": "DF",
+    "era": "2013–present",
+    "clubs": [
+      "inter-milan",
+      "juventus",
+      "man-city",
+      "bayern-munich",
+      "barcelona",
+      "benfica",
+      "valencia"
+    ]
+  },
+  {
+    "id": "fb-joao-mario",
+    "name": "João Mário",
+    "nationality": "Portugal",
+    "position": "MF",
+    "era": "2012–2024",
+    "clubs": [
+      "sporting-cp",
+      "inter-milan",
+      "west-ham",
+      "benfica",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-moutinho",
+    "name": "João Moutinho",
+    "nationality": "Portugal",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "porto",
+      "monaco",
+      "wolves",
+      "sporting-cp"
+    ]
+  },
+  {
+    "id": "fb-joaquin-correa",
+    "name": "Joaquín Correa",
+    "nationality": "Argentina",
+    "position": "FW",
+    "era": "2015–2024",
+    "clubs": [
+      "sevilla",
+      "lazio",
+      "inter-milan",
+      "psg",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-jocelyn-gourvennec",
+    "name": "Jocelyn Gourvennec",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-joe-allen",
+    "name": "Joe Allen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-joe-cole",
+    "name": "Joe Cole",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "west-ham",
+      "liverpool",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-joe-gomez",
+    "name": "Joe Gomez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-joe-hart",
+    "name": "Joe Hart",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-joe-willock",
+    "name": "Joe Willock",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-joel-campbell",
+    "name": "Joel Campbell",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-matip",
+    "name": "Joel Matip",
+    "nationality": "Cameroon",
+    "position": "DF",
+    "era": "2010–2024",
+    "clubs": [
+      "schalke",
+      "liverpool",
+      "tottenham"
+    ]
+  },
+  {
+    "id": "fb-joel-obi",
+    "name": "Joel Obi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-joel-veltman",
+    "name": "Joël Veltman",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-johann-berg-gu-mundsson",
+    "name": "Jóhann Berg Guðmundsson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-john-terry",
+    "name": "John Terry",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "aston-villa"
+    ]
+  },
+  {
+    "id": "fb-joleon-lescott",
+    "name": "Joleon Lescott",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jon-flanagan",
+    "name": "Jon Flanagan",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jonas-hector",
+    "name": "Jonas Hector",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jonas-wind",
+    "name": "Jonas Wind",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jonathan-bamba",
+    "name": "Jonathan Bamba",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jonathan-david",
+    "name": "Jonathan David",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jonathan-de-guzman",
+    "name": "Jonathan de Guzmán",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jonathan-tah",
+    "name": "Jonathan Tah",
+    "nationality": "Germany",
+    "position": "DF",
+    "era": "2013–present",
+    "clubs": [
+      "bayern-munich",
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-jonathan-viera",
+    "name": "Jonathan Viera",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-shelvey",
+    "name": "Jonjo Shelvey",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "swansea-city",
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-jonny-evans",
+    "name": "Jonny Evans",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jordan-amavi",
+    "name": "Jordan Amavi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jordan-ayew",
+    "name": "Jordan Ayew",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2010–2024",
+    "clubs": [
+      "marseille",
+      "aston-villa",
+      "swansea-city",
+      "crystal-palace"
+    ]
+  },
+  {
+    "id": "fb-jordan-henderson",
+    "name": "Jordan Henderson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jordan-pickford",
+    "name": "Jordan Pickford",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jordan-veretout",
+    "name": "Jordan Veretout",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2013–2024",
+    "clubs": [
+      "nantes",
+      "aston-villa",
+      "fiorentina",
+      "roma"
+    ]
+  },
+  {
+    "id": "fb-jordi-alba",
+    "name": "Jordi Alba",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jordy-clasie",
+    "name": "Jordy Clasie",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jorginho",
+    "name": "Jorginho",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2012–2024",
+    "clubs": [
+      "napoli",
+      "chelsea",
+      "arsenal",
+      "verona"
+    ]
+  },
+  {
+    "id": "fb-jose-angel",
+    "name": "José Ángel",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jose-antonio-reyes",
+    "name": "José Antonio Reyes",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jose-bosingwa",
+    "name": "José Bosingwa",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jose-callejon",
+    "name": "José Callejón",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jose-maria-gimenez",
+    "name": "José María Giménez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-joselu",
+    "name": "Joselu",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2011–2024",
+    "clubs": [
+      "hoffenheim",
+      "frankfurt",
+      "stoke-city",
+      "newcastle",
+      "alaves"
+    ]
+  },
+  {
+    "id": "fb-joshua-kimmich",
+    "name": "Joshua Kimmich",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-joshua-zirkzee",
+    "name": "Joshua Zirkzee",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-josip-ilicic",
+    "name": "Josip Iličić",
+    "nationality": "Slovenia",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "atalanta",
+      "fiorentina",
+      "valencia"
+    ]
+  },
+  {
+    "id": "fb-juan-bernat",
+    "name": "Juan Bernat",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "psg",
+      "benfica",
+      "rb-leipzig",
+      "valencia"
+    ]
+  },
+  {
+    "id": "fb-juan-cuadrado",
+    "name": "Juan Cuadrado",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-juan-mata",
+    "name": "Juan Mata",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "chelsea",
+      "valencia"
+    ]
+  },
+  {
+    "id": "fb-jude-bellingham",
+    "name": "Jude Bellingham",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-julian-alvarez",
+    "name": "Julián Álvarez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-julian-brandt",
+    "name": "Julian Brandt",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-julian-draxler",
+    "name": "Julian Draxler",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-julian-nagelsmann",
+    "name": "Julian Nagelsmann",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-julian-weigl",
+    "name": "Julian Weigl",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-jurgen-klinsmann",
+    "name": "Jürgen Klinsmann",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-justin-kluivert",
+    "name": "Justin Kluivert",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kai-havertz",
+    "name": "Kai Havertz",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "arsenal",
+      "man-city",
+      "leverkusen",
+      "porto"
+    ]
+  },
+  {
+    "id": "fb-kalidou-koulibaly",
+    "name": "Kalidou Koulibaly",
+    "nationality": "Senegal",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "napoli",
+      "chelsea",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-kaoru-mitoma",
+    "name": "Kaoru Mitoma",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-karim-bellarabi",
+    "name": "Karim Bellarabi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-karim-benzema",
+    "name": "Karim Benzema",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-dolberg",
+    "name": "Kasper Dolberg",
+    "nationality": "Denmark",
+    "position": "FW",
+    "era": "2016–present",
+    "clubs": [
+      "ajax",
+      "nice",
+      "sevilla",
+      "anderlecht",
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-schmeichel",
+    "name": "Kasper Schmeichel",
+    "nationality": "Denmark",
+    "position": "GK",
+    "era": "2005–present",
+    "clubs": [
+      "leicester",
+      "nice",
+      "anderlecht",
+      "celtic"
+    ]
+  },
+  {
+    "id": "fb-keisuke-honda",
+    "name": "Keisuke Honda",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kelechi-iheanacho",
+    "name": "Kelechi Iheanacho",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kenneth-omeruo",
+    "name": "Kenneth Omeruo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kepa-arrizabalaga",
+    "name": "Kepa Arrizabalaga",
+    "nationality": "International",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "chelsea",
+      "athletic-bilbao",
+      "liverpool",
+      "roma"
+    ]
+  },
+  {
+    "id": "fb-kevin-de-bruyne",
+    "name": "Kevin De Bruyne",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "man-city",
+      "dortmund",
+      "wolfsburg"
+    ]
+  },
+  {
+    "id": "fb-kevin-gameiro",
+    "name": "Kevin Gameiro",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2011–2024",
+    "clubs": [
+      "psg",
+      "sevilla",
+      "atletico-madrid",
+      "valencia"
+    ]
+  },
+  {
+    "id": "fb-kevin-kampl",
+    "name": "Kevin Kampl",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2013–2024",
+    "clubs": [
+      "salzburg",
+      "dortmund",
+      "leverkusen",
+      "rb-leipzig"
+    ]
+  },
+  {
+    "id": "fb-strootman",
+    "name": "Kevin Strootman",
+    "nationality": "Netherlands",
+    "position": "MF",
+    "era": "2011–2024",
+    "clubs": [
+      "psv",
+      "roma",
+      "marseille",
+      "genoa"
+    ]
+  },
+  {
+    "id": "fb-kevin-trapp",
+    "name": "Kevin Trapp",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kevin-volland",
+    "name": "Kevin Volland",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2012–2024",
+    "clubs": [
+      "hoffenheim",
+      "leverkusen",
+      "monaco"
+    ]
+  },
+  {
+    "id": "fb-kevin-prince-boateng",
+    "name": "Kevin-Prince Boateng",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-keylor-navas",
+    "name": "Keylor Navas",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-khvicha-kvaratskhelia",
+    "name": "Khvicha Kvaratskhelia",
+    "nationality": "Georgia",
+    "position": "FW",
+    "era": "2017–present",
+    "clubs": [
+      "napoli",
+      "psg",
+      "inter-milan"
+    ]
+  },
+  {
+    "id": "fb-kieran-trippier",
+    "name": "Kieran Trippier",
+    "nationality": "England",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "tottenham",
+      "atletico-madrid",
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-kim-min-jae",
+    "name": "Kim Min-jae",
+    "nationality": "South Korea",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-kingsley-coman",
+    "name": "Kingsley Coman",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2013–present",
+    "clubs": [
+      "psg",
+      "juventus",
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-klaas-jan-huntelaar",
+    "name": "Klaas-Jan Huntelaar",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kobbie-mainoo",
+    "name": "Kobbie Mainoo",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2022–present",
+    "clubs": [
+      "man-city",
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-koke",
+    "name": "Koke",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kolo-toure",
+    "name": "Kolo Touré",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-konrad-laimer",
+    "name": "Konrad Laimer",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kostas-tsimikas",
+    "name": "Kostas Tsimikas",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-krzysztof-piatek",
+    "name": "Krzysztof Piątek",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kurt-zouma",
+    "name": "Kurt Zouma",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "everton",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-kyle-walker",
+    "name": "Kyle Walker",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "tottenham"
+    ]
+  },
+  {
+    "id": "fb-kyle-walker-peters",
+    "name": "Kyle Walker-Peters",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-kylian-mbappe",
+    "name": "Kylian Mbappé",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "psg",
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-lamine-yamal",
+    "name": "Lamine Yamal",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2023–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-lars-bender",
+    "name": "Lars Bender",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-lars-stindl",
+    "name": "Lars Stindl",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-lassana-diarra",
+    "name": "Lassana Diarra",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-laurent-koscielny",
+    "name": "Laurent Koscielny",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal"
+    ]
+  },
+  {
+    "id": "fb-lautaro-martinez",
+    "name": "Lautaro Martínez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan"
+    ]
+  },
+  {
+    "id": "fb-layvin-kurzawa",
+    "name": "Layvin Kurzawa",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ldu-quito",
+    "name": "LDU Quito",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-leander-dendoncker",
+    "name": "Leander Dendoncker",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-leandro-paredes",
+    "name": "Leandro Paredes",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "roma",
+      "psg",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-leon-goretzka",
+    "name": "Leon Goretzka",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-leonardo-bonucci",
+    "name": "Leonardo Bonucci",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "juventus",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-leonardo-spinazzola",
+    "name": "Leonardo Spinazzola",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-leroy-sane",
+    "name": "Leroy Sané",
+    "nationality": "Germany",
+    "position": "FW",
+    "era": "2014–present",
+    "clubs": [
+      "man-city",
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-lille-osc",
+    "name": "Lille OSC",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-lionel-messi",
+    "name": "Lionel Messi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-lisandro-martinez",
+    "name": "Lisandro Martínez",
+    "nationality": "Argentina",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "ajax"
+    ]
+  },
+  {
+    "id": "fb-loic-remy",
+    "name": "Loïc Rémy",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-lokomotiv-moscow",
+    "name": "Lokomotiv Moscow",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-lorenzo-de-silvestri",
+    "name": "Lorenzo De Silvestri",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-lorenzo-insigne",
+    "name": "Lorenzo Insigne",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-lorenzo-pellegrini",
+    "name": "Lorenzo Pellegrini",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2015–present",
+    "clubs": [
+      "roma"
+    ]
+  },
+  {
+    "id": "fb-louis-saha",
+    "name": "Louis Saha",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-luca-antonelli",
+    "name": "Luca Antonelli",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-luca-toni",
+    "name": "Luca Toni",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan"
+    ]
+  },
+  {
+    "id": "fb-lucas-biglia",
+    "name": "Lucas Biglia",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2013–2024",
+    "clubs": [
+      "lazio",
+      "ac-milan",
+      "anderlecht"
+    ]
+  },
+  {
+    "id": "fb-digne",
+    "name": "Lucas Digne",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2011–present",
+    "clubs": [
+      "psg",
+      "roma",
+      "barcelona",
+      "everton",
+      "aston-villa",
+      "lille"
+    ]
+  },
+  {
+    "id": "fb-lucas-hernandez",
+    "name": "Lucas Hernández",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "atletico-madrid",
+      "bayern-munich",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-lucas-leiva",
+    "name": "Lucas Leiva",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-lucas-moura",
+    "name": "Lucas Moura",
+    "nationality": "Brazil",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "psg",
+      "tottenham",
+      "ajax"
+    ]
+  },
+  {
+    "id": "fb-lucas-ocampos",
+    "name": "Lucas Ocampos",
+    "nationality": "Argentina",
+    "position": "FW",
+    "era": "2011–present",
+    "clubs": [
+      "monaco",
+      "ac-milan",
+      "sevilla",
+      "ajax",
+      "marseille",
+      "wolves"
+    ]
+  },
+  {
+    "id": "fb-lucas-paqueta",
+    "name": "Lucas Paquetá",
+    "nationality": "Brazil",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "ac-milan",
+      "lyon",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-lucas-perez",
+    "name": "Lucas Pérez",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "everton",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-lucas-torreira",
+    "name": "Lucas Torreira",
+    "nationality": "Uruguay",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "atletico-madrid",
+      "tottenham",
+      "galatasaray"
+    ]
+  },
+  {
+    "id": "fb-lucas-tousart",
+    "name": "Lucas Tousart",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-lucio",
+    "name": "Lucio",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-luis-alberto",
+    "name": "Luis Alberto",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2011–present",
+    "clubs": [
+      "sevilla",
+      "liverpool",
+      "lazio"
+    ]
+  },
+  {
+    "id": "fb-luis-fabiano",
+    "name": "Luis Fabiano",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-luis-garcia",
+    "name": "Luis García",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "inter-milan",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-luis-muriel",
+    "name": "Luis Muriel",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2013–2024",
+    "clubs": [
+      "sevilla",
+      "fiorentina",
+      "atalanta"
+    ]
+  },
+  {
+    "id": "fb-luis-suarez",
+    "name": "Luis Suárez",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "barcelona",
+      "atletico-madrid",
+      "ajax"
+    ]
+  },
+  {
+    "id": "fb-luiz-gustavo",
+    "name": "Luiz Gustavo",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2011–2024",
+    "clubs": [
+      "bayern-munich",
+      "wolfsburg",
+      "marseille"
+    ]
+  },
+  {
+    "id": "fb-luka-jovic",
+    "name": "Luka Jović",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "benfica",
+      "frankfurt",
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-luka-modric",
+    "name": "Luka Modrić",
+    "nationality": "Croatia",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-lukas-podolski",
+    "name": "Lukas Podolski",
+    "nationality": "Turkey",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "inter-milan",
+      "galatasaray"
+    ]
+  },
+  {
+    "id": "fb-ukasz-fabianski",
+    "name": "Łukasz Fabiański",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-luuk-de-jong",
+    "name": "Luuk de Jong",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-maarten-stekelenburg",
+    "name": "Maarten Stekelenburg",
+    "nationality": "France",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "ajax",
+      "roma",
+      "juventus",
+      "fulham"
+    ]
+  },
+  {
+    "id": "fb-mahmoud-dahoud",
+    "name": "Mahmoud Dahoud",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2015–2024",
+    "clubs": [
+      "monchengladbach",
+      "dortmund",
+      "brighton",
+      "stuttgart"
+    ]
+  },
+  {
+    "id": "fb-maicon",
+    "name": "Maicon",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "psg",
+      "man-city",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-malcom",
+    "name": "Malcom",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mamadou-sakho",
+    "name": "Mamadou Sakho",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mame-biram-diouf",
+    "name": "Mame Biram Diouf",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-maniche",
+    "name": "Maniche",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-manolo-gabbiadini",
+    "name": "Manolo Gabbiadini",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-manuel-akanji",
+    "name": "Manuel Akanji",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-manuel-lanzini",
+    "name": "Manuel Lanzini",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-manuel-locatelli",
+    "name": "Manuel Locatelli",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-manuel-neuer",
+    "name": "Manuel Neuer",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-marc-albrighton",
+    "name": "Marc Albrighton",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marc-bartra",
+    "name": "Marc Bartra",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marc-cucurella",
+    "name": "Marc Cucurella",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marc-andre-ter-stegen",
+    "name": "Marc-André ter Stegen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-marcel-sabitzer",
+    "name": "Marcel Sabitzer",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2014–2024",
+    "clubs": [
+      "rb-leipzig",
+      "bayern-munich",
+      "man-united",
+      "dortmund"
+    ]
+  },
+  {
+    "id": "fb-marcelo",
+    "name": "Marcelo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marcelo-brozovic",
+    "name": "Marcelo Brozović",
+    "nationality": "Croatia",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan",
+      "al-nassr"
+    ]
+  },
+  {
+    "id": "fb-marco-amelia",
+    "name": "Marco Amelia",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marco-asensio",
+    "name": "Marco Asensio",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marco-parolo",
+    "name": "Marco Parolo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marco-reus",
+    "name": "Marco Reus",
+    "nationality": "Germany",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "monchengladbach"
+    ]
+  },
+  {
+    "id": "fb-marco-verratti",
+    "name": "Marco Verratti",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-marcos-acuna",
+    "name": "Marcos Acuña",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marcos-alonso",
+    "name": "Marcos Alonso",
+    "nationality": "England",
+    "position": "DF",
+    "era": "2010–2024",
+    "clubs": [
+      "fiorentina",
+      "chelsea",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-marcus-rashford",
+    "name": "Marcus Rashford",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-marcus-thuram",
+    "name": "Marcus Thuram",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2017–present",
+    "clubs": [
+      "inter-milan",
+      "monchengladbach",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-marek-hamsik",
+    "name": "Marek Hamšík",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mariano-diaz",
+    "name": "Mariano Díaz",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "roma",
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-mario-balotelli",
+    "name": "Mario Balotelli",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2010–2024",
+    "clubs": [
+      "man-city",
+      "ac-milan",
+      "liverpool",
+      "nice"
+    ]
+  },
+  {
+    "id": "fb-mario-gomez",
+    "name": "Mario Gómez",
+    "nationality": "Germany",
+    "position": "FW",
+    "era": "2013–2024",
+    "clubs": [
+      "fiorentina",
+      "besiktas",
+      "wolfsburg"
+    ]
+  },
+  {
+    "id": "fb-gotze",
+    "name": "Mario Götze",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "bayern-munich",
+      "psv",
+      "eintracht-frankfurt",
+      "frankfurt"
+    ]
+  },
+  {
+    "id": "fb-mario-lemina",
+    "name": "Mario Lemina",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mario-mandzukic",
+    "name": "Mario Mandžukić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "wolfsburg",
+      "bayern-munich",
+      "atletico-madrid",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-mario-pasalic",
+    "name": "Mario Pašalić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mario-suarez",
+    "name": "Mario Suárez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mark-schwarzer",
+    "name": "Mark Schwarzer",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marko-arnautovic",
+    "name": "Marko Arnautović",
+    "nationality": "Germany",
+    "position": "FW",
+    "era": "2010–2024",
+    "clubs": [
+      "werder-bremen",
+      "stoke-city",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-marouane-chamakh",
+    "name": "Marouane Chamakh",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marouane-fellaini",
+    "name": "Marouane Fellaini",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-marquinhos",
+    "name": "Marquinhos",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-marten-de-roon",
+    "name": "Marten de Roon",
+    "nationality": "Netherlands",
+    "position": "MF",
+    "era": "2017–present",
+    "clubs": [
+      "atalanta"
+    ]
+  },
+  {
+    "id": "fb-martin-braithwaite",
+    "name": "Martin Braithwaite",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-martin-caceres",
+    "name": "Martín Cáceres",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-martin-degaard",
+    "name": "Martin Ødegaard",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "arsenal"
+    ]
+  },
+  {
+    "id": "fb-mason-mount",
+    "name": "Mason Mount",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-mateo-kovacic",
+    "name": "Mateo Kovačić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2013–2024",
+    "clubs": [
+      "inter-milan",
+      "real-madrid",
+      "chelsea",
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-mathias-jensen",
+    "name": "Mathias Jensen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mathieu-debuchy",
+    "name": "Mathieu Debuchy",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mathieu-valbuena",
+    "name": "Mathieu Valbuena",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-matias-vecino",
+    "name": "Matías Vecino",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-matija-nastasic",
+    "name": "Matija Nastasić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mats-hummels",
+    "name": "Mats Hummels",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-matt-doherty",
+    "name": "Matt Doherty",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-matt-ritchie",
+    "name": "Matt Ritchie",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-darmian",
+    "name": "Matteo Darmian",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "torino",
+      "man-united",
+      "inter-milan",
+      "parma",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-matteo-politano",
+    "name": "Matteo Politano",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2012–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan",
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-matthijs-de-ligt",
+    "name": "Matthijs de Ligt",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "juventus",
+      "bayern-munich",
+      "man-united",
+      "ajax",
+      "roma"
+    ]
+  },
+  {
+    "id": "fb-mattia-de-sciglio",
+    "name": "Mattia De Sciglio",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "ac-milan",
+      "juventus",
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-mattia-perin",
+    "name": "Mattia Perin",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mattia-zaccagni",
+    "name": "Mattia Zaccagni",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2015–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-matz-sels",
+    "name": "Matz Sels",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mauro-icardi",
+    "name": "Mauro Icardi",
+    "nationality": "Argentina",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan",
+      "lazio"
+    ]
+  },
+  {
+    "id": "fb-max-kruse",
+    "name": "Max Kruse",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-maxi-rodriguez",
+    "name": "Maxi Rodríguez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-maxime-gonalons",
+    "name": "Maxime Gonalons",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-maxime-lopez",
+    "name": "Maxime Lopez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-maxwel-cornet",
+    "name": "Maxwel Cornet",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-maxwell",
+    "name": "Maxwell",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-medhi-benatia",
+    "name": "Medhi Benatia",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mehdi-benatia",
+    "name": "Mehdi Benatia",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "juventus",
+      "bayern-munich",
+      "roma"
+    ]
+  },
+  {
+    "id": "fb-memphis-depay",
+    "name": "Memphis Depay",
+    "nationality": "Netherlands",
+    "position": "FW",
+    "era": "2011–2024",
+    "clubs": [
+      "psv",
+      "man-united",
+      "lyon",
+      "barcelona",
+      "atletico-madrid",
+      "inter-milan"
+    ]
+  },
+  {
+    "id": "fb-mesut-ozil",
+    "name": "Mesut Özil",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "arsenal"
+    ]
+  },
+  {
+    "id": "fb-michael-essien",
+    "name": "Michael Essien",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "ac-milan",
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-michail-antonio",
+    "name": "Michail Antonio",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-michel-vorm",
+    "name": "Michel Vorm",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-michu",
+    "name": "Michu",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2011–2024",
+    "clubs": [
+      "swansea-city",
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-michy-batshuayi",
+    "name": "Michy Batshuayi",
+    "nationality": "Belgium",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "monaco",
+      "marseille",
+      "chelsea",
+      "dortmund"
+    ]
+  },
+  {
+    "id": "fb-miguel-almiron",
+    "name": "Miguel Almirón",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mijat-gacinovic",
+    "name": "Mijat Gaćinović",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mikael-silvestre",
+    "name": "Mikaël Silvestre",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mike-maignan",
+    "name": "Mike Maignan",
+    "nationality": "France",
+    "position": "GK",
+    "era": "2015–present",
+    "clubs": [
+      "ac-milan",
+      "lille",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-mikel-arteta",
+    "name": "Mikel Arteta",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "arsenal",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-mikel-merino",
+    "name": "Mikel Merino",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2014–present",
+    "clubs": [
+      "arsenal",
+      "newcastle",
+      "real-sociedad"
+    ]
+  },
+  {
+    "id": "fb-mikel-oyarzabal",
+    "name": "Mikel Oyarzabal",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2015–present",
+    "clubs": [
+      "real-sociedad"
+    ]
+  },
+  {
+    "id": "fb-mikkel-damsgaard",
+    "name": "Mikkel Damsgaard",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-milan-badelj",
+    "name": "Milan Badelj",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-milan-skriniar",
+    "name": "Milan Škriniar",
+    "nationality": "Slovakia",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "psg",
+      "inter-milan",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-pjanic",
+    "name": "Miralem Pjanić",
+    "nationality": "Bosnia",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "lyon",
+      "roma",
+      "juventus",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-miranda",
+    "name": "Miranda",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-mirko-vucinic",
+    "name": "Mirko Vučinić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-miroslav-klose",
+    "name": "Miroslav Klose",
+    "nationality": "Germany",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "lazio"
+    ]
+  },
+  {
+    "id": "fb-mohamed-salah",
+    "name": "Mohamed Salah",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-mohamed-sissoko",
+    "name": "Mohamed Sissoko",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "psg",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-moises-caicedo",
+    "name": "Moisés Caicedo",
+    "nationality": "Ecuador",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "brighton",
+      "liverpool",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-morgan-gibbs-white",
+    "name": "Morgan Gibbs-White",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2018–present",
+    "clubs": [
+      "wolves",
+      "nottingham-forest"
+    ]
+  },
+  {
+    "id": "fb-morgan-sanson",
+    "name": "Morgan Sanson",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2011–2024",
+    "clubs": [
+      "montpellier",
+      "marseille",
+      "aston-villa",
+      "nice"
+    ]
+  },
+  {
+    "id": "fb-morgan-schneiderlin",
+    "name": "Morgan Schneiderlin",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "southampton",
+      "man-united",
+      "everton"
+    ]
+  },
+  {
+    "id": "fb-mousa-dembele",
+    "name": "Mousa Dembélé",
+    "nationality": "Belgium",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "tottenham",
+      "fulham"
+    ]
+  },
+  {
+    "id": "fb-moussa-dembele",
+    "name": "Moussa Dembélé",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-moussa-sissoko",
+    "name": "Moussa Sissoko",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2007–2024",
+    "clubs": [
+      "toulouse",
+      "newcastle",
+      "tottenham"
+    ]
+  },
+  {
+    "id": "fb-munir-el-haddadi",
+    "name": "Munir El Haddadi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-n-golo-kante",
+    "name": "N'Golo Kanté",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2013–present",
+    "clubs": [
+      "chelsea",
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-nabil-bentaleb",
+    "name": "Nabil Bentaleb",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nabil-fekir",
+    "name": "Nabil Fekir",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-naby-keita",
+    "name": "Naby Keïta",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2014–2024",
+    "clubs": [
+      "salzburg",
+      "rb-leipzig",
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-nacer-chadli",
+    "name": "Nacer Chadli",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nacho",
+    "name": "Nacho",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-nahuel-molina",
+    "name": "Nahuel Molina",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-naldo",
+    "name": "Naldo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nampalys-mendy",
+    "name": "Nampalys Mendy",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nani",
+    "name": "Nani",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nathan-ake",
+    "name": "Nathan Aké",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nathan-dyer",
+    "name": "Nathan Dyer",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nathaniel-clyne",
+    "name": "Nathaniel Clyne",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-neco-williams",
+    "name": "Neco Williams",
+    "nationality": "Wales",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "fulham",
+      "nottingham-forest"
+    ]
+  },
+  {
+    "id": "fb-nelson-semedo",
+    "name": "Nélson Semedo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nemanja-matic",
+    "name": "Nemanja Matić",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2011–2024",
+    "clubs": [
+      "benfica",
+      "chelsea",
+      "man-united",
+      "roma",
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-nemanja-vidic",
+    "name": "Nemanja Vidić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-neven-subotic",
+    "name": "Neven Subotić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-neymar",
+    "name": "Neymar",
+    "nationality": "Brazil",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-neymar-jr",
+    "name": "Neymar Jr",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-nick-woltemade",
+    "name": "Nick Woltemade",
+    "nationality": "Germany",
+    "position": "FW",
+    "era": "2020–present",
+    "clubs": [
+      "newcastle",
+      "stuttgart"
+    ]
+  },
+  {
+    "id": "fb-niclas-fullkrug",
+    "name": "Niclas Füllkrug",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nico-williams",
+    "name": "Nico Williams",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2021–present",
+    "clubs": [
+      "athletic-bilbao"
+    ]
+  },
+  {
+    "id": "fb-nicolas-anelka",
+    "name": "Nicolas Anelka",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nicolas-otamendi",
+    "name": "Nicolás Otamendi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nicolas-pepe",
+    "name": "Nicolas Pépé",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "lille"
+    ]
+  },
+  {
+    "id": "fb-nicolo-barella",
+    "name": "Nicolò Barella",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan"
+    ]
+  },
+  {
+    "id": "fb-nicolo-zaniolo",
+    "name": "Nicolò Zaniolo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nigel-de-jong",
+    "name": "Nigel de Jong",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-niklas-sule",
+    "name": "Niklas Süle",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nolito",
+    "name": "Nolito",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-noussair-mazraoui",
+    "name": "Noussair Mazraoui",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-nuri-sahin",
+    "name": "Nuri Şahin",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-olivier-giroud",
+    "name": "Olivier Giroud",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2010–2024",
+    "clubs": [
+      "arsenal",
+      "chelsea",
+      "ac-milan",
+      "montpellier",
+      "crystal-palace",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-ollie-watkins",
+    "name": "Ollie Watkins",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2014–present",
+    "clubs": [
+      "brentford"
+    ]
+  },
+  {
+    "id": "fb-oriol-romeu",
+    "name": "Oriol Romeu",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-oscar",
+    "name": "Oscar",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ousmane-dembele",
+    "name": "Ousmane Dembélé",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "barcelona",
+      "psg",
+      "rennes",
+      "inter-milan",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-owen-hargreaves",
+    "name": "Owen Hargreaves",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-pablo-fornals",
+    "name": "Pablo Fornals",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-pablo-hernandez",
+    "name": "Pablo Hernández",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2008–2024",
+    "clubs": [
+      "valencia",
+      "leeds"
+    ]
+  },
+  {
+    "id": "fb-pablo-mari",
+    "name": "Pablo Marí",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-pablo-sarabia",
+    "name": "Pablo Sarabia",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "sevilla",
+      "psg",
+      "sporting-cp",
+      "wolves",
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-pablo-zabaleta",
+    "name": "Pablo Zabaleta",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-pape-matar-sarr",
+    "name": "Pape Matar Sarr",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "tottenham",
+      "athletic-bilbao"
+    ]
+  },
+  {
+    "id": "fb-papis-cisse",
+    "name": "Papis Cissé",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-papiss-cisse",
+    "name": "Papiss Cissé",
+    "nationality": "Senegal",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-papugomez",
+    "name": "Papu Gómez",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "atalanta",
+      "sevilla",
+      "monza"
+    ]
+  },
+  {
+    "id": "fb-park-chu-young",
+    "name": "Park Chu-young",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-park-ji-sung",
+    "name": "Park Ji-sung",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-patrik-schick",
+    "name": "Patrik Schick",
+    "nationality": "Czech Republic",
+    "position": "FW",
+    "era": "2014–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-pau-lopez",
+    "name": "Pau López",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-pau-torres",
+    "name": "Pau Torres",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-paul-pogba",
+    "name": "Paul Pogba",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-paulinho",
+    "name": "Paulinho",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-paulo-dybala",
+    "name": "Paulo Dybala",
+    "nationality": "Argentina",
+    "position": "FW",
+    "era": "2011–present",
+    "clubs": [
+      "juventus",
+      "roma"
+    ]
+  },
+  {
+    "id": "fb-pedri",
+    "name": "Pedri",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-pedro",
+    "name": "Pedro",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-pedro-neto",
+    "name": "Pedro Neto",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-pepe",
+    "name": "Pepe",
+    "nationality": "Portugal",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "porto"
+    ]
+  },
+  {
+    "id": "fb-pepe-reina",
+    "name": "Pepe Reina",
+    "nationality": "Spain",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "aston-villa",
+      "lazio",
+      "barcelona",
+      "liverpool",
+      "ac-milan",
+      "napoli",
+      "villareal",
+      "villarreal"
+    ]
+  },
+  {
+    "id": "fb-per-mertesacker",
+    "name": "Per Mertesacker",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-peter-crouch",
+    "name": "Peter Crouch",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-petr-cech",
+    "name": "Petr Čech",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-phil-foden",
+    "name": "Phil Foden",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-phil-neville",
+    "name": "Phil Neville",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-philippe-coutinho",
+    "name": "Philippe Coutinho",
+    "nationality": "Brazil",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "liverpool",
+      "barcelona",
+      "bayern-munich",
+      "aston-villa"
+    ]
+  },
+  {
+    "id": "fb-piero-hincapie",
+    "name": "Piero Hincapié",
+    "nationality": "Ecuador",
+    "position": "DF",
+    "era": "2019–present",
+    "clubs": [
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-pierre-emerick-aubameyang",
+    "name": "Pierre-Emerick Aubameyang",
+    "nationality": "Gabon",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "arsenal",
+      "barcelona",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-pierre-emile-h-jbjerg",
+    "name": "Pierre-Emile Højbjerg",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-pizzi",
+    "name": "Pizzi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-quincy-promes",
+    "name": "Quincy Promes",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-rachid-ghezzal",
+    "name": "Rachid Ghezzal",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-racing-club",
+    "name": "Racing Club",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-radamel-falcao",
+    "name": "Radamel Falcao",
+    "nationality": "Germany",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "man-united",
+      "monaco",
+      "atletico-madrid",
+      "porto"
+    ]
+  },
+  {
+    "id": "fb-rade-krunic",
+    "name": "Rade Krunić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-radja-nainggolan",
+    "name": "Radja Nainggolan",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "cagliari",
+      "roma",
+      "inter-milan"
+    ]
+  },
+  {
+    "id": "fb-rafa-silva",
+    "name": "Rafa Silva",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-rafael-leao",
+    "name": "Rafael Leão",
+    "nationality": "Portugal",
+    "position": "FW",
+    "era": "2017–present",
+    "clubs": [
+      "ac-milan",
+      "sporting-cp",
+      "lille"
+    ]
+  },
+  {
+    "id": "fb-rafael-van-der-vaart",
+    "name": "Rafael van der Vaart",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-rafinha-alcantara",
+    "name": "Rafinha Alcântara",
+    "nationality": "Brazil",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona",
+      "inter-milan",
+      "psg"
+    ]
+  },
+  {
+    "id": "fb-ragnar-klavan",
+    "name": "Ragnar Klavan",
+    "nationality": "Estonia",
+    "position": "DF",
+    "era": "2010–2022",
+    "clubs": [
+      "augsburg",
+      "liverpool",
+      "cagliari"
+    ]
+  },
+  {
+    "id": "fb-raheem-sterling",
+    "name": "Raheem Sterling",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "man-city",
+      "chelsea",
+      "arsenal",
+      "aston-villa"
+    ]
+  },
+  {
+    "id": "fb-ramires",
+    "name": "Ramires",
+    "nationality": "Brazil",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "benfica",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-randal-kolo-muani",
+    "name": "Randal Kolo Muani",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-raphael-guerreiro",
+    "name": "Raphaël Guerreiro",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-raphael-varane",
+    "name": "Raphaël Varane",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-raphinha",
+    "name": "Raphinha",
+    "nationality": "Portugal",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "leeds",
+      "barcelona",
+      "sporting-cp"
+    ]
+  },
+  {
+    "id": "fb-rasmus-h-jlund",
+    "name": "Rasmus Højlund",
+    "nationality": "Denmark",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "atalanta"
+    ]
+  },
+  {
+    "id": "fb-raul-albiol",
+    "name": "Raúl Albiol",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "napoli",
+      "villareal",
+      "villarreal"
+    ]
+  },
+  {
+    "id": "fb-raul-garcia",
+    "name": "Raúl García",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-meireles",
+    "name": "Raul Meireles",
+    "nationality": "Portugal",
+    "position": "MF",
+    "era": "2010–2016",
+    "clubs": [
+      "porto",
+      "liverpool",
+      "chelsea",
+      "wolves",
+      "benfica",
+      "fenerbahce"
+    ]
+  },
+  {
+    "id": "fb-red-bull-salzburg",
+    "name": "Red Bull Salzburg",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-reiss-nelson",
+    "name": "Reiss Nelson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-remy-cabella",
+    "name": "Rémy Cabella",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-renato-sanches",
+    "name": "Renato Sanches",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "benfica",
+      "bayern-munich",
+      "roma",
+      "psg",
+      "lille"
+    ]
+  },
+  {
+    "id": "fb-ricardo-carvalho",
+    "name": "Ricardo Carvalho",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ricardo-montolivo",
+    "name": "Ricardo Montolivo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ricardo-pereira",
+    "name": "Ricardo Pereira",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "porto",
+      "nice",
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-ricardo-quaresma",
+    "name": "Ricardo Quaresma",
+    "nationality": "Portugal",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "porto"
+    ]
+  },
+  {
+    "id": "fb-riccardo-calafiori",
+    "name": "Riccardo Calafiori",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "bologna"
+    ]
+  },
+  {
+    "id": "fb-richarlison",
+    "name": "Richarlison",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-rickie-lambert",
+    "name": "Rickie Lambert",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "southampton"
+    ]
+  },
+  {
+    "id": "fb-ricky-van-wolfswinkel",
+    "name": "Ricky van Wolfswinkel",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-rico-lewis",
+    "name": "Rico Lewis",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-river-plate",
+    "name": "River Plate",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-riyad-mahrez",
+    "name": "Riyad Mahrez",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2011–present",
+    "clubs": [
+      "man-city",
+      "le-havre",
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-rob-green",
+    "name": "Rob Green",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-robert-andrich",
+    "name": "Robert Andrich",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-robert-huth",
+    "name": "Robert Huth",
+    "nationality": "Germany",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-robert-lewandowski",
+    "name": "Robert Lewandowski",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "bayern-munich",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-robert-sanchez",
+    "name": "Robert Sánchez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-snodgrass",
+    "name": "Robert Snodgrass",
+    "nationality": "Scotland",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "leeds",
+      "norwich",
+      "hull",
+      "west-ham",
+      "aston-villa",
+      "west-brom"
+    ]
+  },
+  {
+    "id": "fb-roberto-firmino",
+    "name": "Roberto Firmino",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-pereyra",
+    "name": "Roberto Pereyra",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2011–present",
+    "clubs": [
+      "udinese",
+      "juventus",
+      "watford"
+    ]
+  },
+  {
+    "id": "fb-roberto-soldado",
+    "name": "Roberto Soldado",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "valencia",
+      "tottenham",
+      "villarreal",
+      "villareal"
+    ]
+  },
+  {
+    "id": "fb-robin-van-persie",
+    "name": "Robin van Persie",
+    "nationality": "Netherlands",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "arsenal"
+    ]
+  },
+  {
+    "id": "fb-rodri",
+    "name": "Rodri",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "atletico-madrid",
+      "man-city",
+      "inter-milan",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-rodrigo-bentancur",
+    "name": "Rodrigo Bentancur",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-depaul",
+    "name": "Rodrigo De Paul",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2012–present",
+    "clubs": [
+      "valencia",
+      "udinese",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-rodrigo-palacio",
+    "name": "Rodrigo Palacio",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-rodrygo",
+    "name": "Rodrygo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-romelu-lukaku",
+    "name": "Romelu Lukaku",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "man-united",
+      "inter-milan",
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-ron-vlaar",
+    "name": "Ron Vlaar",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ron-robert-zieler",
+    "name": "Ron-Robert Zieler",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-rony-lopes",
+    "name": "Rony Lopes",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "benfica",
+      "sevilla",
+      "monaco"
+    ]
+  },
+  {
+    "id": "fb-ross-barkley",
+    "name": "Ross Barkley",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–2024",
+    "clubs": [
+      "everton",
+      "chelsea",
+      "nice",
+      "luton",
+      "aston-villa",
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-ruben-dias",
+    "name": "Rúben Dias",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "benfica",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-ruben-loftus-cheek",
+    "name": "Ruben Loftus-Cheek",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ruben-neves",
+    "name": "Rúben Neves",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-rubin-kazan",
+    "name": "Rubin Kazan",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-rudi-garcia",
+    "name": "Rudi Garcia",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ryan-gravenberch",
+    "name": "Ryan Gravenberch",
+    "nationality": "Netherlands",
+    "position": "MF",
+    "era": "2018–present",
+    "clubs": [
+      "liverpool",
+      "bayern-munich",
+      "ajax"
+    ]
+  },
+  {
+    "id": "fb-ryan-mason",
+    "name": "Ryan Mason",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-ryan-sessegnon",
+    "name": "Ryan Sessegnon",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sadio-mane",
+    "name": "Sadio Mané",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "bayern-munich",
+      "aston-villa",
+      "southampton"
+    ]
+  },
+  {
+    "id": "fb-said-benrahma",
+    "name": "Saïd Benrahma",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-saido-berahino",
+    "name": "Saido Berahino",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-salomon-kalou",
+    "name": "Salomon Kalou",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-salomon-rondon",
+    "name": "Salomón Rondón",
+    "nationality": "Venezuela",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-salvatore-sirigu",
+    "name": "Salvatore Sirigu",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sami-khedira",
+    "name": "Sami Khedira",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "juventus",
+      "stuttgart"
+    ]
+  },
+  {
+    "id": "fb-samir-nasri",
+    "name": "Samir Nasri",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "man-city",
+      "sevilla"
+    ]
+  },
+  {
+    "id": "fb-samuel-eto-o",
+    "name": "Samuel Eto'o",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-samuel-umtiti",
+    "name": "Samuel Umtiti",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "lyon",
+      "barcelona",
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-sandro-ramirez",
+    "name": "Sandro Ramírez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sandro-tonali",
+    "name": "Sandro Tonali",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "ac-milan",
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-santi-cazorla",
+    "name": "Santi Cazorla",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "arsenal",
+      "villareal",
+      "villarreal"
+    ]
+  },
+  {
+    "id": "fb-saul-niguez",
+    "name": "Saúl Ñíguez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-scott-parker",
+    "name": "Scott Parker",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-scott-sinclair",
+    "name": "Scott Sinclair",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sead-kolasinac",
+    "name": "Sead Kolašinac",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-seattle-sounders",
+    "name": "Seattle Sounders",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sebastian-coates",
+    "name": "Sebastián Coates",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sebastian-giovinco",
+    "name": "Sebastian Giovinco",
+    "nationality": "Italy",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "juventus"
+    ]
+  },
+  {
+    "id": "fb-sebastian-larsson",
+    "name": "Sebastian Larsson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sebastien-haller",
+    "name": "Sébastien Haller",
+    "nationality": "Ivory Coast",
+    "position": "FW",
+    "era": "2017–2024",
+    "clubs": [
+      "frankfurt",
+      "west-ham",
+      "ajax",
+      "dortmund"
+    ]
+  },
+  {
+    "id": "fb-selcuk-inan",
+    "name": "Selçuk İnan",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-senad-lulic",
+    "name": "Senad Lulić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-serge-aurier",
+    "name": "Serge Aurier",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-serge-gnabry",
+    "name": "Serge Gnabry",
+    "nationality": "Germany",
+    "position": "FW",
+    "era": "2011–present",
+    "clubs": [
+      "arsenal",
+      "bayern-munich",
+      "tottenham"
+    ]
+  },
+  {
+    "id": "fb-sergej-milinkovic-savic",
+    "name": "Sergej Milinković-Savić",
+    "nationality": "Serbia",
+    "position": "MF",
+    "era": "2014–present",
+    "clubs": [
+      "lazio"
+    ]
+  },
+  {
+    "id": "fb-sergio-aguero",
+    "name": "Sergio Agüero",
+    "nationality": "Argentina",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "atletico-madrid",
+      "man-city",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-sergio-asenjo",
+    "name": "Sergio Asenjo",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sergio-canales",
+    "name": "Sergio Canales",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2008–present",
+    "clubs": [
+      "real-sociedad",
+      "real-betis"
+    ]
+  },
+  {
+    "id": "fb-sergio-ramos",
+    "name": "Sergio Ramos",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "psg",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-sergio-reguilon",
+    "name": "Sergio Reguilón",
+    "nationality": "Spain",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "real-madrid",
+      "atletico-madrid",
+      "tottenham",
+      "sevilla",
+      "brentford"
+    ]
+  },
+  {
+    "id": "fb-serhou-guirassy",
+    "name": "Serhou Guirassy",
+    "nationality": "Guinea",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "dortmund",
+      "stuttgart"
+    ]
+  },
+  {
+    "id": "fb-seydou-doumbia",
+    "name": "Seydou Doumbia",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-shane-long",
+    "name": "Shane Long",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "southampton"
+    ]
+  },
+  {
+    "id": "fb-kagawa",
+    "name": "Shinji Kagawa",
+    "nationality": "Japan",
+    "position": "MF",
+    "era": "2010–2023",
+    "clubs": [
+      "dortmund",
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-shinji-okazaki",
+    "name": "Shinji Okazaki",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2011–2024",
+    "clubs": [
+      "stuttgart",
+      "mainz",
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-shola-ameobi",
+    "name": "Shola Ameobi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-simon-mignolet",
+    "name": "Simon Mignolet",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-simone-zaza",
+    "name": "Simone Zaza",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sm-caen",
+    "name": "SM Caen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-feghouli",
+    "name": "Sofiane Feghouli",
+    "nationality": "Algeria",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "valencia",
+      "west-ham",
+      "galatasaray"
+    ]
+  },
+  {
+    "id": "fb-sofyan-amrabat",
+    "name": "Sofyan Amrabat",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sokratis-papastathopoulos",
+    "name": "Sokratis Papastathopoulos",
+    "nationality": "Germany",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "ac-milan",
+      "dortmund",
+      "lyon"
+    ]
+  },
+  {
+    "id": "fb-son-heung-min",
+    "name": "Son Heung-min",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "tottenham",
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-souleymane-camara",
+    "name": "Souleymane Camara",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-stade-rennais",
+    "name": "Stade Rennais",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-stanislav-lobotka",
+    "name": "Stanislav Lobotka",
+    "nationality": "Slovakia",
+    "position": "MF",
+    "era": "2012–present",
+    "clubs": [
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-stefan-de-vrij",
+    "name": "Stefan de Vrij",
+    "nationality": "Netherlands",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan",
+      "lazio",
+      "feyenoord"
+    ]
+  },
+  {
+    "id": "fb-stefan-ilsanker",
+    "name": "Stefan Ilsanker",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-stefan-lainer",
+    "name": "Stefan Lainer",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-stefan-savic",
+    "name": "Stefan Savić",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-stephan-el-shaarawy",
+    "name": "Stephan El Shaarawy",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-stevan-jovetic",
+    "name": "Stevan Jovetić",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2008–2024",
+    "clubs": [
+      "fiorentina",
+      "man-city",
+      "inter-milan",
+      "monaco",
+      "sevilla",
+      "real-madrid",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-steven-nzonzi",
+    "name": "Steven N'Zonzi",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "sevilla"
+    ]
+  },
+  {
+    "id": "fb-steven-pienaar",
+    "name": "Steven Pienaar",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-stewart-downing",
+    "name": "Stewart Downing",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-suso",
+    "name": "Suso",
+    "nationality": "Spain",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "ac-milan",
+      "sevilla"
+    ]
+  },
+  {
+    "id": "fb-sven-bender",
+    "name": "Sven Bender",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sven-botman",
+    "name": "Sven Botman",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sven-ulreich",
+    "name": "Sven Ulreich",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-sylvinho",
+    "name": "Sylvinho",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "lyon",
+      "barcelona",
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-takashi-inui",
+    "name": "Takashi Inui",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-takashi-usami",
+    "name": "Takashi Usami",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-takumi-minamino",
+    "name": "Takumi Minamino",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-tammy-abraham",
+    "name": "Tammy Abraham",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "aston-villa",
+      "roma",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-tanguy-ndombele",
+    "name": "Tanguy Ndombele",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "lyon",
+      "tottenham",
+      "napoli",
+      "galatasaray"
+    ]
+  },
+  {
+    "id": "fb-teun-koopmeiners",
+    "name": "Teun Koopmeiners",
+    "nationality": "Netherlands",
+    "position": "MF",
+    "era": "2016–present",
+    "clubs": [
+      "juventus",
+      "atalanta"
+    ]
+  },
+  {
+    "id": "fb-theo-hernandez",
+    "name": "Theo Hernández",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2016–present",
+    "clubs": [
+      "real-madrid",
+      "ac-milan",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-theo-walcott",
+    "name": "Theo Walcott",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-thiago-alcantara",
+    "name": "Thiago Alcântara",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona",
+      "bayern-munich",
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-thiago-motta",
+    "name": "Thiago Motta",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-thiago-silva",
+    "name": "Thiago Silva",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "ac-milan",
+      "psg",
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-thibaut-courtois",
+    "name": "Thibaut Courtois",
+    "nationality": "International",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "atletico-madrid",
+      "chelsea",
+      "real-madrid",
+      "barcelona",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-thierry-henry",
+    "name": "Thierry Henry",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "juventus",
+      "arsenal",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-thilo-kehrer",
+    "name": "Thilo Kehrer",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-thomas-muller",
+    "name": "Thomas Müller",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "aston-villa"
+    ]
+  },
+  {
+    "id": "fb-thomas-s-rensen",
+    "name": "Thomas Sørensen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-thomas-strakosha",
+    "name": "Thomas Strakosha",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-thomas-tuchel",
+    "name": "Thomas Tuchel",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-thomas-vermaelen",
+    "name": "Thomas Vermaelen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-tiago",
+    "name": "Tiago",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-tiago-mendes",
+    "name": "Tiago Mendes",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "juventus",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-tiemoue-bakayoko",
+    "name": "Tiemoué Bakayoko",
+    "nationality": "France",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "monaco",
+      "chelsea",
+      "napoli"
+    ]
+  },
+  {
+    "id": "fb-tim-krul",
+    "name": "Tim Krul",
+    "nationality": "Netherlands",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "newcastle"
+    ]
+  },
+  {
+    "id": "fb-timo-werner",
+    "name": "Timo Werner",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea"
+    ]
+  },
+  {
+    "id": "fb-toby-alderweireld",
+    "name": "Toby Alderweireld",
+    "nationality": "Belgium",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "ajax",
+      "atletico-madrid",
+      "tottenham",
+      "southampton"
+    ]
+  },
+  {
+    "id": "fb-tom-cleverley",
+    "name": "Tom Cleverley",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "man-united",
+      "leicester",
+      "west-ham"
+    ]
+  },
+  {
+    "id": "fb-tom-davies",
+    "name": "Tom Davies",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-tom-starke",
+    "name": "Tom Starke",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-toni-kroos",
+    "name": "Toni Kroos",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-trent-alexander-arnold",
+    "name": "Trent Alexander-Arnold",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-trincao",
+    "name": "Trincão",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-troy-deeney",
+    "name": "Troy Deeney",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-union-saint-gilloise",
+    "name": "Union Saint-Gilloise",
+    "nationality": "Belgium",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "brighton"
+    ]
+  },
+  {
+    "id": "fb-vedad-ibisevic",
+    "name": "Vedad Ibišević",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-victor-boniface",
+    "name": "Victor Boniface",
+    "nationality": "Nigeria",
+    "position": "FW",
+    "era": "2020–present",
+    "clubs": [
+      "leverkusen"
+    ]
+  },
+  {
+    "id": "fb-victor-lindelof",
+    "name": "Victor Lindelof",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-victor-moses",
+    "name": "Victor Moses",
+    "nationality": "International",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "wigan",
+      "chelsea",
+      "inter-milan",
+      "crystal-palace"
+    ]
+  },
+  {
+    "id": "fb-victor-osimhen",
+    "name": "Victor Osimhen",
+    "nationality": "Nigeria",
+    "position": "FW",
+    "era": "2017–present",
+    "clubs": [
+      "napoli",
+      "lille",
+      "wolfsburg"
+    ]
+  },
+  {
+    "id": "fb-victor-wanyama",
+    "name": "Victor Wanyama",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2011–2024",
+    "clubs": [
+      "celtic",
+      "southampton",
+      "tottenham",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-vieirinha",
+    "name": "Vieirinha",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-viktor-claesson",
+    "name": "Viktor Claesson",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-viktor-gyokeres",
+    "name": "Viktor Gyökeres",
+    "nationality": "Sweden",
+    "position": "FW",
+    "era": "2017–present",
+    "clubs": [
+      "arsenal",
+      "sporting-cp"
+    ]
+  },
+  {
+    "id": "fb-vincent-kompany",
+    "name": "Vincent Kompany",
+    "nationality": "Belgium",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "man-city",
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-vinicius-junior",
+    "name": "Vinícius Júnior",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid"
+    ]
+  },
+  {
+    "id": "fb-virgil-van-dijk",
+    "name": "Virgil van Dijk",
+    "nationality": "Netherlands",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "southampton",
+      "everton",
+      "celtic"
+    ]
+  },
+  {
+    "id": "fb-vitinha",
+    "name": "Vitinha",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-walter-benitez",
+    "name": "Walter Benítez",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-wayne-routledge",
+    "name": "Wayne Routledge",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-wes-morgan",
+    "name": "Wes Morgan",
+    "nationality": "Jamaica",
+    "position": "DF",
+    "era": "2010–present",
+    "clubs": [
+      "leicester",
+      "nottingham-forest"
+    ]
+  },
+  {
+    "id": "fb-wesley-fofana",
+    "name": "Wesley Fofana",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-wesley-sneijder",
+    "name": "Wesley Sneijder",
+    "nationality": "Italy",
+    "position": "MF",
+    "era": "2009–2024",
+    "clubs": [
+      "inter-milan",
+      "galatasaray",
+      "nice"
+    ]
+  },
+  {
+    "id": "fb-wilfred-ndidi",
+    "name": "Wilfred Ndidi",
+    "nationality": "Nigeria",
+    "position": "MF",
+    "era": "2014–present",
+    "clubs": [
+      "leicester"
+    ]
+  },
+  {
+    "id": "fb-bony",
+    "name": "Wilfried Bony",
+    "nationality": "Ivory Coast",
+    "position": "FW",
+    "era": "2011–2023",
+    "clubs": [
+      "swansea-city",
+      "man-city",
+      "stoke-city"
+    ]
+  },
+  {
+    "id": "fb-wilfried-kanon",
+    "name": "Wilfried Kanon",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-zaha",
+    "name": "Wilfried Zaha",
+    "nationality": "Ivory Coast",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "crystal-palace",
+      "man-united",
+      "lyon",
+      "galatasaray"
+    ]
+  },
+  {
+    "id": "fb-william-carvalho",
+    "name": "William Carvalho",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-willian",
+    "name": "Willian",
+    "nationality": "Brazil",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "arsenal",
+      "fulham"
+    ]
+  },
+  {
+    "id": "fb-willy-caballero",
+    "name": "Willy Caballero",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-wissam-ben-yedder",
+    "name": "Wissam Ben Yedder",
+    "nationality": "France",
+    "position": "FW",
+    "era": "2010–2024",
+    "clubs": [
+      "toulouse",
+      "sevilla",
+      "monaco"
+    ]
+  },
+  {
+    "id": "fb-wojciech-szczesny",
+    "name": "Wojciech Szczęsny",
+    "nationality": "Poland",
+    "position": "GK",
+    "era": "2009–present",
+    "clubs": [
+      "arsenal",
+      "roma",
+      "juventus",
+      "barcelona"
+    ]
+  },
+  {
+    "id": "fb-wout-weghorst",
+    "name": "Wout Weghorst",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-xabi-alonso",
+    "name": "Xabi Alonso",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "liverpool",
+      "real-madrid",
+      "bayern-munich"
+    ]
+  },
+  {
+    "id": "fb-shaqiri",
+    "name": "Xherdan Shaqiri",
+    "nationality": "Switzerland",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "bayern-munich",
+      "inter-milan",
+      "liverpool",
+      "lyon",
+      "barcelona",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-yacine-brahimi",
+    "name": "Yacine Brahimi",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-yann-m-vila",
+    "name": "Yann M'Vila",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-yann-sommer",
+    "name": "Yann Sommer",
+    "nationality": "Switzerland",
+    "position": "GK",
+    "era": "2007–present",
+    "clubs": [
+      "inter-milan",
+      "ac-milan"
+    ]
+  },
+  {
+    "id": "fb-yannick-bolasie",
+    "name": "Yannick Bolasie",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-yannick-carrasco",
+    "name": "Yannick Carrasco",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "real-madrid",
+      "ac-milan",
+      "atletico-madrid"
+    ]
+  },
+  {
+    "id": "fb-yassine-bounou",
+    "name": "Yassine Bounou",
+    "nationality": "Spain",
+    "position": "GK",
+    "era": "2010–present",
+    "clubs": [
+      "atletico-madrid",
+      "sevilla"
+    ]
+  },
+  {
+    "id": "fb-yaya-toure",
+    "name": "Yaya Touré",
+    "nationality": "Ivory Coast",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "barcelona",
+      "man-city"
+    ]
+  },
+  {
+    "id": "fb-yohan-cabaye",
+    "name": "Yohan Cabaye",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2008–2024",
+    "clubs": [
+      "lille",
+      "newcastle",
+      "psg",
+      "crystal-palace"
+    ]
+  },
+  {
+    "id": "fb-yossi-benayoun",
+    "name": "Yossi Benayoun",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "chelsea",
+      "arsenal",
+      "newcastle",
+      "real-madrid",
+      "liverpool"
+    ]
+  },
+  {
+    "id": "fb-younes-belhanda",
+    "name": "Younès Belhanda",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-youri-tielemans",
+    "name": "Youri Tielemans",
+    "nationality": "Belgium",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": [
+      "monaco",
+      "leicester",
+      "aston-villa",
+      "anderlecht"
+    ]
+  },
+  {
+    "id": "fb-yussuf-poulsen",
+    "name": "Yussuf Poulsen",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-yusuf-yaz-c",
+    "name": "Yusuf Yazıcı",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-yuya-osako",
+    "name": "Yuya Osako",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-zlatan-ibrahimovic",
+    "name": "Zlatan Ibrahimović",
+    "nationality": "International",
+    "position": "FW",
+    "era": "2010–present",
+    "clubs": [
+      "inter-milan",
+      "barcelona",
+      "ac-milan",
+      "psg",
+      "man-united"
+    ]
+  },
+  {
+    "id": "fb-zorya-luhansk",
+    "name": "Zorya Luhansk",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  },
+  {
+    "id": "fb-zuriko-davitashvili",
+    "name": "Zuriko Davitashvili",
+    "nationality": "International",
+    "position": "MF",
+    "era": "2010–present",
+    "clubs": []
+  }
 ]

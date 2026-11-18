@@ -6,7 +6,12 @@
     "category": "Transfers",
     "question": "Which Barcelona midfielder moved to Juventus in 2020 in an accounting swap deal worth €72m (with €10m add-ons) in exchange for Miralem Pjanić?",
     "correctAnswer": "Arthur Melo",
-    "options": ["Ivan Rakitić", "Arthur Melo", "Arturo Vidal", "Carles Aleñá"],
+    "options": [
+      "Ivan Rakitić",
+      "Arthur Melo",
+      "Arturo Vidal",
+      "Carles Aleñá"
+    ],
     "hints": [
       "A Brazilian central midfielder signed from Grêmio in 2018.",
       "He later spent an injury-hit loan spell at Liverpool in 2022–23.",
@@ -21,7 +26,12 @@
     "category": "Transfers",
     "question": "Which Italian club did Rodrigo De Paul spend five seasons at (2016–2021) before joining Atlético Madrid for €35m?",
     "correctAnswer": "Udinese",
-    "options": ["Sampdoria", "Fiorentina", "Udinese", "Sassuolo"],
+    "options": [
+      "Sampdoria",
+      "Fiorentina",
+      "Udinese",
+      "Sassuolo"
+    ],
     "hints": [
       "He wore their number 10 shirt and club captain's armband.",
       "They are based in Friuli-Venezia Giulia.",
@@ -36,7 +46,12 @@
     "category": "Transfers",
     "question": "Which English club sold Dejan Lovren, Adam Lallana, Rickie Lambert, Nathaniel Clyne, Sadio Mané, and Virgil van Dijk to Liverpool between 2014 and 2018?",
     "correctAnswer": "Southampton",
-    "options": ["Southampton", "Aston Villa", "Leicester City", "Crystal Palace"],
+    "options": [
+      "Southampton",
+      "Aston Villa",
+      "Leicester City",
+      "Crystal Palace"
+    ],
     "hints": [
       "Their academy also produced Gareth Bale and Luke Shaw.",
       "Total fees received from Liverpool across those six deals exceeded £175m.",
@@ -51,7 +66,12 @@
     "category": "Transfers",
     "question": "Which club sold both Kevin De Bruyne (in 2014) and Mohamed Salah (in 2016) permanently before either reached their Ballon d'Or contender peaks?",
     "correctAnswer": "Chelsea",
-    "options": ["Chelsea", "Werder Bremen", "Basel", "Wolfsburg"],
+    "options": [
+      "Chelsea",
+      "Werder Bremen",
+      "Basel",
+      "Wolfsburg"
+    ],
     "hints": [
       "José Mourinho oversaw both sales.",
       "De Bruyne left for £18m and Salah left for around £12m.",
@@ -66,7 +86,12 @@
     "category": "Transfers",
     "question": "Which club did Brighton & Hove Albion sign Moisés Caicedo from for roughly £4.5m in February 2021?",
     "correctAnswer": "Independiente del Valle",
-    "options": ["LDU Quito", "Barcelona SC", "Independiente del Valle", "Emelec"],
+    "options": [
+      "LDU Quito",
+      "Barcelona SC",
+      "Independiente del Valle",
+      "Emelec"
+    ],
     "hints": [
       "An Ecuadorian club famous for its youth academy.",
       "They also produced Piero Hincapié and Kendry Páez.",
@@ -81,7 +106,12 @@
     "category": "Transfers",
     "question": "How much did Swansea City pay Rayo Vallecano to sign Michu in July 2012?",
     "correctAnswer": "£2 million",
-    "options": ["£2 million", "£8 million", "£12 million", "Free transfer"],
+    "options": [
+      "£2 million",
+      "£8 million",
+      "£12 million",
+      "Free transfer"
+    ],
     "hints": [
       "It is widely regarded as one of the greatest Premier League bargains of the 2010s.",
       "Rayo Vallecano were experiencing financial trouble at the time.",
@@ -96,7 +126,12 @@
     "category": "Transfers",
     "question": "Which player moved from Arsenal to Manchester United in a direct swap deal with Henrikh Mkhitaryan in January 2018?",
     "correctAnswer": "Alexis Sánchez",
-    "options": ["Mesut Özil", "Olivier Giroud", "Alexis Sánchez", "Aaron Ramsey"],
+    "options": [
+      "Mesut Özil",
+      "Olivier Giroud",
+      "Alexis Sánchez",
+      "Aaron Ramsey"
+    ],
     "hints": [
       "No transfer fee changed hands in the straight swap.",
       "He was unveiled playing 'Glory, Glory Man United' on a piano.",
@@ -111,7 +146,12 @@
     "category": "Transfers",
     "question": "Which striker joined Leicester City from non-league Fleetwood Town for £1 million in May 2012?",
     "correctAnswer": "Jamie Vardy",
-    "options": ["Rickie Lambert", "Charlie Austin", "Jamie Vardy", "Troy Deeney"],
+    "options": [
+      "Rickie Lambert",
+      "Charlie Austin",
+      "Jamie Vardy",
+      "Troy Deeney"
+    ],
     "hints": [
       "It was a record transfer fee for a non-league player at the time.",
       "He had previously played for Stocksbridge Park Steels and FC Halifax Town.",
@@ -126,7 +166,12 @@
     "category": "Transfers",
     "question": "Which club sold Andy Robertson to Liverpool for an initial £8 million in July 2017?",
     "correctAnswer": "Hull City",
-    "options": ["Dundee United", "Hull City", "Burnley", "Norwich City"],
+    "options": [
+      "Dundee United",
+      "Hull City",
+      "Burnley",
+      "Norwich City"
+    ],
     "hints": [
       "They had just been relegated from the Premier League.",
       "Kevin Stewart moved in the opposite direction as part of the summer business.",
@@ -141,7 +186,12 @@
     "category": "Transfers",
     "question": "Which defender became the first £50 million full-back in football history when he joined Manchester City in July 2017?",
     "correctAnswer": "Kyle Walker",
-    "options": ["Benjamin Mendy", "Kyle Walker", "Danilo", "João Cancelo"],
+    "options": [
+      "Benjamin Mendy",
+      "Kyle Walker",
+      "Danilo",
+      "João Cancelo"
+    ],
     "hints": [
       "Signed from Tottenham Hotspur.",
       "Benjamin Mendy arrived at the same club later that same summer for £52m.",
@@ -156,7 +206,12 @@
     "category": "Transfers",
     "question": "In August 2020, which Chelsea winger moved across London to Arsenal on a free transfer?",
     "correctAnswer": "Willian",
-    "options": ["Pedro", "Willian", "Olivier Giroud", "David Luiz"],
+    "options": [
+      "Pedro",
+      "Willian",
+      "Olivier Giroud",
+      "David Luiz"
+    ],
     "hints": [
       "A Brazilian international who had spent seven years at Stamford Bridge.",
       "He assisted twice on his Arsenal debut against Fulham before scoring just once all season.",
@@ -171,7 +226,12 @@
     "category": "Transfers",
     "question": "Which club paid Bayern Munich €30 million in 2014 to sign Toni Kroos with one year remaining on his contract?",
     "correctAnswer": "Real Madrid",
-    "options": ["Manchester United", "Real Madrid", "Chelsea", "Barcelona"],
+    "options": [
+      "Manchester United",
+      "Real Madrid",
+      "Chelsea",
+      "Barcelona"
+    ],
     "hints": [
       "The deal was completed right after Germany won the 2014 World Cup.",
       "Widely regarded as one of the biggest bargains of the modern era.",
@@ -186,7 +246,12 @@
     "category": "Transfers",
     "question": "Which goalkeeper became the world's most expensive stopper when Chelsea paid his €80 million (£71.6m) release clause in August 2018?",
     "correctAnswer": "Kepa Arrizabalaga",
-    "options": ["Alisson Becker", "Kepa Arrizabalaga", "Jan Oblak", "Ederson"],
+    "options": [
+      "Alisson Becker",
+      "Kepa Arrizabalaga",
+      "Jan Oblak",
+      "Ederson"
+    ],
     "hints": [
       "He was signed from Athletic Bilbao.",
       "His transfer came weeks after Alisson had briefly held the world record at £66.8m.",
@@ -201,7 +266,12 @@
     "category": "Transfers",
     "question": "Which club received €222 million from PSG when Neymar Jr's release clause was triggered in August 2017?",
     "correctAnswer": "FC Barcelona",
-    "options": ["Santos", "FC Barcelona", "Real Madrid", "AS Monaco"],
+    "options": [
+      "Santos",
+      "FC Barcelona",
+      "Real Madrid",
+      "AS Monaco"
+    ],
     "hints": [
       "They used the windfall to sign Ousmane Dembélé and Philippe Coutinho.",
       "It remains more than double the previous world transfer record.",
@@ -216,7 +286,12 @@
     "category": "Transfers",
     "question": "Which Danish midfielder did Brentford sign on a six-month free transfer in January 2022 following his recovery from cardiac arrest at Euro 2020?",
     "correctAnswer": "Christian Eriksen",
-    "options": ["Mikkel Damsgaard", "Christian Eriksen", "Pierre-Emile Højbjerg", "Mathias Jensen"],
+    "options": [
+      "Mikkel Damsgaard",
+      "Christian Eriksen",
+      "Pierre-Emile Højbjerg",
+      "Mathias Jensen"
+    ],
     "hints": [
       "He had mutually terminated his contract with Inter Milan because Serie A rules forbid playing with an ICD.",
       "He transformed Brentford's season before joining Manchester United that summer.",
@@ -231,7 +306,12 @@
     "category": "Transfers",
     "question": "Which forward moved from Borussia Dortmund to Bayern Munich on a Bosman free transfer in July 2014?",
     "correctAnswer": "Robert Lewandowski",
-    "options": ["Mario Götze", "Robert Lewandowski", "Mats Hummels", "Pierre-Emerick Aubameyang"],
+    "options": [
+      "Mario Götze",
+      "Robert Lewandowski",
+      "Mats Hummels",
+      "Pierre-Emerick Aubameyang"
+    ],
     "hints": [
       "Unlike Mario Götze (€37m) and Mats Hummels (€35m), his move cost €0 in transfer fees.",
       "He agreed the pre-contract in January 2014.",
@@ -246,7 +326,12 @@
     "category": "Transfers",
     "question": "Which club sold Riyad Mahrez to Leicester City in January 2014 for roughly £400,000?",
     "correctAnswer": "Le Havre",
-    "options": ["Guingamp", "Le Havre", "RC Lens", "SM Caen"],
+    "options": [
+      "Guingamp",
+      "Le Havre",
+      "RC Lens",
+      "SM Caen"
+    ],
     "hints": [
       "A famous French Ligue 2 academy club that also developed Paul Pogba and Dimitri Payet.",
       "Mahrez admitted he initially thought Leicester was a rugby club.",
@@ -261,7 +346,12 @@
     "category": "Transfers",
     "question": "Which Brazilian midfielder moved from Liverpool to Barcelona in January 2018 for an initial £105 million (rising to £142m)?",
     "correctAnswer": "Philippe Coutinho",
-    "options": ["Roberto Firmino", "Philippe Coutinho", "Lucas Leiva", "Fabinho"],
+    "options": [
+      "Roberto Firmino",
+      "Philippe Coutinho",
+      "Lucas Leiva",
+      "Fabinho"
+    ],
     "hints": [
       "Liverpool reinvested the fee in Virgil van Dijk and Alisson Becker.",
       "He later scored twice against Barcelona while on loan at Bayern Munich in an 8–2 win.",
@@ -276,7 +366,12 @@
     "category": "Transfers",
     "question": "Which club did Real Madrid sign Eduardo Camavinga from on deadline day in August 2021 for €31 million?",
     "correctAnswer": "Stade Rennais",
-    "options": ["AS Monaco", "Lille OSC", "Stade Rennais", "Lyon"],
+    "options": [
+      "AS Monaco",
+      "Lille OSC",
+      "Stade Rennais",
+      "Lyon"
+    ],
     "hints": [
       "He made his Ligue 1 debut for them at age 16.",
       "The Breton club also developed Ousmane Dembélé and Raphinha.",
@@ -291,7 +386,12 @@
     "category": "Transfers",
     "question": "Which Georgian winger joined Napoli from Dinamo Batumi for roughly €10 million in July 2022?",
     "correctAnswer": "Khvicha Kvaratskhelia",
-    "options": ["Giorgi Mamardashvili", "Khvicha Kvaratskhelia", "Georges Mikautadze", "Zuriko Davitashvili"],
+    "options": [
+      "Giorgi Mamardashvili",
+      "Khvicha Kvaratskhelia",
+      "Georges Mikautadze",
+      "Zuriko Davitashvili"
+    ],
     "hints": [
       "He briefly returned home from Rubin Kazan before moving to Italy.",
       "He was crowned Serie A MVP in his debut 2022–23 season.",
@@ -306,7 +406,12 @@
     "category": "Transfers",
     "question": "Which defender did Leicester City sell to Manchester United for £80 million in August 2019, setting a world record for a defender?",
     "correctAnswer": "Harry Maguire",
-    "options": ["Çağlar Söyüncü", "Wesley Fofana", "Harry Maguire", "Jonny Evans"],
+    "options": [
+      "Çağlar Söyüncü",
+      "Wesley Fofana",
+      "Harry Maguire",
+      "Jonny Evans"
+    ],
     "hints": [
       "Leicester had bought him from Hull City for £17m two years earlier.",
       "The fee surpassed the £75m paid for Virgil van Dijk.",
@@ -321,7 +426,12 @@
     "category": "Transfers",
     "question": "Which club sold Bruno Fernandes to Manchester United in January 2020 for €55 million plus add-ons?",
     "correctAnswer": "Sporting CP",
-    "options": ["Benfica", "FC Porto", "Sporting CP", "Sampdoria"],
+    "options": [
+      "Benfica",
+      "FC Porto",
+      "Sporting CP",
+      "Sampdoria"
+    ],
     "hints": [
       "He had returned to Portugal from Sampdoria in 2017.",
       "He won two consecutive Liga NOS Player of the Year awards there.",
@@ -336,7 +446,12 @@
     "category": "Transfers",
     "question": "Which German club signed Jude Bellingham from Birmingham City in July 2020 for £25 million?",
     "correctAnswer": "Borussia Dortmund",
-    "options": ["RB Leipzig", "Borussia Dortmund", "Bayer Leverkusen", "Bayern Munich"],
+    "options": [
+      "RB Leipzig",
+      "Borussia Dortmund",
+      "Bayer Leverkusen",
+      "Bayern Munich"
+    ],
     "hints": [
       "Birmingham City retired his #22 shirt upon his departure at age 17.",
       "They also developed Jadon Sancho and Christian Pulisic.",
@@ -351,7 +466,12 @@
     "category": "Transfers",
     "question": "Which Uruguayan midfielder joined Arsenal from Sampdoria in July 2018 for £26 million?",
     "correctAnswer": "Lucas Torreira",
-    "options": ["Matías Vecino", "Lucas Torreira", "Rodrigo Bentancur", "Federico Valverde"],
+    "options": [
+      "Matías Vecino",
+      "Lucas Torreira",
+      "Rodrigo Bentancur",
+      "Federico Valverde"
+    ],
     "hints": [
       "A tenacious 1.66m defensive midfielder.",
       "He scored in a 4–2 North London Derby victory over Tottenham in December 2018.",
@@ -366,7 +486,12 @@
     "category": "Transfers",
     "question": "Which player joined Juventus on a free transfer from PSG in 2019 before returning to France with Marseille in 2024?",
     "correctAnswer": "Adrien Rabiot",
-    "options": ["Blaise Matuidi", "Adrien Rabiot", "Paul Pogba", "Leandro Paredes"],
+    "options": [
+      "Blaise Matuidi",
+      "Adrien Rabiot",
+      "Paul Pogba",
+      "Leandro Paredes"
+    ],
     "hints": [
       "A tall left-footed French central midfielder.",
       "He won the 2019–20 Scudetto and 2021 & 2024 Coppa Italia in Turin.",
@@ -381,7 +506,12 @@
     "category": "Transfers",
     "question": "Which club sold Pierre-Emerick Aubameyang to Arsenal in January 2018 for a then-club-record £56 million?",
     "correctAnswer": "Borussia Dortmund",
-    "options": ["Saint-Étienne", "Borussia Dortmund", "AC Milan", "AS Monaco"],
+    "options": [
+      "Saint-Étienne",
+      "Borussia Dortmund",
+      "AC Milan",
+      "AS Monaco"
+    ],
     "hints": [
       "He won the 2016–17 Bundesliga Torjägerkanone with 31 goals there.",
       "He formed a prolific strike partnership with Henrikh Mkhitaryan and Marco Reus.",
@@ -396,7 +526,12 @@
     "category": "Transfers",
     "question": "Which centre-back did Real Madrid sign on free transfers in consecutive summers — David Alaba (2021) and who in 2022?",
     "correctAnswer": "Antonio Rüdiger",
-    "options": ["Ibrahima Konaté", "Antonio Rüdiger", "Niklas Süle", "Andreas Christensen"],
+    "options": [
+      "Ibrahima Konaté",
+      "Antonio Rüdiger",
+      "Niklas Süle",
+      "Andreas Christensen"
+    ],
     "hints": [
       "A German international arriving from Chelsea.",
       "He won the 2020–21 UEFA Champions League under Thomas Tuchel.",
@@ -411,7 +546,12 @@
     "category": "Transfers",
     "question": "Which Dutch defender joined Liverpool from Southampton in January 2018 for £75 million?",
     "correctAnswer": "Virgil van Dijk",
-    "options": ["Matthijs de Ligt", "Virgil van Dijk", "Nathan Aké", "Stefan de Vrij"],
+    "options": [
+      "Matthijs de Ligt",
+      "Virgil van Dijk",
+      "Nathan Aké",
+      "Stefan de Vrij"
+    ],
     "hints": [
       "Previously played for Groningen and Celtic.",
       "Scored on his Liverpool debut against Everton in the FA Cup.",
@@ -426,7 +566,12 @@
     "category": "Transfers",
     "question": "Which Spanish full-back moved from Real Madrid to Tottenham in September 2020 with a €45m buy-back clause after winning the Europa League on loan at Sevilla?",
     "correctAnswer": "Sergio Reguilón",
-    "options": ["Achraf Hakimi", "Sergio Reguilón", "Fran García", "Álvaro Odriozola"],
+    "options": [
+      "Achraf Hakimi",
+      "Sergio Reguilón",
+      "Fran García",
+      "Álvaro Odriozola"
+    ],
     "hints": [
       "He was voted La Liga's best left-back during Sevilla's 2019–20 campaign.",
       "Later had loan spells at Atlético Madrid, Manchester United, and Brentford.",
@@ -441,12 +586,164 @@
     "category": "Transfers",
     "question": "Which striker became West Ham United's club-record £45 million signing from Eintracht Frankfurt in July 2019?",
     "correctAnswer": "Sébastien Haller",
-    "options": ["Marko Arnautović", "Sébastien Haller", "Felipe Anderson", "Gianluca Scamacca"],
+    "options": [
+      "Marko Arnautović",
+      "Sébastien Haller",
+      "Felipe Anderson",
+      "Gianluca Scamacca"
+    ],
     "hints": [
       "He later scored 11 goals in a single Champions League group/knockout campaign for Ajax (2021–22).",
       "He overcame testicular cancer to score the winning goal in the 2023 AFCON final.",
       "Ivorian international."
     ],
     "explanation": "West Ham broke their transfer record at £45m for Sébastien Haller in 2019 before he went on to shine at Ajax, Dortmund, and Ivory Coast."
-  }
+  },
+  {
+    "id": "tr-31",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which Turkish Süper Lig club did Napoli sign South Korean defender Kim Min-jae from in July 2022 for €18.05 million?",
+    "correctAnswer": "Fenerbahçe",
+    "options": [
+      "Fenerbahçe",
+      "Galatasaray",
+      "Beşiktaş",
+      "Trabzonspor"
+    ],
+    "explanation": "Napoli triggered Kim Min-jae's €18.05 million release clause to sign him from Fenerbahçe in July 2022."
+  },
+  {
+    "id": "tr-32",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "In January 2020, Olympique Lyonnais signed Brazilian midfielder Bruno Guimarães for €20 million from which Brazilian club?",
+    "correctAnswer": "Athletico Paranaense",
+    "options": [
+      "Flamengo",
+      "Palmeiras",
+      "Athletico Paranaense",
+      "Santos"
+    ],
+    "explanation": "Olympique Lyonnais paid €20 million in January 2020 to sign Bruno Guimarães from Athletico Paranaense."
+  },
+  {
+    "id": "tr-33",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "In January 2020, Sevilla signed Moroccan striker Youssef En-Nesyri for €20 million from which La Liga club?",
+    "correctAnswer": "Leganés",
+    "options": [
+      "Getafe",
+      "Espanyol",
+      "Alavés",
+      "Leganés"
+    ],
+    "explanation": "Sevilla met Youssef En-Nesyri's €20 million release clause to sign him from Leganés in January 2020."
+  },
+  {
+    "id": "tr-34",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "In August 2021, Brighton & Hove Albion signed Japanese winger Kaoru Mitoma from Kawasaki Frontale for around £2.7 million and immediately loaned him to which Belgian club?",
+    "correctAnswer": "Union Saint-Gilloise",
+    "options": [
+      "Club Brugge",
+      "Union Saint-Gilloise",
+      "Anderlecht",
+      "Genk"
+    ],
+    "explanation": "Brighton signed Kaoru Mitoma for approximately £2.7 million in August 2021 and loaned him to Union Saint-Gilloise for the 2021–22 season."
+  },
+  {
+    "id": "tr-35",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "In January 2023, Olympique de Marseille signed Moroccan midfielder Azzedine Ounahi for €8 million from which Ligue 1 club?",
+    "correctAnswer": "Angers",
+    "options": [
+      "Lorient",
+      "Clermont Foot",
+      "Troyes",
+      "Angers"
+    ],
+    "explanation": "Olympique de Marseille signed Azzedine Ounahi from Angers for €8 million in January 2023."
+  },
+  
+{"id":"tr-36","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"What British-record fee did Chelsea pay Brighton for Moisés Caicedo in August 2023?","correctAnswer":"£115m","options":["£100m","£106.8m","£115m","£120m"],"explanation":"Chelsea signed Caicedo from Brighton in August 2023 for a reported £115m, surpassing the £106.8m they had paid for Enzo Fernández that January."},
+{"id":"tr-37","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Chelsea sign Enzo Fernández in January 2023 by meeting his £106.8m release clause?","correctAnswer":"Benfica","options":["River Plate","Porto","Benfica","Sporting CP"],"explanation":"Chelsea paid Benfica a then British-record £106.8m for Enzo Fernández in January 2023, only months after he had joined the Portuguese club from River Plate."},
+{"id":"tr-38","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Manchester City sign Jack Grealish for a British-record £100m in August 2021?","correctAnswer":"Aston Villa","options":["Leicester City","Aston Villa","Tottenham Hotspur","Everton"],"explanation":"City paid Aston Villa £100m for Grealish in August 2021, a British record at the time."},
+{"id":"tr-39","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which goalkeeper became the world's most expensive when Chelsea paid £71.6m to Athletic Bilbao in August 2018, beating a record set weeks earlier by Alisson?","correctAnswer":"Kepa Arrizabalaga","options":["Alisson","Ederson","Kepa Arrizabalaga","Jan Oblak"],"explanation":"Chelsea triggered Kepa's release clause in August 2018 for £71.6m, surpassing the roughly £66.8m Liverpool had paid Roma for Alisson that July."},
+{"id":"tr-40","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club received £80m from Manchester United in August 2019 for Harry Maguire, a world-record fee for a defender at the time?","correctAnswer":"Leicester City","options":["Southampton","Leicester City","Everton","Hull City"],"explanation":"United signed Maguire from Leicester in August 2019 for £80m, then the highest fee ever paid for a defender."},
+{"id":"tr-41","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Atlético Madrid pay €126m to for João Félix in the summer of 2019?","correctAnswer":"Benfica","options":["Porto","Sporting CP","Braga","Benfica"],"explanation":"Atlético signed the 19-year-old João Félix from Benfica in July 2019 for €126m, a club-record fee."},
+{"id":"tr-42","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which winger became Arsenal's record signing at £72m when he joined from Lille in August 2019?","correctAnswer":"Nicolas Pépé","options":["Wilfried Zaha","Nicolas Pépé","Ismaïla Sarr","Rafael Leão"],"explanation":"Arsenal paid Lille a club-record £72m for Pépé in August 2019."},
+{"id":"tr-43","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Aaron Ramsey join on a free transfer in July 2019 after leaving Arsenal, having agreed the deal in February?","correctAnswer":"Juventus","options":["Real Madrid","Inter Milan","Juventus","Paris Saint-Germain"],"explanation":"Ramsey's contract at Arsenal expired in 2019 and he joined Juventus on a free transfer after agreeing a pre-contract in February."},
+{"id":"tr-44","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which midfielder joined Juventus on a free transfer from Paris Saint-Germain in July 2019 after a contract standoff?","correctAnswer":"Adrien Rabiot","options":["Paul Pogba","Blaise Matuidi","Marco Verratti","Adrien Rabiot"],"explanation":"Rabiot refused to renew at PSG and joined Juventus on a free transfer in the summer of 2019."},
+{"id":"tr-45","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Sergio Ramos join on a free transfer in July 2021 after 16 years at Real Madrid?","correctAnswer":"Paris Saint-Germain","options":["Manchester United","Paris Saint-Germain","Manchester City","Juventus"],"explanation":"Ramos left Real Madrid when his contract expired in 2021 and signed for PSG on a free transfer."},
+{"id":"tr-46","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which goalkeeper left AC Milan on a free transfer for Paris Saint-Germain in the summer of 2021?","correctAnswer":"Gianluigi Donnarumma","options":["Keylor Navas","Mike Maignan","Gianluigi Donnarumma","Alex Meret"],"explanation":"Donnarumma's Milan contract expired and he joined PSG for free in 2021, with Mike Maignan arriving at Milan from Lille."},
+{"id":"tr-47","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which midfielder crossed the Milan divide on a free transfer from AC Milan to Inter in the summer of 2021?","correctAnswer":"Hakan Çalhanoğlu","options":["Franck Kessié","Ismaël Bennacer","Sandro Tonali","Hakan Çalhanoğlu"],"explanation":"Çalhanoğlu's Milan contract ran out and he joined Inter on a free transfer in 2021."},
+{"id":"tr-48","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Antonio Rüdiger leave on a free transfer to join Real Madrid in the summer of 2022?","correctAnswer":"Chelsea","options":["Roma","Stuttgart","Juventus","Chelsea"],"explanation":"Rüdiger's contract at Chelsea expired and he signed for Real Madrid on a free transfer in 2022."},
+{"id":"tr-49","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Paul Pogba rejoin on a free transfer from Manchester United in July 2022?","correctAnswer":"Juventus","options":["Real Madrid","Paris Saint-Germain","Juventus","Inter Milan"],"explanation":"Pogba left United when his contract expired and returned to Juventus on a free transfer in 2022."},
+{"id":"tr-50","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Ilkay Gündoğan join on a free transfer in 2023 after captaining Manchester City to the treble?","correctAnswer":"Barcelona","options":["Real Madrid","Bayern Munich","Juventus","Barcelona"],"explanation":"Gündoğan's City contract expired after the 2022–23 treble and he moved to Barcelona on a free transfer."},
+{"id":"tr-51","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Serie A club signed Kevin De Bruyne on a free transfer in the summer of 2025 after he left Manchester City?","correctAnswer":"Napoli","options":["AC Milan","Napoli","Inter Milan","Roma"],"explanation":"De Bruyne's City contract expired in 2025 and he joined Napoli on a free transfer."},
+{"id":"tr-52","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club signed striker Jonathan David on a free transfer from Lille in 2025?","correctAnswer":"Juventus","options":["Tottenham Hotspur","Juventus","AC Milan","Marseille"],"explanation":"David's Lille contract expired in 2025 and he joined Juventus on a free transfer."},
+{"id":"tr-53","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which French forward joined Inter Milan on a free transfer from Borussia Mönchengladbach in the summer of 2023?","correctAnswer":"Marcus Thuram","options":["Randal Kolo Muani","Christopher Nkunku","Marcus Thuram","Rasmus Højlund"],"explanation":"Thuram's Gladbach contract expired and he signed for Inter on a free transfer in 2023."},
+{"id":"tr-54","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Brazilian midfielder moved from Barcelona to Juventus in the 2020 swap that sent Miralem Pjanić the other way?","correctAnswer":"Arthur Melo","options":["Arthur Melo","Rodrigo Bentancur","Philippe Coutinho","Fabinho"],"explanation":"The 2020 swap valued Arthur at roughly €72m and Pjanić at around €60m plus add-ons, largely for accounting reasons."},
+{"id":"tr-55","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which defender moved from Manchester City to Juventus in the 2019 deal that brought João Cancelo to the Etihad?","correctAnswer":"Danilo","options":["Nicolás Otamendi","Benjamin Mendy","Kyle Walker","Danilo"],"explanation":"Danilo went to Juventus valued at around €37m while Cancelo moved to City in a deal worth roughly €65m."},
+{"id":"tr-56","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club received a reported £97.5m from Chelsea for Romelu Lukaku in August 2021?","correctAnswer":"Inter Milan","options":["Manchester United","Inter Milan","Everton","Roma"],"explanation":"Chelsea re-signed Lukaku from Inter for a club-record £97.5m in August 2021."},
+{"id":"tr-57","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Manchester United sign Bruno Fernandes in January 2020 for an initial fee of around £47m?","correctAnswer":"Sporting CP","options":["Benfica","Sporting CP","Udinese","Porto"],"explanation":"United signed Bruno Fernandes from Sporting in January 2020 for around £47m rising with add-ons."},
+{"id":"tr-58","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Danish striker joined Manchester United from Atalanta in August 2023 for around £64m plus add-ons?","correctAnswer":"Rasmus Højlund","options":["Gianluca Scamacca","Joshua Zirkzee","Victor Osimhen","Rasmus Højlund"],"explanation":"United paid Atalanta around £64m plus add-ons for Højlund in August 2023."},
+{"id":"tr-59","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Real Madrid midfielder joined Manchester United in August 2022 for an initial £60m?","correctAnswer":"Casemiro","options":["Federico Valverde","Toni Kroos","Eduardo Camavinga","Casemiro"],"explanation":"Casemiro left Real Madrid for United in August 2022 for £60m, rising to about £70m with add-ons."},
+{"id":"tr-60","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Brazilian winger joined Manchester United from Ajax in September 2022 for a reported £81.3m?","correctAnswer":"Antony","options":["Raphinha","Antony","Richarlison","Gabriel Martinelli"],"explanation":"United paid Ajax around £81.3m (€95m) for Antony in September 2022."},
+{"id":"tr-61","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Manchester City sign Joško Gvardiol in August 2023 for around £77m?","correctAnswer":"RB Leipzig","options":["Dinamo Zagreb","Borussia Dortmund","Bayern Munich","RB Leipzig"],"explanation":"City signed the Croatian defender from RB Leipzig in August 2023 for roughly £77m."},
+{"id":"tr-62","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Cole Palmer join from Manchester City in September 2023 for £42.5m?","correctAnswer":"Chelsea","options":["Tottenham Hotspur","Chelsea","Aston Villa","Newcastle United"],"explanation":"Palmer moved from City to Chelsea on 1 September 2023 for £42.5m."},
+{"id":"tr-63","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Chelsea sign Mykhailo Mudryk in January 2023, beating Arsenal to his signature?","correctAnswer":"Shakhtar Donetsk","options":["Dynamo Kyiv","Shakhtar Donetsk","Dnipro-1","Zorya Luhansk"],"explanation":"Chelsea paid Shakhtar an initial fee of around £62m, rising with add-ons, for Mudryk in January 2023."},
+{"id":"tr-64","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Liverpool sign Darwin Núñez in June 2022 for an initial £64m?","correctAnswer":"Benfica","options":["Almería","Udinese","Porto","Benfica"],"explanation":"Liverpool paid Benfica an initial £64m, potentially rising to £85m, for Núñez in 2022."},
+{"id":"tr-65","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Liverpool sign Luis Díaz from in January 2022 for an initial £37.5m?","correctAnswer":"Porto","options":["Benfica","Sporting CP","Porto","Junior"],"explanation":"Liverpool signed Díaz from Porto in January 2022 for an initial £37.5m, rising to about £49m."},
+{"id":"tr-66","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Liverpool sign Alexander Isak in September 2025 for a British-record £125m?","correctAnswer":"Newcastle United","options":["Real Sociedad","Newcastle United","Borussia Dortmund","Sporting CP"],"explanation":"Liverpool paid Newcastle £125m for Isak on deadline day in September 2025, a British record."},
+{"id":"tr-67","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Newcastle United sign Nick Woltemade in 2025 for a club-record fee of around €75m?","correctAnswer":"VfB Stuttgart","options":["Werder Bremen","Bayern Munich","Bayer Leverkusen","VfB Stuttgart"],"explanation":"Newcastle signed Woltemade from Stuttgart in September 2025 for a club-record fee of around €75m."},
+{"id":"tr-68","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Arsenal sign Viktor Gyökeres from in the summer of 2025?","correctAnswer":"Sporting CP","options":["Coventry City","Brighton","Sporting CP","Swansea City"],"explanation":"Arsenal signed Gyökeres from Sporting in 2025 for a reported fee of around £55m plus add-ons."},
+{"id":"tr-69","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Manchester United sign Matheus Cunha in 2025 by paying his £62.5m release clause?","correctAnswer":"Wolverhampton Wanderers","options":["Atlético Madrid","Hertha Berlin","RB Leipzig","Wolverhampton Wanderers"],"explanation":"United triggered Cunha's £62.5m release clause at Wolves in June 2025."},
+{"id":"tr-70","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Liverpool sign French striker Hugo Ekitike in the summer of 2025?","correctAnswer":"Eintracht Frankfurt","options":["Paris Saint-Germain","Reims","Newcastle United","Eintracht Frankfurt"],"explanation":"Liverpool paid Eintracht Frankfurt around £69m for Ekitike in July 2025."},
+{"id":"tr-71","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Italian defender joined Arsenal from Bologna in the summer of 2024 for around £42m?","correctAnswer":"Riccardo Calafiori","options":["Alessandro Bastoni","Federico Gatti","Riccardo Calafiori","Giorgio Scalvini"],"explanation":"Arsenal signed Calafiori from Bologna in August 2024 for roughly £42m."},
+{"id":"tr-72","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"What was the reported fee including add-ons when Declan Rice joined Arsenal from West Ham in July 2023, a club record?","correctAnswer":"£105m","options":["£90m","£100m","£105m","£115m"],"explanation":"Arsenal paid £100m plus £5m in add-ons for Rice in July 2023, a club record."},
+{"id":"tr-73","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which player moved from Chelsea to Arsenal in June 2023 for around £65m?","correctAnswer":"Kai Havertz","options":["Mason Mount","Kai Havertz","Marc Cucurella","Jorginho"],"explanation":"Havertz joined Arsenal from Chelsea in June 2023 for a reported £65m."},
+{"id":"tr-74","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which goalkeeper joined Arsenal on loan from Brentford in 2023, with the option to buy later triggered for about £27m?","correctAnswer":"David Raya","options":["Aaron Ramsdale","Kepa Arrizabalaga","David Raya","Robert Sánchez"],"explanation":"Raya joined Arsenal on a season-long loan in August 2023 and the move was made permanent in 2024."},
+{"id":"tr-75","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Liverpool sign Dominik Szoboszlai in 2023 by activating his £60m release clause?","correctAnswer":"RB Leipzig","options":["RB Leipzig","Red Bull Salzburg","Bayer Leverkusen","Borussia Dortmund"],"explanation":"Liverpool met Szoboszlai's release clause at RB Leipzig in July 2023."},
+{"id":"tr-76","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which South Korean defender did Bayern Munich sign from Napoli in 2023 by triggering a €50m release clause?","correctAnswer":"Kim Min-jae","options":["Kim Min-jae","Dayot Upamecano","Matthijs de Ligt","Sven Botman"],"explanation":"Bayern paid Kim Min-jae's €50m release clause at Napoli in July 2023."},
+{"id":"tr-77","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which English club did Borussia Dortmund sign Jude Bellingham from in 2020 for a reported £25m?","correctAnswer":"Birmingham City","options":["Aston Villa","West Bromwich Albion","Leicester City","Birmingham City"],"explanation":"Dortmund signed 17-year-old Bellingham from Birmingham City in July 2020 for around £25m."},
+{"id":"tr-78","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Barcelona pay €120m to in July 2019 for Antoine Griezmann's release clause?","correctAnswer":"Atlético Madrid","options":["Real Sociedad","Atlético Madrid","Monaco","Real Madrid"],"explanation":"Barcelona triggered Griezmann's €120m release clause at Atlético in July 2019."},
+{"id":"tr-79","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Raphinha leave to join Barcelona in July 2022 for a reported €58m plus add-ons?","correctAnswer":"Leeds United","options":["Chelsea","Arsenal","Everton","Leeds United"],"explanation":"Barcelona signed Raphinha from Leeds in July 2022, beating Chelsea to the signing."},
+{"id":"tr-80","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Atlético Madrid sign Julián Álvarez from in 2025 for around €75m?","correctAnswer":"Manchester City","options":["Real Madrid","Manchester City","River Plate","Bayern Munich"],"explanation":"Álvarez left Manchester City for Atlético in August 2025 in a deal worth around €75m."},
+{"id":"tr-81","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which midfielder did Manchester City sign from Atlético Madrid in July 2019 for £62.5m, a club record at the time?","correctAnswer":"Rodri","options":["Rodri","Bernardo Silva","Fernandinho","Ilkay Gündoğan"],"explanation":"City paid Atlético £62.5m for Rodri in July 2019, then a club-record fee."},
+{"id":"tr-82","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Luis Suárez join from Barcelona in September 2020 for a reported €6m?","correctAnswer":"Atlético Madrid","options":["Juventus","Atlético Madrid","Inter Milan","Paris Saint-Germain"],"explanation":"Suárez moved to Atlético in September 2020 and won La Liga with them in 2020–21."},
+{"id":"tr-83","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Liverpool sign Fabinho from in the summer of 2018 for around £39m?","correctAnswer":"Monaco","options":["Real Madrid","Porto","Monaco","Marseille"],"explanation":"Liverpool signed Fabinho from Monaco in July 2018 for a reported £39m."},
+{"id":"tr-84","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Liverpool buy Xherdan Shaqiri from in 2018, activating a £13m release clause that applied after relegation?","correctAnswer":"Stoke City","options":["Inter Milan","Basel","Stoke City","Bayern Munich"],"explanation":"Shaqiri's Stoke contract included a £13m release clause that became active after Stoke's 2018 relegation."},
+{"id":"tr-85","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Brazilian signed for Newcastle United from Hoffenheim in July 2019 for a reported club-record £40m?","correctAnswer":"Joelinton","options":["Miguel Almirón","Allan Saint-Maximin","Joelinton","Callum Wilson"],"explanation":"Newcastle signed Joelinton from Hoffenheim for around £40m, a club record at the time."},
+{"id":"tr-86","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which MLS club did Newcastle United sign Miguel Almirón in January 2019 for around £20m?","correctAnswer":"Atlanta United","options":["Seattle Sounders","Atlanta United","LAFC","New York City FC"],"explanation":"Newcastle signed the Paraguayan from Atlanta United in January 2019 for around £20m."},
+{"id":"tr-87","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which goalkeeper joined Aston Villa from Arsenal in September 2020 for around £15m?","correctAnswer":"Emiliano Martínez","options":["Bernd Leno","Emiliano Martínez","Hugo Lloris","Pau López"],"explanation":"Villa signed Martínez from Arsenal in September 2020 for around £15m."},
+{"id":"tr-88","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did West Ham sign Jarrod Bowen from in January 2020 for around £20m?","correctAnswer":"Hull City","options":["Brentford","Hull City","Wolverhampton Wanderers","Leicester City"],"explanation":"West Ham signed Bowen from Hull City in January 2020 for a fee around £20m."},
+{"id":"tr-89","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did West Ham sign Lucas Paquetá from in September 2022 for a then club-record £51m?","correctAnswer":"Lyon","options":["AC Milan","Flamengo","Lyon","Benfica"],"explanation":"West Ham paid Lyon £51m for Paquetá in September 2022, a club record at the time."},
+{"id":"tr-90","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Philippe Coutinho join on loan from Barcelona in August 2019, winning the treble?","correctAnswer":"Bayern Munich","options":["Arsenal","Paris Saint-Germain","Manchester United","Bayern Munich"],"explanation":"Coutinho joined Bayern on a season-long loan in August 2019 and won the 2019–20 Champions League with them."},
+{"id":"tr-91","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Juventus pay around €70m to for Dušan Vlahović in January 2022?","correctAnswer":"Fiorentina","options":["Fiorentina","Atalanta","Torino","Bologna"],"explanation":"Juventus signed Vlahović from Fiorentina in January 2022 for around €70m."},
+{"id":"tr-92","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Napoli sign Victor Osimhen in 2020 for a then club-record fee of around €70m?","correctAnswer":"Lille","options":["Wolfsburg","Charleroi","Lens","Lille"],"explanation":"Napoli signed Osimhen from Lille in September 2020 for a club-record fee around €70m."},
+{"id":"tr-93","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"From which club did Napoli sign Khvicha Kvaratskhelia in July 2022 for around €10m?","correctAnswer":"Dinamo Batumi","options":["Rubin Kazan","Dinamo Tbilisi","Dinamo Batumi","Lokomotiv Moscow"],"explanation":"Napoli signed Kvaratskhelia from Dinamo Batumi in 2022 for around €10m."},
+{"id":"tr-94","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Italian midfielder moved from AC Milan to Newcastle United in July 2023 for around £55m?","correctAnswer":"Sandro Tonali","options":["Nicolò Barella","Manuel Locatelli","Sandro Tonali","Jorginho"],"explanation":"Newcastle signed Tonali from AC Milan in July 2023 for around £55m."},
+{"id":"tr-95","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Lille goalkeeper replaced Gianluigi Donnarumma at AC Milan in 2021?","correctAnswer":"Mike Maignan","options":["Alban Lafont","Mattia Perin","Walter Benítez","Mike Maignan"],"explanation":"Milan signed Maignan from Lille in 2021 after Donnarumma left for Paris Saint-Germain."},
+{"id":"tr-96","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club signed Olivier Giroud from Chelsea in 2021 for a nominal fee of around €1m?","correctAnswer":"AC Milan","options":["Inter Milan","Juventus","Lazio","AC Milan"],"explanation":"Giroud moved from Chelsea to AC Milan in 2021 for a very small fee and helped them win the 2021–22 Scudetto."},
+{"id":"tr-97","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Argentine club did Inter Milan sign Lautaro Martínez from in 2018 for around €25m?","correctAnswer":"Racing Club","options":["Boca Juniors","Racing Club","River Plate","Independiente"],"explanation":"Inter signed Lautaro Martínez from Racing Club in July 2018 for around €25m."},
+{"id":"tr-98","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Argentine defender joined Manchester United from Ajax in July 2022 for around £57m?","correctAnswer":"Lisandro Martínez","options":["Cristian Romero","Nicolás Otamendi","Germán Pezzella","Lisandro Martínez"],"explanation":"United signed Lisandro Martínez from Ajax in July 2022 for roughly £57m."},
+{"id":"tr-99","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"After a loan at Aston Villa in early 2025, which club did Marcus Rashford join on loan from Manchester United in the summer?","correctAnswer":"Barcelona","options":["AC Milan","Juventus","Barcelona","Atlético Madrid"],"explanation":"Rashford had a loan at Villa in early 2025 and then joined Barcelona on loan for the 2025–26 season."},
+{"id":"tr-100","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Italian winger joined Liverpool from Juventus in the summer of 2024 for around £10m?","correctAnswer":"Federico Chiesa","options":["Domenico Berardi","Nicolò Zaniolo","Federico Chiesa","Gianluca Scamacca"],"explanation":"Liverpool signed Chiesa from Juventus in August 2024 for a fee of around £10m."},
+{"id":"tr-101","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Italian club signed Scott McTominay from Manchester United in September 2024 for around £25.7m?","correctAnswer":"Napoli","options":["Roma","Juventus","Atalanta","Napoli"],"explanation":"McTominay moved from United to Napoli on deadline day in 2024 and helped them win the 2024–25 Scudetto."},
+{"id":"tr-102","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which Spanish midfielder joined Liverpool from Bayern Munich in September 2020 for around £20m?","correctAnswer":"Thiago Alcântara","options":["Thiago Alcântara","Saúl Ñíguez","Dani Ceballos","Isco"],"explanation":"Liverpool signed Thiago from Bayern in September 2020 for a reported £20m."},
+{"id":"tr-103","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which London club did Michael Olise leave to join Bayern Munich in the summer of 2024?","correctAnswer":"Crystal Palace","options":["Fulham","Brentford","Crystal Palace","West Ham United"],"explanation":"Bayern triggered Olise's release clause at Crystal Palace in 2024 in a deal worth around €53m."},
+{"id":"tr-104","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Real Madrid sign Aurélien Tchouaméni from in June 2022 for an initial €80m?","correctAnswer":"Monaco","options":["Lyon","Monaco","Bordeaux","Paris Saint-Germain"],"explanation":"Real Madrid signed Tchouaméni from Monaco in June 2022 for an initial fee of €80m."},
+{"id":"tr-105","mode":"transfer-quiz","difficulty":"expert","category":"Transfers","question":"Which club did Christian Eriksen leave on a free transfer to join Manchester United in July 2022?","correctAnswer":"Brentford","options":["Inter Milan","Tottenham Hotspur","Brentford","Ajax"],"explanation":"Eriksen's Brentford contract expired in 2022 and he joined Manchester United on a free transfer."}
+
 ]

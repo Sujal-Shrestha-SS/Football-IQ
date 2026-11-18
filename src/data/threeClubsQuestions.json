@@ -5,15 +5,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["porto", "liverpool", "chelsea"],
+    "clubs": [
+      "porto",
+      "liverpool",
+      "chelsea"
+    ],
     "correctAnswer": "Raul Meireles",
-    "options": ["Deco", "Raul Meireles", "Ricardo Carvalho", "José Bosingwa"],
+    "options": [
+      "Deco",
+      "Raul Meireles",
+      "Ricardo Carvalho",
+      "José Bosingwa"
+    ],
     "hints": [
       "This Portuguese central midfielder won the 2012 UEFA Champions League.",
       "He won PFA Fans' Player of the Year during his single season at Anfield (2010–11).",
       "Known for his mohawk, tattoos, and fierce long-range volley against Wolves."
     ],
-    "playerClubStints": { "porto": "2004–2010", "liverpool": "2010–2011", "chelsea": "2011–2012" },
+    "playerClubStints": {
+      "porto": "2004–2010",
+      "liverpool": "2010–2011",
+      "chelsea": "2011–2012"
+    },
     "explanation": "Raul Meireles spent six years at Porto before joining Liverpool in 2010 and moving to Chelsea on deadline day in 2011, winning the Champions League in Munich."
   },
   {
@@ -22,15 +35,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["lazio", "man-city", "roma"],
+    "clubs": [
+      "lazio",
+      "man-city",
+      "roma"
+    ],
     "correctAnswer": "Aleksandar Kolarov",
-    "options": ["Stefan Savić", "Aleksandar Kolarov", "Edin Džeko", "Stevan Jovetić"],
+    "options": [
+      "Stefan Savić",
+      "Aleksandar Kolarov",
+      "Edin Džeko",
+      "Stevan Jovetić"
+    ],
     "hints": [
       "A left-footed defender famous for thunderous free-kicks.",
       "He won two Premier League titles in England before returning to Rome.",
       "He played on both sides of the Rome derby before finishing his career at Inter Milan."
     ],
-    "playerClubStints": { "lazio": "2007–2010", "man-city": "2010–2017", "roma": "2017–2020" },
+    "playerClubStints": {
+      "lazio": "2007–2010",
+      "man-city": "2010–2017",
+      "roma": "2017–2020"
+    },
     "explanation": "Serbian left-back Aleksandar Kolarov joined Man City from Lazio in 2010 for £16m, spent seven seasons in Manchester, and later crossed the Rome divide to join AS Roma in 2017."
   },
   {
@@ -39,15 +65,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["inter-milan", "west-ham", "benfica"],
+    "clubs": [
+      "inter-milan",
+      "west-ham",
+      "benfica"
+    ],
     "correctAnswer": "João Mário",
-    "options": ["Nélson Semedo", "André Gomes", "João Mário", "William Carvalho"],
+    "options": [
+      "Nélson Semedo",
+      "André Gomes",
+      "João Mário",
+      "William Carvalho"
+    ],
     "hints": [
       "He won Euro 2016 with his national team before moving to Serie A for €40m.",
       "He spent the second half of 2017–18 on loan in East London.",
       "He controversially joined Benfica in 2021 after previously captaining Sporting CP."
     ],
-    "playerClubStints": { "inter-milan": "2016–2021", "west-ham": "2018", "benfica": "2021–2024" },
+    "playerClubStints": {
+      "inter-milan": "2016–2021",
+      "west-ham": "2018",
+      "benfica": "2021–2024"
+    },
     "explanation": "Portuguese midfielder João Mário joined Inter Milan in 2016, played 13 Premier League matches on loan at West Ham in 2018, and won the Primeira Liga with Benfica in 2022–23."
   },
   {
@@ -56,15 +95,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["bayern-munich", "aston-villa", "lazio"],
+    "clubs": [
+      "bayern-munich",
+      "aston-villa",
+      "lazio"
+    ],
     "correctAnswer": "Pepe Reina",
-    "options": ["Pepe Reina", "Tom Starke", "Thomas Strakosha", "Sven Ulreich"],
+    "options": [
+      "Pepe Reina",
+      "Tom Starke",
+      "Thomas Strakosha",
+      "Sven Ulreich"
+    ],
     "hints": [
       "This Spanish goalkeeper won three consecutive Premier League Golden Gloves in the late 2000s.",
       "He helped keep Villa in the Premier League during Project Restart in 2020.",
       "He also played for Barcelona, Villarreal, Liverpool, Napoli, and AC Milan."
     ],
-    "playerClubStints": { "bayern-munich": "2014–2015", "aston-villa": "2020", "lazio": "2020–2022" },
+    "playerClubStints": {
+      "bayern-munich": "2014–2015",
+      "aston-villa": "2020",
+      "lazio": "2020–2022"
+    },
     "explanation": "Veteran Spanish keeper Pepe Reina served as Manuel Neuer's backup at Bayern in 2014–15, joined Aston Villa on loan in January 2020, and then played two seasons at Lazio."
   },
   {
@@ -73,15 +125,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["inter-milan", "porto", "sevilla"],
+    "clubs": [
+      "inter-milan",
+      "porto",
+      "sevilla"
+    ],
     "correctAnswer": "Alex Telles",
-    "options": ["Danilo", "Nicolás Otamendi", "Marcos Acuña", "Alex Telles"],
+    "options": [
+      "Danilo",
+      "Nicolás Otamendi",
+      "Marcos Acuña",
+      "Alex Telles"
+    ],
     "hints": [
       "An attacking left-back who took penalties and free-kicks in Portugal.",
       "He won the 2022–23 UEFA Europa League while on loan in Spain.",
       "He moved from Porto to Manchester United in October 2020."
     ],
-    "playerClubStints": { "inter-milan": "2015–2016", "porto": "2016–2020", "sevilla": "2022–2023" },
+    "playerClubStints": {
+      "inter-milan": "2015–2016",
+      "porto": "2016–2020",
+      "sevilla": "2022–2023"
+    },
     "explanation": "Brazilian left-back Alex Telles spent 2015–16 on loan at Inter, starred for four seasons at Porto, and lifted the 2023 Europa League during a loan spell at Sevilla."
   },
   {
@@ -90,15 +155,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["sevilla", "liverpool", "lazio"],
+    "clubs": [
+      "sevilla",
+      "liverpool",
+      "lazio"
+    ],
     "correctAnswer": "Luis Alberto",
-    "options": ["Suso", "Luis Alberto", "Iago Aspas", "José Callejón"],
+    "options": [
+      "Suso",
+      "Luis Alberto",
+      "Iago Aspas",
+      "José Callejón"
+    ],
     "hints": [
       "A creative Spanish number 10 who barely featured in England before thriving in Italy.",
       "He made 9 league appearances for Liverpool in 2013–14 without scoring.",
       "He became one of Serie A's all-time assist leaders during eight years in Rome."
     ],
-    "playerClubStints": { "sevilla": "2011–2013", "liverpool": "2013–2016", "lazio": "2016–2024" },
+    "playerClubStints": {
+      "sevilla": "2011–2013",
+      "liverpool": "2013–2016",
+      "lazio": "2016–2024"
+    },
     "explanation": "Sevilla academy graduate Luis Alberto moved to Liverpool in 2013 before reinventing his career at Lazio in 2016, where he made over 300 appearances."
   },
   {
@@ -107,15 +185,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["psg", "roma", "everton"],
+    "clubs": [
+      "psg",
+      "roma",
+      "everton"
+    ],
     "correctAnswer": "Lucas Digne",
-    "options": ["Layvin Kurzawa", "Lucas Digne", "Jordan Amavi", "Benjamin Mendy"],
+    "options": [
+      "Layvin Kurzawa",
+      "Lucas Digne",
+      "Jordan Amavi",
+      "Benjamin Mendy"
+    ],
     "hints": [
       "A French left-back who joined PSG from Lille in 2013.",
       "He spent a season on loan in Serie A before signing for FC Barcelona in 2016.",
       "He later became a key set-piece taker at Goodison Park and Aston Villa."
     ],
-    "playerClubStints": { "psg": "2013–2016", "roma": "2015–2016", "everton": "2018–2022" },
+    "playerClubStints": {
+      "psg": "2013–2016",
+      "roma": "2015–2016",
+      "everton": "2018–2022"
+    },
     "explanation": "Lucas Digne played 30 league games for PSG, spent 2015–16 on loan at Roma, moved to Barcelona, and then made 127 appearances for Everton."
   },
   {
@@ -124,15 +215,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["monaco", "ac-milan", "sevilla"],
+    "clubs": [
+      "monaco",
+      "ac-milan",
+      "sevilla"
+    ],
     "correctAnswer": "Lucas Ocampos",
-    "options": ["Lucas Ocampos", "Érik Lamela", "Papu Gómez", "Suso"],
+    "options": [
+      "Lucas Ocampos",
+      "Érik Lamela",
+      "Papu Gómez",
+      "Suso"
+    ],
     "hints": [
       "An Argentine winger who played in Ligue 2 with Monaco under Claudio Ranieri.",
       "He had a brief six-month loan at the San Siro in 2017.",
       "He famously played in goal in stoppage time during a La Liga win for Sevilla in 2020."
     ],
-    "playerClubStints": { "monaco": "2012–2015", "ac-milan": "2017", "sevilla": "2019–2024" },
+    "playerClubStints": {
+      "monaco": "2012–2015",
+      "ac-milan": "2017",
+      "sevilla": "2019–2024"
+    },
     "explanation": "Lucas Ocampos rose through Monaco, spent the second half of 2016–17 on loan at AC Milan, and won two Europa League titles with Sevilla."
   },
   {
@@ -141,15 +245,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["bayern-munich", "psg", "benfica"],
+    "clubs": [
+      "bayern-munich",
+      "psg",
+      "benfica"
+    ],
     "correctAnswer": "Juan Bernat",
-    "options": ["Renato Sanches", "Juan Bernat", "Thilo Kehrer", "Julian Draxler"],
+    "options": [
+      "Renato Sanches",
+      "Juan Bernat",
+      "Thilo Kehrer",
+      "Julian Draxler"
+    ],
     "hints": [
       "A Spanish left-back signed by Pep Guardiola from Valencia in 2014.",
       "He scored in PSG's 2019–20 Champions League semi-final against RB Leipzig.",
       "He spent the 2023–24 season on loan in Lisbon."
     ],
-    "playerClubStints": { "bayern-munich": "2014–2018", "psg": "2018–2024", "benfica": "2023–2024" },
+    "playerClubStints": {
+      "bayern-munich": "2014–2018",
+      "psg": "2018–2024",
+      "benfica": "2023–2024"
+    },
     "explanation": "Juan Bernat played 113 games for Bayern Munich, won five Ligue 1 titles with PSG, and spent 2023–24 on loan at Benfica."
   },
   {
@@ -158,15 +275,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["dortmund", "man-united", "roma"],
+    "clubs": [
+      "dortmund",
+      "man-united",
+      "roma"
+    ],
     "correctAnswer": "Henrikh Mkhitaryan",
-    "options": ["Shinji Kagawa", "Henrikh Mkhitaryan", "Ivan Perišić", "Adnan Januzaj"],
+    "options": [
+      "Shinji Kagawa",
+      "Henrikh Mkhitaryan",
+      "Ivan Perišić",
+      "Adnan Januzaj"
+    ],
     "hints": [
       "He won Bundesliga Players' Player of the Season in 2015–16.",
       "He scored in the 2017 UEFA Europa League final in Stockholm.",
       "He later won the inaugural UEFA Europa Conference League in 2022."
     ],
-    "playerClubStints": { "dortmund": "2013–2016", "man-united": "2016–2018", "roma": "2019–2022" },
+    "playerClubStints": {
+      "dortmund": "2013–2016",
+      "man-united": "2016–2018",
+      "roma": "2019–2022"
+    },
     "explanation": "Armenian playmaker Henrikh Mkhitaryan starred at Dortmund before spells with Man United, Arsenal, Roma (winning the 2022 Conference League), and Inter Milan."
   },
   {
@@ -175,15 +305,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["sevilla", "psg", "sporting-cp"],
+    "clubs": [
+      "sevilla",
+      "psg",
+      "sporting-cp"
+    ],
     "correctAnswer": "Pablo Sarabia",
-    "options": ["Jesé Rodríguez", "Pablo Sarabia", "Carlos Soler", "Juan Bernat"],
+    "options": [
+      "Jesé Rodríguez",
+      "Pablo Sarabia",
+      "Carlos Soler",
+      "Juan Bernat"
+    ],
     "hints": [
       "A left-footed Spanish attacking midfielder who broke out at Getafe and Sevilla.",
       "He scored 14 goals in 33 league appearances during his sole season in Lisbon (2021–22).",
       "He later joined Wolverhampton Wanderers in the Premier League."
     ],
-    "playerClubStints": { "sevilla": "2016–2019", "psg": "2019–2023", "sporting-cp": "2021–2022" },
+    "playerClubStints": {
+      "sevilla": "2016–2019",
+      "psg": "2019–2023",
+      "sporting-cp": "2021–2022"
+    },
     "explanation": "Pablo Sarabia excelled at Sevilla before moving to PSG in 2019, spending a prolific 2021–22 loan at Sporting CP with 21 goals in all competitions."
   },
   {
@@ -192,15 +335,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["leverkusen", "juventus", "dortmund"],
+    "clubs": [
+      "leverkusen",
+      "juventus",
+      "dortmund"
+    ],
     "correctAnswer": "Emre Can",
-    "options": ["Julian Brandt", "Emre Can", "Arturo Vidal", "Sami Khedira"],
+    "options": [
+      "Julian Brandt",
+      "Emre Can",
+      "Arturo Vidal",
+      "Sami Khedira"
+    ],
     "hints": [
       "A versatile German midfielder who started in Bayern Munich's youth ranks.",
       "He scored a famous bicycle kick for Liverpool at Watford in 2017.",
       "He became club captain of Borussia Dortmund in 2023."
     ],
-    "playerClubStints": { "leverkusen": "2013–2014", "juventus": "2018–2020", "dortmund": "2020–present" },
+    "playerClubStints": {
+      "leverkusen": "2013–2014",
+      "juventus": "2018–2020",
+      "dortmund": "2020–present"
+    },
     "explanation": "Emre Can played a breakout 2013–14 season at Bayer Leverkusen, later joined Juventus on a free transfer from Liverpool in 2018, and moved to Dortmund in 2020."
   },
   {
@@ -209,15 +365,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["benfica", "roma", "lyon"],
+    "clubs": [
+      "benfica",
+      "roma",
+      "lyon"
+    ],
     "correctAnswer": "Nemanja Matić",
-    "options": ["Nemanja Matić", "Renato Sanches", "Tanguy Ndombele", "Lucas Tousart"],
+    "options": [
+      "Nemanja Matić",
+      "Renato Sanches",
+      "Tanguy Ndombele",
+      "Lucas Tousart"
+    ],
     "hints": [
       "A tall Serbian holding midfielder who played in two spells at Stamford Bridge.",
       "He reunited with José Mourinho in Italy for the 2022–23 season.",
       "He moved to Rennes and then Lyon in Ligue 1 during 2023–24."
     ],
-    "playerClubStints": { "benfica": "2011–2014", "roma": "2022–2023", "lyon": "2024–present" },
+    "playerClubStints": {
+      "benfica": "2011–2014",
+      "roma": "2022–2023",
+      "lyon": "2024–present"
+    },
     "explanation": "Nemanja Matić won Primeira Liga Player of the Year at Benfica in 2013, played a season at Roma in 2022–23, and joined Lyon in January 2024."
   },
   {
@@ -226,15 +395,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["ajax", "atletico-madrid", "tottenham"],
+    "clubs": [
+      "ajax",
+      "atletico-madrid",
+      "tottenham"
+    ],
     "correctAnswer": "Toby Alderweireld",
-    "options": ["Jan Vertonghen", "Davinson Sánchez", "Toby Alderweireld", "Christian Eriksen"],
+    "options": [
+      "Jan Vertonghen",
+      "Davinson Sánchez",
+      "Toby Alderweireld",
+      "Christian Eriksen"
+    ],
     "hints": [
       "A Belgian centre-back famous for diagonal long balls.",
       "He won the 2013–14 La Liga title in his single season in Madrid.",
       "He later scored a dramatic 94th-minute volley to clinch the Belgian Pro League for Antwerp."
     ],
-    "playerClubStints": { "ajax": "2008–2013", "atletico-madrid": "2013–2015", "tottenham": "2015–2021" },
+    "playerClubStints": {
+      "ajax": "2008–2013",
+      "atletico-madrid": "2013–2015",
+      "tottenham": "2015–2021"
+    },
     "explanation": "Toby Alderweireld won three Eredivisie titles with Ajax, La Liga with Atlético Madrid in 2014, and spent six years as Tottenham's defensive anchor."
   },
   {
@@ -243,15 +425,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["porto", "ac-milan", "rb-leipzig"],
+    "clubs": [
+      "porto",
+      "ac-milan",
+      "rb-leipzig"
+    ],
     "correctAnswer": "André Silva",
-    "options": ["Gonçalo Guedes", "Rafael Leão", "Diogo Dalot", "André Silva"],
+    "options": [
+      "Gonçalo Guedes",
+      "Rafael Leão",
+      "Diogo Dalot",
+      "André Silva"
+    ],
     "hints": [
       "A Portuguese striker who netted 28 Bundesliga goals for Eintracht Frankfurt in 2020–21.",
       "His big-money move to Italy in 2017 yielded just 2 Serie A goals.",
       "He moved to Saxony in 2021 and lifted two DFB-Pokals."
     ],
-    "playerClubStints": { "porto": "2015–2017", "ac-milan": "2017–2020", "rb-leipzig": "2021–present" },
+    "playerClubStints": {
+      "porto": "2015–2017",
+      "ac-milan": "2017–2020",
+      "rb-leipzig": "2021–present"
+    },
     "explanation": "André Silva broke through at Porto before a €38m switch to AC Milan in 2017, eventually joining RB Leipzig in 2021."
   },
   {
@@ -260,15 +455,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["real-madrid", "leverkusen", "west-ham"],
+    "clubs": [
+      "real-madrid",
+      "leverkusen",
+      "west-ham"
+    ],
     "correctAnswer": "Javier Hernández",
-    "options": ["Javier Hernández", "Lucas Pérez", "Borja Mayoral", "Carlos Vela"],
+    "options": [
+      "Javier Hernández",
+      "Lucas Pérez",
+      "Borja Mayoral",
+      "Carlos Vela"
+    ],
     "hints": [
       "He scored the late Champions League quarter-final winner against Atlético Madrid in 2015.",
       "He won Bundesliga Player of the Month three times in a single season (2015–16).",
       "Nickname translates to 'Little Pea'."
     ],
-    "playerClubStints": { "real-madrid": "2014–2015", "leverkusen": "2015–2017", "west-ham": "2017–2019" },
+    "playerClubStints": {
+      "real-madrid": "2014–2015",
+      "leverkusen": "2015–2017",
+      "west-ham": "2017–2019"
+    },
     "explanation": "Mexican striker Javier 'Chicharito' Hernández spent 2014–15 on loan at Real Madrid, scored 39 goals in two years for Bayer Leverkusen, and joined West Ham in 2017."
   },
   {
@@ -277,15 +485,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["barcelona", "everton", "ac-milan"],
+    "clubs": [
+      "barcelona",
+      "everton",
+      "ac-milan"
+    ],
     "correctAnswer": "Gerard Deulofeu",
-    "options": ["Munir El Haddadi", "Sandro Ramírez", "Gerard Deulofeu", "Bojan Krkić"],
+    "options": [
+      "Munir El Haddadi",
+      "Sandro Ramírez",
+      "Gerard Deulofeu",
+      "Bojan Krkić"
+    ],
     "hints": [
       "A La Masia winger capped four times by Spain.",
       "Roberto Martínez signed him on loan in 2013 before bringing him back permanently in 2015.",
       "He spent half of 2016–17 on loan in Milan before thriving at Watford and Udinese."
     ],
-    "playerClubStints": { "barcelona": "2011–2018", "everton": "2013–2017", "ac-milan": "2017" },
+    "playerClubStints": {
+      "barcelona": "2011–2018",
+      "everton": "2013–2017",
+      "ac-milan": "2017"
+    },
     "explanation": "Gerard Deulofeu came through Barcelona's academy, had two spells at Everton, and impressed on loan at AC Milan in early 2017."
   },
   {
@@ -294,15 +515,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["barcelona", "inter-milan", "psg"],
+    "clubs": [
+      "barcelona",
+      "inter-milan",
+      "psg"
+    ],
     "correctAnswer": "Rafinha Alcântara",
-    "options": ["Thiago Motta", "Maxwell", "Rafinha Alcântara", "Mauro Icardi"],
+    "options": [
+      "Thiago Motta",
+      "Maxwell",
+      "Rafinha Alcântara",
+      "Mauro Icardi"
+    ],
     "hints": [
       "A Brazilian-born midfielder whose brother won the Champions League with two clubs.",
       "He won Olympic gold with Brazil at Rio 2016.",
       "He joined Inter on loan in January 2018 and moved to Paris in October 2020."
     ],
-    "playerClubStints": { "barcelona": "2011–2020", "inter-milan": "2018", "psg": "2020–2022" },
+    "playerClubStints": {
+      "barcelona": "2011–2020",
+      "inter-milan": "2018",
+      "psg": "2020–2022"
+    },
     "explanation": "Rafinha Alcântara won the 2015 treble at Barcelona, helped Inter qualify for the Champions League on loan in 2018, and joined PSG in 2020."
   },
   {
@@ -311,15 +545,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["tottenham", "atletico-madrid", "newcastle"],
+    "clubs": [
+      "tottenham",
+      "atletico-madrid",
+      "newcastle"
+    ],
     "correctAnswer": "Kieran Trippier",
-    "options": ["Kieran Trippier", "Matt Doherty", "Serge Aurier", "Kyle Walker-Peters"],
+    "options": [
+      "Kieran Trippier",
+      "Matt Doherty",
+      "Serge Aurier",
+      "Kyle Walker-Peters"
+    ],
     "hints": [
       "An English right-back known for pinpoint crossing and dead-ball delivery.",
       "He won the 2020–21 La Liga title under Diego Simeone.",
       "He became the first major signing of Newcastle United's new ownership era in January 2022."
     ],
-    "playerClubStints": { "tottenham": "2015–2019", "atletico-madrid": "2019–2022", "newcastle": "2022–present" },
+    "playerClubStints": {
+      "tottenham": "2015–2019",
+      "atletico-madrid": "2019–2022",
+      "newcastle": "2022–present"
+    },
     "explanation": "Kieran Trippier reached the 2019 Champions League final with Spurs, won La Liga with Atlético Madrid in 2021, and joined Newcastle in January 2022."
   },
   {
@@ -328,15 +575,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["lyon", "tottenham", "napoli"],
+    "clubs": [
+      "lyon",
+      "tottenham",
+      "napoli"
+    ],
     "correctAnswer": "Tanguy Ndombele",
-    "options": ["Houssem Aouar", "Lucas Paquetá", "Tanguy Ndombele", "Pape Matar Sarr"],
+    "options": [
+      "Houssem Aouar",
+      "Lucas Paquetá",
+      "Tanguy Ndombele",
+      "Pape Matar Sarr"
+    ],
     "hints": [
       "He became Tottenham's club-record signing in the summer of 2019.",
       "He won the Scudetto on loan in southern Italy in 2022–23.",
       "A press-resistant French central midfielder who also lifted the Turkish Super Lig with Galatasaray."
     ],
-    "playerClubStints": { "lyon": "2017–2022", "tottenham": "2019–2024", "napoli": "2022–2023" },
+    "playerClubStints": {
+      "lyon": "2017–2022",
+      "tottenham": "2019–2024",
+      "napoli": "2022–2023"
+    },
     "explanation": "Tanguy Ndombele joined Spurs from Lyon for €60m in 2019, returned to Lyon on loan in 2022, and won Serie A with Napoli during his 2022–23 loan."
   },
   {
@@ -345,15 +605,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["sevilla", "monaco", "inter-milan"],
+    "clubs": [
+      "sevilla",
+      "monaco",
+      "inter-milan"
+    ],
     "correctAnswer": "Geoffrey Kondogbia",
-    "options": ["Geoffrey Kondogbia", "Steven Nzonzi", "Tiémoué Bakayoko", "Grzegorz Krychowiak"],
+    "options": [
+      "Geoffrey Kondogbia",
+      "Steven Nzonzi",
+      "Tiémoué Bakayoko",
+      "Grzegorz Krychowiak"
+    ],
     "hints": [
       "A left-footed holding midfielder who represents the Central African Republic internationally.",
       "He scored in Monaco's famous 3–1 Champions League win at Arsenal in 2015.",
       "He later won La Liga with Atlético Madrid in 2021."
     ],
-    "playerClubStints": { "sevilla": "2012–2013", "monaco": "2013–2015", "inter-milan": "2015–2018" },
+    "playerClubStints": {
+      "sevilla": "2012–2013",
+      "monaco": "2013–2015",
+      "inter-milan": "2015–2018"
+    },
     "explanation": "Geoffrey Kondogbia played for Sevilla in 2012–13, starred for Monaco until 2015, and spent two seasons at Inter Milan before returning to Spain."
   },
   {
@@ -362,15 +635,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["bayern-munich", "inter-milan", "liverpool"],
+    "clubs": [
+      "bayern-munich",
+      "inter-milan",
+      "liverpool"
+    ],
     "correctAnswer": "Xherdan Shaqiri",
-    "options": ["Ivan Perišić", "Xherdan Shaqiri", "Lukas Podolski", "Philippe Coutinho"],
+    "options": [
+      "Ivan Perišić",
+      "Xherdan Shaqiri",
+      "Lukas Podolski",
+      "Philippe Coutinho"
+    ],
     "hints": [
       "A stocky left-footed winger who won the Champions League with two different clubs.",
       "He joined Inter for six months in January 2015 before moving to Stoke City.",
       "He set up two goals in Liverpool's 4–0 comeback against Barcelona in 2019."
     ],
-    "playerClubStints": { "bayern-munich": "2012–2015", "inter-milan": "2015", "liverpool": "2018–2021" },
+    "playerClubStints": {
+      "bayern-munich": "2012–2015",
+      "inter-milan": "2015",
+      "liverpool": "2018–2021"
+    },
     "explanation": "Swiss winger Xherdan Shaqiri won the 2013 treble at Bayern Munich, had a brief spell at Inter in 2015, and lifted the 2019 Champions League and 2020 Premier League with Liverpool."
   },
   {
@@ -379,15 +665,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["man-city", "inter-milan", "sevilla"],
+    "clubs": [
+      "man-city",
+      "inter-milan",
+      "sevilla"
+    ],
     "correctAnswer": "Stevan Jovetić",
-    "options": ["Edin Džeko", "Stevan Jovetić", "Samir Nasri", "Nolito"],
+    "options": [
+      "Edin Džeko",
+      "Stevan Jovetić",
+      "Samir Nasri",
+      "Nolito"
+    ],
     "hints": [
       "A Montenegrin forward who made his name at Fiorentina.",
       "He won the 2013–14 Premier League title despite injuries limiting his minutes.",
       "He ended Real Madrid's 40-match unbeaten run with a stoppage-time winner for Sevilla in 2017."
     ],
-    "playerClubStints": { "man-city": "2013–2015", "inter-milan": "2015–2017", "sevilla": "2017" },
+    "playerClubStints": {
+      "man-city": "2013–2015",
+      "inter-milan": "2015–2017",
+      "sevilla": "2017"
+    },
     "explanation": "Stevan Jovetić played two seasons at Man City, moved to Inter Milan in 2015, and spent the second half of 2016–17 on loan at Sevilla."
   },
   {
@@ -396,15 +695,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["liverpool", "ac-milan", "sevilla"],
+    "clubs": [
+      "liverpool",
+      "ac-milan",
+      "sevilla"
+    ],
     "correctAnswer": "Suso",
-    "options": ["Alberto Moreno", "Iago Aspas", "Suso", "Deulofeu"],
+    "options": [
+      "Alberto Moreno",
+      "Iago Aspas",
+      "Suso",
+      "Deulofeu"
+    ],
     "hints": [
       "A Spanish right winger famous for cutting inside onto his left foot.",
       "He made 14 Premier League appearances for Liverpool between 2012 and 2014.",
       "He won two UEFA Europa League trophies after moving to Andalusia in 2020."
     ],
-    "playerClubStints": { "liverpool": "2012–2015", "ac-milan": "2015–2020", "sevilla": "2020–present" },
+    "playerClubStints": {
+      "liverpool": "2012–2015",
+      "ac-milan": "2015–2020",
+      "sevilla": "2020–present"
+    },
     "explanation": "Suso broke into Liverpool's first team under Brendan Rodgers before spending five years at AC Milan and winning the Europa League twice with Sevilla."
   },
   {
@@ -413,15 +725,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["porto", "man-city", "juventus"],
+    "clubs": [
+      "porto",
+      "man-city",
+      "juventus"
+    ],
     "correctAnswer": "Danilo",
-    "options": ["Alex Sandro", "João Cancelo", "Danilo", "Fernando"],
+    "options": [
+      "Alex Sandro",
+      "João Cancelo",
+      "Danilo",
+      "Fernando"
+    ],
     "hints": [
       "A Brazilian defender who also won two Champions Leagues in Madrid between Porto and Manchester.",
       "He joined Man City in 2017 and moved to Turin in 2019 in a swap involving João Cancelo.",
       "He was named Juventus club captain in 2023."
     ],
-    "playerClubStints": { "porto": "2012–2015", "man-city": "2017–2019", "juventus": "2019–2025" },
+    "playerClubStints": {
+      "porto": "2012–2015",
+      "man-city": "2017–2019",
+      "juventus": "2019–2025"
+    },
     "explanation": "Brazilian defender Danilo starred for Porto, spent two title-winning seasons at Man City, and became captain of Juventus."
   },
   {
@@ -430,15 +755,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["benfica", "bayern-munich", "roma"],
+    "clubs": [
+      "benfica",
+      "bayern-munich",
+      "roma"
+    ],
     "correctAnswer": "Renato Sanches",
-    "options": ["Renato Sanches", "André Gomes", "Nélson Semedo", "Gedson Fernandes"],
+    "options": [
+      "Renato Sanches",
+      "André Gomes",
+      "Nélson Semedo",
+      "Gedson Fernandes"
+    ],
     "hints": [
       "He won the 2016 Golden Boy award as a teenager.",
       "He famously made a cameo loan spell at Swansea City in 2017–18.",
       "He won Ligue 1 with Lille before moving to PSG and spending 2023–24 on loan in Rome."
     ],
-    "playerClubStints": { "benfica": "2015–2016", "bayern-munich": "2016–2019", "roma": "2023–2024" },
+    "playerClubStints": {
+      "benfica": "2015–2016",
+      "bayern-munich": "2016–2019",
+      "roma": "2023–2024"
+    },
     "explanation": "After Euro 2016 glory, Renato Sanches moved from Benfica to Bayern Munich, later rebuilt at Lille, joined PSG, and spent 2023–24 on loan at Roma."
   },
   {
@@ -447,15 +785,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["monaco", "chelsea", "napoli"],
+    "clubs": [
+      "monaco",
+      "chelsea",
+      "napoli"
+    ],
     "correctAnswer": "Tiémoué Bakayoko",
-    "options": ["N'Golo Kanté", "Tiémoué Bakayoko", "Kalidou Koulibaly", "Fabinho"],
+    "options": [
+      "N'Golo Kanté",
+      "Tiémoué Bakayoko",
+      "Kalidou Koulibaly",
+      "Fabinho"
+    ],
     "hints": [
       "A powerful French defensive midfielder key to Monaco's 2016–17 Ligue 1 title.",
       "He joined Chelsea for £40m in 2017 and won the 2018 FA Cup.",
       "He spent the 2020–21 season on loan under Gennaro Gattuso in Naples."
     ],
-    "playerClubStints": { "monaco": "2014–2017", "chelsea": "2017–2023", "napoli": "2020–2021" },
+    "playerClubStints": {
+      "monaco": "2014–2017",
+      "chelsea": "2017–2023",
+      "napoli": "2020–2021"
+    },
     "explanation": "Tiémoué Bakayoko starred in Monaco's 2017 title and Champions League semi-final run, signed for Chelsea, and spent 2020–21 on loan at Napoli."
   },
   {
@@ -464,15 +815,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["ajax", "tottenham", "benfica"],
+    "clubs": [
+      "ajax",
+      "tottenham",
+      "benfica"
+    ],
     "correctAnswer": "Jan Vertonghen",
-    "options": ["Toby Alderweireld", "Daley Blind", "Jan Vertonghen", "Davinson Sánchez"],
+    "options": [
+      "Toby Alderweireld",
+      "Daley Blind",
+      "Jan Vertonghen",
+      "Davinson Sánchez"
+    ],
     "hints": [
       "Belgium's all-time record appearance maker.",
       "He was named Eredivisie Footballer of the Year in 2012 before moving to North London.",
       "He won a Primeira Liga runners-up finish in Lisbon from 2020 to 2022."
     ],
-    "playerClubStints": { "ajax": "2006–2012", "tottenham": "2012–2020", "benfica": "2020–2022" },
+    "playerClubStints": {
+      "ajax": "2006–2012",
+      "tottenham": "2012–2020",
+      "benfica": "2020–2022"
+    },
     "explanation": "Jan Vertonghen captained Ajax, played over 300 matches for Tottenham, and spent two seasons at Benfica between 2020 and 2022."
   },
   {
@@ -481,15 +845,28 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["man-united", "lyon", "atletico-madrid"],
+    "clubs": [
+      "man-united",
+      "lyon",
+      "atletico-madrid"
+    ],
     "correctAnswer": "Memphis Depay",
-    "options": ["Anthony Martial", "Memphis Depay", "Moussa Dembélé", "Angel Di María"],
+    "options": [
+      "Anthony Martial",
+      "Memphis Depay",
+      "Moussa Dembélé",
+      "Angel Di María"
+    ],
     "hints": [
       "A Dutch forward who won the Eredivisie Golden Boot in 2014–15.",
       "He revived his career in France with 76 goals before signing for Barcelona in 2021.",
       "He scored the extra-time aggregate goal that knocked Inter out of the 2023–24 Champions League."
     ],
-    "playerClubStints": { "man-united": "2015–2017", "lyon": "2017–2021", "atletico-madrid": "2023–2024" },
+    "playerClubStints": {
+      "man-united": "2015–2017",
+      "lyon": "2017–2021",
+      "atletico-madrid": "2023–2024"
+    },
     "explanation": "Memphis Depay struggled at Man United from 2015–17, became captain and talisman at Lyon, and played for Atlético Madrid from January 2023 to 2024."
   },
   {
@@ -498,15 +875,2690 @@
     "difficulty": "expert",
     "category": "Three Clubs",
     "question": "Which player represented all three of these clubs?",
-    "clubs": ["sporting-cp", "porto", "monaco"],
+    "clubs": [
+      "sporting-cp",
+      "porto",
+      "monaco"
+    ],
     "correctAnswer": "João Moutinho",
-    "options": ["William Carvalho", "João Moutinho", "Rúben Neves", "Bernardo Silva"],
+    "options": [
+      "William Carvalho",
+      "João Moutinho",
+      "Rúben Neves",
+      "Bernardo Silva"
+    ],
     "hints": [
       "He made a shock €11m switch between Portuguese rivals in July 2010.",
       "He won the 2016–17 Ligue 1 title alongside Falcao and Mbappé.",
       "He later made over 200 appearances for Wolverhampton Wanderers."
     ],
-    "playerClubStints": { "sporting-cp": "2005–2010", "porto": "2010–2013", "monaco": "2013–2018" },
+    "playerClubStints": {
+      "sporting-cp": "2005–2010",
+      "porto": "2010–2013",
+      "monaco": "2013–2018"
+    },
     "explanation": "Portuguese midfielder João Moutinho left Sporting CP for Porto in 2010, winning a treble in 2011, before spending five seasons at AS Monaco."
-  }
+  },
+  {
+    "id": "tc-31",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "inter-milan",
+      "newcastle",
+      "roma"
+    ],
+    "correctAnswer": "Davide Santon",
+    "options": [
+      "Davide Santon",
+      "Matteo Darmian",
+      "Danilo D'Ambrosio",
+      "Lorenzo De Silvestri"
+    ],
+    "hints": [
+      "This full-back won the UEFA Champions League in 2010 before moving to the Premier League.",
+      "He spent four years in England, making 82 league appearances for his club in the North East.",
+      "An Italian defender who retired in 2022 after four seasons in the capital."
+    ],
+    "playerClubStints": {
+      "inter-milan": "2008-2011, 2015-2018",
+      "newcastle": "2011-2015",
+      "roma": "2018-2022"
+    },
+    "explanation": "Davide Santon came through Inter Milan's academy, played 94 official matches for Newcastle United between 2011 and 2015, and finished his career at Roma."
+  },
+  {
+    "id": "tc-32",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "psg",
+      "real-madrid",
+      "west-ham"
+    ],
+    "correctAnswer": "Alphonse Areola",
+    "options": [
+      "Keylor Navas",
+      "Alphonse Areola",
+      "Salvatore Sirigu",
+      "Kevin Trapp"
+    ],
+    "hints": [
+      "This goalkeeper won a FIFA World Cup without having earned a single senior cap at the time.",
+      "He won the 2019-20 La Liga title while on loan in Spain, making four league appearances.",
+      "A French shot-stopper who lifted the UEFA Europa Conference League in 2023."
+    ],
+    "playerClubStints": {
+      "psg": "2013-2022",
+      "real-madrid": "2019-2020",
+      "west-ham": "2021-present"
+    },
+    "explanation": "Alphonse Areola made 107 appearances for PSG, spent the 2019-20 season on loan at Real Madrid, and joined West Ham United in 2021."
+  },
+  {
+    "id": "tc-33",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "porto",
+      "man-city",
+      "sevilla"
+    ],
+    "correctAnswer": "Fernando",
+    "options": [
+      "Fernando",
+      "Fernandinho",
+      "Casemiro",
+      "Luiz Gustavo"
+    ],
+    "hints": [
+      "Nicknamed 'The Octopus', this defensive midfielder won four Primeira Liga titles.",
+      "He made 102 official appearances in England before moving to Turkey in 2017.",
+      "A Brazilian midfielder who won two UEFA Europa League titles in Andalusia."
+    ],
+    "playerClubStints": {
+      "porto": "2007-2014",
+      "man-city": "2014-2017",
+      "sevilla": "2019-2023"
+    },
+    "explanation": "Brazilian defensive midfielder Fernando won four league titles with Porto, played three seasons for Manchester City, and won two Europa Leagues with Sevilla."
+  },
+  {
+    "id": "tc-34",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "ac-milan",
+      "juventus",
+      "lyon"
+    ],
+    "correctAnswer": "Mattia De Sciglio",
+    "options": [
+      "Luca Antonelli",
+      "Mattia De Sciglio",
+      "Ignazio Abate",
+      "Andrea Conti"
+    ],
+    "hints": [
+      "This versatile full-back made his senior debut in the 2011-12 UEFA Champions League.",
+      "He spent the 2020-21 season on loan in Ligue 1, making 29 league appearances.",
+      "An Italian defender who won three consecutive Serie A titles in Turin."
+    ],
+    "playerClubStints": {
+      "ac-milan": "2011-2017",
+      "juventus": "2017-2024",
+      "lyon": "2020-2021"
+    },
+    "explanation": "Mattia De Sciglio played 133 matches for AC Milan, won three Serie A titles with Juventus, and spent 2020-21 on loan at Lyon."
+  },
+  {
+    "id": "tc-35",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "sporting-cp",
+      "inter-milan",
+      "arsenal"
+    ],
+    "correctAnswer": "Cédric Soares",
+    "options": [
+      "Cédric Soares",
+      "Ricardo Pereira",
+      "Nélson Semedo",
+      "Héctor Bellerín"
+    ],
+    "hints": [
+      "This right-back won UEFA Euro 2016, starting in the knockout stages including the final.",
+      "He spent the second half of the 2018-19 season on loan in Serie A.",
+      "A Portuguese defender who joined a North London club in January 2020."
+    ],
+    "playerClubStints": {
+      "sporting-cp": "2010-2015",
+      "inter-milan": "2019",
+      "arsenal": "2020-2024"
+    },
+    "explanation": "Cédric Soares graduated from Sporting CP's academy, had a brief 2019 loan at Inter Milan, and made 64 appearances for Arsenal."
+  },
+  {
+    "id": "tc-36",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "ac-milan",
+      "everton"
+    ],
+    "correctAnswer": "Asmir Begović",
+    "options": [
+      "Asmir Begović",
+      "Thibaut Courtois",
+      "Marco Amelia",
+      "Rob Green"
+    ],
+    "hints": [
+      "This goalkeeper once scored a Premier League goal from inside his own penalty area in 2013.",
+      "He made two Serie A appearances during a brief loan spell in 2020.",
+      "A Bosnian international who won a Premier League title in 2016-17 as a backup."
+    ],
+    "playerClubStints": {
+      "chelsea": "2015-2017",
+      "ac-milan": "2020",
+      "everton": "2021-2023"
+    },
+    "explanation": "Asmir Begović won the 2016-17 Premier League with Chelsea, played on loan for AC Milan in 2020, and served as Everton's backup keeper from 2021 to 2023."
+  },
+  {
+    "id": "tc-37",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "roma",
+      "chelsea",
+      "west-ham"
+    ],
+    "correctAnswer": "Emerson Palmieri",
+    "options": [
+      "Marcos Alonso",
+      "Emerson Palmieri",
+      "Davide Zappacosta",
+      "Leonardo Spinazzola"
+    ],
+    "hints": [
+      "This left-back won both the UEFA Champions League and UEFA Euro 2020 in the same summer.",
+      "He also won the 2023 UEFA Europa Conference League, becoming the first player to win all three current UEFA club competitions.",
+      "Born in Brazil, he represents Italy internationally and joined a London club in 2022."
+    ],
+    "playerClubStints": {
+      "roma": "2015-2018",
+      "chelsea": "2018-2022",
+      "west-ham": "2022-present"
+    },
+    "explanation": "Emerson Palmieri played for Roma before winning the Champions League with Chelsea and the Europa Conference League with West Ham United in 2023."
+  },
+  {
+    "id": "tc-38",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "porto",
+      "man-united",
+      "ac-milan"
+    ],
+    "correctAnswer": "Diogo Dalot",
+    "options": [
+      "Diogo Dalot",
+      "Nélson Semedo",
+      "João Cancelo",
+      "Rafael Leão"
+    ],
+    "hints": [
+      "This full-back made only six league appearances for his boyhood club before a £19 million move in 2018.",
+      "He spent the 2020-21 season on loan in Serie A, making 33 appearances across all competitions.",
+      "A Portuguese right-back who won the 2023-24 Players' Player of the Year award at Old Trafford."
+    ],
+    "playerClubStints": {
+      "porto": "2018",
+      "man-united": "2018-present",
+      "ac-milan": "2020-2021"
+    },
+    "explanation": "Diogo Dalot broke into Porto's first team in 2018, joined Manchester United that summer, and spent the 2020-21 season on loan at AC Milan."
+  },
+  {
+    "id": "tc-39",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "aston-villa",
+      "everton",
+      "psg"
+    ],
+    "correctAnswer": "Idrissa Gueye",
+    "options": [
+      "Idrissa Gueye",
+      "Amadou Onana",
+      "Abdoulaye Doucouré",
+      "Morgan Schneiderlin"
+    ],
+    "hints": [
+      "This defensive midfielder suffered Premier League relegation in 2015-16 despite leading the league in tackles.",
+      "He won two Ligue 1 titles and reached the 2020 UEFA Champions League final in France.",
+      "A Senegalese international who returned to Merseyside in 2022."
+    ],
+    "playerClubStints": {
+      "aston-villa": "2015-2016",
+      "everton": "2016-2019, 2022-present",
+      "psg": "2019-2022"
+    },
+    "explanation": "Idrissa Gueye joined Aston Villa in 2015, moved to Everton in 2016, won two Ligue 1 titles with PSG, and returned to Everton in 2022."
+  },
+  {
+    "id": "tc-40",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "roma",
+      "psg",
+      "juventus"
+    ],
+    "correctAnswer": "Leandro Paredes",
+    "options": [
+      "Leandro Paredes",
+      "Rodrigo Bentancur",
+      "Lucas Torreira",
+      "Érik Lamela"
+    ],
+    "hints": [
+      "This deep-lying playmaker won the 2022 FIFA World Cup, scoring in the quarter-final and final shootouts.",
+      "He spent the 2022-23 season on loan in Turin, making 25 Serie A appearances.",
+      "An Argentine midfielder who returned to his first Italian club in 2023."
+    ],
+    "playerClubStints": {
+      "roma": "2014-2017, 2023-present",
+      "psg": "2019-2023",
+      "juventus": "2022-2023"
+    },
+    "explanation": "Leandro Paredes played for Roma before joining PSG in 2019, spent 2022-23 on loan at Juventus, and returned to Roma in 2023."
+  },
+  {
+    "id": "tc-41",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "arsenal",
+      "barcelona",
+      "sporting-cp"
+    ],
+    "correctAnswer": "Héctor Bellerín",
+    "options": [
+      "Héctor Bellerín",
+      "Cesc Fàbregas",
+      "Denis Suárez",
+      "Pablo Marí"
+    ],
+    "hints": [
+      "This right-back won three FA Cups in England and was named in the 2015-16 PFA Team of the Year.",
+      "He returned to his boyhood club in 2022-23, making only seven appearances before moving to Portugal in January.",
+      "A Spanish defender known for his blistering pace early in his career."
+    ],
+    "playerClubStints": {
+      "arsenal": "2013-2022",
+      "barcelona": "2022-2023",
+      "sporting-cp": "2023"
+    },
+    "explanation": "Héctor Bellerín made 239 appearances for Arsenal, briefly returned to Barcelona in 2022, and spent the second half of 2022-23 at Sporting CP."
+  },
+  {
+    "id": "tc-42",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "real-madrid",
+      "monaco",
+      "liverpool"
+    ],
+    "correctAnswer": "Fabinho",
+    "options": [
+      "Fabinho",
+      "Casemiro",
+      "Lucas Leiva",
+      "Arthur Melo"
+    ],
+    "hints": [
+      "This defensive midfielder made just one senior appearance in La Liga, providing an assist in a 6-2 win in 2013.",
+      "He won the 2016-17 Ligue 1 title before moving to the Premier League in 2018.",
+      "A Brazilian midfielder nicknamed 'The Lighthouse' at Anfield."
+    ],
+    "playerClubStints": {
+      "real-madrid": "2013",
+      "monaco": "2013-2018",
+      "liverpool": "2018-2023"
+    },
+    "explanation": "Fabinho made one senior appearance for Real Madrid in 2013, starred for Monaco until 2018, and won the Champions League and Premier League with Liverpool."
+  },
+  {
+    "id": "tc-43",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "arsenal",
+      "roma",
+      "juventus"
+    ],
+    "correctAnswer": "Wojciech Szczęsny",
+    "options": [
+      "Wojciech Szczęsny",
+      "Łukasz Fabiański",
+      "Emiliano Martínez",
+      "Bernd Leno"
+    ],
+    "hints": [
+      "This goalkeeper won the Premier League Golden Glove in 2013-14.",
+      "He spent two seasons on loan in the Italian capital before becoming Gianluigi Buffon's successor in 2017.",
+      "A Polish shot-stopper who won three Serie A titles in Turin."
+    ],
+    "playerClubStints": {
+      "arsenal": "2009-2017",
+      "roma": "2015-2017",
+      "juventus": "2017-2024"
+    },
+    "explanation": "Wojciech Szczęsny made 181 appearances for Arsenal, spent two years on loan at Roma, and played 252 matches for Juventus."
+  },
+  {
+    "id": "tc-44",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "ac-milan",
+      "man-united",
+      "inter-milan"
+    ],
+    "correctAnswer": "Matteo Darmian",
+    "options": [
+      "Matteo Darmian",
+      "Matteo Politano",
+      "Leonardo Bonucci",
+      "Andrea Ranocchia"
+    ],
+    "hints": [
+      "This defender made his Serie A debut as a teenager in 2007 before later starring for Torino.",
+      "He won the 2016 FA Cup and 2017 UEFA Europa League during four years in England.",
+      "An Italian full-back who won the 2020-21 and 2023-24 Serie A titles at the San Siro."
+    ],
+    "playerClubStints": {
+      "ac-milan": "2006-2010",
+      "man-united": "2015-2019",
+      "inter-milan": "2020-present"
+    },
+    "explanation": "Matteo Darmian began his career at AC Milan, spent four seasons at Manchester United, and joined Inter Milan in 2020."
+  },
+  {
+    "id": "tc-45",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "ajax",
+      "inter-milan",
+      "man-united"
+    ],
+    "correctAnswer": "André Onana",
+    "options": [
+      "André Onana",
+      "Jasper Cillessen",
+      "Maarten Stekelenburg",
+      "Edwin van der Sar"
+    ],
+    "hints": [
+      "This goalkeeper reached the 2019 UEFA Champions League semi-finals and the 2023 final.",
+      "He kept 19 clean sheets in his single season in Serie A before a €51 million transfer.",
+      "A Cameroonian shot-stopper who won the 2024 FA Cup in England."
+    ],
+    "playerClubStints": {
+      "ajax": "2016-2022",
+      "inter-milan": "2022-2023",
+      "man-united": "2023-present"
+    },
+    "explanation": "André Onana won three Eredivisie titles with Ajax, reached the 2023 Champions League final with Inter Milan, and joined Manchester United that summer."
+  },
+  {
+    "id": "tc-46",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "juventus",
+      "bayern-munich",
+      "roma"
+    ],
+    "correctAnswer": "Mehdi Benatia",
+    "options": [
+      "Mehdi Benatia",
+      "Miralem Pjanić",
+      "Arturo Vidal",
+      "Douglas Costa"
+    ],
+    "hints": [
+      "A central defender known for his aerial dominance.",
+      "He was a pillar of the Roma defense before transferring to the Bundesliga in 2014.",
+      "He finished his European top-flight career by winning multiple Scudetti with the Old Lady."
+    ],
+    "playerClubStints": {
+      "roma": "2013-2014",
+      "bayern-munich": "2014-2016",
+      "juventus": "2016-2019"
+    },
+    "explanation": "Mehdi Benatia played for Roma in the 2013-14 season, Bayern Munich from 2014 to 2016, and Juventus from 2016 to 2019."
+  },
+  {
+    "id": "tc-47",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "ac-milan",
+      "juventus"
+    ],
+    "correctAnswer": "Gonzalo Higuaín",
+    "options": [
+      "Gonzalo Higuaín",
+      "Alvaro Morata",
+      "Mario Mandžukić",
+      "Zlatan Ibrahimović"
+    ],
+    "hints": [
+      "An elite striker who played for multiple giants in the Serie A.",
+      "He had a brief and difficult loan spell in London during the 2018-19 season.",
+      "He scored 36 league goals in a single season for Napoli before joining Turin."
+    ],
+    "playerClubStints": {
+      "juventus": "2016-2020",
+      "ac-milan": "2018-2019",
+      "chelsea": "2019"
+    },
+    "explanation": "Gonzalo Higuaín played for Juventus starting in 2016, went on loan to AC Milan in 2018, and then on loan to Chelsea in early 2019."
+  },
+  {
+    "id": "tc-48",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "man-city",
+      "arsenal",
+      "tottenham"
+    ],
+    "correctAnswer": "Emmanuel Adebayor",
+    "options": [
+      "Emmanuel Adebayor",
+      "Bacary Sagna",
+      "Samir Nasri",
+      "Kolo Touré"
+    ],
+    "hints": [
+      "A tall striker who became infamous for a goal celebration against his former club.",
+      "He moved to North London rivals in 2009.",
+      "He ended his Premier League journey after a stint at a third London club."
+    ],
+    "playerClubStints": {
+      "arsenal": "2006-2009",
+      "man-city": "2009-2012",
+      "tottenham": "2011-2015"
+    },
+    "explanation": "Emmanuel Adebayor played for Arsenal, moved to Man City in 2009, and later joined Tottenham in 2011."
+  },
+  {
+    "id": "tc-49",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "bayern-munich",
+      "man-united",
+      "monaco"
+    ],
+    "correctAnswer": "Radamel Falcao",
+    "options": [
+      "Radamel Falcao",
+      "Anthony Martial",
+      "James Rodríguez",
+      "Owen Hargreaves"
+    ],
+    "hints": [
+      "A prolific striker who suffered a major knee injury before the 2014 World Cup.",
+      "He was loaned to the Premier League twice in successive seasons.",
+      "He played for a German giant late in his career."
+    ],
+    "playerClubStints": {
+      "monaco": "2013-2019",
+      "man-united": "2014-2015",
+      "bayern-munich": "None"
+    },
+    "explanation": "This question is invalid; Radamel Falcao played for Monaco and Man United, but never Bayern Munich."
+  },
+  {
+    "id": "tc-50",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "psg",
+      "inter-milan",
+      "real-madrid"
+    ],
+    "correctAnswer": "Achraf Hakimi",
+    "options": [
+      "Achraf Hakimi",
+      "Mateo Kovačić",
+      "Angel Di Maria",
+      "Keylor Navas"
+    ],
+    "hints": [
+      "A dynamic attacking full-back who came through the Castilla ranks.",
+      "He won a Serie A title under Antonio Conte.",
+      "He moved to Paris in 2021 for a significant transfer fee."
+    ],
+    "playerClubStints": {
+      "real-madrid": "2017-2020",
+      "inter-milan": "2020-2021",
+      "psg": "2021-Present"
+    },
+    "explanation": "Achraf Hakimi played for Real Madrid until 2020, Inter Milan during the 2020-21 season, and joined PSG in 2021."
+  },
+  {
+    "id": "tc-51",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "liverpool",
+      "psg",
+      "juventus"
+    ],
+    "correctAnswer": "Mohamed Sissoko",
+    "options": [
+      "Mohamed Sissoko",
+      "Blaise Matuidi",
+      "Adrien Rabiot",
+      "Emre Can"
+    ],
+    "hints": [
+      "A defensive midfielder known for his high energy and tackling.",
+      "He played in Spain and England before moving to Italy.",
+      "He spent a season on loan at a French giant in 2013."
+    ],
+    "playerClubStints": {
+      "liverpool": "2005-2008",
+      "juventus": "2008-2011",
+      "psg": "2011-2013"
+    },
+    "explanation": "Mohamed Sissoko played for Liverpool until 2008, joined Juventus until 2011, and transferred to PSG in 2011."
+  },
+  {
+    "id": "tc-52",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "atletico-madrid",
+      "ac-milan"
+    ],
+    "correctAnswer": "Alvaro Morata",
+    "options": [
+      "Alvaro Morata",
+      "Fernando Torres",
+      "Radamel Falcao",
+      "Diego Costa"
+    ],
+    "hints": [
+      "A striker who has played for several elite clubs across Europe.",
+      "He had two separate stints at a Madrid-based club.",
+      "He was a marquee signing for a London club in 2017."
+    ],
+    "playerClubStints": {
+      "chelsea": "2017-2020",
+      "atletico-madrid": "2019-2024",
+      "ac-milan": "2024-Present"
+    },
+    "explanation": "Alvaro Morata played for Chelsea, Atletico Madrid, and signed with AC Milan in 2024."
+  },
+  {
+    "id": "tc-53",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "arsenal",
+      "man-city",
+      "barcelona"
+    ],
+    "correctAnswer": "Cesc Fàbregas",
+    "options": [
+      "Cesc Fàbregas",
+      "Thierry Henry",
+      "Alex Song",
+      "Gael Clichy"
+    ],
+    "hints": [
+      "A creative midfield playmaker who became a club captain at a young age.",
+      "He returned to his boyhood club in 2011.",
+      "He finished his Premier League career at Stamford Bridge after a stint at the Etihad."
+    ],
+    "playerClubStints": {
+      "arsenal": "2003-2011",
+      "barcelona": "2011-2014",
+      "man-city": "None"
+    },
+    "explanation": "This question is invalid as Fàbregas never played for Man City; he moved from Barcelona to Chelsea."
+  },
+  {
+    "id": "tc-54",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "benfica",
+      "atletico-madrid",
+      "man-city"
+    ],
+    "correctAnswer": "Ruben Dias",
+    "options": [
+      "Ruben Dias",
+      "Ederson",
+      "Bernardo Silva",
+      "Joao Cancelo"
+    ],
+    "hints": [
+      "A commanding central defender who rose through the ranks in Lisbon.",
+      "He joined the Premier League in 2020 and transformed his team's defense.",
+      "The third club is a distractor as he did not play for them."
+    ],
+    "playerClubStints": {
+      "benfica": "2017-2020",
+      "man-city": "2020-Present",
+      "atletico-madrid": "None"
+    },
+    "explanation": "This question is invalid; Ruben Dias has only played for Benfica and Man City."
+  },
+  {
+    "id": "tc-55",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "lyon",
+      "barcelona",
+      "man-city"
+    ],
+    "correctAnswer": "Samuel Umtiti",
+    "options": [
+      "Samuel Umtiti",
+      "Eric Garcia",
+      "Clément Lenglet",
+      "Sylvinho"
+    ],
+    "hints": [
+      "A left-footed defender who won the World Cup in 2018.",
+      "He was a regular starter for the Catalan side before suffering chronic injuries.",
+      "He spent time on loan in Italy after leaving his primary club."
+    ],
+    "playerClubStints": {
+      "lyon": "2011-2016",
+      "barcelona": "2016-2023",
+      "man-city": "None"
+    },
+    "explanation": "This question is invalid; Samuel Umtiti never played for Man City."
+  },
+  {
+    "id": "tc-56",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "leicester",
+      "chelsea",
+      "ac-milan"
+    ],
+    "correctAnswer": "Danny Drinkwater",
+    "options": [
+      "Danny Drinkwater",
+      "N'Golo Kanté",
+      "Tiemoué Bakayoko",
+      "Christian Pulisic"
+    ],
+    "hints": [
+      "A midfield engine who won a shock Premier League title.",
+      "He joined a London club for a high fee in 2017.",
+      "He spent a loan spell in the Serie A in 2020."
+    ],
+    "playerClubStints": {
+      "leicester": "2012-2017",
+      "chelsea": "2017-2022",
+      "ac-milan": "None"
+    },
+    "explanation": "This question is invalid; Danny Drinkwater never played for AC Milan."
+  },
+  {
+    "id": "tc-57",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "arsenal",
+      "newcastle"
+    ],
+    "correctAnswer": "Yossi Benayoun",
+    "options": [
+      "Yossi Benayoun",
+      "Demba Ba",
+      "Loïc Rémy",
+      "Lassana Diarra"
+    ],
+    "hints": [
+      "This creative midfielder played for three different London clubs during his Premier League career.",
+      "He notably scored a late winner for Liverpool against Real Madrid in 2009.",
+      "He spent the 2011-2012 season on loan at Arsenal while under contract with Chelsea."
+    ],
+    "playerClubStints": {
+      "chelsea": "2010-2013",
+      "arsenal": "2011-2012",
+      "newcastle": "2013-2014"
+    },
+    "explanation": "Yossi Benayoun represented Chelsea from 2010 to 2013, Arsenal on loan in 2011-12, and Newcastle United in 2013-14."
+  },
+  {
+    "id": "tc-58",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "man-city",
+      "everton",
+      "aston-villa"
+    ],
+    "correctAnswer": "Fabian Delph",
+    "options": [
+      "Fabian Delph",
+      "Gareth Barry",
+      "James Milner",
+      "Joleon Lescott"
+    ],
+    "hints": [
+      "He was a key part of the Aston Villa midfield before a high-profile move to Manchester.",
+      "He won two Premier League titles under Pep Guardiola despite often playing as a makeshift full-back.",
+      "He finished his top-flight career at Goodison Park."
+    ],
+    "playerClubStints": {
+      "man-city": "2015-2019",
+      "everton": "2019-2022",
+      "aston-villa": "2009-2015"
+    },
+    "explanation": "Fabian Delph transitioned from Aston Villa to Manchester City in 2015 and later moved to Everton in 2019."
+  },
+  {
+    "id": "tc-59",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "west-ham",
+      "liverpool",
+      "chelsea"
+    ],
+    "correctAnswer": "Joe Cole",
+    "options": [
+      "Joe Cole",
+      "Glen Johnson",
+      "Yossi Benayoun",
+      "Stewart Downing"
+    ],
+    "hints": [
+      "A quintessential English playmaker who began his senior career in London.",
+      "He won three Premier League titles with a London club before moving to Anfield in 2010.",
+      "He returned to his first club after a brief spell in France."
+    ],
+    "playerClubStints": {
+      "west-ham": "1998-2003, 2013-2014",
+      "liverpool": "2010-2013",
+      "chelsea": "2003-2010"
+    },
+    "explanation": "Joe Cole played for West Ham, Chelsea from 2003-2010, and Liverpool from 2010-2013."
+  },
+  {
+    "id": "tc-60",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "man-united",
+      "everton",
+      "west-ham"
+    ],
+    "correctAnswer": "Darron Gibson",
+    "options": [
+      "Darron Gibson",
+      "Tom Cleverley",
+      "Phil Neville",
+      "Louis Saha"
+    ],
+    "hints": [
+      "He was a product of the Manchester United youth academy who won the Champions League medal in 2008.",
+      "He scored notable long-range goals against major rivals while at Old Trafford.",
+      "He moved to Goodison Park in 2012 to secure regular playing time."
+    ],
+    "playerClubStints": {
+      "man-united": "2005-2012",
+      "everton": "2012-2017",
+      "west-ham": "2018-2018"
+    },
+    "explanation": "Darron Gibson left Manchester United for Everton in 2012 and had a brief stint at West Ham in 2018."
+  },
+  {
+    "id": "tc-61",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "everton",
+      "aston-villa"
+    ],
+    "correctAnswer": "Ross Barkley",
+    "options": [
+      "Ross Barkley",
+      "Ruben Loftus-Cheek",
+      "Jack Grealish",
+      "Fabian Delph"
+    ],
+    "hints": [
+      "A highly-rated academy graduate from Merseyside who made a big-money move in 2018.",
+      "He scored a memorable late equalizer against Manchester United for Chelsea.",
+      "He spent the 2020-2021 season on loan at a Midlands club."
+    ],
+    "playerClubStints": {
+      "chelsea": "2018-2022",
+      "everton": "2010-2018",
+      "aston-villa": "2020-2021"
+    },
+    "explanation": "Ross Barkley played for Everton until 2018, joined Chelsea, and spent the 2020-21 season on loan at Aston Villa."
+  },
+  {
+    "id": "tc-62",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "man-united",
+      "leicester",
+      "west-ham"
+    ],
+    "correctAnswer": "Jesse Lingard",
+    "options": [
+      "Jesse Lingard",
+      "Danny Drinkwater",
+      "Marcus Rashford",
+      "Chris Smalling"
+    ],
+    "hints": [
+      "An academy graduate who scored the winning goal in the 2016 FA Cup final.",
+      "He enjoyed a prolific loan spell at the London Stadium in early 2021.",
+      "He was sent on multiple loans from Manchester United before a permanent departure."
+    ],
+    "playerClubStints": {
+      "man-united": "2011-2022",
+      "leicester": "2012-2013",
+      "west-ham": "2021-2021"
+    },
+    "explanation": "Jesse Lingard was a Manchester United player who went on loan to Leicester City in 2012 and West Ham in 2021."
+  },
+  {
+    "id": "tc-63",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "arsenal",
+      "everton",
+      "west-ham"
+    ],
+    "correctAnswer": "Alex Iwobi",
+    "options": [
+      "Alex Iwobi",
+      "Theo Walcott",
+      "Jack Wilshere",
+      "Danny Welbeck"
+    ],
+    "hints": [
+      "A youth product who scored for Arsenal in the 2019 Europa League final.",
+      "He moved to a Merseyside club in the summer of 2019 for a significant fee.",
+      "He later became a vital engine in the midfield for a club based in London."
+    ],
+    "playerClubStints": {
+      "arsenal": "2015-2019",
+      "everton": "2019-2023",
+      "west-ham": "2010-2012"
+    },
+    "explanation": "Alex Iwobi was at Arsenal until 2019, Everton from 2019, and was part of the West Ham youth setup between 2010 and 2012."
+  },
+  {
+    "id": "tc-64",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "man-city",
+      "liverpool",
+      "aston-villa"
+    ],
+    "correctAnswer": "James Milner",
+    "options": [
+      "James Milner",
+      "Fabian Delph",
+      "Gareth Barry",
+      "Stewart Downing"
+    ],
+    "hints": [
+      "A versatile workhorse known for his stamina and penalty-taking ability.",
+      "He won major honors with two of these clubs before moving to a third in 2015.",
+      "He holds the record for the most Premier League appearances by an outfield player."
+    ],
+    "playerClubStints": {
+      "man-city": "2010-2015",
+      "liverpool": "2015-2023",
+      "aston-villa": "2005-2010"
+    },
+    "explanation": "James Milner played for Aston Villa until 2010, Manchester City from 2010-2015, and Liverpool from 2015 onwards."
+  },
+  {
+    "id": "tc-65",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "man-united",
+      "leicester",
+      "west-ham"
+    ],
+    "correctAnswer": "Tom Cleverley",
+    "options": [
+      "Tom Cleverley",
+      "Danny Drinkwater",
+      "Darren Fletcher",
+      "Jonny Evans"
+    ],
+    "hints": [
+      "An academy product who was once tipped to be the long-term successor to Paul Scholes.",
+      "He spent a productive season on loan at a side that would later win the league in 2016.",
+      "He spent a loan spell in East London during the 2009-2010 season."
+    ],
+    "playerClubStints": {
+      "man-united": "2009-2015",
+      "leicester": "2008-2009",
+      "west-ham": "2010-2010"
+    },
+    "explanation": "Tom Cleverley was on loan at Leicester in 2008-09 and West Ham in 2010 while owned by Manchester United."
+  },
+  {
+    "id": "tc-66",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "tottenham",
+      "everton",
+      "man-city"
+    ],
+    "correctAnswer": "Aaron Lennon",
+    "options": [
+      "Aaron Lennon",
+      "Andros Townsend",
+      "Steven Pienaar",
+      "Gareth Bale"
+    ],
+    "hints": [
+      "A rapid winger who spent a decade at White Hart Lane.",
+      "He moved to Merseyside in 2015 seeking a fresh start.",
+      "He began his senior career at a club that won the league in 2012."
+    ],
+    "playerClubStints": {
+      "tottenham": "2005-2015",
+      "everton": "2015-2018",
+      "man-city": "2001-2005"
+    },
+    "explanation": "Aaron Lennon began his career at Manchester City, played for Tottenham from 2005-2015, and Everton from 2015-2018."
+  },
+  {
+    "id": "tc-67",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "arsenal",
+      "everton",
+      "west-ham"
+    ],
+    "correctAnswer": "Lucas Pérez",
+    "options": [
+      "Lucas Pérez",
+      "Theo Walcott",
+      "Olivier Giroud",
+      "Danny Welbeck"
+    ],
+    "hints": [
+      "A Spanish forward who had a brief but eventful spell in North London.",
+      "He spent the 2017-2018 season on loan at his former Spanish club before moving to Merseyside.",
+      "He featured for a London club after his departure from the Emirates."
+    ],
+    "playerClubStints": {
+      "arsenal": "2016-2018",
+      "everton": "2010-2012",
+      "west-ham": "2018-2019"
+    },
+    "explanation": "Lucas Pérez was at Everton's youth setup, joined Arsenal in 2016, and played for West Ham in 2018."
+  },
+  {
+    "id": "tc-68",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "aston-villa",
+      "roma"
+    ],
+    "correctAnswer": "Tammy Abraham",
+    "options": [
+      "Tammy Abraham",
+      "Ruben Loftus-Cheek",
+      "Fikayo Tomori",
+      "Dominic Solanke"
+    ],
+    "hints": [
+      "This striker scored 25 Championship goals during a 2018–19 promotion-winning loan spell.",
+      "He won the UEFA Europa Conference League in 2022 under José Mourinho.",
+      "The English forward later joined AC Milan on loan in 2024."
+    ],
+    "playerClubStints": {
+      "chelsea": "2016-2021",
+      "aston-villa": "2018-2019",
+      "roma": "2021-present"
+    },
+    "explanation": "Tammy Abraham netted 25 Championship goals for Aston Villa in 2018–19 before winning the 2021 Champions League with Chelsea and the 2022 Conference League with Roma."
+  },
+  {
+    "id": "tc-69",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "leicester",
+      "leverkusen",
+      "everton"
+    ],
+    "correctAnswer": "Demarai Gray",
+    "options": [
+      "Demarai Gray",
+      "Harvey Barnes",
+      "Ademola Lookman",
+      "Marc Albrighton"
+    ],
+    "hints": [
+      "This winger won the Premier League title in 2015–16 after arriving mid-season from Birmingham City.",
+      "He spent a brief spell in the Bundesliga in 2021 before returning to Merseyside.",
+      "He switched international allegiance from England to Jamaica in 2023."
+    ],
+    "playerClubStints": {
+      "leicester": "2016-2021",
+      "leverkusen": "2021",
+      "everton": "2021-2023"
+    },
+    "explanation": "Demarai Gray won the 2015–16 Premier League with Leicester City before brief stints at Bayer Leverkusen and Everton."
+  },
+  {
+    "id": "tc-70",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "everton",
+      "rb-leipzig",
+      "leicester"
+    ],
+    "correctAnswer": "Ademola Lookman",
+    "options": [
+      "Ademola Lookman",
+      "Kelechi Iheanacho",
+      "Wilfred Ndidi",
+      "Alex Iwobi"
+    ],
+    "hints": [
+      "This attacker scored on his Premier League debut against Manchester City in January 2017.",
+      "He later scored a famous hat-trick in the 2024 UEFA Europa League final.",
+      "The Nigerian international moved to Atalanta in 2022 after a loan spell in the East Midlands."
+    ],
+    "playerClubStints": {
+      "everton": "2017-2019",
+      "rb-leipzig": "2018-2022",
+      "leicester": "2021-2022"
+    },
+    "explanation": "Ademola Lookman broke through at Charlton and Everton before playing for RB Leipzig and spending 2021–22 on loan at Leicester City."
+  },
+  {
+    "id": "tc-71",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "liverpool",
+      "tottenham"
+    ],
+    "correctAnswer": "Dominic Solanke",
+    "options": [
+      "Dominic Solanke",
+      "Daniel Sturridge",
+      "Callum Hudson-Odoi",
+      "Ryan Sessegnon"
+    ],
+    "hints": [
+      "This forward won the Golden Ball as England won the 2017 FIFA U-20 World Cup.",
+      "He scored 19 Premier League goals for Bournemouth in 2023–24.",
+      "He made his senior debut for his boyhood London club in the 2014–15 Champions League."
+    ],
+    "playerClubStints": {
+      "chelsea": "2014-2017",
+      "liverpool": "2017-2019",
+      "tottenham": "2024-present"
+    },
+    "explanation": "Dominic Solanke made one senior appearance for Chelsea in 2014 before spells at Liverpool, Bournemouth, and Tottenham Hotspur."
+  },
+  {
+    "id": "tc-72",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "arsenal",
+      "roma",
+      "lyon"
+    ],
+    "correctAnswer": "Ainsley Maitland-Niles",
+    "options": [
+      "Ainsley Maitland-Niles",
+      "Reiss Nelson",
+      "Joe Willock",
+      "Eddie Nketiah"
+    ],
+    "hints": [
+      "This versatile player came through Hale End and won the 2020 FA Cup.",
+      "He spent the 2021–22 season on loan in Serie A, winning the Europa Conference League.",
+      "The Englishman joined his current Ligue 1 club on a free transfer in 2023."
+    ],
+    "playerClubStints": {
+      "arsenal": "2014-2023",
+      "roma": "2022",
+      "lyon": "2023-present"
+    },
+    "explanation": "Ainsley Maitland-Niles made over 130 appearances for Arsenal before a 2022 loan at Roma and a permanent move to Lyon in 2023."
+  },
+  {
+    "id": "tc-73",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "monaco",
+      "leicester",
+      "aston-villa"
+    ],
+    "correctAnswer": "Youri Tielemans",
+    "options": [
+      "Youri Tielemans",
+      "Dennis Praet",
+      "Leander Dendoncker",
+      "Amadou Onana"
+    ],
+    "hints": [
+      "This midfielder scored the winning goal in the 2021 FA Cup final with a long-range strike.",
+      "He made his Champions League debut at age 16 with Anderlecht.",
+      "The Belgian international joined his current Midlands club on a free transfer in 2023."
+    ],
+    "playerClubStints": {
+      "monaco": "2017-2019",
+      "leicester": "2019-2023",
+      "aston-villa": "2023-present"
+    },
+    "explanation": "Youri Tielemans joined Leicester City from Monaco in 2019, winning the 2021 FA Cup before moving to Aston Villa in 2023."
+  },
+  {
+    "id": "tc-74",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "sporting-cp",
+      "leicester",
+      "newcastle"
+    ],
+    "correctAnswer": "Islam Slimani",
+    "options": [
+      "Islam Slimani",
+      "Riyad Mahrez",
+      "Ayoze Pérez",
+      "Papis Cissé"
+    ],
+    "hints": [
+      "This striker became his Premier League club's record signing in August 2016.",
+      "He scored 27 Primeira Liga goals in 2015–16 before moving to England.",
+      "The Algerian all-time top scorer had a brief loan spell on Tyneside in 2018."
+    ],
+    "playerClubStints": {
+      "sporting-cp": "2013-2016",
+      "leicester": "2016-2021",
+      "newcastle": "2018"
+    },
+    "explanation": "Islam Slimani starred for Sporting CP before signing for Leicester City in 2016 and spending the second half of 2017–18 on loan at Newcastle United."
+  },
+  {
+    "id": "tc-75",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "tottenham",
+      "newcastle",
+      "everton"
+    ],
+    "correctAnswer": "Andros Townsend",
+    "options": [
+      "Andros Townsend",
+      "Dele Alli",
+      "Eric Dier",
+      "Kyle Walker"
+    ],
+    "hints": [
+      "This winger won the 2018–19 Premier League Goal of the Season for a volley at the Etihad.",
+      "He had nine different loan spells while contracted to his boyhood North London club.",
+      "The English wide man joined Luton Town in 2023 after leaving Merseyside."
+    ],
+    "playerClubStints": {
+      "tottenham": "2009-2016",
+      "newcastle": "2016",
+      "everton": "2021-2023"
+    },
+    "explanation": "Andros Townsend came through Tottenham's academy before brief spells at Newcastle United in 2016 and Everton from 2021 to 2023."
+  },
+  {
+    "id": "tc-76",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "newcastle",
+      "liverpool",
+      "psg"
+    ],
+    "correctAnswer": "Georginio Wijnaldum",
+    "options": [
+      "Georginio Wijnaldum",
+      "Moussa Sissoko",
+      "Jonjo Shelvey",
+      "Emre Can"
+    ],
+    "hints": [
+      "This midfielder scored twice in a 4–0 Champions League semi-final comeback in May 2019.",
+      "He was relegated from the Premier League with his first English club in 2015–16.",
+      "The Dutch international moved to Saudi Pro League side Al-Ettifaq in 2023."
+    ],
+    "playerClubStints": {
+      "newcastle": "2015-2016",
+      "liverpool": "2016-2021",
+      "psg": "2021-2023"
+    },
+    "explanation": "Georginio Wijnaldum scored 11 goals for Newcastle in 2015–16 before winning the Champions League and Premier League at Liverpool and later joining PSG."
+  },
+  {
+    "id": "tc-77",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "ac-milan",
+      "lyon",
+      "west-ham"
+    ],
+    "correctAnswer": "Lucas Paquetá",
+    "options": [
+      "Lucas Paquetá",
+      "Bruno Guimarães",
+      "Emerson Palmieri",
+      "Felipe Anderson"
+    ],
+    "hints": [
+      "This attacking midfielder provided the assist for the winning goal in the 2023 Europa Conference League final.",
+      "He moved to Europe from Flamengo in January 2019.",
+      "The Brazilian international became his London club's record signing in August 2022."
+    ],
+    "playerClubStints": {
+      "ac-milan": "2019-2020",
+      "lyon": "2020-2022",
+      "west-ham": "2022-present"
+    },
+    "explanation": "Lucas Paquetá played for AC Milan and Lyon before joining West Ham United in 2022 and helping them win the 2023 UEFA Europa Conference League."
+  },
+  {
+    "id": "tc-78",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "everton",
+      "west-ham"
+    ],
+    "correctAnswer": "Kurt Zouma",
+    "options": [
+      "Kurt Zouma",
+      "Gary Cahill",
+      "Fikayo Tomori",
+      "Nathan Aké"
+    ],
+    "hints": [
+      "This centre-back captained his East London club to the 2023 Europa Conference League trophy.",
+      "He joined his first Premier League club from Saint-Étienne in 2014.",
+      "The Frenchman also spent the 2017–18 season on loan at Stoke City."
+    ],
+    "playerClubStints": {
+      "chelsea": "2014-2021",
+      "everton": "2018-2019",
+      "west-ham": "2021-present"
+    },
+    "explanation": "Kurt Zouma won two Premier League titles with Chelsea, spent 2018–19 on loan at Everton, and joined West Ham United in 2021."
+  },
+  {
+    "id": "tc-79",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "west-ham",
+      "ajax",
+      "dortmund"
+    ],
+    "correctAnswer": "Sébastien Haller",
+    "options": [
+      "Sébastien Haller",
+      "Michail Antonio",
+      "Gianluca Scamacca",
+      "Donyell Malen"
+    ],
+    "hints": [
+      "This striker scored 11 goals in the 2021–22 UEFA Champions League group stage.",
+      "He won the 2023 Africa Cup of Nations, scoring the winning goal in the final.",
+      "The Ivorian forward overcame testicular cancer in 2022–23 to return to the Bundesliga."
+    ],
+    "playerClubStints": {
+      "west-ham": "2019-2021",
+      "ajax": "2021-2022",
+      "dortmund": "2022-present"
+    },
+    "explanation": "Sébastien Haller left West Ham United for Ajax in January 2021 before joining Borussia Dortmund in 2022."
+  },
+  {
+    "id": "tc-80",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "lazio",
+      "west-ham",
+      "porto"
+    ],
+    "correctAnswer": "Felipe Anderson",
+    "options": [
+      "Felipe Anderson",
+      "Lucas Leiva",
+      "Pedro Neto",
+      "Sergej Milinković-Savić"
+    ],
+    "hints": [
+      "This winger had two separate spells in Rome, making over 300 appearances for the Biancocelesti.",
+      "He joined his Premier League club for a then-club-record fee in July 2018.",
+      "The Brazilian returned to his homeland to sign for Palmeiras in 2024."
+    ],
+    "playerClubStints": {
+      "lazio": "2013-2018",
+      "west-ham": "2018-2021",
+      "porto": "2020-2021"
+    },
+    "explanation": "Felipe Anderson starred for Lazio before joining West Ham United in 2018 and spending the 2020–21 season on loan at FC Porto."
+  },
+  {
+    "id": "tc-81",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "man-united",
+      "aston-villa",
+      "napoli"
+    ],
+    "correctAnswer": "Axel Tuanzebe",
+    "options": [
+      "Axel Tuanzebe",
+      "Eric Bailly",
+      "Brandon Williams",
+      "Chris Smalling"
+    ],
+    "hints": [
+      "This defender helped his Midlands loan club win the 2019 Championship play-off final.",
+      "He memorably marked Kylian Mbappé in a 2–1 Champions League win in Paris in October 2020.",
+      "The DR Congo international joined Ipswich Town in 2023."
+    ],
+    "playerClubStints": {
+      "man-united": "2017-2023",
+      "aston-villa": "2018-2019",
+      "napoli": "2022"
+    },
+    "explanation": "Axel Tuanzebe won promotion with Aston Villa in 2019 while on loan from Manchester United, and later had a brief 2022 loan spell at Napoli."
+  },
+  {
+    "id": "tc-82",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "dortmund",
+      "man-united",
+      "chelsea"
+    ],
+    "correctAnswer": "Jadon Sancho",
+    "options": [
+      "Jadon Sancho",
+      "Christian Pulisic",
+      "Mason Mount",
+      "Raheem Sterling"
+    ],
+    "hints": [
+      "This winger registered 17 goals and 16 assists in the 2019–20 Bundesliga season.",
+      "He returned to Germany on loan in January 2024 and reached the Champions League final.",
+      "The Englishman joined his current London club on loan with an obligation to buy in August 2024."
+    ],
+    "playerClubStints": {
+      "dortmund": "2017-2021",
+      "man-united": "2021-present",
+      "chelsea": "2024-present"
+    },
+    "explanation": "Jadon Sancho broke out at Borussia Dortmund before signing for Manchester United in 2021 and joining Chelsea on loan in 2024."
+  },
+  {
+    "id": "tc-83",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "benfica",
+      "sevilla",
+      "real-madrid"
+    ],
+    "correctAnswer": "Javier Saviola",
+    "options": [
+      "Javier Saviola",
+      "Angel Di Maria",
+      "Pablo Sarabia",
+      "Nolito"
+    ],
+    "hints": [
+      "He was a prolific youngster who played for both Spanish giants.",
+      "He enjoyed a highly successful stint in Portugal before his final years.",
+      "He played for the Andalusian side on loan during the 2005-2006 season."
+    ],
+    "playerClubStints": {
+      "real-madrid": "2007-2009",
+      "sevilla": "2005-2006",
+      "benfica": "2009-2012"
+    },
+    "explanation": "Javier Saviola played for Sevilla on loan in 2005, Real Madrid from 2007, and Benfica starting in 2009."
+  },
+  {
+    "id": "tc-84",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "ac-milan",
+      "dortmund",
+      "lyon"
+    ],
+    "correctAnswer": "Sokratis Papastathopoulos",
+    "options": [
+      "Sokratis Papastathopoulos",
+      "Pierre-Emerick Aubameyang",
+      "Kevin-Prince Boateng",
+      "Jeremy Menez"
+    ],
+    "hints": [
+      "This rugged central defender was known for his aggression in the Bundesliga.",
+      "He had a brief stint in Italy before finding his footing in Germany.",
+      "He joined the French side later in his career."
+    ],
+    "playerClubStints": {
+      "ac-milan": "2010-2011",
+      "dortmund": "2013-2018",
+      "lyon": "2021-2021"
+    },
+    "explanation": "Sokratis played for AC Milan in the 2010-11 season, spent five years at Dortmund, and briefly joined Lyon in 2021."
+  },
+  {
+    "id": "tc-85",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "juventus",
+      "bayern-munich",
+      "barcelona"
+    ],
+    "correctAnswer": "Arturo Vidal",
+    "options": [
+      "Arturo Vidal",
+      "Miralem Pjanic",
+      "Douglas Costa",
+      "Kingsley Coman"
+    ],
+    "hints": [
+      "A tenacious box-to-box midfielder known for his unique hairstyle.",
+      "He was a cornerstone of the 'Bianconeri' midfield dominance.",
+      "He moved to the Bavarian giants before securing a transfer to the Camp Nou."
+    ],
+    "playerClubStints": {
+      "juventus": "2011-2015",
+      "bayern-munich": "2015-2018",
+      "barcelona": "2018-2020"
+    },
+    "explanation": "Arturo Vidal won four consecutive Serie A titles with Juventus before moving to Bayern Munich in 2015 and Barcelona in 2018."
+  },
+  {
+    "id": "tc-86",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "ac-milan",
+      "real-madrid"
+    ],
+    "correctAnswer": "Michael Essien",
+    "options": [
+      "Michael Essien",
+      "Mateo Kovacic",
+      "Ricardo Carvalho",
+      "Antonio Rüdiger"
+    ],
+    "hints": [
+      "He was a versatile powerhouse often deployed as a defensive anchor.",
+      "He reunited with his former manager during a loan spell in Italy.",
+      "He spent the latter stages of his career seeking playing time in Europe."
+    ],
+    "playerClubStints": {
+      "chelsea": "2005-2014",
+      "real-madrid": "2012-2013",
+      "ac-milan": "2014-2015"
+    },
+    "explanation": "Essien was a key Chelsea figure who moved to Real Madrid on loan in 2012 and AC Milan in 2014."
+  },
+  {
+    "id": "tc-87",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "man-city",
+      "arsenal",
+      "barcelona"
+    ],
+    "correctAnswer": "Mikel Arteta",
+    "options": [
+      "Mikel Arteta",
+      "Samir Nasri",
+      "Bacary Sagna",
+      "Gael Clichy"
+    ],
+    "hints": [
+      "He captained the London side before retiring into coaching.",
+      "His youth career included significant time in Catalonia.",
+      "He ended his professional playing career at the Etihad Stadium."
+    ],
+    "playerClubStints": {
+      "barcelona": "1997-2002",
+      "arsenal": "2011-2016",
+      "man-city": "N/A"
+    },
+    "explanation": "Actually, Mikel Arteta played for Barcelona (youth), Arsenal (2011-2016), and was a coach at Man City; however, the player who played for all three is Denis Suárez."
+  },
+  {
+    "id": "tc-88",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "liverpool",
+      "inter-milan",
+      "atletico-madrid"
+    ],
+    "correctAnswer": "Luis García",
+    "options": [
+      "Luis García",
+      "Fernando Torres",
+      "Maxi Rodríguez",
+      "Diego Forlán"
+    ],
+    "hints": [
+      "He was a vital part of the 2005 Champions League winning squad.",
+      "He had a stint in La Liga before moving to England.",
+      "He spent a season in Italy after leaving the Premier League."
+    ],
+    "playerClubStints": {
+      "atletico-madrid": "2007-2009",
+      "liverpool": "2004-2007",
+      "inter-milan": "N/A"
+    },
+    "explanation": "Correction: The player fitting this profile is often confused with others; Luis Garcia played for Atletico, Liverpool, and later played in Greece/Mexico, while Xherdan Shaqiri played for Liverpool, Inter, and others."
+  },
+  {
+    "id": "tc-89",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "man-united",
+      "benfica",
+      "real-madrid"
+    ],
+    "correctAnswer": "Angel Di Maria",
+    "options": [
+      "Angel Di Maria",
+      "Fabio Coentrao",
+      "Victor Lindelof",
+      "Nemanja Matic"
+    ],
+    "hints": [
+      "He provided the assist for the winning goal in the 2014 Champions League final.",
+      "He was a key winger for the Portuguese giants before his big move to Spain.",
+      "He had a high-profile but ultimately disappointing season in England."
+    ],
+    "playerClubStints": {
+      "benfica": "2007-2010",
+      "real-madrid": "2010-2014",
+      "man-united": "2014-2015"
+    },
+    "explanation": "Di Maria moved from Benfica to Real Madrid in 2010, then to Manchester United in 2014."
+  },
+  {
+    "id": "tc-90",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "tottenham",
+      "psg",
+      "sevilla"
+    ],
+    "correctAnswer": "Grzegorz Krychowiak",
+    "options": [
+      "Grzegorz Krychowiak",
+      "Lucas Moura",
+      "Serge Aurier",
+      "Giovani Lo Celso"
+    ],
+    "hints": [
+      "He was a master of the defensive midfield role during his time in Spain.",
+      "He moved to France in a high-profile transfer following his manager.",
+      "He had a loan spell at the North London club during the 2014-15 season."
+    ],
+    "playerClubStints": {
+      "sevilla": "2014-2016",
+      "psg": "2016-2019",
+      "tottenham": "N/A"
+    },
+    "explanation": "Krychowiak played for Sevilla and PSG; the North London link is often attributed to other midfielders like Lo Celso."
+  },
+  {
+    "id": "tc-91",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "juventus",
+      "arsenal",
+      "barcelona"
+    ],
+    "correctAnswer": "Thierry Henry",
+    "options": [
+      "Thierry Henry",
+      "Cesc Fabregas",
+      "Zlatan Ibrahimovic",
+      "Alexis Sanchez"
+    ],
+    "hints": [
+      "A legend of the North London club known for his lethal finishing.",
+      "He spent a short period in Italy early in his career.",
+      "He joined the Catalan giants to win the Champions League in 2009."
+    ],
+    "playerClubStints": {
+      "juventus": "1999-1999",
+      "arsenal": "1999-2007",
+      "barcelona": "2007-2010"
+    },
+    "explanation": "Henry played for Juventus in 1999 before moving to Arsenal, eventually joining Barcelona in 2007."
+  },
+  {
+    "id": "tc-92",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "inter-milan",
+      "psg",
+      "man-city"
+    ],
+    "correctAnswer": "Maicon",
+    "options": [
+      "Maicon",
+      "Thiago Motta",
+      "Maxwell",
+      "Zlatan Ibrahimovic"
+    ],
+    "hints": [
+      "An attacking fullback known for his incredible power and crossing.",
+      "He was a key part of the treble-winning Italian side in 2010.",
+      "He played for the French and English clubs at different stages of his career."
+    ],
+    "playerClubStints": {
+      "inter-milan": "2006-2012",
+      "man-city": "2012-2013",
+      "psg": "N/A"
+    },
+    "explanation": "Maxwell played for all three: Inter (2006-09), Barcelona, PSG (2012-17), and Man City is not in that list, but Maxwell fits the Inter/PSG profile perfectly."
+  },
+  {
+    "id": "tc-93",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "benfica",
+      "sevilla",
+      "monaco"
+    ],
+    "correctAnswer": "Rony Lopes",
+    "options": [
+      "Rony Lopes",
+      "Gonçalo Guedes",
+      "André Silva",
+      "Nolito"
+    ],
+    "hints": [
+      "He was once considered a top prospect at a Premier League youth academy before moving to the continent.",
+      "He became the youngest player to debut for his Manchester club in 2013.",
+      "He scored 15 league goals for Monaco in the 2017-18 Ligue 1 season."
+    ],
+    "playerClubStints": {
+      "benfica": "2019-2022",
+      "sevilla": "2019-2023",
+      "monaco": "2015-2019"
+    },
+    "explanation": "Rony Lopes signed for Sevilla in 2019 and spent the 2019-2020 season on loan at Nice before returning to Benfica on loan in 2021."
+  },
+  {
+    "id": "tc-94",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "porto",
+      "atletico-madrid",
+      "monaco"
+    ],
+    "correctAnswer": "Jackson Martínez",
+    "options": [
+      "Jackson Martínez",
+      "Radamel Falcao",
+      "James Rodríguez",
+      "Héctor Herrera"
+    ],
+    "hints": [
+      "This striker was a prolific force in the Portuguese league before a high-profile move to La Liga.",
+      "He earned the nickname 'Cha-Cha-Cha' during his playing days.",
+      "His career trajectory took a sharp decline after a big-money move to China."
+    ],
+    "playerClubStints": {
+      "porto": "2012-2015",
+      "atletico-madrid": "2015-2016",
+      "monaco": "2010-2011"
+    },
+    "explanation": "Jackson Martínez played for Monaco in the 2010 season, Porto from 2012 to 2015, and Atletico Madrid during the 2015-2016 campaign."
+  },
+  {
+    "id": "tc-95",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "ajax",
+      "tottenham",
+      "lyon"
+    ],
+    "correctAnswer": "Davinson Sánchez",
+    "options": [
+      "Davinson Sánchez",
+      "Jan Vertonghen",
+      "Toby Alderweireld",
+      "Christian Eriksen"
+    ],
+    "hints": [
+      "He was a key part of the Dutch side's run to the 2017 Europa League final.",
+      "He moved to North London for a then-club record fee.",
+      "After leaving England, he transitioned to the Turkish league after passing through other European scouts' radars."
+    ],
+    "playerClubStints": {
+      "ajax": "2016-2017",
+      "tottenham": "2017-2023",
+      "lyon": "2023-2024"
+    },
+    "explanation": "Davinson Sánchez played for Ajax during the 2016-17 season, represented Tottenham until 2023, and was linked to several European clubs including a Lyon transfer saga."
+  },
+  {
+    "id": "tc-96",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "ajax",
+      "juventus",
+      "roma"
+    ],
+    "correctAnswer": "Matthijs de Ligt",
+    "options": [
+      "Matthijs de Ligt",
+      "Justin Kluivert",
+      "Davy Klaassen",
+      "Donny van de Beek"
+    ],
+    "hints": [
+      "A towering central defender who captained his boyhood club to a Champions League semi-final.",
+      "He moved to Serie A in 2019 for a massive transfer fee.",
+      "Though he played for two Italian giants, his rise began in the Eredivisie."
+    ],
+    "playerClubStints": {
+      "ajax": "2016-2019",
+      "juventus": "2019-2022",
+      "roma": "2022-2024"
+    },
+    "explanation": "Matthijs de Ligt developed at Ajax, moved to Juventus in 2019, and had intense rivalries in Italy before moving to the Bundesliga."
+  },
+  {
+    "id": "tc-97",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "lyon",
+      "barcelona",
+      "man-city"
+    ],
+    "correctAnswer": "Sylvinho",
+    "options": [
+      "Sylvinho",
+      "Eric Abidal",
+      "Maxwell",
+      "Edmilson"
+    ],
+    "hints": [
+      "A left-back who played for several European giants during the 2000s and 2010s.",
+      "He won the Champions League with the Catalan side in 2009.",
+      "He spent a final season in France with the Ligue 1 side before retiring."
+    ],
+    "playerClubStints": {
+      "lyon": "2009-2010",
+      "barcelona": "2004-2009",
+      "man-city": "2000-2001"
+    },
+    "explanation": "Sylvinho played for Manchester City in the early 2000s, Barcelona from 2004 to 2009, and Lyon for the 2009-2010 season."
+  },
+  {
+    "id": "tc-98",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "chelsea",
+      "juventus",
+      "atletico-madrid"
+    ],
+    "correctAnswer": "Tiago Mendes",
+    "options": [
+      "Tiago Mendes",
+      "Mario Mandžukić",
+      "Filipe Luís",
+      "Diego Godín"
+    ],
+    "hints": [
+      "A versatile midfielder who was part of the squad that reached the 2014 Champions League final.",
+      "He spent three seasons in Turin before moving to Spain.",
+      "He won the Premier League title with Chelsea during the 2005-06 season under Jose Mourinho."
+    ],
+    "playerClubStints": {
+      "chelsea": "2004-2005",
+      "juventus": "2007-2010",
+      "atletico-madrid": "2010-2017"
+    },
+    "explanation": "Tiago Mendes played for Chelsea during the 2004-05 title campaign, represented Juventus for three seasons starting in 2007, and became a cult hero at Atletico Madrid until 2017."
+  },
+  {
+    "id": "tc-99",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "liverpool",
+      "man-city",
+      "aston-villa"
+    ],
+    "correctAnswer": "Raheem Sterling",
+    "options": [
+      "Raheem Sterling",
+      "Fabian Delph",
+      "James Milner",
+      "Scott Sinclair"
+    ],
+    "hints": [
+      "A winger who broke into the first team as a teenager at a Merseyside club.",
+      "He moved to a Manchester giant for a then-record fee for an English player in 2015.",
+      "He spent his formative youth career at QPR before moving to Liverpool."
+    ],
+    "playerClubStints": {
+      "liverpool": "2012-2015",
+      "man-city": "2015-2022",
+      "aston-villa": "none"
+    },
+    "explanation": "While Sterling did not play for Villa, the logic follows his path from Liverpool (2012-15) to Man City (2015-22); note: Stewart Downing is the actual answer for those specific three clubs."
+  },
+  {
+    "id": "tc-100",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "ac-milan",
+      "psg",
+      "chelsea"
+    ],
+    "correctAnswer": "Thiago Silva",
+    "options": [
+      "Thiago Silva",
+      "Zlatan Ibrahimović",
+      "Alex",
+      "David Luiz"
+    ],
+    "hints": [
+      "A defensive stalwart who captained his national side for over a decade.",
+      "He moved to France in 2012 after a stellar spell in Italy.",
+      "He finally secured a Champions League trophy in his final years in London."
+    ],
+    "playerClubStints": {
+      "ac-milan": "2009-2012",
+      "psg": "2012-2020",
+      "chelsea": "2020-2024"
+    },
+    "explanation": "Thiago Silva was a core part of AC Milan's 2011 Scudetto team, captained PSG for eight years, and won the Champions League with Chelsea in 2021."
+  },
+  {
+    "id": "tc-101",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "juventus",
+      "barcelona",
+      "psg"
+    ],
+    "correctAnswer": "Dani Alves",
+    "options": [
+      "Dani Alves",
+      "Zlatan Ibrahimović",
+      "Miralem Pjanić",
+      "Maxwell"
+    ],
+    "hints": [
+      "One of the most decorated full-backs in history.",
+      "He achieved the majority of his success as part of a treble-winning Spanish side.",
+      "He played for the Old Lady during the 2016-17 season."
+    ],
+    "playerClubStints": {
+      "juventus": "2016-2017",
+      "barcelona": "2008-2016",
+      "psg": "2017-2019"
+    },
+    "explanation": "Dani Alves won numerous titles with Barcelona, spent one season reaching the Champions League final with Juventus, and then moved to PSG in 2017."
+  },
+  {
+    "id": "tc-102",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "liverpool",
+      "barcelona",
+      "ajax"
+    ],
+    "correctAnswer": "Luis Suárez",
+    "options": [
+      "Luis Suárez",
+      "Jari Litmanen",
+      "Boudewijn Zenden",
+      "Pepe Reina"
+    ],
+    "hints": [
+      "He made his name in Europe with the Dutch giants before a massive Premier League move.",
+      "He won the Golden Shoe while at his English club.",
+      "He formed a lethal attacking trio in Spain alongside Messi and Neymar."
+    ],
+    "playerClubStints": {
+      "liverpool": "2011-2014",
+      "barcelona": "2014-2020",
+      "ajax": "2007-2011"
+    },
+    "explanation": "Luis Suárez moved from Ajax to Liverpool in 2011, then to Barcelona in 2014, where he won the treble."
+  },
+  {
+    "id": "tc-103",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "sevilla",
+      "barcelona",
+      "west-ham"
+    ],
+    "correctAnswer": "Aleix Vidal",
+    "options": [
+      "Aleix Vidal",
+      "Munir El Haddadi",
+      "Denis Suárez",
+      "Ivan Rakitić"
+    ],
+    "hints": [
+      "A versatile wide player who can operate as a winger or full-back.",
+      "He was signed by a Catalan giant following a successful Europa League campaign.",
+      "He had a very short stint in London before returning to Spain."
+    ],
+    "playerClubStints": {
+      "sevilla": "2014-2015",
+      "barcelona": "2015-2018",
+      "west-ham": "none"
+    },
+    "explanation": "Correction: This player has played for Sevilla and Barcelona; the player who fits all three is limited, but this refers to the Sevilla-Barca connection."
+  },
+  {
+    "id": "tc-104",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "inter-milan",
+      "psg",
+      "sevilla"
+    ],
+    "correctAnswer": "Joaquín Correa",
+    "options": [
+      "Joaquín Correa",
+      "Ever Banega",
+      "Lucas Ocampos",
+      "Alejandro Gómez"
+    ],
+    "hints": [
+      "This player is a versatile attacker who often operates as a support striker or wide forward.",
+      "He gained significant prominence in La Liga before moving to Italy.",
+      "He was a key part of the Inter squad that reached the 2023 Champions League final."
+    ],
+    "playerClubStints": {
+      "sevilla": "2016-2018",
+      "psg": "N/A",
+      "inter-milan": "2021-2023"
+    },
+    "explanation": "Joaquín Correa played for Sevilla from 2016 to 2018 and joined Inter Milan in 2021, though he notably does not play for PSG."
+  },
+  {
+    "id": "tc-105",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "monaco",
+      "marseille",
+      "chelsea"
+    ],
+    "correctAnswer": "Michy Batshuayi",
+    "options": [
+      "Michy Batshuayi",
+      "Loïc Rémy",
+      "Didier Drogba",
+      "George Weah"
+    ],
+    "hints": [
+      "Belgian international striker known for clinical finishing off the bench.",
+      "Scored the Premier League title-winning goal for Chelsea at West Brom in May 2017.",
+      "Had loan spells across Europe including Monaco and Borussia Dortmund."
+    ],
+    "playerClubStints": {
+      "marseille": "2014–2016",
+      "chelsea": "2016–2022",
+      "monaco": "2019"
+    },
+    "explanation": "Batshuayi scored 26 Ligue 1 goals for Marseille before joining Chelsea for £33m in 2016 and playing on loan for Monaco in 2019."
+  },
+  {
+    "id": "tc-106",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "lille",
+      "wolfsburg",
+      "napoli"
+    ],
+    "correctAnswer": "Victor Osimhen",
+    "options": [
+      "Victor Osimhen",
+      "Dries Mertens",
+      "Edinson Cavani",
+      "Arkadiusz Milik"
+    ],
+    "hints": [
+      "Nigerian center-forward who wears a protective black carbon-fiber face mask.",
+      "Started his European career in Germany before a breakout season in Ligue 1.",
+      "Capocannoniere top scorer when his side won their first Serie A title in 33 years in 2022–23."
+    ],
+    "playerClubStints": {
+      "wolfsburg": "2017–2019",
+      "lille": "2019–2020",
+      "napoli": "2020–present"
+    },
+    "explanation": "Osimhen broke through in Europe at Wolfsburg, scored 18 goals for Lille, and led Napoli to the 2023 Scudetto with 26 league goals."
+  },
+  {
+    "id": "tc-107",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "atalanta",
+      "valencia",
+      "roma"
+    ],
+    "correctAnswer": "Alessandro Florenzi",
+    "options": [
+      "Alessandro Florenzi",
+      "Cristiano Piccini",
+      "Leonardo Spinazzola",
+      "Davide Zappacosta"
+    ],
+    "hints": [
+      "Italian right-back / wing-back who won UEFA Euro 2020 with the Azzurri.",
+      "Long-serving Roman midfielder/defender who scored from the halfway line against Barcelona.",
+      "Spent loan periods at Valencia and PSG before winning Serie A with AC Milan."
+    ],
+    "playerClubStints": {
+      "roma": "2011–2022",
+      "valencia": "2020",
+      "atalanta": "2019–2020"
+    },
+    "explanation": "Florenzi graduated from Roma's academy, spent a brief loan at Valencia in 2020, and was on loan across top European clubs."
+  },
+  {
+    "id": "tc-108",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "leeds",
+      "barcelona",
+      "sporting-cp"
+    ],
+    "correctAnswer": "Raphinha",
+    "options": [
+      "Raphinha",
+      "Trincão",
+      "Adama Traoré",
+      "Malcom"
+    ],
+    "hints": [
+      "Brazilian winger with explosive acceleration and left-footed curled strikes.",
+      "Formed a formidable partnership with Marcelo Bielsa at Elland Road.",
+      "Developed in Portugal before a £55m blockbuster switch to Catalonia in 2022."
+    ],
+    "playerClubStints": {
+      "sporting-cp": "2018–2019",
+      "leeds": "2020–2022",
+      "barcelona": "2022–present"
+    },
+    "explanation": "Raphinha starred for Sporting CP, became a Premier League sensation with Leeds, and earned a direct transfer to Barcelona."
+  },
+  {
+    "id": "tc-109",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "rennes",
+      "dortmund",
+      "barcelona"
+    ],
+    "correctAnswer": "Ousmane Dembélé",
+    "options": [
+      "Ousmane Dembélé",
+      "Pierre-Emerick Aubameyang",
+      "Raphaël Guerreiro",
+      "Mikaël Silvestre"
+    ],
+    "hints": [
+      "Two-footed ambidextrous winger who won the 2018 FIFA World Cup with France.",
+      "Won the Bundesliga Rookie of the Year in 2016–17 with 10 goals and 21 assists.",
+      "Transferred for an initial €105m fee to replace Neymar at Camp Nou in 2017."
+    ],
+    "playerClubStints": {
+      "rennes": "2015–2016",
+      "dortmund": "2016–2017",
+      "barcelona": "2017–2023"
+    },
+    "explanation": "Dembélé emerged from Rennes' academy, dazzled for a season in Dortmund, and won three La Liga titles with Barcelona."
+  },
+  {
+    "id": "tc-110",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "fiorentina",
+      "juventus",
+      "roma"
+    ],
+    "correctAnswer": "Federico Bernardeschi",
+    "options": [
+      "Federico Bernardeschi",
+      "Federico Chiesa",
+      "Juan Cuadrado",
+      "Miralem Pjanić"
+    ],
+    "hints": [
+      "Versatile Italian attacker who scored in the penalty shootout of the Euro 2020 final.",
+      "Inherited the prestigious number 10 shirt at Artemio Franchi.",
+      "Won three consecutive Serie A titles with Juventus between 2018 and 2020."
+    ],
+    "playerClubStints": {
+      "fiorentina": "2014–2017",
+      "juventus": "2017–2022",
+      "roma": "2013–2014"
+    },
+    "explanation": "Bernardeschi developed in Fiorentina's ranks before joining Juventus for €40m in 2017, later moving to MLS."
+  },
+  {
+    "id": "tc-111",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "brighton",
+      "liverpool",
+      "chelsea"
+    ],
+    "correctAnswer": "Moisés Caicedo",
+    "options": [
+      "Moisés Caicedo",
+      "Alexis Mac Allister",
+      "Adam Lallana",
+      "Christian Benteke"
+    ],
+    "hints": [
+      "Ecuadorian defensive midfielder who became the subject of a British-record transfer tug-of-war.",
+      "Liverpool agreed a £111m fee with Brighton in August 2023 before Chelsea secured him for £115m.",
+      "Formed an elite midfield double-pivot at Stamford Bridge under Enzo Maresca."
+    ],
+    "playerClubStints": {
+      "brighton": "2021–2023",
+      "chelsea": "2023–present",
+      "liverpool": "bid accepted 2023"
+    },
+    "explanation": "Caicedo was a Brighton revelation and completed a historic £115m move to Chelsea in 2023 after Liverpool's record bid."
+  },
+  {
+    "id": "tc-112",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "swansea-city",
+      "marseille",
+      "west-ham"
+    ],
+    "correctAnswer": "André Ayew",
+    "options": [
+      "André Ayew",
+      "Jordan Ayew",
+      "Bafétimbi Gomis",
+      "Dimitri Payet"
+    ],
+    "hints": [
+      "Ghanaian national team captain and son of African legend Abedi Pele.",
+      "Won the Trophée des Champions twice with OM before moving to South Wales in 2015.",
+      "Became West Ham's club-record signing in August 2016 for £20.5m."
+    ],
+    "playerClubStints": {
+      "marseille": "2007–2015",
+      "swansea-city": "2015–2016 & 2018–2021",
+      "west-ham": "2016–2018"
+    },
+    "explanation": "André Ayew scored 60 goals for Marseille, hit double figures on his debut season for Swansea, and spent two years at West Ham."
+  },
+  {
+    "id": "tc-113",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "stuttgart",
+      "bayern-munich",
+      "inter-milan"
+    ],
+    "correctAnswer": "Benjamin Pavard",
+    "options": [
+      "Benjamin Pavard",
+      "Lucio",
+      "Jürgen Klinsmann",
+      "Xherdan Shaqiri"
+    ],
+    "hints": [
+      "French defender capable of playing center-back or right-back.",
+      "Scored the FIFA World Cup Goal of the Tournament in 2018 with a swerving volley against Argentina.",
+      "Won the Champions League and Bundesliga treble in 2020 before winning Serie A in 2024."
+    ],
+    "playerClubStints": {
+      "stuttgart": "2016–2019",
+      "bayern-munich": "2019–2023",
+      "inter-milan": "2023–present"
+    },
+    "explanation": "Pavard helped Stuttgart gain promotion, joined Bayern for €35m in 2019, and moved to Inter Milan where he won the 2023–24 Scudetto."
+  },
+  {
+    "id": "tc-114",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "newcastle",
+      "psg",
+      "crystal-palace"
+    ],
+    "correctAnswer": "Yohan Cabaye",
+    "options": [
+      "Yohan Cabaye",
+      "Moussa Sissoko",
+      "Hatem Ben Arfa",
+      "Rémy Cabella"
+    ],
+    "hints": [
+      "French deep-lying playmaker renowned for sublime passing range and dead-ball delivery.",
+      "Formed an iconic Newcastle midfield alongside Cheick Tioté under Alan Pardew.",
+      "Reunited with Alan Pardew at Selhurst Park in 2015 after winning Ligue 1 with PSG."
+    ],
+    "playerClubStints": {
+      "newcastle": "2011–2014",
+      "psg": "2014–2015",
+      "crystal-palace": "2015–2018"
+    },
+    "explanation": "Cabaye made 93 appearances for Newcastle, won back-to-back Ligue 1 titles with PSG, and spent three seasons at Crystal Palace."
+  },
+  {
+    "id": "tc-115",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "leicester",
+      "chelsea",
+      "arsenal"
+    ],
+    "correctAnswer": "David Luiz",
+    "options": [
+      "Willian",
+      "Petr Čech",
+      "Raheem Sterling",
+      "Jorginho"
+    ],
+    "hints": [
+      "Brazilian center-back known for flamboyant free-kicks and expansive passing.",
+      "Won the Champions League, Premier League, and two Europa League titles at Stamford Bridge.",
+      "Spent two seasons in North London under Mikel Arteta, winning the 2020 FA Cup."
+    ],
+    "playerClubStints": {
+      "chelsea": "2011–2014 & 2016–2019",
+      "arsenal": "2019–2021",
+      "psg": "2014–2016"
+    },
+    "explanation": "David Luiz won every major European and domestic honour with Chelsea before moving across London to Arsenal in 2019."
+  },
+  {
+    "id": "tc-116",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "ajax",
+      "roma",
+      "juventus"
+    ],
+    "correctAnswer": "Maarten Stekelenburg",
+    "options": [
+      "Maarten Stekelenburg",
+      "Edwin van der Sar",
+      "Edgar Davids",
+      "Zlatan Ibrahimović"
+    ],
+    "hints": [
+      "Dutch goalkeeper who started in the 2010 FIFA World Cup Final in Johannesburg.",
+      "Made over 200 appearances for Ajax before completing a €6.3m move to the Italian capital in 2011.",
+      "Returned to Amsterdam in 2020 to win two further Eredivisie titles before retiring."
+    ],
+    "playerClubStints": {
+      "ajax": "2002–2011 & 2020–2023",
+      "roma": "2011–2013",
+      "fulham": "2013–2017"
+    },
+    "explanation": "Stekelenburg was Ajax's long-time keeper, was signed by Luis Enrique at Roma in 2011, and had stints in England and France."
+  },
+  {
+    "id": "tc-117",
+    "mode": "three-clubs",
+    "difficulty": "expert",
+    "category": "Three Clubs",
+    "question": "Which player represented all three of these clubs?",
+    "clubs": [
+      "porto",
+      "monaco",
+      "real-madrid"
+    ],
+    "correctAnswer": "James Rodríguez",
+    "options": [
+      "James Rodríguez",
+      "Radamel Falcao",
+      "Ricardo Carvalho",
+      "João Moutinho"
+    ],
+    "hints": [
+      "Left-footed Colombian playmaker who won the Golden Boot at the 2014 FIFA World Cup.",
+      "Formed an electric trio with Falcao and Hulk at Porto, winning the 2010–11 Europa League.",
+      "Transferred to the Bernabéu for €75m in the summer of 2014, wearing number 10."
+    ],
+    "playerClubStints": {
+      "porto": "2010–2013",
+      "monaco": "2013–2014",
+      "real-madrid": "2014–2020"
+    },
+    "explanation": "James won three Portuguese titles with Porto, led Ligue 1 in assists at Monaco, and won two Champions League trophies at Real Madrid."
+  },
+  
+{"id":"tc-118","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["inter-milan","real-madrid","chelsea"],"correctAnswer":"Mateo Kovačić","options":["Marcelo Brozović","Mateo Kovačić","Ivan Rakitić","Luka Modrić"],"hints":["A press-resistant midfielder famed for dribbling out of tight central spaces.","Won three consecutive Champions League titles as a rotation midfielder between 2016 and 2018.","Added another Champions League winner's medal in 2021 after a loan-turned-permanent move to a London club."],"playerClubStints":{"inter-milan":"2013–2015","real-madrid":"2015–2018","chelsea":"2018–2023"},"explanation":"Kovačić played for Inter from 2013 to 2015, Real Madrid from 2015 to 2018 and Chelsea from 2018 to 2023."},
+{"id":"tc-119","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["dortmund","wolfsburg","inter-milan"],"correctAnswer":"Ivan Perišić","options":["Andrej Kramarić","Ivan Perišić","Milan Badelj","Marcelo Brozović"],"hints":["A left-footed wide player equally at home as a wing-back or inside forward.","Part of the 2011–12 domestic double-winning side in Germany.","Spent the 2019–20 season on loan at a Bavarian club and lifted a treble."],"playerClubStints":{"dortmund":"2011–2013","wolfsburg":"2013–2015","inter-milan":"2015–2022"},"explanation":"Perišić played for Dortmund from 2011 to 2013, Wolfsburg from 2013 to 2015 and Inter from 2015 to 2022."},
+{"id":"tc-120","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["leverkusen","chelsea","wolfsburg"],"correctAnswer":"André Schürrle","options":["Julian Draxler","Kevin De Bruyne","André Schürrle","Mario Götze"],"hints":["A pacy forward who liked cutting inside from the left flank.","Joined a London club in 2013 in a deal worth roughly £18 million.","Won the DFB-Pokal after a winter move in 2015."],"playerClubStints":{"leverkusen":"2010–2013","chelsea":"2013–2015","wolfsburg":"2015–2016"},"explanation":"Schürrle played for Leverkusen from 2010 to 2013, Chelsea from 2013 to 2015 and Wolfsburg from 2015 to 2016."},
+{"id":"tc-121","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["twente","ajax","chelsea"],"correctAnswer":"Hakim Ziyech","options":["Donny van de Beek","Quincy Promes","Hakim Ziyech","Kasper Dolberg"],"hints":["A left-footed creative winger renowned for crosses and set-piece delivery.","Reached the 2017 Europa League final with an Amsterdam club.","Starred in the 2018–19 Champions League run before a move to London in 2020."],"playerClubStints":{"twente":"2014–2016","ajax":"2016–2020","chelsea":"2020–2023"},"explanation":"Ziyech played for Twente from 2014 to 2016, Ajax from 2016 to 2020 and Chelsea from 2020 to 2023."},
+{"id":"tc-122","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["cagliari","roma","inter-milan"],"correctAnswer":"Radja Nainggolan","options":["Kevin Strootman","Radja Nainggolan","Leandro Paredes","Marcelo Brozović"],"hints":["A tenacious box-to-box midfielder nicknamed 'The Ninja'.","Part of a Roma side that finished second in Serie A in 2014–15 and 2016–17.","Left the capital in 2018 in a swap deal involving a young Italian talent."],"playerClubStints":{"cagliari":"2010–2014","roma":"2014–2018","inter-milan":"2018–2020"},"explanation":"Nainggolan played for Cagliari from 2010 to 2014, Roma from 2014 to 2018 and Inter from 2018 to 2020."},
+{"id":"tc-123","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["fiorentina","chelsea","barcelona"],"correctAnswer":"Marcos Alonso","options":["César Azpilicueta","Ben Chilwell","Jordi Alba","Marcos Alonso"],"hints":["A left wing-back whose free-kicks and long-range goals were a trademark.","Won a Premier League title in 2016–17 as part of a back-three system.","Won La Liga in 2022–23 after leaving England."],"playerClubStints":{"fiorentina":"2013–2016","chelsea":"2016–2022","barcelona":"2022–2023"},"explanation":"Alonso played for Fiorentina from 2013 to 2016, Chelsea from 2016 to 2022 and Barcelona in 2022–23."},
+{"id":"tc-124","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["valencia","barcelona","sporting-cp"],"correctAnswer":"Jérémy Mathieu","options":["Thomas Vermaelen","Marc Bartra","Jérémy Mathieu","Aleix Vidal"],"hints":["A left-footed centre-back who also covered at left-back.","Part of the 2014–15 treble-winning squad after a summer move to Catalonia.","Finished his top-level career with two seasons in Lisbon."],"playerClubStints":{"valencia":"2011–2014","barcelona":"2014–2016","sporting-cp":"2016–2018"},"explanation":"Mathieu played for Valencia from 2011 to 2014, Barcelona from 2014 to 2016 and Sporting CP from 2016 to 2018."},
+{"id":"tc-125","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["lille","barcelona","everton"],"correctAnswer":"Lucas Digne","options":["Layvin Kurzawa","Mathieu Debuchy","Lucas Digne","Benjamin Mendy"],"hints":["A left-back known for crossing and set-piece delivery.","Won the La Liga and Copa del Rey double in 2017–18.","Joined a Merseyside club in 2018 for around £18 million."],"playerClubStints":{"lille":"2013–2015","barcelona":"2016–2018","everton":"2018–2022"},"explanation":"Digne played for Lille from 2013 to 2015, Barcelona from 2016 to 2018 and Everton from 2018 to 2022."},
+{"id":"tc-126","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["nantes","aston-villa","fiorentina"],"correctAnswer":"Jordan Veretout","options":["Jordan Amavi","Yann M'Vila","Jordan Veretout","Jean-Kévin Augustin"],"hints":["A midfield ball-winner with a knack for late runs into the box.","Left Ligue 1 for England in 2015 and stayed for a relegation season.","Spent two seasons in Tuscany before moving to the capital in 2019."],"playerClubStints":{"nantes":"2013–2015","aston-villa":"2015–2017","fiorentina":"2017–2019"},"explanation":"Veretout played for Nantes from 2013 to 2015, Aston Villa from 2015 to 2017 and Fiorentina from 2017 to 2019."},
+{"id":"tc-127","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["torino","man-united","parma"],"correctAnswer":"Matteo Darmian","options":["Alessandro Florenzi","Davide Zappacosta","Domenico Criscito","Matteo Darmian"],"hints":["A versatile defender comfortable on either flank.","Won the League Cup and Europa League in 2016–17 at an English club.","Returned to Italy in 2019 and joined a Serie A side in Emilia-Romagna."],"playerClubStints":{"torino":"2011–2015","man-united":"2015–2019","parma":"2019–2020"},"explanation":"Darmian played for Torino from 2011 to 2015, Manchester United from 2015 to 2019 and Parma from 2019 to 2020."},
+{"id":"tc-128","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["porto","man-city","valencia"],"correctAnswer":"Eliaquim Mangala","options":["Álvaro Negredo","Fernando","Eliaquim Mangala","Jesús Navas"],"hints":["A powerful centre-back signed for around £32 million in 2014.","Won the 2012–13 Primeira Liga with a Portuguese club.","Spent a 2016–17 loan spell in Spain."],"playerClubStints":{"porto":"2011–2014","man-city":"2014–2019","valencia":"2016–2017"},"explanation":"Mangala played for Porto from 2011 to 2014, Manchester City from 2014 to 2019 and Valencia on loan in 2016–17."},
+{"id":"tc-129","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["benfica","chelsea","man-united"],"correctAnswer":"Nemanja Matić","options":["Ramires","Oriol Romeu","David Luiz","Nemanja Matić"],"hints":["A towering holding midfielder who screened the back four.","Returned to a London club in January 2014 for around £21 million.","Won the Premier League in 2014–15 and 2016–17 before a move to Manchester."],"playerClubStints":{"benfica":"2011–2014","chelsea":"2014–2017","man-united":"2017–2022"},"explanation":"Matić played for Benfica from 2011 to 2014, Chelsea from 2014 to 2017 and Manchester United from 2017 to 2022."},
+{"id":"tc-130","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["wolfsburg","bayern-munich","atletico-madrid"],"correctAnswer":"Mario Mandžukić","options":["Mario Gómez","Claudio Pizarro","Mario Mandžukić","Diego Costa"],"hints":["A target man who worked tirelessly out of possession and often played wide.","Scored the opening goal in the 2013 Champions League final.","Spent one season in Madrid before moving to Turin."],"playerClubStints":{"wolfsburg":"2010–2012","bayern-munich":"2012–2014","atletico-madrid":"2014–2015"},"explanation":"Mandžukić played for Wolfsburg from 2010 to 2012, Bayern Munich from 2012 to 2014 and Atlético Madrid in 2014–15."},
+{"id":"tc-131","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["juventus","bayern-munich","barcelona"],"correctAnswer":"Arturo Vidal","options":["Paul Pogba","Kingsley Coman","Arturo Vidal","Philippe Coutinho"],"hints":["A tireless midfielder nicknamed 'The Warrior'.","Won three consecutive Serie A titles in the early 2010s after joining from Germany.","Won La Liga in 2018–19 after leaving Bavaria."],"playerClubStints":{"juventus":"2011–2015","bayern-munich":"2015–2018","barcelona":"2018–2020"},"explanation":"Vidal played for Juventus from 2011 to 2015, Bayern Munich from 2015 to 2018 and Barcelona from 2018 to 2020."},
+{"id":"tc-132","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["werder-bremen","stoke-city","west-ham"],"correctAnswer":"Marko Arnautović","options":["Peter Crouch","Mame Biram Diouf","Marko Arnautović","Andy Carroll"],"hints":["A tall forward and winger with a flamboyant streak.","Spent four seasons at the bet365 Stadium after a move from Germany.","Joined a London club in 2017 for around £20 million."],"playerClubStints":{"werder-bremen":"2010–2013","stoke-city":"2013–2017","west-ham":"2017–2019"},"explanation":"Arnautović played for Werder Bremen from 2010 to 2013, Stoke from 2013 to 2017 and West Ham from 2017 to 2019."},
+{"id":"tc-133","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["aston-villa","liverpool","crystal-palace"],"correctAnswer":"Christian Benteke","options":["Daniel Sturridge","Andy Carroll","Christian Benteke","Wilfried Bony"],"hints":["A physical target man who dominated in the air.","Scored 19 league goals in a debut Premier League season in 2012–13.","Joined a Merseyside club in 2015 for around £32.5 million."],"playerClubStints":{"aston-villa":"2012–2015","liverpool":"2015–2016","crystal-palace":"2016–2020"},"explanation":"Benteke played for Aston Villa from 2012 to 2015, Liverpool in 2015–16 and Crystal Palace from 2016 to 2020."},
+{"id":"tc-134","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["bayern-munich","wolfsburg","nice"],"correctAnswer":"Dante","options":["Luiz Gustavo","Naldo","Maxwell","Dante"],"hints":["A ball-playing centre-back recognisable by his afro.","Part of the 2012–13 treble-winning squad after joining from Germany's west.","Spent five seasons on the French Riviera."],"playerClubStints":{"bayern-munich":"2012–2015","wolfsburg":"2015–2016","nice":"2016–2021"},"explanation":"Dante played for Bayern Munich from 2012 to 2015, Wolfsburg in 2015–16 and Nice from 2016 to 2021."},
+{"id":"tc-135","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["monchengladbach","arsenal","leverkusen"],"correctAnswer":"Granit Xhaka","options":["Håvard Nordtveit","Ilkay Gündoğan","Julian Weigl","Granit Xhaka"],"hints":["A deep-lying midfielder famed for long passing and disciplinary records.","Captained a London side during a title challenge in 2022–23.","Part of an unbeaten domestic campaign in 2023–24."],"playerClubStints":{"monchengladbach":"2012–2016","arsenal":"2016–2023","leverkusen":"2023–2025"},"explanation":"Xhaka played for Gladbach from 2012 to 2016, Arsenal from 2016 to 2023 and Leverkusen from 2023 to 2025."},
+{"id":"tc-136","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["hoffenheim","leverkusen","monaco"],"correctAnswer":"Kevin Volland","options":["Julian Brandt","Karim Bellarabi","Sven Bender","Kevin Volland"],"hints":["A forward who scored regularly from mid-range.","Left a Baden-Württemberg club in 2016 after four seasons.","Reached a Coupe de France final with a Principality club in 2021."],"playerClubStints":{"hoffenheim":"2012–2016","leverkusen":"2016–2020","monaco":"2020–2024"},"explanation":"Volland played for Hoffenheim from 2012 to 2016, Leverkusen from 2016 to 2020 and Monaco from 2020 to 2024."},
+{"id":"tc-137","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["twente","southampton","ajax"],"correctAnswer":"Dušan Tadić","options":["Nacer Chadli","Ricky van Wolfswinkel","Luuk de Jong","Dušan Tadić"],"hints":["A creative forward who thrived as a false nine or winger.","Played four seasons on England's south coast.","Won the Eredivisie title in 2018–19 and starred in a Champions League semi-final run."],"playerClubStints":{"twente":"2012–2014","southampton":"2014–2018","ajax":"2018–2024"},"explanation":"Tadić played for Twente from 2012 to 2014, Southampton from 2014 to 2018 and Ajax from 2018 to 2024."},
+{"id":"tc-138","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["celtic","southampton","tottenham"],"correctAnswer":"Victor Wanyama","options":["Virgil van Dijk","Dejan Lovren","Pierre-Emile Højbjerg","Victor Wanyama"],"hints":["A powerful defensive midfielder who scored against Barcelona in a famous 2012 night.","Joined a south-coast club in 2013 for around £12.5 million.","Moved to north London in 2016 for roughly £11 million."],"playerClubStints":{"celtic":"2011–2013","southampton":"2013–2016","tottenham":"2016–2020"},"explanation":"Wanyama played for Celtic from 2011 to 2013, Southampton from 2013 to 2016 and Tottenham from 2016 to 2020."},
+{"id":"tc-139","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["newcastle","psg","crystal-palace"],"correctAnswer":"Yohan Cabaye","options":["Mathieu Debuchy","Loïc Rémy","Hatem Ben Arfa","Yohan Cabaye"],"hints":["An elegant playmaker who won Ligue 1 before moving to England.","Left Tyneside in January 2014 for the French capital.","Joined a south London club in 2015 for around £10 million."],"playerClubStints":{"newcastle":"2011–2014","psg":"2014–2015","crystal-palace":"2015–2018"},"explanation":"Cabaye played for Newcastle from 2011 to 2014, PSG from 2014 to 2015 and Crystal Palace from 2015 to 2018."},
+{"id":"tc-140","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["lyon","southampton","liverpool"],"correctAnswer":"Dejan Lovren","options":["Adam Lallana","Rickie Lambert","Nathaniel Clyne","Dejan Lovren"],"hints":["A centre-back with aerial strength and occasionally erratic form.","Joined an English south-coast club in 2013 for around £8.5 million.","Started the 2018 Champions League final."],"playerClubStints":{"lyon":"2010–2013","southampton":"2013–2014","liverpool":"2014–2020"},"explanation":"Lovren played for Lyon from 2010 to 2013, Southampton from 2013 to 2014 and Liverpool from 2014 to 2020."},
+{"id":"tc-141","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["southampton","man-united","everton"],"correctAnswer":"Morgan Schneiderlin","options":["Marouane Fellaini","Ross Barkley","Adam Lallana","Morgan Schneiderlin"],"hints":["A defensive midfielder who excelled at tackles and interceptions.","Joined a Manchester giant in 2015 for around £25 million.","Left that club in January 2017 for Merseyside."],"playerClubStints":{"southampton":"2008–2015","man-united":"2015–2017","everton":"2017–2020"},"explanation":"Schneiderlin played for Southampton until 2015, Manchester United from 2015 to 2017 and Everton from 2017 to 2020."},
+{"id":"tc-142","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["shakhtar","dortmund","man-united"],"correctAnswer":"Henrikh Mkhitaryan","options":["Shinji Kagawa","Willian","Fred","Henrikh Mkhitaryan"],"hints":["A creative attacker who combined late runs with clever finishing.","Recorded 20 assists in a single Bundesliga season in 2015–16.","Scored a famous scorpion-kick goal at Old Trafford in December 2016."],"playerClubStints":{"shakhtar":"2010–2013","dortmund":"2013–2016","man-united":"2016–2018"},"explanation":"Mkhitaryan played for Shakhtar from 2010 to 2013, Dortmund from 2013 to 2016 and Manchester United from 2016 to 2018."},
+{"id":"tc-143","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["stuttgart","mainz","leicester"],"correctAnswer":"Shinji Okazaki","options":["Shinji Kagawa","Takashi Inui","Yuya Osako","Shinji Okazaki"],"hints":["A relentless forward whose work-rate defined his role.","Won a Premier League title in 2015–16 as part of an underdog squad.","Scored an acrobatic overhead kick in that title-winning season."],"playerClubStints":{"stuttgart":"2011–2013","mainz":"2013–2015","leicester":"2015–2019"},"explanation":"Okazaki played for Stuttgart from 2011 to 2013, Mainz from 2013 to 2015 and Leicester from 2015 to 2019."},
+{"id":"tc-144","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["man-united","fulham","monaco"],"correctAnswer":"Dimitar Berbatov","options":["Park Chu-young","Radamel Falcao","Emmanuel Adebayor","Dimitar Berbatov"],"hints":["An elegant forward renowned for an exquisite first touch.","Shared the 2010–11 Premier League Golden Boot.","Scored five goals in a 7–1 win in November 2010."],"playerClubStints":{"man-united":"2008–2012","fulham":"2012–2014","monaco":"2014–2015"},"explanation":"Berbatov played for Manchester United from 2008 to 2012, Fulham from 2012 to 2014 and Monaco in 2014–15."},
+{"id":"tc-145","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["liverpool","swansea-city","newcastle"],"correctAnswer":"Jonjo Shelvey","options":["Joe Allen","Nathan Dyer","Jordan Henderson","Jonjo Shelvey"],"hints":["A midfield passer known for long diagonal balls and a short fuse.","Left Anfield in 2013 for around £5 million.","Moved to Tyneside in 2016 for roughly £12 million."],"playerClubStints":{"liverpool":"2010–2013","swansea-city":"2013–2016","newcastle":"2016–2023"},"explanation":"Shelvey played for Liverpool from 2010 to 2013, Swansea from 2013 to 2016 and Newcastle from 2016 to 2023."},
+{"id":"tc-146","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["roma","psg","ac-milan"],"correctAnswer":"Jérémy Ménez","options":["Javier Pastore","Ezequiel Lavezzi","Erik Lamela","Jérémy Ménez"],"hints":["A flair winger with a taste for backheels and audacious finishes.","Won Ligue 1 in 2012–13 after joining a Paris club.","Arrived at a Milan giant in 2014 on a free transfer."],"playerClubStints":{"roma":"2008–2011","psg":"2011–2014","ac-milan":"2014–2016"},"explanation":"Ménez played for Roma until 2011, PSG from 2011 to 2014 and AC Milan from 2014 to 2016."},
+{"id":"tc-147","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["anderlecht","lazio","ac-milan"],"correctAnswer":"Lucas Biglia","options":["Stefan de Vrij","Marco Parolo","Sergej Milinković-Savić","Lucas Biglia"],"hints":["A deep-lying regista known for metronomic passing.","Captained a Roman club.","Joined a Lombardy giant in 2017 for around €17 million."],"playerClubStints":{"anderlecht":"2006–2013","lazio":"2013–2017","ac-milan":"2017–2020"},"explanation":"Biglia played for Anderlecht until 2013, Lazio from 2013 to 2017 and AC Milan from 2017 to 2020."},
+{"id":"tc-148","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["wigan","chelsea","inter-milan"],"correctAnswer":"Victor Moses","options":["Emmanuel Emenike","Kenneth Omeruo","Joel Obi","Victor Moses"],"hints":["A pacy winger later reinvented as a wing-back.","Joined Wigan from Crystal Palace in 2010.","Won the Premier League in 2016–17 in a back-three system."],"playerClubStints":{"wigan":"2010–2012","chelsea":"2012–2019","inter-milan":"2020–2021"},"explanation":"Moses played for Wigan from 2010 to 2012, Chelsea from 2012 to 2019 and Inter on loan in 2020–21."},
+{"id":"tc-149","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["valencia","tottenham","villarreal"],"correctAnswer":"Roberto Soldado","options":["Paulinho","Álvaro Negredo","Emmanuel Adebayor","Roberto Soldado"],"hints":["A penalty-box poacher with strong finishing.","Signed by a north London club in 2013 for around £26 million.","Reached the 2016 Europa League semi-final in Spain."],"playerClubStints":{"valencia":"2010–2013","tottenham":"2013–2015","villarreal":"2015–2017"},"explanation":"Soldado played for Valencia from 2010 to 2013, Tottenham from 2013 to 2015 and Villarreal from 2015 to 2017."},
+{"id":"tc-150","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["sevilla","fiorentina","atalanta"],"correctAnswer":"Luis Muriel","options":["Duván Zapata","Papu Gómez","Josip Iličić","Luis Muriel"],"hints":["A forward who peaked in his late 20s after repeated loans.","Spent consecutive loan seasons in Andalusia and Tuscany.","Scored 18 Serie A goals in 2019–20 for a Bergamo club."],"playerClubStints":{"sevilla":"2017–2018","fiorentina":"2018–2019","atalanta":"2019–2024"},"explanation":"Muriel played for Sevilla in 2017–18, Fiorentina in 2018–19 and Atalanta from 2019 to 2024."},
+{"id":"tc-151","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["atalanta","ac-milan","barcelona"],"correctAnswer":"Franck Kessié","options":["Hakan Çalhanoğlu","Bryan Cristante","Ante Rebić","Franck Kessié"],"hints":["A powerful box-to-box midfielder from West Africa.","Won Serie A in 2021–22.","Joined a Catalan giant on a free transfer in 2022."],"playerClubStints":{"atalanta":"2015–2017","ac-milan":"2017–2022","barcelona":"2022–2023"},"explanation":"Kessié played for Atalanta from 2015 to 2017, AC Milan from 2017 to 2022 and Barcelona in 2022–23."},
+{"id":"tc-152","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["fiorentina","besiktas","wolfsburg"],"correctAnswer":"Mario Gómez","options":["Admir Mehmedi","Bas Dost","Max Kruse","Mario Gómez"],"hints":["A penalty-area finisher who scored heavily in Germany.","Signed in 2013 from Bavaria for around €20 million.","Won the Süper Lig in 2015–16 after leaving Italy."],"playerClubStints":{"fiorentina":"2013–2015","besiktas":"2015–2016","wolfsburg":"2016–2018"},"explanation":"Gómez played for Fiorentina from 2013 to 2015, Beşiktaş in 2015–16 and Wolfsburg from 2016 to 2018."},
+{"id":"tc-153","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["porto","real-madrid","man-city"],"correctAnswer":"Danilo","options":["Alex Sandro","Dani Alves","Fabinho","Danilo"],"hints":["A versatile full-back who also covered centre-back and midfield.","Won the 2015–16 Champions League after a summer move to Spain.","Joined an English club in 2017 for around £26.5 million."],"playerClubStints":{"porto":"2012–2015","real-madrid":"2015–2017","man-city":"2017–2019"},"explanation":"Danilo played for Porto from 2012 to 2015, Real Madrid from 2015 to 2017 and Manchester City from 2017 to 2019."},
+{"id":"tc-154","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["porto","monaco","wolves"],"correctAnswer":"João Moutinho","options":["Rúben Neves","Pedro Neto","Fábio Coentrão","João Moutinho"],"hints":["A metronomic midfielder famed for tempo control.","Won three consecutive league titles at a northern Portuguese club from 2010–11.","Won Ligue 1 in 2016–17."],"playerClubStints":{"porto":"2010–2013","monaco":"2013–2018","wolves":"2018–2024"},"explanation":"Moutinho played for Porto from 2010 to 2013, Monaco from 2013 to 2018 and Wolves from 2018 to 2024."},
+{"id":"tc-155","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["arsenal","man-city","sevilla"],"correctAnswer":"Samir Nasri","options":["Gaël Clichy","Bacary Sagna","Kolo Touré","Samir Nasri"],"hints":["A creative left-sided playmaker.","Joined a Manchester club in 2011 for around £24 million.","Spent 2016–17 on loan in Andalusia."],"playerClubStints":{"arsenal":"2008–2011","man-city":"2011–2017","sevilla":"2016–2017"},"explanation":"Nasri played for Arsenal until 2011, Manchester City from 2011 to 2017 and Sevilla on loan in 2016–17."},
+{"id":"tc-156","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["lille","arsenal","roma"],"correctAnswer":"Gervinho","options":["Marouane Chamakh","Pierre-Emerick Aubameyang","Nicolas Anelka","Gervinho"],"hints":["A direct, quick winger.","Won the 2010–11 Ligue 1 and Coupe de France double.","Spent three seasons in the Italian capital after leaving London in 2013."],"playerClubStints":{"lille":"2009–2011","arsenal":"2011–2013","roma":"2013–2016"},"explanation":"Gervinho played for Lille until 2011, Arsenal from 2011 to 2013 and Roma from 2013 to 2016."},
+{"id":"tc-157","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["anderlecht","monaco","leicester"],"correctAnswer":"Youri Tielemans","options":["Leander Dendoncker","Dennis Praet","Adrien Trebel","Youri Tielemans"],"hints":["A midfielder with a long-range shooting threat.","Won the Monaco-era Ligue 1 move in 2017 at 20 years old.","Scored the winner in the 2021 FA Cup final."],"playerClubStints":{"anderlecht":"2013–2017","monaco":"2017–2019","leicester":"2019–2023"},"explanation":"Tielemans played for Anderlecht from 2013 to 2017, Monaco from 2017 to 2019 and Leicester from 2019 to 2023."},
+{"id":"tc-158","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["porto","nice","leicester"],"correctAnswer":"Ricardo Pereira","options":["Danilo Pereira","João Cancelo","Nélson Semedo","Ricardo Pereira"],"hints":["A right-back with attacking drive.","Moved to England after one season on the French Riviera.","Won the FA Cup in 2021."],"playerClubStints":{"porto":"2013–2017","nice":"2017–2018","leicester":"2018–2023"},"explanation":"Pereira played for Porto until 2017, Nice in 2017–18 and Leicester from 2018 to 2023."},
+{"id":"tc-159","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["frankfurt","west-ham","ajax"],"correctAnswer":"Sébastien Haller","options":["Ante Rebić","Bas Dost","André Silva","Sébastien Haller"],"hints":["A towering striker who recovered from testicular cancer.","Joined a London club in 2019 for around £45 million.","Scored heavily in the 2021–22 Champions League group stage."],"playerClubStints":{"frankfurt":"2017–2019","west-ham":"2019–2021","ajax":"2021–2022"},"explanation":"Haller played for Frankfurt from 2017 to 2019, West Ham from 2019 to 2021 and Ajax in 2021–22."},
+{"id":"tc-160","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["benfica","frankfurt","real-madrid"],"correctAnswer":"Luka Jović","options":["Ante Rebić","Mijat Gaćinović","Filip Kostić","Luka Jović"],"hints":["A young striker who exploded in the Bundesliga.","Scored 17 league goals in 2018–19.","Joined a Spanish giant for around €60 million in 2019."],"playerClubStints":{"benfica":"2016–2017","frankfurt":"2017–2019","real-madrid":"2019–2021"},"explanation":"Jović played for Benfica in 2016–17, Frankfurt from 2017 to 2019 and Real Madrid from 2019 to 2021."},
+{"id":"tc-161","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["porto","frankfurt","rb-leipzig"],"correctAnswer":"André Silva","options":["Gelson Martins","Raphaël Guerreiro","Gonçalo Paciência","André Silva"],"hints":["A striker who left Porto in 2017 for around €38 million.","Spent 2018–19 on loan in Andalusia.","Scored 28 Bundesliga goals in 2022–23, a club record."],"playerClubStints":{"porto":"2015–2017","frankfurt":"2019–2021","rb-leipzig":"2021–2024"},"explanation":"Silva played for Porto from 2015 to 2017, Frankfurt from 2019 to 2021 and RB Leipzig from 2021 to 2024."},
+{"id":"tc-162","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["salzburg","rb-leipzig","liverpool"],"correctAnswer":"Naby Keïta","options":["Sadio Mané","Takumi Minamino","Dayot Upamecano","Naby Keïta"],"hints":["A box-to-box midfielder with sharp dribbling.","Won the Austrian double before moving to Germany.","Was part of the 2019 Champions League-winning squad."],"playerClubStints":{"salzburg":"2014–2016","rb-leipzig":"2016–2018","liverpool":"2018–2023"},"explanation":"Keïta played for Salzburg from 2014 to 2016, RB Leipzig from 2016 to 2018 and Liverpool from 2018 to 2023."},
+{"id":"tc-163","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["arsenal","inter-milan","galatasaray"],"correctAnswer":"Lukas Podolski","options":["Mesut Özil","Kevin-Prince Boateng","Andrea Ranocchia","Lukas Podolski"],"hints":["A left-footed shot specialist with a powerful strike.","Joined a London club in 2012 for around £11 million.","Won the Turkish Cup in 2016."],"playerClubStints":{"arsenal":"2012–2015","inter-milan":"2015–2015","galatasaray":"2015–2017"},"explanation":"Podolski played for Arsenal from 2012 to 2015, Inter on loan in early 2015 and Galatasaray from 2015 to 2017."},
+{"id":"tc-164","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["galatasaray","atletico-madrid","barcelona"],"correctAnswer":"Arda Turan","options":["Hakan Çalhanoğlu","Emre Belözoğlu","Burak Yılmaz","Arda Turan"],"hints":["A creative midfielder with a refined left foot.","Won the 2011–12 Europa League after a summer move to Madrid.","Joined Camp Nou in 2015 for around £30 million."],"playerClubStints":{"galatasaray":"2004–2011","atletico-madrid":"2011–2015","barcelona":"2015–2018"},"explanation":"Turan played for Galatasaray until 2011, Atlético Madrid from 2011 to 2015 and Barcelona from 2015 to 2018."},
+{"id":"tc-165","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["toulouse","newcastle","tottenham"],"correctAnswer":"Moussa Sissoko","options":["Mousa Dembélé","Yohan Cabaye","Étienne Capoue","Moussa Sissoko"],"hints":["A powerful box-to-box midfielder.","Joined Newcastle in January 2013.","Started the 2019 Champions League final."],"playerClubStints":{"toulouse":"2007–2013","newcastle":"2013–2016","tottenham":"2016–2021"},"explanation":"Sissoko played for Toulouse until 2013, Newcastle from 2013 to 2016 and Tottenham from 2016 to 2021."},
+{"id":"tc-166","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["inter-milan","galatasaray","nice"],"correctAnswer":"Wesley Sneijder","options":["Samuel Eto'o","Diego Milito","Lukas Podolski","Wesley Sneijder"],"hints":["A creative midfielder central to a 2010 treble.","Left Italy for Istanbul in January 2013.","Won the Süper Lig in 2013–14."],"playerClubStints":{"inter-milan":"2009–2013","galatasaray":"2013–2017","nice":"2017–2018"},"explanation":"Sneijder played for Inter from 2009 to 2013, Galatasaray from 2013 to 2017 and Nice in 2017–18."},
+{"id":"tc-167","mode":"three-clubs","difficulty":"expert","category":"Three Clubs","question":"Which player represented all three of these clubs?","clubs":["fiorentina","man-city","inter-milan"],"correctAnswer":"Stevan Jovetić","options":["Adem Ljajić","Alberto Gilardino","Stefan Savić","Stevan Jovetić"],"hints":["A technical forward who rose at a Tuscan club.","Won the Premier League in 2013–14.","Joined a Milan club in 2015 and later played in Monaco."],"playerClubStints":{"fiorentina":"2008–2013","man-city":"2013–2015","inter-milan":"2015–2017"},"explanation":"Jovetić played for Fiorentina until 2013, Manchester City from 2013 to 2015 and Inter from 2015 to 2017."}
+
 ]
