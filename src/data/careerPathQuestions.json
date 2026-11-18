@@ -1,0 +1,632 @@
+[
+  {
+    "id": "cp-1",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "dortmund", "clubName": "Borussia Dortmund", "period": "2009–2013", "apps": 116, "goals": 31 },
+      { "clubId": "bayern-munich", "clubName": "Bayern Munich", "period": "2013–2016", "apps": 114, "goals": 36 },
+      { "clubId": "dortmund", "clubName": "Borussia Dortmund", "period": "2016–2020", "apps": 103, "goals": 14 },
+      { "clubId": "psv", "clubName": "PSV Eindhoven", "period": "2020–2022", "apps": 77, "goals": 18 },
+      { "clubId": "frankfurt", "clubName": "Eintracht Frankfurt", "period": "2022–present", "apps": 85, "goals": 10 }
+    ],
+    "correctAnswer": "Mario Götze",
+    "options": ["Julian Brandt", "Mario Götze", "Marco Reus", "Max Kruse"],
+    "hints": [
+      "He scored the winning goal in a FIFA World Cup final.",
+      "His move to Eindhoven in 2020 revived his career under Roger Schmidt.",
+      "He won two Bundesliga titles with Dortmund before crossing to Munich in 2013."
+    ],
+    "explanation": "Mario Götze left Dortmund for Bayern in 2013, returned in 2016, rebuilt his form at PSV Eindhoven in 2020, and joined Eintracht Frankfurt in 2022."
+  },
+  {
+    "id": "cp-2",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "albirex", "clubName": "Cerezo Osaka", "period": "2006–2010", "apps": 127, "goals": 57 },
+      { "clubId": "dortmund", "clubName": "Borussia Dortmund", "period": "2010–2012", "apps": 71, "goals": 29 },
+      { "clubId": "man-united", "clubName": "Manchester United", "period": "2012–2014", "apps": 57, "goals": 6 },
+      { "clubId": "dortmund", "clubName": "Borussia Dortmund", "period": "2014–2019", "apps": 145, "goals": 31 },
+      { "clubId": "zaragoza", "clubName": "Real Zaragoza", "period": "2019–2020", "apps": 36, "goals": 4 }
+    ],
+    "correctAnswer": "Shinji Kagawa",
+    "options": ["Shinji Okazaki", "Takumi Minamino", "Shinji Kagawa", "Keisuke Honda"],
+    "hints": [
+      "Signed from J2 League for just €350k in 2010 before winning consecutive Bundesliga titles.",
+      "He became the first Asian player to score a Premier League hat-trick in 2013.",
+      "After leaving Dortmund a second time, he played in Spain's Segunda División and Turkey."
+    ],
+    "explanation": "Shinji Kagawa joined Borussia Dortmund for €350k in 2010, won the Premier League with Man United in 2012–13, returned to Dortmund, and later played for Real Zaragoza."
+  },
+  {
+    "id": "cp-3",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "rayo", "clubName": "Rayo Vallecano", "period": "2011–2012", "apps": 39, "goals": 17 },
+      { "clubId": "swansea", "clubName": "Swansea City", "period": "2012–2014", "apps": 67, "goals": 28 },
+      { "clubId": "napoli", "clubName": "SSC Napoli", "period": "2014–2015", "apps": 6, "goals": 0 },
+      { "clubId": "oviedo", "clubName": "Real Oviedo", "period": "2016–2017", "apps": 28, "goals": 3 }
+    ],
+    "correctAnswer": "Michu",
+    "options": ["Iago Aspas", "Michu", "Pablo Hernández", "Ayoze Pérez"],
+    "hints": [
+      "A £2 million bargain signing who stunned the Premier League in 2012–13.",
+      "He lifted the 2013 League Cup at Wembley and scored 18 league goals that season.",
+      "Persistent ankle injuries forced him to retire at age 31 after a spell in Spain's second tier."
+    ],
+    "explanation": "Miguel Pérez Cuesta, known as Michu, scored 22 goals in all competitions in his debut 2012–13 season at Swansea before a brief injury-hit loan at Napoli and retirement."
+  },
+  {
+    "id": "cp-4",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "southampton", "clubName": "Southampton", "period": "2006–2014", "apps": 265, "goals": 60 },
+      { "clubId": "liverpool", "clubName": "Liverpool FC", "period": "2014–2020", "apps": 178, "goals": 22 },
+      { "clubId": "brighton", "clubName": "Brighton & Hove Albion", "period": "2020–2024", "apps": 104, "goals": 4 },
+      { "clubId": "southampton", "clubName": "Southampton", "period": "2024–2025", "apps": 18, "goals": 0 }
+    ],
+    "correctAnswer": "Adam Lallana",
+    "options": ["James Ward-Prowse", "Rickie Lambert", "Adam Lallana", "Alex Oxlade-Chamberlain"],
+    "hints": [
+      "He captained his boyhood club through consecutive promotions from League One to the Premier League.",
+      "He scored Liverpool's vital equaliser at Old Trafford in their 2019–20 title-winning campaign.",
+      "He made an emotional return to St Mary's in 2024."
+    ],
+    "explanation": "Adam Lallana rose from League One to Premier League captain at Southampton, won the Champions League and Premier League at Liverpool, and spent four years at Brighton."
+  },
+  {
+    "id": "cp-5",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "silkeborg", "clubName": "Silkeborg IF", "period": "2014–2015", "apps": 3, "goals": 0 },
+      { "clubId": "ajax", "clubName": "Ajax Amsterdam", "period": "2016–2019", "apps": 119, "goals": 45 },
+      { "clubId": "nice", "clubName": "OGC Nice", "period": "2019–2022", "apps": 85, "goals": 24 },
+      { "clubId": "sevilla", "clubName": "Sevilla FC", "period": "2022–2023", "apps": 8, "goals": 0 },
+      { "clubId": "anderlecht", "clubName": "RSC Anderlecht", "period": "2023–present", "apps": 68, "goals": 32 }
+    ],
+    "correctAnswer": "Kasper Dolberg",
+    "options": ["Kasper Dolberg", "Jonas Wind", "Yussuf Poulsen", "Mikkel Damsgaard"],
+    "hints": [
+      "A Danish striker who netted 16 Eredivisie goals at age 19 in 2016–17.",
+      "He scored twice against Wales in the Euro 2020 Round of 16.",
+      "He also had a brief loan spell at Hoffenheim in 2023 before moving to Belgium."
+    ],
+    "explanation": "Kasper Dolberg burst onto the scene in Ajax's 2017 Europa League final run, later spent three years at Nice, had loans at Sevilla and Hoffenheim, and rebuilt at Anderlecht."
+  },
+  {
+    "id": "cp-6",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "malmo", "clubName": "Malmö FF", "period": "2013–2015", "apps": 88, "goals": 28 },
+      { "clubId": "rb-leipzig", "clubName": "RB Leipzig", "period": "2015–2024", "apps": 325, "goals": 71 },
+      { "clubId": "nyrb", "clubName": "New York Red Bulls", "period": "2024–present", "apps": 30, "goals": 12 }
+    ],
+    "correctAnswer": "Emil Forsberg",
+    "options": ["Dejan Kulusevski", "Emil Forsberg", "Viktor Claesson", "Alexander Isak"],
+    "hints": [
+      "A Swedish playmaker who joined Leipzig while they were still in the 2. Bundesliga.",
+      "He topped the 2016–17 Bundesliga assist chart with 22 assists.",
+      "He scored in Sweden's 1–0 World Cup 2018 Round of 16 win over Switzerland."
+    ],
+    "explanation": "Emil Forsberg spent nine years at RB Leipzig from 2015 to 2024, winning two DFB-Pokals before moving to sister club New York Red Bulls."
+  },
+  {
+    "id": "cp-7",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "valencia", "clubName": "Valencia CF", "period": "2010–2016", "apps": 202, "goals": 31 },
+      { "clubId": "west-ham", "clubName": "West Ham United", "period": "2016–2017", "apps": 27, "goals": 4 },
+      { "clubId": "galatasaray", "clubName": "Galatasaray", "period": "2017–2022", "apps": 162, "goals": 34 },
+      { "clubId": "karagumruk", "clubName": "Fatih Karagümrük", "period": "2022–2024", "apps": 44, "goals": 4 }
+    ],
+    "correctAnswer": "Sofiane Feghouli",
+    "options": ["Riyad Mahrez", "Yacine Brahimi", "Sofiane Feghouli", "Islam Slimani"],
+    "hints": [
+      "An Algerian international winger born in Paris.",
+      "He played over 200 times for Valencia before a free transfer to the Premier League.",
+      "He won two Süper Lig titles in Istanbul."
+    ],
+    "explanation": "Sofiane Feghouli starred at Valencia from 2010 to 2016, spent the 2016–17 season at West Ham, and won back-to-back Turkish league titles with Galatasaray."
+  },
+  {
+    "id": "cp-8",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "udinese", "clubName": "Udinese", "period": "2011–2014", "apps": 104, "goals": 8 },
+      { "clubId": "juventus", "clubName": "Juventus", "period": "2014–2016", "apps": 68, "goals": 6 },
+      { "clubId": "watford", "clubName": "Watford", "period": "2016–2020", "apps": 115, "goals": 18 },
+      { "clubId": "udinese", "clubName": "Udinese", "period": "2020–2024", "apps": 122, "goals": 20 }
+    ],
+    "correctAnswer": "Roberto Pereyra",
+    "options": ["Rodrigo De Paul", "Roberto Pereyra", "Erik Lamela", "Manuel Lanzini"],
+    "hints": [
+      "An Argentine midfielder nicknamed 'El Tucu'.",
+      "He reached the 2015 Champions League final coming off the bench in Berlin.",
+      "He spent four years in Hertfordshire before returning to Udine to wear the captain's armband."
+    ],
+    "explanation": "Roberto Pereyra played for Juventus in their 2015 Champions League final run before spending four Premier League seasons at Watford and returning to Udinese."
+  },
+  {
+    "id": "cp-9",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "liverpool", "clubName": "Liverpool FC", "period": "2010–2013", "apps": 69, "goals": 7 },
+      { "clubId": "swansea", "clubName": "Swansea City", "period": "2013–2016", "apps": 96, "goals": 10 },
+      { "clubId": "newcastle", "clubName": "Newcastle United", "period": "2016–2023", "apps": 202, "goals": 18 },
+      { "clubId": "nottm-forest", "clubName": "Nottingham Forest", "period": "2023", "apps": 8, "goals": 0 }
+    ],
+    "correctAnswer": "Jonjo Shelvey",
+    "options": ["Charlie Adam", "Jonjo Shelvey", "Jack Cork", "Joe Allen"],
+    "hints": [
+      "An English central midfielder signed from Charlton Athletic as an 18-year-old.",
+      "He scored from near halfway against Aston Villa in 2014.",
+      "He helped Newcastle win the 2016–17 Championship title under Rafael Benítez."
+    ],
+    "explanation": "Jonjo Shelvey played for Liverpool, Swansea, and spent seven years at Newcastle United before short stints with Nottingham Forest and Rizespor."
+  },
+  {
+    "id": "cp-10",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "leeds", "clubName": "Leeds United", "period": "2008–2012", "apps": 193, "goals": 41 },
+      { "clubId": "norwich", "clubName": "Norwich City", "period": "2012–2014", "apps": 74, "goals": 14 },
+      { "clubId": "hull", "clubName": "Hull City", "period": "2014–2017", "apps": 55, "goals": 10 },
+      { "clubId": "west-ham", "clubName": "West Ham United", "period": "2017–2021", "apps": 86, "goals": 11 },
+      { "clubId": "west-brom", "clubName": "West Bromwich Albion", "period": "2021–2022", "apps": 14, "goals": 0 }
+    ],
+    "correctAnswer": "Robert Snodgrass",
+    "options": ["James Forrest", "Charlie Adam", "Robert Snodgrass", "Matt Ritchie"],
+    "hints": [
+      "A left-footed Scottish midfielder renowned for free-kick deliveries.",
+      "He suffered a serious dislocated kneecap on his Hull City debut in August 2014.",
+      "He also spent a season on loan at Aston Villa in 2017–18, reaching the Championship play-off final."
+    ],
+    "explanation": "Robert Snodgrass starred at Leeds and Norwich before memorable Premier League spells with Hull City and West Ham, earning 28 Scotland caps."
+  },
+  {
+    "id": "cp-11",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "sparta", "clubName": "Sparta Prague", "period": "2007–2011", "apps": 81, "goals": 32 },
+      { "clubId": "vitesse", "clubName": "Vitesse Arnhem", "period": "2011–2013", "apps": 73, "goals": 53 },
+      { "clubId": "swansea", "clubName": "Swansea City", "period": "2013–2015", "apps": 70, "goals": 34 },
+      { "clubId": "man-city", "clubName": "Manchester City", "period": "2015–2017", "apps": 46, "goals": 10 }
+    ],
+    "correctAnswer": "Wilfried Bony",
+    "options": ["Gervinho", "Wilfried Bony", "Seydou Doumbia", "Salomon Kalou"],
+    "hints": [
+      "He won the 2012–13 Eredivisie Golden Boot with 31 goals in 30 matches.",
+      "He was the Premier League's top calendar-year goalscorer in 2014.",
+      "He later won the 2015 Africa Cup of Nations with Ivory Coast."
+    ],
+    "explanation": "Wilfried Bony scored 31 league goals for Vitesse in 2012–13, shone at Swansea (20 goals in calendar year 2014), and earned a £28m move to Manchester City."
+  },
+  {
+    "id": "cp-12",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "psv", "clubName": "PSV Eindhoven", "period": "2011–2013", "apps": 88, "goals": 24 },
+      { "clubId": "roma", "clubName": "AS Roma", "period": "2013–2018", "apps": 131, "goals": 13 },
+      { "clubId": "marseille", "clubName": "Olympique Marseille", "period": "2018–2021", "apps": 78, "goals": 3 },
+      { "clubId": "genoa", "clubName": "Genoa", "period": "2021–2024", "apps": 88, "goals": 0 }
+    ],
+    "correctAnswer": "Kevin Strootman",
+    "options": ["Georginio Wijnaldum", "Davy Klaassen", "Kevin Strootman", "Jordy Clasie"],
+    "hints": [
+      "A tough-tackling Dutch midfielder nicknamed 'The Washing Machine' by Rudi Garcia.",
+      "Cruciate ligament injuries prevented him from appearing at the 2014 World Cup.",
+      "He also spent loans at Genoa and Cagliari before finishing his career in Serie A."
+    ],
+    "explanation": "Kevin Strootman became a fan favourite at AS Roma from 2013 to 2018 before moving to Marseille and finishing his career in Italy with Genoa."
+  },
+  {
+    "id": "cp-13",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "tottenham", "clubName": "Tottenham Hotspur", "period": "2008–2014", "apps": 233, "goals": 90 },
+      { "clubId": "toronto", "clubName": "Toronto FC", "period": "2014", "apps": 21, "goals": 12 },
+      { "clubId": "sunderland", "clubName": "Sunderland", "period": "2015–2017", "apps": 93, "goals": 37 },
+      { "clubId": "bournemouth", "clubName": "AFC Bournemouth", "period": "2017–2019", "apps": 38, "goals": 4 },
+      { "clubId": "rangers", "clubName": "Rangers", "period": "2019–2022", "apps": 74, "goals": 32 }
+    ],
+    "correctAnswer": "Jermain Defoe",
+    "options": ["Darren Bent", "Jermain Defoe", "Peter Crouch", "Andy Carroll"],
+    "hints": [
+      "An English striker who scored 162 Premier League goals, mostly as a clinical penalty-box poacher.",
+      "His goals kept Sunderland in the top flight across consecutive seasons in 2015 and 2016.",
+      "He won the 2020–21 Scottish Premiership title undefeated under Steven Gerrard."
+    ],
+    "explanation": "Jermain Defoe left Spurs for Toronto FC in 2014, returned to England to heroically keep Sunderland up, and lifted the Scottish title at age 38 with Rangers."
+  },
+  {
+    "id": "cp-14",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "real-betis", "clubName": "Real Betis", "period": "2014–2018", "apps": 59, "goals": 3 },
+      { "clubId": "napoli", "clubName": "SSC Napoli", "period": "2018–2022", "apps": 166, "goals": 22 },
+      { "clubId": "psg", "clubName": "Paris Saint-Germain", "period": "2022–present", "apps": 100, "goals": 11 }
+    ],
+    "correctAnswer": "Fabián Ruiz",
+    "options": ["Carlos Soler", "Fabián Ruiz", "Dani Ceballos", "Mikel Merino"],
+    "hints": [
+      "A tall left-footed Spanish midfielder who won Player of the Tournament at the 2019 UEFA U-21 Euros.",
+      "Carlo Ancelotti brought him to Serie A for €30m in 2018.",
+      "He starred in Spain's triumphant Euro 2024 midfield."
+    ],
+    "explanation": "Fabián Ruiz broke through at Real Betis, spent four years controlling Napoli's midfield, and joined PSG in 2022 before shining at Euro 2024."
+  },
+  {
+    "id": "cp-15",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "schalke", "clubName": "Schalke 04", "period": "2009–2016", "apps": 258, "goals": 23 },
+      { "clubId": "liverpool", "clubName": "Liverpool FC", "period": "2016–2024", "apps": 201, "goals": 11 }
+    ],
+    "correctAnswer": "Joel Matip",
+    "options": ["Dejan Lovren", "Joel Matip", "Benedikt Höwedes", "Ragnar Klavan"],
+    "hints": [
+      "He joined the Premier League on a Bosman free transfer in the summer of 2016.",
+      "He assisted Divock Origi's late goal in the 2019 Champions League final in Madrid.",
+      "Known for his trademark mazy dribbling runs out from centre-back."
+    ],
+    "explanation": "Cameroon international Joel Matip came through Schalke's academy, joined Liverpool for free in 2016, and won every major trophy before retiring in 2024."
+  },
+  {
+    "id": "cp-16",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "catania", "clubName": "Catania", "period": "2010–2013", "apps": 111, "goals": 18 },
+      { "clubId": "metalist", "clubName": "Metalist Kharkiv", "period": "2013–2014", "apps": 24, "goals": 4 },
+      { "clubId": "atalanta", "clubName": "Atalanta", "period": "2014–2021", "apps": 252, "goals": 59 },
+      { "clubId": "sevilla", "clubName": "Sevilla FC", "period": "2021–2023", "apps": 90, "goals": 10 }
+    ],
+    "correctAnswer": "Papu Gómez",
+    "options": ["Josip Iličić", "Papu Gómez", "Luis Muriel", "Éver Banega"],
+    "hints": [
+      "A diminutive Argentine playmaker who wore the captain's armband in Bergamo.",
+      "He topped Serie A for assists in consecutive seasons (2018–19 and 2019–20).",
+      "He was part of Argentina's 2022 FIFA World Cup-winning squad."
+    ],
+    "explanation": "Alejandro 'Papu' Gómez became an icon at Atalanta, leading Gian Piero Gasperini's side to the Champions League quarter-finals before winning the Europa League at Sevilla."
+  },
+  {
+    "id": "cp-17",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "notts", "clubName": "Leeds United", "period": "2010–2011", "apps": 40, "goals": 0 },
+      { "clubId": "leicester", "clubName": "Leicester City", "period": "2011–2022", "apps": 479, "goals": 0 },
+      { "clubId": "nice", "clubName": "OGC Nice", "period": "2022–2023", "apps": 46, "goals": 0 },
+      { "clubId": "anderlecht", "clubName": "RSC Anderlecht", "period": "2023–2024", "apps": 32, "goals": 0 },
+      { "clubId": "celtic", "clubName": "Celtic", "period": "2024–present", "apps": 30, "goals": 0 }
+    ],
+    "correctAnswer": "Kasper Schmeichel",
+    "options": ["Kasper Schmeichel", "Matz Sels", "Fraser Forster", "Tim Krul"],
+    "hints": [
+      "He won the 2015–16 Premier League and 2021 FA Cup with Leicester City.",
+      "He saved a penalty in extra time against Croatia at the 2018 World Cup.",
+      "He moved to Glasgow in 2024 after spells in France and Belgium."
+    ],
+    "explanation": "Danish goalkeeper Kasper Schmeichel made 479 appearances across 11 years at Leicester City before spells at Nice, Anderlecht, and Celtic."
+  },
+  {
+    "id": "cp-18",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "bilbao", "clubName": "Athletic Bilbao", "period": "2006–2012", "apps": 251, "goals": 26 },
+      { "clubId": "bayern-munich", "clubName": "Bayern Munich", "period": "2012–2021", "apps": 268, "goals": 14 },
+      { "clubId": "qatar", "clubName": "Qatar SC", "period": "2021–present", "apps": 70, "goals": 4 }
+    ],
+    "correctAnswer": "Javi Martínez",
+    "options": ["Ander Herrera", "Javi Martínez", "Xabi Alonso", "Thiago Alcântara"],
+    "hints": [
+      "He became Bayern Munich's record signing at €40 million in 2012.",
+      "He won the 2010 World Cup and 2012 Euros with Spain.",
+      "He scored the extra-time winner in the 2020 UEFA Super Cup against Sevilla."
+    ],
+    "explanation": "Javi Martínez anchored Bayern Munich's 2013 and 2020 treble-winning squads after joining from Athletic Bilbao for €40m in 2012."
+  },
+  {
+    "id": "cp-19",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "palace", "clubName": "Crystal Palace", "period": "2010–2013", "apps": 143, "goals": 18 },
+      { "clubId": "man-united", "clubName": "Manchester United", "period": "2013–2015", "apps": 4, "goals": 0 },
+      { "clubId": "palace", "clubName": "Crystal Palace", "period": "2015–2023", "apps": 315, "goals": 72 },
+      { "clubId": "galatasaray", "clubName": "Galatasaray", "period": "2023–2025", "apps": 43, "goals": 10 }
+    ],
+    "correctAnswer": "Wilfried Zaha",
+    "options": ["Yannick Bolasie", "Wilfried Zaha", "Andros Townsend", "Bakary Sako"],
+    "hints": [
+      "Sir Alex Ferguson's final signing as Manchester United manager.",
+      "He played twice in senior friendlies for England before switching allegiance to Ivory Coast.",
+      "He scored in Galatasaray's 3–2 Champions League win at Old Trafford in 2023."
+    ],
+    "explanation": "Wilfried Zaha became Crystal Palace's modern icon across two spells totaling over 450 appearances, sandwiched around an unsuccessful move to Man United."
+  },
+  {
+    "id": "cp-20",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "valencia", "clubName": "Valencia CF", "period": "2012–2016", "apps": 44, "goals": 1 },
+      { "clubId": "udinese", "clubName": "Udinese", "period": "2016–2021", "apps": 184, "goals": 34 },
+      { "clubId": "atletico-madrid", "clubName": "Atlético Madrid", "period": "2021–present", "apps": 160, "goals": 14 }
+    ],
+    "correctAnswer": "Rodrigo De Paul",
+    "options": ["Nahuel Molina", "Rodrigo De Paul", "Ángel Correa", "Giovani Lo Celso"],
+    "hints": [
+      "An energetic Argentine midfielder who wore the number 10 shirt in Serie A.",
+      "He provided the lofted assist for Ángel Di María's 2021 Copa América final winner.",
+      "He started every match of Argentina's 2022 World Cup triumph."
+    ],
+    "explanation": "Rodrigo De Paul grew into one of Serie A's best midfielders at Udinese from 2016 to 2021 before joining Atlético Madrid for €35m."
+  },
+  {
+    "id": "cp-21",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "le-havre", "clubName": "Le Havre", "period": "2011–2014", "apps": 67, "goals": 10 },
+      { "clubId": "leicester", "clubName": "Leicester City", "period": "2014–2018", "apps": 179, "goals": 48 },
+      { "clubId": "man-city", "clubName": "Manchester City", "period": "2018–2023", "apps": 236, "goals": 78 },
+      { "clubId": "al-ahli", "clubName": "Al-Ahli", "period": "2023–present", "apps": 55, "goals": 20 }
+    ],
+    "correctAnswer": "Riyad Mahrez",
+    "options": ["Islam Slimani", "Riyad Mahrez", "Saïd Benrahma", "Nabil Bentaleb"],
+    "hints": [
+      "He joined an English Championship club from Ligue 2 for around £400,000 in January 2014.",
+      "He became the first African footballer to win the PFA Players' Player of the Year.",
+      "Known for his trademark velvet first touch and curled left-footed strikes."
+    ],
+    "explanation": "Riyad Mahrez rose from Ligue 2 side Le Havre to win PFA Player of the Year in Leicester's 2015–16 title miracle before lifting four more Premier Leagues with Man City."
+  },
+  {
+    "id": "cp-22",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "lyon", "clubName": "Olympique Lyonnais", "period": "2008–2011", "apps": 121, "goals": 16 },
+      { "clubId": "roma", "clubName": "AS Roma", "period": "2011–2016", "apps": 185, "goals": 30 },
+      { "clubId": "juventus", "clubName": "Juventus", "period": "2016–2020", "apps": 178, "goals": 22 },
+      { "clubId": "barcelona", "clubName": "FC Barcelona", "period": "2020–2022", "apps": 30, "goals": 0 }
+    ],
+    "correctAnswer": "Miralem Pjanić",
+    "options": ["Edin Džeko", "Miralem Pjanić", "Senad Lulić", "Rade Krunić"],
+    "hints": [
+      "A Bosnian deep-lying playmaker who famously knocked Real Madrid out at the Bernabéu in 2010.",
+      "He scored from free-kicks at a remarkable rate across Italy.",
+      "He swapped clubs with Arthur Melo in 2020."
+    ],
+    "explanation": "Miralem Pjanić played for Lyon, Roma, and four title-winning years at Juventus before an accounting-driven swap transfer to Barcelona."
+  },
+  {
+    "id": "cp-23",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "torino", "clubName": "Torino", "period": "2012–2015", "apps": 146, "goals": 6 },
+      { "clubId": "man-united", "clubName": "Manchester United", "period": "2015–2019", "apps": 92, "goals": 1 },
+      { "clubId": "parma", "clubName": "Parma", "period": "2019–2020", "apps": 37, "goals": 1 },
+      { "clubId": "inter-milan", "clubName": "Inter Milan", "period": "2020–present", "apps": 180, "goals": 12 }
+    ],
+    "correctAnswer": "Matteo Darmian",
+    "options": ["Danilo D'Ambrosio", "Matteo Darmian", "Davide Zappacosta", "Mattia De Sciglio"],
+    "hints": [
+      "An Italian full-back who also converts seamlessly into a right-sided centre-back.",
+      "Louis van Gaal signed him in 2015; his sole goal in England came against Crystal Palace.",
+      "He started in the 2023 UEFA Champions League final in Istanbul."
+    ],
+    "explanation": "Matteo Darmian broke into the Italy squad at Torino, spent four seasons at Manchester United, rebuilt at Parma, and won two Scudetti with Inter Milan."
+  },
+  {
+    "id": "cp-24",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "benfica", "clubName": "SL Benfica", "period": "2013–2015", "apps": 67, "goals": 2 },
+      { "clubId": "valencia", "clubName": "Valencia CF", "period": "2015–2018", "apps": 91, "goals": 3 },
+      { "clubId": "juventus", "clubName": "Juventus", "period": "2018–2019", "apps": 34, "goals": 1 },
+      { "clubId": "man-city", "clubName": "Manchester City", "period": "2019–2024", "apps": 154, "goals": 9 },
+      { "clubId": "al-hilal", "clubName": "Al-Hilal", "period": "2024–present", "apps": 25, "goals": 2 }
+    ],
+    "correctAnswer": "João Cancelo",
+    "options": ["Nélson Semedo", "João Cancelo", "Diogo Dalot", "Ricardo Pereira"],
+    "hints": [
+      "A Portuguese full-back famous for operating as an inverted playmaker.",
+      "He also spent loan spells at Bayern Munich and FC Barcelona.",
+      "He won back-to-back PFA Premier League Team of the Year honours."
+    ],
+    "explanation": "João Cancelo progressed from Benfica to Valencia and Inter (loan), then Juventus and Man City before loans at Bayern and Barca and a 2024 move to Al-Hilal."
+  },
+  {
+    "id": "cp-25",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "club-brugge", "clubName": "Club Brugge", "period": "2009–2011", "apps": 89, "goals": 35 },
+      { "clubId": "dortmund", "clubName": "Borussia Dortmund", "period": "2011–2013", "apps": 64, "goals": 12 },
+      { "clubId": "wolfsburg", "clubName": "VfL Wolfsburg", "period": "2013–2015", "apps": 88, "goals": 21 },
+      { "clubId": "inter-milan", "clubName": "Inter Milan", "period": "2015–2022", "apps": 254, "goals": 55 },
+      { "clubId": "tottenham", "clubName": "Tottenham Hotspur", "period": "2022–2024", "apps": 50, "goals": 1 }
+    ],
+    "correctAnswer": "Ivan Perišić",
+    "options": ["Mario Mandžukić", "Ivan Rakitić", "Ivan Perišić", "Ante Rebić"],
+    "hints": [
+      "He won the Champions League while on loan at Bayern Munich in 2019–20.",
+      "He scored in the 2018 World Cup final.",
+      "Equally two-footed Croatian wide player who returned to Hajduk Split and joined PSV."
+    ],
+    "explanation": "Ivan Perišić won the Belgian Golden Shoe at Club Brugge, titles at Dortmund and Wolfsburg, starred for Inter, lifted the treble on loan at Bayern, and played under Antonio Conte at Spurs."
+  },
+  {
+    "id": "cp-26",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "caen", "clubName": "SM Caen", "period": "2013–2015", "apps": 82, "goals": 5 },
+      { "clubId": "leicester", "clubName": "Leicester City", "period": "2015–2016", "apps": 40, "goals": 1 },
+      { "clubId": "chelsea", "clubName": "Chelsea FC", "period": "2016–2023", "apps": 269, "goals": 13 },
+      { "clubId": "al-ittihad", "clubName": "Al-Ittihad", "period": "2023–present", "apps": 55, "goals": 6 }
+    ],
+    "correctAnswer": "N'Golo Kanté",
+    "options": ["Tanguy Ndombele", "N'Golo Kanté", "Idrissa Gueye", "Étienne Capoue"],
+    "hints": [
+      "Played in France's third tier in 2012–13 with Boulogne before moving to Caen.",
+      "Won consecutive Premier League titles with two different clubs in 2016 and 2017.",
+      "Named Man of the Match in both legs of the 2021 Champions League semi-final and the final."
+    ],
+    "explanation": "N'Golo Kanté rose from French third-tier Boulogne and Caen to win back-to-back Premier League titles with Leicester and Chelsea before joining Al-Ittihad in 2023."
+  },
+  {
+    "id": "cp-27",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "santander", "clubName": "Racing Santander", "period": "2008–2011", "apps": 44, "goals": 6 },
+      { "clubId": "real-sociedad", "clubName": "Real Sociedad", "period": "2014–2018", "apps": 161, "goals": 14 },
+      { "clubId": "real-betis", "clubName": "Real Betis", "period": "2018–2023", "apps": 207, "goals": 39 },
+      { "clubId": "monterrey", "clubName": "CF Monterrey", "period": "2023–present", "apps": 60, "goals": 20 }
+    ],
+    "correctAnswer": "Sergio Canales",
+    "options": ["Isco", "Sergio Canales", "Dani Parejo", "Pablo Fornals"],
+    "hints": [
+      "A left-footed Spanish midfielder signed by Real Madrid as a teenager in 2010.",
+      "He overcame three ACL injuries to lift the Copa del Rey as captain of Real Betis in 2022.",
+      "He helped Spain win the 2023 UEFA Nations League before moving to Liga MX."
+    ],
+    "explanation": "Sergio Canales bounced back from three ACL tears to become Real Betis captain, lifting the 2022 Copa del Rey before joining Mexican club Monterrey."
+  },
+  {
+    "id": "cp-28",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "valencia", "clubName": "Valencia CF", "period": "2008–2012", "apps": 157, "goals": 24 },
+      { "clubId": "swansea", "clubName": "Swansea City", "period": "2012–2014", "apps": 71, "goals": 5 },
+      { "clubId": "rayo", "clubName": "Rayo Vallecano", "period": "2015–2016", "apps": 27, "goals": 3 },
+      { "clubId": "leeds", "clubName": "Leeds United", "period": "2016–2021", "apps": 175, "goals": 36 },
+      { "clubId": "castellon", "clubName": "CD Castellón", "period": "2021–2023", "apps": 55, "goals": 6 }
+    ],
+    "correctAnswer": "Pablo Hernández",
+    "options": ["Pablo Hernández", "Jonathan de Guzmán", "Michu", "José Ángel"],
+    "hints": [
+      "A Spanish winger who starred alongside David Silva and Juan Mata in Spain.",
+      "He won the 2013 League Cup at Wembley during his spell in South Wales.",
+      "His stoppage-time winner away at Swansea in July 2020 sealed Leeds United's Premier League return."
+    ],
+    "explanation": "Spanish playmaker Pablo Hernández spent four years at Valencia and won the 2013 League Cup with Swansea before becoming a modern Leeds United legend under Marcelo Bielsa."
+  },
+  {
+    "id": "cp-29",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "genk", "clubName": "KRC Genk", "period": "2014–2017", "apps": 83, "goals": 5 },
+      { "clubId": "leicester", "clubName": "Leicester City", "period": "2017–present", "apps": 290, "goals": 17 }
+    ],
+    "correctAnswer": "Wilfred Ndidi",
+    "options": ["Nampalys Mendy", "Wilfred Ndidi", "Idrissa Gueye", "Boubakary Soumaré"],
+    "hints": [
+      "A Nigerian defensive midfielder signed for £17m in January 2017 to replace N'Golo Kanté.",
+      "He topped the Premier League for total tackles in consecutive seasons (2017–18 and 2018–19).",
+      "He helped Leicester win the 2021 FA Cup and 2023–24 Championship."
+    ],
+    "explanation": "Wilfred Ndidi arrived from Belgian side Genk in January 2017 and became Leicester City's midfield ball-winner across nearly 300 appearances."
+  },
+  {
+    "id": "cp-30",
+    "mode": "career-path",
+    "difficulty": "expert",
+    "category": "Career Path",
+    "question": "Which footballer followed this career path?",
+    "clubs": [
+      { "clubId": "augsburg", "clubName": "FC Augsburg", "period": "2012–2016", "apps": 125, "goals": 4 },
+      { "clubId": "liverpool", "clubName": "Liverpool FC", "period": "2016–2018", "apps": 53, "goals": 2 },
+      { "clubId": "cagliari", "clubName": "Cagliari", "period": "2018–2021", "apps": 64, "goals": 0 }
+    ],
+    "correctAnswer": "Ragnar Klavan",
+    "options": ["Joel Matip", "Ragnar Klavan", "Kostas Tsimikas", "Dejan Lovren"],
+    "hints": [
+      "An Estonian centre-back signed from the Bundesliga for £4.2m in July 2016.",
+      "He scored a dramatic 94th-minute header away at Burnley on New Year's Day 2018.",
+      "He became the first Estonian player to feature in a UEFA Champions League final matchday squad."
+    ],
+    "explanation": "Estonian captain Ragnar Klavan joined Liverpool from FC Augsburg in 2016, scored a memorable last-minute winner at Burnley in January 2018, and later played for Cagliari."
+  }
+]
