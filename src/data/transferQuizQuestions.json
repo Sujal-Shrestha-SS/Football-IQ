@@ -1,0 +1,452 @@
+[
+  {
+    "id": "tr-1",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which Barcelona midfielder moved to Juventus in 2020 in an accounting swap deal worth €72m (with €10m add-ons) in exchange for Miralem Pjanić?",
+    "correctAnswer": "Arthur Melo",
+    "options": ["Ivan Rakitić", "Arthur Melo", "Arturo Vidal", "Carles Aleñá"],
+    "hints": [
+      "A Brazilian central midfielder signed from Grêmio in 2018.",
+      "He later spent an injury-hit loan spell at Liverpool in 2022–23.",
+      "He revived his form on loan at Fiorentina in 2023–24."
+    ],
+    "explanation": "Barcelona and Juventus executed a 2020 swap valuing Arthur Melo at €72m (plus €10m add-ons) and Miralem Pjanić at €60m."
+  },
+  {
+    "id": "tr-2",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which Italian club did Rodrigo De Paul spend five seasons at (2016–2021) before joining Atlético Madrid for €35m?",
+    "correctAnswer": "Udinese",
+    "options": ["Sampdoria", "Fiorentina", "Udinese", "Sassuolo"],
+    "hints": [
+      "He wore their number 10 shirt and club captain's armband.",
+      "They are based in Friuli-Venezia Giulia.",
+      "He scored 34 goals in 184 appearances for them after leaving Valencia."
+    ],
+    "explanation": "Atlético Madrid signed Rodrigo De Paul from Udinese for €35m in July 2021 just days after he lifted the Copa América."
+  },
+  {
+    "id": "tr-3",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which English club sold Dejan Lovren, Adam Lallana, Rickie Lambert, Nathaniel Clyne, Sadio Mané, and Virgil van Dijk to Liverpool between 2014 and 2018?",
+    "correctAnswer": "Southampton",
+    "options": ["Southampton", "Aston Villa", "Leicester City", "Crystal Palace"],
+    "hints": [
+      "Their academy also produced Gareth Bale and Luke Shaw.",
+      "Total fees received from Liverpool across those six deals exceeded £175m.",
+      "They play at St Mary's Stadium."
+    ],
+    "explanation": "Liverpool signed six key first-team players from Southampton between 2014 and January 2018, culminating in the £75m arrival of Virgil van Dijk."
+  },
+  {
+    "id": "tr-4",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which club sold both Kevin De Bruyne (in 2014) and Mohamed Salah (in 2016) permanently before either reached their Ballon d'Or contender peaks?",
+    "correctAnswer": "Chelsea",
+    "options": ["Chelsea", "Werder Bremen", "Basel", "Wolfsburg"],
+    "hints": [
+      "José Mourinho oversaw both sales.",
+      "De Bruyne left for £18m and Salah left for around £12m.",
+      "Both players later won Premier League Golden Boots or Playmaker awards against them."
+    ],
+    "explanation": "Chelsea sold Kevin De Bruyne to Wolfsburg in January 2014 and Mohamed Salah to Roma in 2016 after brief spells at Stamford Bridge."
+  },
+  {
+    "id": "tr-5",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which club did Brighton & Hove Albion sign Moisés Caicedo from for roughly £4.5m in February 2021?",
+    "correctAnswer": "Independiente del Valle",
+    "options": ["LDU Quito", "Barcelona SC", "Independiente del Valle", "Emelec"],
+    "hints": [
+      "An Ecuadorian club famous for its youth academy.",
+      "They also produced Piero Hincapié and Kendry Páez.",
+      "Brighton sold Caicedo to Chelsea two and a half years later for £115m."
+    ],
+    "explanation": "Brighton scouted Moisés Caicedo directly from Ecuadorian side Independiente del Valle for around £4.5m in February 2021 before selling him for £115m."
+  },
+  {
+    "id": "tr-6",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "How much did Swansea City pay Rayo Vallecano to sign Michu in July 2012?",
+    "correctAnswer": "£2 million",
+    "options": ["£2 million", "£8 million", "£12 million", "Free transfer"],
+    "hints": [
+      "It is widely regarded as one of the greatest Premier League bargains of the 2010s.",
+      "Rayo Vallecano were experiencing financial trouble at the time.",
+      "He scored 18 league goals in his debut season — roughly £111k per goal."
+    ],
+    "explanation": "Michael Laudrup signed Michu for Swansea City in July 2012 for just £2 million, and the Spaniard netted 22 goals in all competitions that season."
+  },
+  {
+    "id": "tr-7",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which player moved from Arsenal to Manchester United in a direct swap deal with Henrikh Mkhitaryan in January 2018?",
+    "correctAnswer": "Alexis Sánchez",
+    "options": ["Mesut Özil", "Olivier Giroud", "Alexis Sánchez", "Aaron Ramsey"],
+    "hints": [
+      "No transfer fee changed hands in the straight swap.",
+      "He was unveiled playing 'Glory, Glory Man United' on a piano.",
+      "He scored just 5 goals in 45 appearances at Old Trafford."
+    ],
+    "explanation": "Alexis Sánchez joined Manchester United in January 2018 with Henrikh Mkhitaryan heading to Arsenal in a straight swap with zero cash fee."
+  },
+  {
+    "id": "tr-8",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which striker joined Leicester City from non-league Fleetwood Town for £1 million in May 2012?",
+    "correctAnswer": "Jamie Vardy",
+    "options": ["Rickie Lambert", "Charlie Austin", "Jamie Vardy", "Troy Deeney"],
+    "hints": [
+      "It was a record transfer fee for a non-league player at the time.",
+      "He had previously played for Stocksbridge Park Steels and FC Halifax Town.",
+      "Four years later he won the Premier League and FWA Footballer of the Year."
+    ],
+    "explanation": "Leicester City paid Fleetwood Town £1m (rising with add-ons) for Jamie Vardy in May 2012, setting a non-league transfer record."
+  },
+  {
+    "id": "tr-9",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which club sold Andy Robertson to Liverpool for an initial £8 million in July 2017?",
+    "correctAnswer": "Hull City",
+    "options": ["Dundee United", "Hull City", "Burnley", "Norwich City"],
+    "hints": [
+      "They had just been relegated from the Premier League.",
+      "Kevin Stewart moved in the opposite direction as part of the summer business.",
+      "Robertson had joined them from Dundee United in 2014."
+    ],
+    "explanation": "Liverpool signed Scottish left-back Andy Robertson from relegated Hull City for £8m rising to £10m in July 2017."
+  },
+  {
+    "id": "tr-10",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which defender became the first £50 million full-back in football history when he joined Manchester City in July 2017?",
+    "correctAnswer": "Kyle Walker",
+    "options": ["Benjamin Mendy", "Kyle Walker", "Danilo", "João Cancelo"],
+    "hints": [
+      "Signed from Tottenham Hotspur.",
+      "Benjamin Mendy arrived at the same club later that same summer for £52m.",
+      "He won six Premier League titles under Pep Guardiola."
+    ],
+    "explanation": "Manchester City signed Kyle Walker from Tottenham for £45m rising to £50m in July 2017, briefly making him the world's most expensive defender."
+  },
+  {
+    "id": "tr-11",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "In August 2020, which Chelsea winger moved across London to Arsenal on a free transfer?",
+    "correctAnswer": "Willian",
+    "options": ["Pedro", "Willian", "Olivier Giroud", "David Luiz"],
+    "hints": [
+      "A Brazilian international who had spent seven years at Stamford Bridge.",
+      "He assisted twice on his Arsenal debut against Fulham before scoring just once all season.",
+      "He later returned to Corinthians and starred for Fulham."
+    ],
+    "explanation": "Willian left Chelsea as a free agent in August 2020 to sign a three-year contract with Arsenal, though he terminated it a year later."
+  },
+  {
+    "id": "tr-12",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which club paid Bayern Munich €30 million in 2014 to sign Toni Kroos with one year remaining on his contract?",
+    "correctAnswer": "Real Madrid",
+    "options": ["Manchester United", "Real Madrid", "Chelsea", "Barcelona"],
+    "hints": [
+      "The deal was completed right after Germany won the 2014 World Cup.",
+      "Widely regarded as one of the biggest bargains of the modern era.",
+      "He won five Champions Leagues across a decade at the Bernabéu."
+    ],
+    "explanation": "Real Madrid signed Toni Kroos from Bayern Munich for roughly €25m–€30m in July 2014, where he anchored their midfield for 10 years."
+  },
+  {
+    "id": "tr-13",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which goalkeeper became the world's most expensive stopper when Chelsea paid his €80 million (£71.6m) release clause in August 2018?",
+    "correctAnswer": "Kepa Arrizabalaga",
+    "options": ["Alisson Becker", "Kepa Arrizabalaga", "Jan Oblak", "Ederson"],
+    "hints": [
+      "He was signed from Athletic Bilbao.",
+      "His transfer came weeks after Alisson had briefly held the world record at £66.8m.",
+      "He later spent 2023–24 on loan at Real Madrid."
+    ],
+    "explanation": "Chelsea triggered Kepa Arrizabalaga's €80m Athletic Bilbao release clause in August 2018 to replace Thibaut Courtois."
+  },
+  {
+    "id": "tr-14",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which club received €222 million from PSG when Neymar Jr's release clause was triggered in August 2017?",
+    "correctAnswer": "FC Barcelona",
+    "options": ["Santos", "FC Barcelona", "Real Madrid", "AS Monaco"],
+    "hints": [
+      "They used the windfall to sign Ousmane Dembélé and Philippe Coutinho.",
+      "It remains more than double the previous world transfer record.",
+      "He formed the 'MSN' trio there."
+    ],
+    "explanation": "PSG paid Neymar's €222m buyout clause to FC Barcelona in August 2017, shattering the world transfer record."
+  },
+  {
+    "id": "tr-15",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which Danish midfielder did Brentford sign on a six-month free transfer in January 2022 following his recovery from cardiac arrest at Euro 2020?",
+    "correctAnswer": "Christian Eriksen",
+    "options": ["Mikkel Damsgaard", "Christian Eriksen", "Pierre-Emile Højbjerg", "Mathias Jensen"],
+    "hints": [
+      "He had mutually terminated his contract with Inter Milan because Serie A rules forbid playing with an ICD.",
+      "He transformed Brentford's season before joining Manchester United that summer.",
+      "Previously starred for Ajax and Tottenham."
+    ],
+    "explanation": "Brentford signed Christian Eriksen on a free transfer in January 2022, helping him make a triumphant Premier League return before moving to Man United."
+  },
+  {
+    "id": "tr-16",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which forward moved from Borussia Dortmund to Bayern Munich on a Bosman free transfer in July 2014?",
+    "correctAnswer": "Robert Lewandowski",
+    "options": ["Mario Götze", "Robert Lewandowski", "Mats Hummels", "Pierre-Emerick Aubameyang"],
+    "hints": [
+      "Unlike Mario Götze (€37m) and Mats Hummels (€35m), his move cost €0 in transfer fees.",
+      "He agreed the pre-contract in January 2014.",
+      "He went on to score 344 goals in 375 appearances in Munich."
+    ],
+    "explanation": "Robert Lewandowski ran down his Dortmund contract to join Bayern Munich on a free transfer in July 2014."
+  },
+  {
+    "id": "tr-17",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which club sold Riyad Mahrez to Leicester City in January 2014 for roughly £400,000?",
+    "correctAnswer": "Le Havre",
+    "options": ["Guingamp", "Le Havre", "RC Lens", "SM Caen"],
+    "hints": [
+      "A famous French Ligue 2 academy club that also developed Paul Pogba and Dimitri Payet.",
+      "Mahrez admitted he initially thought Leicester was a rugby club.",
+      "They play in Normandy."
+    ],
+    "explanation": "Leicester City scout Steve Walsh signed Riyad Mahrez from French Ligue 2 side Le Havre in January 2014 for around £400,000."
+  },
+  {
+    "id": "tr-18",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which Brazilian midfielder moved from Liverpool to Barcelona in January 2018 for an initial £105 million (rising to £142m)?",
+    "correctAnswer": "Philippe Coutinho",
+    "options": ["Roberto Firmino", "Philippe Coutinho", "Lucas Leiva", "Fabinho"],
+    "hints": [
+      "Liverpool reinvested the fee in Virgil van Dijk and Alisson Becker.",
+      "He later scored twice against Barcelona while on loan at Bayern Munich in an 8–2 win.",
+      "Joined Aston Villa in 2022."
+    ],
+    "explanation": "FC Barcelona signed Philippe Coutinho from Liverpool for £105m rising to £142m in January 2018, the third-highest transfer fee ever paid."
+  },
+  {
+    "id": "tr-19",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which club did Real Madrid sign Eduardo Camavinga from on deadline day in August 2021 for €31 million?",
+    "correctAnswer": "Stade Rennais",
+    "options": ["AS Monaco", "Lille OSC", "Stade Rennais", "Lyon"],
+    "hints": [
+      "He made his Ligue 1 debut for them at age 16.",
+      "The Breton club also developed Ousmane Dembélé and Raphinha.",
+      "He won the Champions League in his debut season in Madrid."
+    ],
+    "explanation": "Real Madrid signed 18-year-old Eduardo Camavinga from Rennes on deadline day in August 2021 for €31m plus add-ons."
+  },
+  {
+    "id": "tr-20",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which Georgian winger joined Napoli from Dinamo Batumi for roughly €10 million in July 2022?",
+    "correctAnswer": "Khvicha Kvaratskhelia",
+    "options": ["Giorgi Mamardashvili", "Khvicha Kvaratskhelia", "Georges Mikautadze", "Zuriko Davitashvili"],
+    "hints": [
+      "He briefly returned home from Rubin Kazan before moving to Italy.",
+      "He was crowned Serie A MVP in his debut 2022–23 season.",
+      "Napoli fans nicknamed him 'Kvaradona'."
+    ],
+    "explanation": "Napoli signed Khvicha Kvaratskhelia for around €10m in 2022, and his 12 goals and 13 assists propelled them to a first Scudetto in 33 years."
+  },
+  {
+    "id": "tr-21",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which defender did Leicester City sell to Manchester United for £80 million in August 2019, setting a world record for a defender?",
+    "correctAnswer": "Harry Maguire",
+    "options": ["Çağlar Söyüncü", "Wesley Fofana", "Harry Maguire", "Jonny Evans"],
+    "hints": [
+      "Leicester had bought him from Hull City for £17m two years earlier.",
+      "The fee surpassed the £75m paid for Virgil van Dijk.",
+      "He was named club captain five months after arriving."
+    ],
+    "explanation": "Manchester United paid Leicester City £80m for Harry Maguire in August 2019, breaking Virgil van Dijk's transfer record for a defender."
+  },
+  {
+    "id": "tr-22",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which club sold Bruno Fernandes to Manchester United in January 2020 for €55 million plus add-ons?",
+    "correctAnswer": "Sporting CP",
+    "options": ["Benfica", "FC Porto", "Sporting CP", "Sampdoria"],
+    "hints": [
+      "He had returned to Portugal from Sampdoria in 2017.",
+      "He won two consecutive Liga NOS Player of the Year awards there.",
+      "They play at the Estádio José Alvalade."
+    ],
+    "explanation": "Sporting CP sold captain Bruno Fernandes to Manchester United in January 2020 after he scored 63 goals in 137 games in Lisbon."
+  },
+  {
+    "id": "tr-23",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which German club signed Jude Bellingham from Birmingham City in July 2020 for £25 million?",
+    "correctAnswer": "Borussia Dortmund",
+    "options": ["RB Leipzig", "Borussia Dortmund", "Bayer Leverkusen", "Bayern Munich"],
+    "hints": [
+      "Birmingham City retired his #22 shirt upon his departure at age 17.",
+      "They also developed Jadon Sancho and Christian Pulisic.",
+      "They sold him to Real Madrid three years later for €103m."
+    ],
+    "explanation": "Borussia Dortmund won the race for 17-year-old Jude Bellingham in 2020, beating Manchester United to his signature."
+  },
+  {
+    "id": "tr-24",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which Uruguayan midfielder joined Arsenal from Sampdoria in July 2018 for £26 million?",
+    "correctAnswer": "Lucas Torreira",
+    "options": ["Matías Vecino", "Lucas Torreira", "Rodrigo Bentancur", "Federico Valverde"],
+    "hints": [
+      "A tenacious 1.66m defensive midfielder.",
+      "He scored in a 4–2 North London Derby victory over Tottenham in December 2018.",
+      "Later won La Liga on loan at Atlético Madrid before moving to Galatasaray."
+    ],
+    "explanation": "Lucas Torreira joined Unai Emery's Arsenal from Sampdoria in 2018 for £26m after impressing at the World Cup in Russia."
+  },
+  {
+    "id": "tr-25",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which player joined Juventus on a free transfer from PSG in 2019 before returning to France with Marseille in 2024?",
+    "correctAnswer": "Adrien Rabiot",
+    "options": ["Blaise Matuidi", "Adrien Rabiot", "Paul Pogba", "Leandro Paredes"],
+    "hints": [
+      "A tall left-footed French central midfielder.",
+      "He won the 2019–20 Scudetto and 2021 & 2024 Coppa Italia in Turin.",
+      "He started France's 2022 World Cup final."
+    ],
+    "explanation": "Adrien Rabiot joined Juventus on a free transfer in July 2019, making 212 appearances over five seasons before signing for Marseille in 2024."
+  },
+  {
+    "id": "tr-26",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which club sold Pierre-Emerick Aubameyang to Arsenal in January 2018 for a then-club-record £56 million?",
+    "correctAnswer": "Borussia Dortmund",
+    "options": ["Saint-Étienne", "Borussia Dortmund", "AC Milan", "AS Monaco"],
+    "hints": [
+      "He won the 2016–17 Bundesliga Torjägerkanone with 31 goals there.",
+      "He formed a prolific strike partnership with Henrikh Mkhitaryan and Marco Reus.",
+      "Olivier Giroud left Arsenal for Chelsea on the same deadline day."
+    ],
+    "explanation": "Arsenal broke their transfer record at £56m to sign Gabon striker Pierre-Emerick Aubameyang from Borussia Dortmund in January 2018."
+  },
+  {
+    "id": "tr-27",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which centre-back did Real Madrid sign on free transfers in consecutive summers — David Alaba (2021) and who in 2022?",
+    "correctAnswer": "Antonio Rüdiger",
+    "options": ["Ibrahima Konaté", "Antonio Rüdiger", "Niklas Süle", "Andreas Christensen"],
+    "hints": [
+      "A German international arriving from Chelsea.",
+      "He won the 2020–21 UEFA Champions League under Thomas Tuchel.",
+      "He converted the winning penalty in Madrid's 2024 UCL shootout at Manchester City."
+    ],
+    "explanation": "Real Madrid signed Antonio Rüdiger on a Bosman free transfer from Chelsea in June 2022, one year after landing David Alaba the same way."
+  },
+  {
+    "id": "tr-28",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which Dutch defender joined Liverpool from Southampton in January 2018 for £75 million?",
+    "correctAnswer": "Virgil van Dijk",
+    "options": ["Matthijs de Ligt", "Virgil van Dijk", "Nathan Aké", "Stefan de Vrij"],
+    "hints": [
+      "Previously played for Groningen and Celtic.",
+      "Scored on his Liverpool debut against Everton in the FA Cup.",
+      "Finished runner-up for the 2019 Ballon d'Or."
+    ],
+    "explanation": "Liverpool paid Southampton £75m in January 2018 for Virgil van Dijk, briefly a world-record fee for a defender."
+  },
+  {
+    "id": "tr-29",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which Spanish full-back moved from Real Madrid to Tottenham in September 2020 with a €45m buy-back clause after winning the Europa League on loan at Sevilla?",
+    "correctAnswer": "Sergio Reguilón",
+    "options": ["Achraf Hakimi", "Sergio Reguilón", "Fran García", "Álvaro Odriozola"],
+    "hints": [
+      "He was voted La Liga's best left-back during Sevilla's 2019–20 campaign.",
+      "Later had loan spells at Atlético Madrid, Manchester United, and Brentford.",
+      "Born in Collado Villalba."
+    ],
+    "explanation": "Tottenham signed Sergio Reguilón from Real Madrid for £25m in September 2020 after he starred in Sevilla's 2020 Europa League triumph."
+  },
+  {
+    "id": "tr-30",
+    "mode": "transfer-quiz",
+    "difficulty": "expert",
+    "category": "Transfers",
+    "question": "Which striker became West Ham United's club-record £45 million signing from Eintracht Frankfurt in July 2019?",
+    "correctAnswer": "Sébastien Haller",
+    "options": ["Marko Arnautović", "Sébastien Haller", "Felipe Anderson", "Gianluca Scamacca"],
+    "hints": [
+      "He later scored 11 goals in a single Champions League group/knockout campaign for Ajax (2021–22).",
+      "He overcame testicular cancer to score the winning goal in the 2023 AFCON final.",
+      "Ivorian international."
+    ],
+    "explanation": "West Ham broke their transfer record at £45m for Sébastien Haller in 2019 before he went on to shine at Ajax, Dortmund, and Ivory Coast."
+  }
+]
