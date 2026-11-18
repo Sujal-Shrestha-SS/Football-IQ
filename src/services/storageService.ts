@@ -2,6 +2,7 @@ import { UserProfile } from '../types/football';
 
 const PROFILE_KEY = 'football_iq_profile';
 const SOUND_KEY = 'football_iq_sound';
+const NAME_SET_KEY = 'football_iq_name_set';
 const SESSION_PLAYER_ID_KEY = 'football_iq_session_player_id';
 
 function createRandomId(prefix: string): string {
@@ -94,10 +95,38 @@ export const storageService = {
     }
   },
 
+  hasCompletedNameSetup(): boolean {
+    try {
+      if (localStorage.getItem(NAME_SET_KEY) === 'true') return true;
+      const raw = localStorage.getItem(PROFILE_KEY);
+      if (!raw) return false;
+      const parsed = JSON.parse(raw);
+      return Boolean(
+        parsed?.username &&
+          String(parsed.username).trim().length > 0 &&
+          String(parsed.username).trim() !== 'Striker99'
+      );
+    } catch {
+      return false;
+    }
+  },
+
+  markNameSetupComplete(): void {
+    try {
+      localStorage.setItem(NAME_SET_KEY, 'true');
+    } catch {
+      // Ignore storage error
+    }
+  },
+
   updateUsername(newUsername: string): UserProfile {
     const profile = this.getProfile();
-    const updated = { ...profile, username: newUsername.trim() || 'Striker99' };
+    const cleaned = newUsername.trim();
+    const updated = { ...profile, username: cleaned || 'Striker99' };
     this.saveProfile(updated);
+    if (cleaned.length > 0) {
+      this.markNameSetupComplete();
+    }
     return updated;
   },
 
@@ -130,6 +159,7 @@ export const storageService = {
 
   clearProfileData(): void {
     localStorage.removeItem(PROFILE_KEY);
+    localStorage.removeItem(NAME_SET_KEY);
     localStorage.removeItem('football_iq_history');
     localStorage.removeItem('football_iq_challenges');
   },

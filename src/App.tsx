@@ -26,7 +26,7 @@ import { isQuestionGenQuotaCoolingDown } from './services/questionGeneratorServi
 import { TopHeader } from './components/TopHeader';
 import { BottomNav, TabId } from './components/BottomNav';
 import { SettingsModal } from './components/SettingsModal';
-
+import { NameOnboardingScreen } from './components/NameOnBoardingScreen';
 import { HomeScreen } from './screens/HomeScreen';
 import { GameSetupScreen, getLockedInputMode } from './screens/GameSetupScreen';
 import { FriendsScreen } from './screens/FriendsScreen';
@@ -83,8 +83,12 @@ export default function App() {
   const [mpError, setMpError] = useState<string | null>(null);
   const lastMpModeRef = useRef<string>('');
 
-  // User profile
+  // User profile & initial name onboarding
   const [profile, setProfile] = useState<UserProfile>(storageService.getProfile());
+  const [needsNameSetup, setNeedsNameSetup] = useState<boolean>(
+    () => !storageService.hasCompletedNameSetup()
+  );
+  const [pendingInviteCode, setPendingInviteCode] = useState<string | null>(null);
 
   useEffect(() => {
     let active = true;
@@ -133,8 +137,13 @@ export default function App() {
     const params = new URLSearchParams(window.location.search);
     const inviteCode = params.get('room');
     if (inviteCode && inviteCode.trim().length >= 4) {
+      const cleanCode = inviteCode.trim().toUpperCase();
       setCurrentTab('friends');
-      multiplayerService.joinRoom(inviteCode.trim().toUpperCase(), storageService.getProfile());
+      if (storageService.hasCompletedNameSetup()) {
+        multiplayerService.joinRoom(cleanCode, storageService.getProfile());
+      } else {
+        setPendingInviteCode(cleanCode);
+      }
       const cleanUrl = window.location.pathname;
       window.history.replaceState({}, '', cleanUrl);
     }
@@ -291,6 +300,20 @@ export default function App() {
 
   const handleProfileReset = () => {
     setProfile(storageService.getProfile());
+    setNeedsNameSetup(true);
+  };
+
+  const handleNameOnboardingComplete = (username: string, avatarId: string) => {
+    storageService.updateUsername(username);
+    const updated = storageService.updateAvatar(avatarId);
+    setProfile(updated);
+    setNeedsNameSetup(false);
+    if (pendingInviteCode) {
+      const code = pendingInviteCode;
+      setPendingInviteCode(null);
+      setCurrentTab('friends');
+      multiplayerService.joinRoom(code, updated);
+    }
   };
 
   const currentQuestion = sessionQuestions[questionIndex];
@@ -377,6 +400,16 @@ export default function App() {
     }
   };
 
+  if (needsNameSetup) {
+    return (
+      <NameOnboardingScreen
+        initialAvatarId={profile.avatarId}
+        inviteRoomCode={pendingInviteCode}
+        onComplete={handleNameOnboardingComplete}
+      />
+    );
+  }
+
   if (!poolReady) {
     return (
       <div className="min-h-screen bg-[#070D18] flex items-center justify-center px-6">
@@ -443,7 +476,8 @@ export default function App() {
           className={`flex-1 w-full flex flex-col ${
             battleRoom || screenState === 'playing' ? 'game-safe' : ''
           }`}
->          {battleRoom ? (
+>
+          {battleRoom ? (
             isPlayingMultiplayerQuestion ? (
               <>
                 <MultiplayerTopBar room={battleRoom} myPlayerId={myPlayerId} />
