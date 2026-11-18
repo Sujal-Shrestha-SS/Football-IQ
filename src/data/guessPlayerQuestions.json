@@ -1,0 +1,696 @@
+[
+  {
+    "id": "gp-1",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Spain" },
+      { "label": "Position", "value": "Attacking Midfielder / Striker" },
+      { "label": "Club Era", "value": "Rayo Vallecano · Swansea City · Napoli (2011–2015)" },
+      { "label": "Trophy", "value": "2012–13 EFL League Cup" },
+      { "label": "Key Stat", "value": "18 Premier League goals in 2012–13 after a £2m transfer" }
+    ],
+    "correctAnswer": "Michu",
+    "options": ["Michu", "Ayoze Pérez", "Iago Aspas", "Fernando Llorente"],
+    "hints": [
+      "Famous for his cupped-ear hand celebration.",
+      "He scored twice on his Premier League debut away at QPR.",
+      "Erling Haaland named him as a childhood idol."
+    ],
+    "explanation": "Michu scored 22 goals in all competitions for Swansea City in 2012–13 after arriving from Rayo Vallecano for £2m."
+  },
+  {
+    "id": "gp-2",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Denmark" },
+      { "label": "Position", "value": "Goalkeeper" },
+      { "label": "Club Era", "value": "Leicester City · Nice · Celtic (2011–present)" },
+      { "label": "Trophy", "value": "2015–16 Premier League & 2021 FA Cup" },
+      { "label": "Key Stat", "value": "Saved two penalties across both legs vs Sevilla in 2016–17 UCL Round of 16" }
+    ],
+    "correctAnswer": "Kasper Schmeichel",
+    "options": ["Kasper Schmeichel", "Thomas Sørensen", "Anders Lindegaard", "Frederik Rønnow"],
+    "hints": [
+      "His father won the 1999 UEFA Champions League in goal.",
+      "He made a crucial fingertip save from Mason Mount in the 2021 FA Cup final.",
+      "He spent 11 years at the King Power Stadium."
+    ],
+    "explanation": "Kasper Schmeichel saved penalties from Joaquín Correa and Steven Nzonzi across the 2016–17 UCL Last 16 tie to send Leicester into the quarter-finals."
+  },
+  {
+    "id": "gp-3",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Sweden" },
+      { "label": "Position", "value": "Attacking Midfielder" },
+      { "label": "Club Era", "value": "Malmö FF · RB Leipzig · NY Red Bulls (2013–present)" },
+      { "label": "Trophy", "value": "2× DFB-Pokal (2022, 2023)" },
+      { "label": "Key Stat", "value": "Led the 2016–17 Bundesliga with 22 assists" }
+    ],
+    "correctAnswer": "Emil Forsberg",
+    "options": ["Emil Forsberg", "Dejan Kulusevski", "Sebastian Larsson", "Viktor Claesson"],
+    "hints": [
+      "Joined a German club while they were still in the 2. Bundesliga.",
+      "Wore the number 10 shirt in Leipzig for nearly a decade.",
+      "Scored the winner against Switzerland in the 2018 World Cup Round of 16."
+    ],
+    "explanation": "Emil Forsberg registered 22 assists in RB Leipzig's debut 2016–17 Bundesliga campaign and spent nine years at the club."
+  },
+  {
+    "id": "gp-4",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Argentina" },
+      { "label": "Position", "value": "Attacking Midfielder" },
+      { "label": "Club Era", "value": "Catania · Atalanta · Sevilla (2010–2023)" },
+      { "label": "Trophy", "value": "2022 FIFA World Cup & 2023 UEFA Europa League" },
+      { "label": "Key Stat", "value": "Named Serie A Best Midfielder in 2019–20 after 16 league assists" }
+    ],
+    "correctAnswer": "Papu Gómez",
+    "options": ["Papu Gómez", "Éver Banega", "Rodrigo De Paul", "Paulo Dybala"],
+    "hints": [
+      "Captained a provincial Italian side into the Champions League quarter-finals.",
+      "Famous for a viral dance celebration.",
+      "Scored 59 goals in 252 appearances in Bergamo."
+    ],
+    "explanation": "Papu Gómez captained Atalanta to consecutive top-three Serie A finishes and won Serie A Best Midfielder for 2019–20."
+  },
+  {
+    "id": "gp-5",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Progressive Hints",
+    "subType": "progressive",
+    "question": "Identify the player with as few clues as possible:",
+    "clues": [
+      { "label": "Clue 1", "value": "Joined Liverpool in 2016 on a free transfer from the Bundesliga" },
+      { "label": "Clue 2", "value": "Played over 250 matches for Schalke 04 after coming through their academy" },
+      { "label": "Clue 3", "value": "Assisted Divock Origi's 87th-minute goal in the 2019 Champions League final" },
+      { "label": "Clue 4", "value": "Represented Cameroon at two FIFA World Cups (2010, 2014)" },
+      { "label": "Clue 5", "value": "Towering centre-back famous for carrying the ball past midfielders on mazy runs" }
+    ],
+    "correctAnswer": "Joel Matip",
+    "options": ["Joel Matip", "Joe Gomez", "Dejan Lovren", "Ibrahima Konaté"],
+    "hints": [
+      "Played under Jürgen Klopp for eight seasons.",
+      "Born in Bochum, Germany.",
+      "Retired from professional football in October 2024."
+    ],
+    "explanation": "Joel Matip played the full 90 minutes in the 2019 Champions League final, laying off the pass for Divock Origi's second goal against Spurs."
+  },
+  {
+    "id": "gp-6",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Spain" },
+      { "label": "Position", "value": "Central Midfielder" },
+      { "label": "Club Era", "value": "Real Betis · Napoli · PSG (2014–present)" },
+      { "label": "Trophy", "value": "UEFA Euro 2024 & 2× Ligue 1" },
+      { "label": "Key Stat", "value": "Won Golden Player at the 2019 UEFA European U-21 Championship" }
+    ],
+    "correctAnswer": "Fabián Ruiz",
+    "options": ["Dani Ceballos", "Fabián Ruiz", "Mikel Merino", "Carlos Soler"],
+    "hints": [
+      "Left-footed midfielder standing 1.89m tall.",
+      "Scored against Croatia in Spain's Euro 2024 opener.",
+      "Moved from Seville to Naples for €30m in 2018."
+    ],
+    "explanation": "Fabián Ruiz was named Golden Player of the 2019 U-21 Euros and became a cornerstone of Spain's Euro 2024-winning midfield."
+  },
+  {
+    "id": "gp-7",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Japan" },
+      { "label": "Position", "value": "Attacking Midfielder" },
+      { "label": "Club Era", "value": "Borussia Dortmund · Man United · Real Zaragoza (2010–2020)" },
+      { "label": "Trophy", "value": "2× Bundesliga & 1× Premier League" },
+      { "label": "Key Stat", "value": "First Asian player to score a Premier League hat-trick (March 2013)" }
+    ],
+    "correctAnswer": "Shinji Kagawa",
+    "options": ["Shinji Kagawa", "Heung-min Son", "Shinji Okazaki", "Kaoru Mitoma"],
+    "hints": [
+      "Scored his Premier League treble against Norwich City at Old Trafford.",
+      "Wore #23 for Dortmund and #26 in Manchester.",
+      "Won back-to-back German titles under Jürgen Klopp."
+    ],
+    "explanation": "Shinji Kagawa netted a hat-trick against Norwich City in March 2013, becoming the first Asian player to score a Premier League treble."
+  },
+  {
+    "id": "gp-8",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Stats",
+    "subType": "stats",
+    "question": "Which striker owns these scouting numbers?",
+    "clues": [
+      { "label": "Nationality", "value": "Denmark" },
+      { "label": "Position", "value": "Centre-Forward" },
+      { "label": "Breakout Season", "value": "23 goals in all competitions for Ajax (2016–17)" },
+      { "label": "Transfer History", "value": "Sold to OGC Nice for €20.5m in 2019; later played for Sevilla" },
+      { "label": "Major Tournament", "value": "Scored 3 goals for Denmark at UEFA Euro 2020" }
+    ],
+    "statsBreakdown": { "matches": 335, "goals": 122 },
+    "correctAnswer": "Kasper Dolberg",
+    "options": ["Kasper Dolberg", "Rasmus Højlund", "Martin Braithwaite", "Yussuf Poulsen"],
+    "hints": [
+      "Scored in Ajax's 2017 Europa League semi-final win over Lyon.",
+      "Won Euro 2020 Man of the Match against Wales in Amsterdam.",
+      "Signed for RSC Anderlecht in 2023."
+    ],
+    "explanation": "Kasper Dolberg broke out with 23 goals for Ajax in 2016–17 before spells at Nice, Sevilla, Hoffenheim, and Anderlecht."
+  },
+  {
+    "id": "gp-9",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Algeria" },
+      { "label": "Position", "value": "Right Winger" },
+      { "label": "Club Era", "value": "Valencia · West Ham · Galatasaray (2010–2022)" },
+      { "label": "Trophy", "value": "2× Süper Lig (2018, 2019)" },
+      { "label": "Key Stat", "value": "Scored Algeria's first World Cup goal since 1986 vs Belgium in 2014" }
+    ],
+    "correctAnswer": "Sofiane Feghouli",
+    "options": ["Sofiane Feghouli", "Yacine Brahimi", "Rachid Ghezzal", "Adam Ounas"],
+    "hints": [
+      "Made over 200 appearances for Valencia CF.",
+      "Scored 4 goals during his 2016–17 Premier League season.",
+      "Started his senior career at Grenoble in France."
+    ],
+    "explanation": "Sofiane Feghouli converted a penalty against Belgium at the 2014 World Cup to end Algeria's 28-year wait for a tournament goal."
+  },
+  {
+    "id": "gp-10",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Argentina" },
+      { "label": "Position", "value": "Attacking Midfielder" },
+      { "label": "Club Era", "value": "Udinese · Juventus · Watford (2011–2024)" },
+      { "label": "Trophy", "value": "2× Serie A & 2× Coppa Italia" },
+      { "label": "Key Stat", "value": "Came off the bench in the 2015 UCL final for Andrea Pirlo's teammates" }
+    ],
+    "correctAnswer": "Roberto Pereyra",
+    "options": ["Roberto Pereyra", "Manuel Lanzini", "Giovani Lo Celso", "Lucas Ocampos"],
+    "hints": [
+      "Played in the 2019 FA Cup final at Wembley.",
+      "Had two separate spells at Udinese.",
+      "Also played 19 times for Argentina."
+    ],
+    "explanation": "Roberto Pereyra won two domestic doubles with Juventus before becoming a fan favourite at Watford and returning to captain Udinese."
+  },
+  {
+    "id": "gp-11",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Portugal" },
+      { "label": "Position", "value": "Central Midfielder" },
+      { "label": "Club Era", "value": "Porto · Liverpool · Chelsea · Fenerbahçe (2010–2016)" },
+      { "label": "Trophy", "value": "2011–12 UEFA Champions League & FA Cup" },
+      { "label": "Key Stat", "value": "Scored the stoppage-time goal at Benfica in the 2012 UCL quarter-final" }
+    ],
+    "correctAnswer": "Raul Meireles",
+    "options": ["Raul Meireles", "Tiago Mendes", "Maniche", "André Gomes"],
+    "hints": [
+      "Missed the 2012 Champions League final through suspension.",
+      "Won PFA Fans' Player of the Year in 2010–11.",
+      "Known for his full beard and extensive tattoos."
+    ],
+    "explanation": "Raul Meireles sealed Chelsea's 2012 UCL quarter-final win over Benfica with a breakaway goal and celebration aimed at his former rivals."
+  },
+  {
+    "id": "gp-12",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Croatia" },
+      { "label": "Position", "value": "Winger / Wing-Back" },
+      { "label": "Club Era", "value": "Dortmund · Wolfsburg · Inter · Bayern · Spurs (2011–2024)" },
+      { "label": "Trophy", "value": "2019–20 Champions League & 2020–21 Serie A" },
+      { "label": "Key Stat", "value": "Scored 6 World Cup goals across 2014, 2018, and 2022" }
+    ],
+    "correctAnswer": "Ivan Perišić",
+    "options": ["Ivan Perišić", "Mario Mandžukić", "Ante Rebić", "Marcelo Brozović"],
+    "hints": [
+      "Won the 2011 Belgian Golden Shoe with Club Brugge.",
+      "Scored the equaliser in the 2018 World Cup semi-final vs England.",
+      "Joined PSV Eindhoven in September 2024."
+    ],
+    "explanation": "Ivan Perišić is Croatia's all-time leading scorer at major tournaments (World Cup + Euros combined) with 10 goals."
+  },
+  {
+    "id": "gp-13",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Progressive Hints",
+    "subType": "progressive",
+    "question": "Identify the player with as few clues as possible:",
+    "clues": [
+      { "label": "Clue 1", "value": "Started in Valencia's academy before making 111 appearances in France" },
+      { "label": "Clue 2", "value": "Made over 100 Premier League appearances for Everton" },
+      { "label": "Clue 3", "value": "Won 2020–21 UEFA Nations League with France" },
+      { "label": "Clue 4", "value": "Previously played for PSG, Roma, and FC Barcelona" },
+      { "label": "Clue 5", "value": "French left-back currently playing for Aston Villa" }
+    ],
+    "correctAnswer": "Lucas Digne",
+    "options": ["Lucas Digne", "Theo Hernández", "Ferland Mendy", "Layvin Kurzawa"],
+    "hints": [
+      "Joined Barcelona for €16.5m in 2016.",
+      "Signed by Aston Villa in January 2022.",
+      "Was left out of France's 2018 World Cup squad as a reserve."
+    ],
+    "explanation": "Lucas Digne won Ligue 1 with PSG and La Liga with Barcelona before starring at Everton and Aston Villa."
+  },
+  {
+    "id": "gp-14",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Senegal" },
+      { "label": "Position", "value": "Goalkeeper" },
+      { "label": "Club Era", "value": "Reims · Rennes · Chelsea · Al-Ahli (2016–present)" },
+      { "label": "Trophy", "value": "2020–21 Champions League & 2021 AFCON" },
+      { "label": "Key Stat", "value": "Equalled record with 9 clean sheets in a single UCL campaign (2020–21)" }
+    ],
+    "correctAnswer": "Édouard Mendy",
+    "options": ["Édouard Mendy", "André Onana", "Yassine Bounou", "Kepa Arrizabalaga"],
+    "hints": [
+      "Was unemployed and registered at a job centre in 2014–15.",
+      "Named The Best FIFA Men's Goalkeeper for 2021.",
+      "Saved a penalty in the 2021 AFCON final shootout."
+    ],
+    "explanation": "After briefly being without a club in France's lower divisions in 2014, Édouard Mendy kept 9 clean sheets in Chelsea's 2020–21 Champions League triumph."
+  },
+  {
+    "id": "gp-15",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "England" },
+      { "label": "Position", "value": "Central Midfielder" },
+      { "label": "Club Era", "value": "Liverpool · Swansea · Newcastle (2010–2023)" },
+      { "label": "Trophy", "value": "2016–17 EFL Championship" },
+      { "label": "Key Stat", "value": "Scored for and against Liverpool in a 2–2 draw at Swansea in Sept 2013" }
+    ],
+    "correctAnswer": "Jonjo Shelvey",
+    "options": ["Jonjo Shelvey", "Jack Cork", "Tom Cleverley", "Jake Livermore"],
+    "hints": [
+      "Made 6 senior appearances for England between 2012 and 2015.",
+      "Played over 200 matches at St James' Park.",
+      "Moved to Turkey in 2023."
+    ],
+    "explanation": "Jonjo Shelvey famously had a hand in all four goals (scoring one, assisting one, and making two costly errors) in Swansea's 2–2 draw with Liverpool in 2013."
+  },
+  {
+    "id": "gp-16",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Stats",
+    "subType": "stats",
+    "question": "Which forward owns these post-2010 numbers?",
+    "clues": [
+      { "label": "Nationality", "value": "Ivory Coast" },
+      { "label": "Position", "value": "Centre-Forward" },
+      { "label": "Peak Year", "value": "Top Premier League scorer in calendar year 2014 (20 goals)" },
+      { "label": "Clubs", "value": "Vitesse · Swansea City · Manchester City · Stoke City" },
+      { "label": "International", "value": "2015 Africa Cup of Nations winner" }
+    ],
+    "statsBreakdown": { "matches": 270, "goals": 132 },
+    "correctAnswer": "Wilfried Bony",
+    "options": ["Wilfried Bony", "Gervinho", "Salomon Kalou", "Arouna Koné"],
+    "hints": [
+      "Scored 31 Eredivisie goals in 2012–13.",
+      "Cost Manchester City £28 million in January 2015.",
+      "Wore the number 10 shirt at Swansea."
+    ],
+    "explanation": "Wilfried Bony outscored every Premier League player across the 2014 calendar year while leading the line for Swansea City."
+  },
+  {
+    "id": "gp-17",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Netherlands" },
+      { "label": "Position", "value": "Central Midfielder" },
+      { "label": "Club Era", "value": "PSV · AS Roma · Marseille · Genoa (2011–2024)" },
+      { "label": "Trophy", "value": "2011–12 KNVB Cup" },
+      { "label": "Key Stat", "value": "Captained Netherlands before a severe ACL injury in March 2014" }
+    ],
+    "correctAnswer": "Kevin Strootman",
+    "options": ["Kevin Strootman", "Nigel de Jong", "Rafael van der Vaart", "Jordy Clasie"],
+    "hints": [
+      "Louis van Gaal switched to a 5-3-2 system in 2014 specifically due to his absence.",
+      "Joined Marseille for €25m in 2018.",
+      "Played 131 matches for AS Roma."
+    ],
+    "explanation": "Kevin Strootman's ACL injury in March 2014 forced Louis van Gaal to abandon 4-3-3 for 5-3-2 at the 2014 World Cup."
+  },
+  {
+    "id": "gp-18",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Spain" },
+      { "label": "Position", "value": "Defensive Midfielder / Centre-Back" },
+      { "label": "Club Era", "value": "Athletic Bilbao · Bayern Munich (2006–2021)" },
+      { "label": "Trophy", "value": "2× Continental Treble (2013, 2020)" },
+      { "label": "Key Stat", "value": "Scored the 104th-minute winner in the 2020 UEFA Super Cup" }
+    ],
+    "correctAnswer": "Javi Martínez",
+    "options": ["Javi Martínez", "Xabi Alonso", "Thiago Alcântara", "Ander Herrera"],
+    "hints": [
+      "Was the Bundesliga's record signing at €40m in August 2012.",
+      "Part of Spain's 2010 World Cup and Euro 2012 squads.",
+      "Also won the 2013 UEFA Super Cup against Chelsea with a 121st-minute equaliser."
+    ],
+    "explanation": "Javi Martínez scored crucial extra-time goals in both the 2013 and 2020 UEFA Super Cups for Bayern Munich."
+  },
+  {
+    "id": "gp-19",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Progressive Hints",
+    "subType": "progressive",
+    "question": "Identify the player with as few clues as possible:",
+    "clues": [
+      { "label": "Clue 1", "value": "Joined Liverpool in 2014 alongside Rickie Lambert and Dejan Lovren" },
+      { "label": "Clue 2", "value": "Won England Player of the Year for 2016" },
+      { "label": "Clue 3", "value": "Captained his boyhood club through consecutive promotions into the Premier League" },
+      { "label": "Clue 4", "value": "Spent four seasons at Brighton & Hove Albion (2020–2024)" },
+      { "label": "Clue 5", "value": "Two-footed English midfielder famous for his 'Cruyff turn'" }
+    ],
+    "correctAnswer": "Adam Lallana",
+    "options": ["Adam Lallana", "Jordan Henderson", "James Milner", "Alex Oxlade-Chamberlain"],
+    "hints": [
+      "Returned to Southampton in June 2024.",
+      "Scored the dramatic 95th-minute winner in Liverpool's 5–4 victory at Norwich in 2016.",
+      "Made 34 senior England appearances."
+    ],
+    "explanation": "Adam Lallana won England Player of the Year in 2016 and made over 100 Premier League appearances each for Southampton, Liverpool, and Brighton."
+  },
+  {
+    "id": "gp-20",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Serbia" },
+      { "label": "Position", "value": "Left-Back / Centre-Back" },
+      { "label": "Club Era", "value": "Lazio · Man City · Roma · Inter (2007–2022)" },
+      { "label": "Trophy", "value": "2× Premier League & 1× Serie A" },
+      { "label": "Key Stat", "value": "Scored a direct free-kick winner vs Costa Rica at the 2018 World Cup" }
+    ],
+    "correctAnswer": "Aleksandar Kolarov",
+    "options": ["Aleksandar Kolarov", "Branislav Ivanović", "Matija Nastasić", "Filip Kostić"],
+    "hints": [
+      "Signed by Roberto Mancini for £16m in 2010.",
+      "Played for both Lazio and AS Roma.",
+      "Retired in 2022 after winning the Coppa Italia with Inter."
+    ],
+    "explanation": "Aleksandar Kolarov played over 240 games for Manchester City before returning to Serie A with Roma and Inter Milan."
+  },
+  {
+    "id": "gp-21",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Portugal" },
+      { "label": "Position", "value": "Attacking / Central Midfielder" },
+      { "label": "Club Era", "value": "Sporting CP · Inter Milan · West Ham · Benfica (2011–2024)" },
+      { "label": "Trophy", "value": "UEFA Euro 2016 & 2022–23 Primeira Liga" },
+      { "label": "Key Stat", "value": "Scored 17 league goals from midfield in Benfica's 2022–23 title campaign" }
+    ],
+    "correctAnswer": "João Mário",
+    "options": ["João Mário", "Pizzi", "Rafa Silva", "Bruno Fernandes"],
+    "hints": [
+      "Started all four knockout matches of Euro 2016.",
+      "Moved to Inter Milan for €40m immediately after Euro 2016.",
+      "Later joined Beşiktaş in 2024."
+    ],
+    "explanation": "João Mário enjoyed his most prolific scoring season in 2022–23 with 23 goals across all competitions for Benfica."
+  },
+  {
+    "id": "gp-22",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Stats",
+    "subType": "stats",
+    "question": "Which midfielder owns this statistical profile?",
+    "clues": [
+      { "label": "Nationality", "value": "Armenia" },
+      { "label": "Position", "value": "Attacking / Central Midfielder" },
+      { "label": "Peak Creative Year", "value": "15 Bundesliga assists in 2015–16 (VdV Player of the Season)" },
+      { "label": "Unique Feat", "value": "Scored a scorpion kick vs Sunderland on Boxing Day 2016" },
+      { "label": "European Final", "value": "Scored in the 2017 Europa League final" }
+    ],
+    "statsBreakdown": { "matches": 520, "goals": 135 },
+    "correctAnswer": "Henrikh Mkhitaryan",
+    "options": ["Henrikh Mkhitaryan", "Marco Reus", "Mesut Özil", "Ivan Rakitić"],
+    "hints": [
+      "Joined Arsenal in a direct swap for Alexis Sánchez in January 2018.",
+      "Reinvented as a deep-lying box-to-box #8 under Simone Inzaghi.",
+      "All-time leading scorer for his national team."
+    ],
+    "explanation": "Henrikh Mkhitaryan won Bundesliga Players' Player of the Season in 2015–16 before winning European trophies at Man United, Roma, and Serie A at Inter."
+  },
+  {
+    "id": "gp-23",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Spain" },
+      { "label": "Position", "value": "Attacking Midfielder" },
+      { "label": "Club Era", "value": "Sevilla · Liverpool · Lazio (2011–2024)" },
+      { "label": "Trophy", "value": "2018–19 Coppa Italia" },
+      { "label": "Key Stat", "value": "Led Serie A with 15 assists in 2019–20 (tied with Papu Gómez)" }
+    ],
+    "correctAnswer": "Luis Alberto",
+    "options": ["Luis Alberto", "Iago Aspas", "Suso", "José Callejón"],
+    "hints": [
+      "Left England permanently in 2016 for just €4 million.",
+      "Spent a season on loan at Málaga and Deportivo La Coruña.",
+      "Moved to Al-Duhail in Qatar in 2024."
+    ],
+    "explanation": "After failing to score in 12 Liverpool appearances, Luis Alberto became one of Serie A's premier playmakers across eight years at Lazio."
+  },
+  {
+    "id": "gp-24",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Switzerland" },
+      { "label": "Position", "value": "Winger / Attacking Midfielder" },
+      { "label": "Club Era", "value": "Basel · Bayern · Inter · Stoke · Liverpool (2010–2021)" },
+      { "label": "Trophy", "value": "2× UEFA Champions League (2013, 2019)" },
+      { "label": "Key Stat", "value": "Scored an iconic overhead kick at Euro 2016 vs Poland" }
+    ],
+    "correctAnswer": "Xherdan Shaqiri",
+    "options": ["Granit Xhaka", "Xherdan Shaqiri", "Haris Seferović", "Breel Embolo"],
+    "hints": [
+      "Only Swiss player to score in three consecutive World Cups (2014, 2018, 2022).",
+      "Scored a hat-trick against Honduras at the 2014 World Cup.",
+      "Returned to his boyhood club FC Basel in August 2024."
+    ],
+    "explanation": "Xherdan Shaqiri won Champions Leagues with Bayern Munich and Liverpool, scoring at three World Cups and three Euros for Switzerland."
+  },
+  {
+    "id": "gp-25",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Progressive Hints",
+    "subType": "progressive",
+    "question": "Identify the player with as few clues as possible:",
+    "clues": [
+      { "label": "Clue 1", "value": "Started his senior career in Argentina before moving to Ligue 2 with Monaco" },
+      { "label": "Clue 2", "value": "Had a six-month loan spell at AC Milan in early 2017" },
+      { "label": "Clue 3", "value": "Scored an 88th-minute winner vs Wolves in the 2020 Europa League quarter-final" },
+      { "label": "Clue 4", "value": "Played in goal during stoppage time in a 1–0 La Liga win over Eibar in July 2020" },
+      { "label": "Clue 5", "value": "Argentine winger who won two UEFA Europa League titles at Sevilla" }
+    ],
+    "correctAnswer": "Lucas Ocampos",
+    "options": ["Lucas Ocampos", "Marcos Acuña", "Érik Lamela", "Papu Gómez"],
+    "hints": [
+      "Started his senior career at River Plate.",
+      "Played in goal late in a 1–0 win over Eibar in July 2020.",
+      "Joined Mexican club Monterrey in 2024."
+    ],
+    "explanation": "Lucas Ocampos scored the 88th-minute winner vs Wolves in 2020 and helped Sevilla win two UEFA Europa League titles."
+  },
+  {
+    "id": "gp-26",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Germany" },
+      { "label": "Position", "value": "Attacking Midfielder" },
+      { "label": "Club Era", "value": "Dortmund · Bayern · PSV · Frankfurt (2010–present)" },
+      { "label": "Trophy", "value": "2014 World Cup & 5× Bundesliga" },
+      { "label": "Key Stat", "value": "Won 2011 Golden Boy before scoring a 113th-minute World Cup final winner" }
+    ],
+    "correctAnswer": "Mario Götze",
+    "options": ["Mario Götze", "André Schürrle", "Julian Draxler", "Marco Reus"],
+    "hints": [
+      "Missed Germany's Euro 2020 campaign while playing in the Eredivisie.",
+      "Recalled for the 2022 World Cup squad after a five-year absence.",
+      "His transfer to Bayern was announced days before a 2013 UCL semi-final."
+    ],
+    "explanation": "Mario Götze won five Bundesliga titles across Dortmund and Bayern before revitalizing his career at PSV Eindhoven and Eintracht Frankfurt."
+  },
+  {
+    "id": "gp-27",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Ivory Coast" },
+      { "label": "Position", "value": "Winger / Forward" },
+      { "label": "Club Era", "value": "Crystal Palace · Man United · Galatasaray (2010–present)" },
+      { "label": "Trophy", "value": "2023–24 Turkish Süper Lig" },
+      { "label": "Key Stat", "value": "Made over 450 appearances across two spells at Selhurst Park" }
+    ],
+    "correctAnswer": "Wilfried Zaha",
+    "options": ["Wilfried Zaha", "Nicolas Pépé", "Maxwel Cornet", "Yannick Bolasie"],
+    "hints": [
+      "Won Championship Player of the Year in 2012–13.",
+      "Born in Abidjan and raised in Thornton Heath.",
+      "Moved to Lyon on loan in 2024 before joining Charlotte FC."
+    ],
+    "explanation": "Wilfried Zaha left Crystal Palace as their modern legend in 2023 after 90 goals across 458 appearances."
+  },
+  {
+    "id": "gp-28",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Stats",
+    "subType": "stats",
+    "question": "Which English striker owns these numbers?",
+    "clues": [
+      { "label": "Nationality", "value": "England" },
+      { "label": "Position", "value": "Striker" },
+      { "label": "Single-Match Record", "value": "Scored 5 goals in one half vs Wigan Athletic (Nov 2009) & 162 PL goals overall" },
+      { "label": "Post-2010 Clubs", "value": "Tottenham · Toronto FC · Sunderland · Bournemouth · Rangers" },
+      { "label": "Final Trophy", "value": "2020–21 Scottish Premiership" }
+    ],
+    "statsBreakdown": { "matches": 762, "goals": 304 },
+    "correctAnswer": "Jermain Defoe",
+    "options": ["Jermain Defoe", "Jamie Vardy", "Darren Bent", "Danny Ings"],
+    "hints": [
+      "Scored 20 goals in 57 appearances for England.",
+      "Scored a dramatic derby volley against Newcastle in 2015.",
+      "Awarded an OBE in 2018."
+    ],
+    "explanation": "Jermain Defoe netted 162 Premier League goals and finished his decorated career by winning the 2020–21 Scottish Premiership at Rangers."
+  },
+  {
+    "id": "gp-29",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Silhouette",
+    "subType": "silhouette",
+    "question": "Unblur the dossier to name this footballer:",
+    "clues": [
+      { "label": "Nationality", "value": "Belgium" },
+      { "label": "Position", "value": "Centre-Back" },
+      { "label": "Club Era", "value": "Ajax · Atlético Madrid · Tottenham (2010–2021)" },
+      { "label": "Trophy", "value": "2013–14 La Liga & 3× Eredivisie" },
+      { "label": "Key Stat", "value": "Won Belgian Pro League in 2022–23 with a 94th-minute screamer" }
+    ],
+    "correctAnswer": "Toby Alderweireld",
+    "options": ["Jan Vertonghen", "Toby Alderweireld", "Thomas Vermaelen", "Vincent Kompany"],
+    "hints": [
+      "Signed by Mauricio Pochettino in 2015 after a loan at Southampton.",
+      "Earned 127 caps for Belgium.",
+      "Captained Royal Antwerp to a historic domestic double in 2023."
+    ],
+    "explanation": "Toby Alderweireld won titles in the Netherlands, Spain, and Belgium, sealing Royal Antwerp's first league title in 66 years in stoppage time."
+  },
+  {
+    "id": "gp-30",
+    "mode": "guess-player",
+    "difficulty": "expert",
+    "category": "Player Clues",
+    "subType": "clues",
+    "question": "Who is this footballer?",
+    "clues": [
+      { "label": "Nationality", "value": "Italy" },
+      { "label": "Position", "value": "Right-Back / Centre-Back" },
+      { "label": "Club Era", "value": "Torino · Man United · Parma · Inter Milan (2012–present)" },
+      { "label": "Trophy", "value": "2× Serie A, 1× FA Cup, 1× Europa League" },
+      { "label": "Key Stat", "value": "Started the 2023 Champions League final on the right of a back three" }
+    ],
+    "correctAnswer": "Matteo Darmian",
+    "options": ["Matteo Darmian", "Alessandro Florenzi", "Giovanni Di Lorenzo", "Danilo D'Ambrosio"],
+    "hints": [
+      "Named in the Serie A Team of the Year in 2013–14 and 2014–15.",
+      "Started England vs Italy at the 2014 World Cup in Manaus.",
+      "Cost Manchester United £12.7m in 2015."
+    ],
+    "explanation": "Matteo Darmian played 92 times for Manchester United before becoming a reliable tactical pillar in Inter Milan's two Scudetto campaigns."
+  }
+]
