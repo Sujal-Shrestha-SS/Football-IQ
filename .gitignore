@@ -38,3 +38,6 @@ android/capacitor-cordova-android-plugins/build/
 # AI Studio internal files
 public/assets/aistudio/
 metadata.json
+
+#push script
+push-to-github.ps1

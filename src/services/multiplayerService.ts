@@ -15,9 +15,9 @@ class MultiplayerService {
   private manualLeave = false;
 
   private getWsUrl(): string {
-    const proto = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-    return `${proto}//${window.location.host}/ws`;
-  }
+  const apiUrl = import.meta.env.VITE_API_URL ?? window.location.origin;
+  return apiUrl.replace(/^https/, 'wss').replace(/^http/, 'ws') + '/ws';
+}
 
   private ensureSocket(): void {
     if (
