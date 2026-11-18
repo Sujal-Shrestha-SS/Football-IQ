@@ -1,0 +1,308 @@
+[
+  {
+    "id": "real-madrid",
+    "name": "Real Madrid",
+    "shortName": "RMA",
+    "country": "Spain",
+    "league": "La Liga",
+    "primaryColor": "#FFFFFF",
+    "secondaryColor": "#EE82EE"
+  },
+  {
+    "id": "barcelona",
+    "name": "FC Barcelona",
+    "shortName": "BAR",
+    "country": "Spain",
+    "league": "La Liga",
+    "primaryColor": "#004D98",
+    "secondaryColor": "#A50044"
+  },
+  {
+    "id": "atletico-madrid",
+    "name": "Atlético Madrid",
+    "shortName": "ATM",
+    "country": "Spain",
+    "league": "La Liga",
+    "primaryColor": "#CB3524",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "man-united",
+    "name": "Manchester United",
+    "shortName": "MUN",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#DA291C",
+    "secondaryColor": "#FBE122"
+  },
+  {
+    "id": "man-city",
+    "name": "Manchester City",
+    "shortName": "MCI",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#6CABDD",
+    "secondaryColor": "#1C2C5B"
+  },
+  {
+    "id": "liverpool",
+    "name": "Liverpool FC",
+    "shortName": "LIV",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#C8102E",
+    "secondaryColor": "#00B2A9"
+  },
+  {
+    "id": "chelsea",
+    "name": "Chelsea FC",
+    "shortName": "CHE",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#034694",
+    "secondaryColor": "#EE242C"
+  },
+  {
+    "id": "arsenal",
+    "name": "Arsenal FC",
+    "shortName": "ARS",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#EF0107",
+    "secondaryColor": "#063672"
+  },
+  {
+    "id": "tottenham",
+    "name": "Tottenham Hotspur",
+    "shortName": "TOT",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#132257",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "juventus",
+    "name": "Juventus",
+    "shortName": "JUV",
+    "country": "Italy",
+    "league": "Serie A",
+    "primaryColor": "#000000",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "ac-milan",
+    "name": "AC Milan",
+    "shortName": "ACM",
+    "country": "Italy",
+    "league": "Serie A",
+    "primaryColor": "#FB090B",
+    "secondaryColor": "#000000"
+  },
+  {
+    "id": "inter-milan",
+    "name": "Inter Milan",
+    "shortName": "INT",
+    "country": "Italy",
+    "league": "Serie A",
+    "primaryColor": "#001489",
+    "secondaryColor": "#000000"
+  },
+  {
+    "id": "napoli",
+    "name": "SSC Napoli",
+    "shortName": "NAP",
+    "country": "Italy",
+    "league": "Serie A",
+    "primaryColor": "#12A0D7",
+    "secondaryColor": "#003C82"
+  },
+  {
+    "id": "bayern-munich",
+    "name": "Bayern Munich",
+    "shortName": "BAY",
+    "country": "Germany",
+    "league": "Bundesliga",
+    "primaryColor": "#DC052D",
+    "secondaryColor": "#0066B2"
+  },
+  {
+    "id": "dortmund",
+    "name": "Borussia Dortmund",
+    "shortName": "BVB",
+    "country": "Germany",
+    "league": "Bundesliga",
+    "primaryColor": "#FDE100",
+    "secondaryColor": "#000000"
+  },
+  {
+    "id": "psg",
+    "name": "Paris Saint-Germain",
+    "shortName": "PSG",
+    "country": "France",
+    "league": "Ligue 1",
+    "primaryColor": "#004170",
+    "secondaryColor": "#DA291C"
+  },
+  {
+    "id": "ajax",
+    "name": "Ajax Amsterdam",
+    "shortName": "AJX",
+    "country": "Netherlands",
+    "league": "Eredivisie",
+    "primaryColor": "#DA291C",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "sporting-cp",
+    "name": "Sporting CP",
+    "shortName": "SCP",
+    "country": "Portugal",
+    "league": "Primeira Liga",
+    "primaryColor": "#008057",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "benfica",
+    "name": "SL Benfica",
+    "shortName": "SLB",
+    "country": "Portugal",
+    "league": "Primeira Liga",
+    "primaryColor": "#E30613",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "porto",
+    "name": "FC Porto",
+    "shortName": "FCP",
+    "country": "Portugal",
+    "league": "Primeira Liga",
+    "primaryColor": "#00428C",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "monaco",
+    "name": "AS Monaco",
+    "shortName": "ASM",
+    "country": "France",
+    "league": "Ligue 1",
+    "primaryColor": "#ED1C24",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "lyon",
+    "name": "Olympique Lyonnais",
+    "shortName": "OL",
+    "country": "France",
+    "league": "Ligue 1",
+    "primaryColor": "#14387F",
+    "secondaryColor": "#DA291C"
+  },
+  {
+    "id": "roma",
+    "name": "AS Roma",
+    "shortName": "ROM",
+    "country": "Italy",
+    "league": "Serie A",
+    "primaryColor": "#8E1F2F",
+    "secondaryColor": "#F0BC42"
+  },
+  {
+    "id": "lazio",
+    "name": "SS Lazio",
+    "shortName": "LAZ",
+    "country": "Italy",
+    "league": "Serie A",
+    "primaryColor": "#87D8F7",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "sevilla",
+    "name": "Sevilla FC",
+    "shortName": "SEV",
+    "country": "Spain",
+    "league": "La Liga",
+    "primaryColor": "#D4001F",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "everton",
+    "name": "Everton FC",
+    "shortName": "EVE",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#003399",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "leicester",
+    "name": "Leicester City",
+    "shortName": "LEI",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#003090",
+    "secondaryColor": "#FDBE11"
+  },
+  {
+    "id": "west-ham",
+    "name": "West Ham United",
+    "shortName": "WHU",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#7A263A",
+    "secondaryColor": "#1BB1E7"
+  },
+  {
+    "id": "newcastle",
+    "name": "Newcastle United",
+    "shortName": "NEW",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#241F20",
+    "secondaryColor": "#FFFFFF"
+  },
+  {
+    "id": "aston-villa",
+    "name": "Aston Villa",
+    "shortName": "AVL",
+    "country": "England",
+    "league": "Premier League",
+    "primaryColor": "#670E36",
+    "secondaryColor": "#95BFE5"
+  },
+  {
+    "id": "rb-leipzig",
+    "name": "RB Leipzig",
+    "shortName": "RBL",
+    "country": "Germany",
+    "league": "Bundesliga",
+    "primaryColor": "#DD0741",
+    "secondaryColor": "#001F47"
+  },
+  {
+    "id": "leverkusen",
+    "name": "Bayer Leverkusen",
+    "shortName": "B04",
+    "country": "Germany",
+    "league": "Bundesliga",
+    "primaryColor": "#E32221",
+    "secondaryColor": "#000000"
+  },
+  {
+    "id": "al-nassr",
+    "name": "Al-Nassr",
+    "shortName": "NAS",
+    "country": "Saudi Arabia",
+    "league": "Saudi Pro League",
+    "primaryColor": "#FFDD00",
+    "secondaryColor": "#002B7F"
+  },
+  {
+    "id": "inter-miami",
+    "name": "Inter Miami CF",
+    "shortName": "MIA",
+    "country": "USA",
+    "league": "MLS",
+    "primaryColor": "#F7B5CD",
+    "secondaryColor": "#000000"
+  }
+]
