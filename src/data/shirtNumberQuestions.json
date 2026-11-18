@@ -1,0 +1,452 @@
+[
+  {
+    "id": "sn-1",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Japanese midfielder wore #26 for Manchester United during their 2012–13 Premier League title campaign?",
+    "correctAnswer": "Shinji Kagawa",
+    "options": ["Park Ji-sung", "Shinji Kagawa", "Takumi Minamino", "Shinji Okazaki"],
+    "hints": [
+      "He wore #23 in both spells at Borussia Dortmund.",
+      "He scored a hat-trick against Norwich City in March 2013.",
+      "Signed by Sir Alex Ferguson."
+    ],
+    "explanation": "Shinji Kagawa chose #26 at Manchester United in 2012 and wore it during Sir Alex Ferguson's final title-winning season."
+  },
+  {
+    "id": "sn-2",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Welsh right-back wore #77 during Liverpool's 2021–22 quadruple-chasing season before joining Nottingham Forest?",
+    "correctAnswer": "Neco Williams",
+    "options": ["Conor Bradley", "Neco Williams", "Jon Flanagan", "Calvin Ramsay"],
+    "hints": [
+      "He spent the second half of 2021–22 on loan at Fulham, winning the Championship.",
+      "Played at the 2022 World Cup for Wales.",
+      "Came through Liverpool's academy as backup to Trent Alexander-Arnold."
+    ],
+    "explanation": "Neco Williams wore #77 for Liverpool (upgrading from #76) between 2020 and 2022 before moving to Nottingham Forest for £17m."
+  },
+  {
+    "id": "sn-3",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which striker wore #9 at Swansea City during his sensational 22-goal 2012–13 debut season?",
+    "correctAnswer": "Michu",
+    "options": ["Wilfried Bony", "Michu", "Danny Graham", "Bafétimbi Gomis"],
+    "hints": [
+      "He arrived from Rayo Vallecano for £2 million.",
+      "He wore the same #9 in the 2013 League Cup final at Wembley.",
+      "Spaniard whose career was curtailed by ankle problems."
+    ],
+    "explanation": "Michu took the #9 shirt at Swansea City in 2012 and immediately netted 18 Premier League goals in 35 appearances."
+  },
+  {
+    "id": "sn-4",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which young winger inherited FC Barcelona's #10 shirt in September 2021 after Lionel Messi left for PSG?",
+    "correctAnswer": "Ansu Fati",
+    "options": ["Pedri", "Ansu Fati", "Gavi", "Ousmane Dembélé"],
+    "hints": [
+      "He was just 18 years old when handed the iconic jersey.",
+      "He became the youngest goalscorer in UEFA Champions League history in 2019.",
+      "Spent 2023–24 on loan at Brighton & Hove Albion."
+    ],
+    "explanation": "Ansu Fati became Barcelona's #10 in 2021 at age 18, having previously worn #31 and #22."
+  },
+  {
+    "id": "sn-5",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "What squad number did Trent Alexander-Arnold keep throughout his entire senior Liverpool breakthrough and title-winning era?",
+    "correctAnswer": "#66",
+    "options": ["#2", "#66", "#44", "#52"],
+    "hints": [
+      "It was assigned by Liverpool kit coordinator Lee Radcliffe for academy graduates.",
+      "He chose never to switch to a traditional #2 shirt.",
+      "A repeating double-digit number."
+    ],
+    "explanation": "Trent Alexander-Arnold kept his academy-assigned #66 jersey rather than switching to a single-digit number, making it iconic at Anfield."
+  },
+  {
+    "id": "sn-6",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which midfielder wore #10 for RB Leipzig across nine seasons from 2015 to 2024?",
+    "correctAnswer": "Emil Forsberg",
+    "options": ["Dani Olmo", "Emil Forsberg", "Dominik Szoboszlai", "Christopher Nkunku"],
+    "hints": [
+      "He topped the 2016–17 Bundesliga assist table.",
+      "Swedish international.",
+      "Joined New York Red Bulls in 2024."
+    ],
+    "explanation": "Emil Forsberg was RB Leipzig's long-serving #10 from their 2. Bundesliga promotion campaign through two DFB-Pokal wins."
+  },
+  {
+    "id": "sn-7",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "What unusual shirt number did Mario Balotelli wear at Inter Milan, Manchester City, AC Milan, and Liverpool?",
+    "correctAnswer": "#45",
+    "options": ["#9", "#45", "#99", "#21"],
+    "hints": [
+      "It was originally assigned to him from Inter's youth ranks (#36–#50).",
+      "He joked that 4 + 5 equals 9.",
+      "He only switched to #9 briefly at Nice and Marseille."
+    ],
+    "explanation": "Mario Balotelli wore #45 across Inter, Man City, AC Milan, and Liverpool because 4 + 5 = 9, his preferred striker number."
+  },
+  {
+    "id": "sn-8",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which striker wore #9 for Chelsea during their 2017–18 season before switching to #29 in 2018–19?",
+    "correctAnswer": "Álvaro Morata",
+    "options": ["Olivier Giroud", "Álvaro Morata", "Tammy Abraham", "Gonzalo Higuaín"],
+    "hints": [
+      "He changed to #29 in honour of his twin sons' birth date (29 July).",
+      "Signed from Real Madrid for £60m in 2017.",
+      "Captained Spain to Euro 2024 victory."
+    ],
+    "explanation": "Álvaro Morata switched from Chelsea's #9 to #29 ahead of the 2018–19 season to honour the birth of his twin sons on 29 July."
+  },
+  {
+    "id": "sn-9",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Manchester City forward wore #47 in honour of his grandfather Ronnie, who died aged 47?",
+    "correctAnswer": "Phil Foden",
+    "options": ["Cole Palmer", "Phil Foden", "Rico Lewis", "Gabriel Jesus"],
+    "hints": [
+      "He was offered Sergio Agüero's #10 shirt in 2021 and turned it down.",
+      "Won PFA Players' Player of the Year for 2023–24.",
+      "Academy graduate born in Stockport."
+    ],
+    "explanation": "Phil Foden has kept #47 throughout his senior Manchester City career in tribute to his late grandfather, who passed away at age 47."
+  },
+  {
+    "id": "sn-10",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which striker inherited Real Madrid's #7 shirt directly after Cristiano Ronaldo departed in 2018, before Eden Hazard took it a year later?",
+    "correctAnswer": "Mariano Díaz",
+    "options": ["Vinícius Júnior", "Mariano Díaz", "Marco Asensio", "Luka Jović"],
+    "hints": [
+      "He had just scored 21 goals in Ligue 1 for Olympique Lyonnais.",
+      "He scored a brilliant curled goal against Roma in his debut UCL match wearing #7.",
+      "Born in Premià de Mar, represented the Dominican Republic."
+    ],
+    "explanation": "Mariano Díaz wore Real Madrid's #7 in 2018–19 after returning from Lyon, before switching to #24 when Eden Hazard arrived in 2019."
+  },
+  {
+    "id": "sn-11",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which goalkeeper wore #1 for Leicester City across their historic 2015–16 Premier League title season?",
+    "correctAnswer": "Kasper Schmeichel",
+    "options": ["Ron-Robert Zieler", "Kasper Schmeichel", "Mark Schwarzer", "Danny Ward"],
+    "hints": [
+      "He played all 38 league matches of that title campaign.",
+      "He moved to OGC Nice in 2022.",
+      "Danish national team captain."
+    ],
+    "explanation": "Kasper Schmeichel played every minute of Leicester City's 2015–16 Premier League triumph wearing the #1 jersey."
+  },
+  {
+    "id": "sn-12",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "What squad number did Declan Rice keep at both West Ham United and Arsenal?",
+    "correctAnswer": "#41",
+    "options": ["#4", "#6", "#41", "#16"],
+    "hints": [
+      "It was simply the number handed to him by West Ham's kitman in 2015.",
+      "He captained West Ham to the 2023 UEFA Europa Conference League wearing it.",
+      "It's in the forties."
+    ],
+    "explanation": "Declan Rice became attached to #41 after breaking into West Ham's first team and refused to swap it after his £105m move to Arsenal."
+  },
+  {
+    "id": "sn-13",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which player wore #99 for AC Milan during the 2015–2021 era despite not being a striker?",
+    "correctAnswer": "Gianluigi Donnarumma",
+    "options": ["Antonio Cassano", "Gianluigi Donnarumma", "Rafael Leão", "Sandro Tonali"],
+    "hints": [
+      "The number represents his birth year (1999).",
+      "He debuted in Serie A at just 16 years old under Siniša Mihajlović.",
+      "He won Player of the Tournament at UEFA Euro 2020."
+    ],
+    "explanation": "Born in 1999, goalkeeper Gianluigi Donnarumma wore #99 throughout his time at AC Milan and again at PSG."
+  },
+  {
+    "id": "sn-14",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which winger wore #77 for Napoli during their 2022–23 Serie A title triumph?",
+    "correctAnswer": "Khvicha Kvaratskhelia",
+    "options": ["Matteo Politano", "Khvicha Kvaratskhelia", "Hirving Lozano", "Eljif Elmas"],
+    "hints": [
+      "His preferred #7 was taken by Eljif Elmas when he arrived.",
+      "Georgian international signed from Dinamo Batumi.",
+      "Won Serie A MVP in 2022–23."
+    ],
+    "explanation": "With #7 already occupied by Eljif Elmas in 2022, Khvicha Kvaratskhelia doubled it to #77 and kept it for Napoli's Scudetto season."
+  },
+  {
+    "id": "sn-15",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Dutch defender wore #4 throughout his Liverpool career after joining in January 2018?",
+    "correctAnswer": "Virgil van Dijk",
+    "options": ["Dejan Lovren", "Virgil van Dijk", "Joel Matip", "Ibrahima Konaté"],
+    "hints": [
+      "He wore #17 at Southampton.",
+      "Wears only his first name 'Virgil' above the #4 on his shirt.",
+      "Named Liverpool club captain in 2023."
+    ],
+    "explanation": "Virgil van Dijk took #4 upon arriving at Liverpool in January 2018, wearing 'Virgil' on the back of his jersey."
+  },
+  {
+    "id": "sn-16",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which midfielder wore #39 at Newcastle United after wearing it in honour of his taxi-driver father's cab number?",
+    "correctAnswer": "Bruno Guimarães",
+    "options": ["Joelinton", "Bruno Guimarães", "Sandro Tonali", "Jonjo Shelvey"],
+    "hints": [
+      "Signed from Olympique Lyonnais in January 2022.",
+      "Brazilian international central midfielder.",
+      "Helped Newcastle reach the Champions League in 2022–23."
+    ],
+    "explanation": "Bruno Guimarães wears #39 as a tribute to the license number of the taxi his father drove in Rio de Janeiro to support his youth career."
+  },
+  {
+    "id": "sn-17",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Spanish midfielder wore Arsenal's #8 shirt on loan from Real Madrid across both the 2019–20 and 2020–21 seasons?",
+    "correctAnswer": "Dani Ceballos",
+    "options": ["Dani Ceballos", "Martin Ødegaard", "Emile Smith Rowe", "Denis Suárez"],
+    "hints": [
+      "He won the 2020 FA Cup at Wembley during his first campaign.",
+      "Martin Ødegaard wore #11 alongside him in 2020–21 before taking #8 permanently.",
+      "He signed from Real Betis before moving to Madrid."
+    ],
+    "explanation": "Dani Ceballos wore #8 during his two-year loan at Arsenal from 2019 to 2021, freeing up the jersey for Martin Ødegaard upon Ceballos's return to Madrid."
+  },
+  {
+    "id": "sn-18",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "What squad number did Zlatan Ibrahimović wear at LA Galaxy (2018–2019)?",
+    "correctAnswer": "#9",
+    "options": ["#9", "#10", "#11", "#21"],
+    "hints": [
+      "He scored a 45-yard volley on his debut wearing it against LAFC.",
+      "He scored 52 goals in 56 MLS appearances.",
+      "Classic centre-forward number."
+    ],
+    "explanation": "Zlatan Ibrahimović wore #9 for LA Galaxy across 2018 and 2019 before switching to #21 and then #11 upon returning to AC Milan."
+  },
+  {
+    "id": "sn-19",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "After which club legend departed in 2017 did Chelsea's #26 shirt remain unused for five seasons until Kalidou Koulibaly asked permission to wear it?",
+    "correctAnswer": "John Terry",
+    "options": ["Frank Lampard", "John Terry", "Ashley Cole", "Gary Cahill"],
+    "hints": [
+      "He lifted the 2016–17 Premier League trophy in his final season.",
+      "He wore #26 from his breakthrough in 1998 until 2017 (except Kalidou Koulibaly briefly wore it with permission in 2022–23).",
+      "Moved to Aston Villa in the Championship."
+    ],
+    "explanation": "John Terry wore #26 for Chelsea until 2017; it remained unused for five years until Kalidou Koulibaly asked Terry's permission in 2022."
+  },
+  {
+    "id": "sn-20",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Spanish midfielder wore #8 at Bayern Munich from 2012 to 2021?",
+    "correctAnswer": "Javi Martínez",
+    "options": ["Thiago Alcântara", "Javi Martínez", "Xabi Alonso", "Bastian Schweinsteiger"],
+    "hints": [
+      "Signed from Athletic Bilbao for €40m.",
+      "Won two continental trebles with the club.",
+      "Xabi Alonso wore #14 and Thiago wore #6."
+    ],
+    "explanation": "Javi Martínez wore #8 throughout all nine seasons at Bayern Munich from 2012 until his departure in 2021."
+  },
+  {
+    "id": "sn-21",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Inter Milan defender wears #95 in honour of his older brother Luca's birth year?",
+    "correctAnswer": "Alessandro Bastoni",
+    "options": ["Milan Škriniar", "Alessandro Bastoni", "Federico Dimarco", "Matteo Darmian"],
+    "hints": [
+      "He came through Atalanta's youth academy before moving to Inter.",
+      "Left-footed Italian international centre-back.",
+      "Won two Scudetti with Inter and Euro 2020 with Italy."
+    ],
+    "explanation": "Alessandro Bastoni wears #95 at Inter Milan in honour of his older brother Luca, who was born in 1995."
+  },
+  {
+    "id": "sn-22",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which goalkeeper famously wore #13 throughout Chelsea's 2014–15 title season before switching to #1 when Petr Čech left?",
+    "correctAnswer": "Thibaut Courtois",
+    "options": ["Asmir Begović", "Thibaut Courtois", "Willy Caballero", "Eduardo"],
+    "hints": [
+      "He had also worn #13 on loan at Atlético Madrid.",
+      "Moved to Real Madrid in 2018 where he initially wore #25 before #13 and #1.",
+      "Won the 2017 Premier League Golden Glove."
+    ],
+    "explanation": "Thibaut Courtois wore #13 in his debut 2014–15 Chelsea campaign while Petr Čech wore #1, taking #13 again briefly at Real Madrid before claiming #1."
+  },
+  {
+    "id": "sn-23",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which French midfielder wore #6 for Manchester United from 2016 to 2022?",
+    "correctAnswer": "Paul Pogba",
+    "options": ["Morgan Schneiderlin", "Paul Pogba", "Nemanja Matić", "Fred"],
+    "hints": [
+      "Wore #42 during his first spell at the club.",
+      "Returned from Juventus for £89m in 2016.",
+      "Scored in the 2017 Europa League final and 2018 World Cup final."
+    ],
+    "explanation": "Paul Pogba wore #6 across his entire six-year second spell at Manchester United before Lisandro Martínez took the shirt in 2022."
+  },
+  {
+    "id": "sn-24",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Tottenham forward wore #7 for nearly a decade after arriving from Bayer Leverkusen in 2015?",
+    "correctAnswer": "Son Heung-min",
+    "options": ["Aaron Lennon", "Son Heung-min", "Lucas Moura", "Erik Lamela"],
+    "hints": [
+      "Shared the 2021–22 Premier League Golden Boot with 23 goals.",
+      "Became club captain in 2023.",
+      "First Asian player to score 100 Premier League goals."
+    ],
+    "explanation": "Son Heung-min took #7 upon joining Tottenham in August 2015 and wore it to club captaincy and a Premier League Golden Boot."
+  },
+  {
+    "id": "sn-25",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Arsenal striker wore #14 from January 2018 to 2022, following in Thierry Henry's footsteps?",
+    "correctAnswer": "Pierre-Emerick Aubameyang",
+    "options": ["Alexandre Lacazette", "Pierre-Emerick Aubameyang", "Eddie Nketiah", "Theo Walcott"],
+    "hints": [
+      "Scored twice in the 2020 FA Cup semi-final and final at Wembley.",
+      "Won the 2018–19 Premier League Golden Boot.",
+      "Signed from Borussia Dortmund."
+    ],
+    "explanation": "Pierre-Emerick Aubameyang inherited Arsenal's #14 shirt from Theo Walcott in January 2018 and scored 92 goals for the club."
+  },
+  {
+    "id": "sn-26",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Bayern Munich playmaker wore #25 throughout his entire senior career from 2009 onwards?",
+    "correctAnswer": "Thomas Müller",
+    "options": ["Thomas Müller", "Bastian Schweinsteiger", "Toni Kroos", "Leon Goretzka"],
+    "hints": [
+      "Won the 2010 FIFA World Cup Golden Boot wearing #13 for Germany.",
+      "Won 12 Bundesliga titles at club level.",
+      "Coined the term 'Raumdeuter'."
+    ],
+    "explanation": "Thomas Müller has worn #25 at Bayern Munich since breaking into the senior squad in 2009, making over 700 appearances."
+  },
+  {
+    "id": "sn-27",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Liverpool midfielder wore #5 throughout the 2019 Champions League and 2020 Premier League triumphs?",
+    "correctAnswer": "Georginio Wijnaldum",
+    "options": ["Fabinho", "Georginio Wijnaldum", "Naby Keïta", "Jordan Henderson"],
+    "hints": [
+      "Scored two goals in two minutes off the bench against Barcelona in 2019.",
+      "Signed from Newcastle United in 2016.",
+      "Joined PSG in 2021."
+    ],
+    "explanation": "Georginio Wijnaldum wore #5 across all five seasons at Liverpool (2016–2021), scoring 22 goals in 237 appearances."
+  },
+  {
+    "id": "sn-28",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which AC Milan striker wore #9 in 2021–24, finally breaking the club's post-Filippo Inzaghi '#9 curse'?",
+    "correctAnswer": "Olivier Giroud",
+    "options": ["Krzysztof Piątek", "Olivier Giroud", "Gonzalo Higuaín", "André Silva"],
+    "hints": [
+      "Scored twice in a decisive 2–1 Derby della Madonnina win in February 2022.",
+      "Even played in goal during stoppage time against Genoa in 2023.",
+      "Moved to LAFC in 2024."
+    ],
+    "explanation": "Olivier Giroud scored 49 goals across three seasons wearing AC Milan's #9, helping win the 2021–22 Scudetto after Pato, Destro, Luiz Adriano, Silva, Higuaín, and Piątek struggled in it."
+  },
+  {
+    "id": "sn-29",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Manchester City midfielder wore #42 for eight seasons from 2010 to 2018?",
+    "correctAnswer": "Yaya Touré",
+    "options": ["Fernandinho", "Yaya Touré", "David Silva", "Gareth Barry"],
+    "hints": [
+      "His brother Kolo wore #28 at the same club.",
+      "He reversed his #24 from FC Barcelona.",
+      "Scored 20 Premier League goals from midfield in 2013–14."
+    ],
+    "explanation": "Yaya Touré flipped his Barcelona #24 to #42 at Manchester City, winning three Premier League titles and scoring in the 2011 FA Cup final."
+  },
+  {
+    "id": "sn-30",
+    "mode": "shirt-number",
+    "difficulty": "expert",
+    "category": "Shirt Numbers",
+    "question": "Which Juventus and Argentina forward famously switched from #21 to #10 in Turin in 2017?",
+    "correctAnswer": "Paulo Dybala",
+    "options": ["Carlos Tevez", "Paulo Dybala", "Federico Chiesa", "Álvaro Morata"],
+    "hints": [
+      "Known as 'La Joya' and for his mask goal celebration.",
+      "Moved to AS Roma in 2022 where he kept #21.",
+      "Won five consecutive Serie A titles in Turin."
+    ],
+    "explanation": "Paulo Dybala wore #21 for two seasons after joining Juventus in 2015 before inheriting the iconic #10 shirt in August 2017."
+  }
+]
