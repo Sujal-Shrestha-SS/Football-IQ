@@ -1,0 +1,452 @@
+[
+  {
+    "id": "fq-1",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Champions League",
+    "question": "Which goalkeeper conceded just 4 goals across six 2013–14 Champions League knockout matches before losing the final in extra time?",
+    "correctAnswer": "Thibaut Courtois",
+    "options": ["Manuel Neuer", "Thibaut Courtois", "Keylor Navas", "Iker Casillas"],
+    "hints": [
+      "He was playing on loan in Madrid at the time.",
+      "His team stayed unbeaten until extra time in Lisbon.",
+      "He won the Zamora Trophy in La Liga that same season."
+    ],
+    "explanation": "Thibaut Courtois conceded just 4 goals across six knockout ties against AC Milan, Barcelona, and Chelsea before Atlético lost 4–1 to Real Madrid in extra time."
+  },
+  {
+    "id": "fq-2",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Champions League",
+    "question": "Who scored the 11th and decisive spot-kick in Villarreal's 11–10 Europa League final shootout win over Manchester United in 2021?",
+    "correctAnswer": "Gerónimo Rulli",
+    "options": ["Gerónimo Rulli", "Pau Torres", "Étienne Capoue", "Raúl Albiol"],
+    "hints": [
+      "Every single outfield player on both sides had already scored.",
+      "He is an Argentine international goalkeeper.",
+      "Moments later, he saved David de Gea's penalty."
+    ],
+    "explanation": "Goalkeeper Gerónimo Rulli lashed his penalty into the top corner and then saved David de Gea's effort to give Villarreal an 11–10 shootout victory in Gdańsk."
+  },
+  {
+    "id": "fq-3",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Premier League",
+    "question": "Who won the 2014–15 Premier League Golden Glove outright with 14 clean sheets?",
+    "correctAnswer": "Joe Hart",
+    "options": ["Thibaut Courtois", "David de Gea", "Joe Hart", "Łukasz Fabiański"],
+    "hints": [
+      "He won the award four times in five seasons.",
+      "His club finished second behind Chelsea that campaign.",
+      "He edged out Fraser Forster and Simon Mignolet (13 each)."
+    ],
+    "explanation": "Joe Hart kept 14 clean sheets in 2014–15 for Manchester City, beating Fraser Forster and Simon Mignolet by one to claim his fourth Golden Glove."
+  },
+  {
+    "id": "fq-4",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Premier League",
+    "question": "Who scored the fastest hat-trick in Premier League history (2 minutes 56 seconds) in May 2015?",
+    "correctAnswer": "Sadio Mané",
+    "options": ["Jermain Defoe", "Sadio Mané", "Sergio Agüero", "Jamie Vardy"],
+    "hints": [
+      "It happened against Aston Villa at St Mary's Stadium.",
+      "All three goals came between the 13th and 16th minutes.",
+      "He broke Robbie Fowler's 21-year-old record."
+    ],
+    "explanation": "Playing for Southampton, Sadio Mané scored three goals in 2 minutes and 56 seconds against Aston Villa on 16 May 2015."
+  },
+  {
+    "id": "fq-5",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "World Cup",
+    "question": "Which Welshman became the first player since Milan Baroš (2004) to score in all three group-stage matches at a European Championship in 2016?",
+    "correctAnswer": "Gareth Bale",
+    "options": ["Aaron Ramsey", "Gareth Bale", "Hal Robson-Kanu", "Joe Allen"],
+    "hints": [
+      "Two of his three group-stage goals came from direct free-kicks.",
+      "His team topped Group B ahead of England.",
+      "He scored against Slovakia, England, and Russia."
+    ],
+    "explanation": "Gareth Bale scored in all three Group B matches (vs Slovakia, England, and Russia) as Wales reached the Euro 2016 semi-finals."
+  },
+  {
+    "id": "fq-6",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Bundesliga",
+    "question": "Which VfL Wolfsburg player won 2015 German Footballer of the Year after registering 21 Bundesliga assists in 2014–15?",
+    "correctAnswer": "Kevin De Bruyne",
+    "options": ["Bas Dost", "Max Kruse", "Kevin De Bruyne", "Henrikh Mkhitaryan"],
+    "hints": [
+      "He helped Wolfsburg defeat Borussia Dortmund 3–1 in the DFB-Pokal final.",
+      "He left Germany for the Premier League in August 2015.",
+      "He is a Belgian playmaker."
+    ],
+    "explanation": "Kevin De Bruyne registered 21 Bundesliga assists in 2014–15, winning German Footballer of the Year before joining Manchester City."
+  },
+  {
+    "id": "fq-7",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "La Liga",
+    "question": "Which goalkeeper became the first Sevilla player in history to win the La Liga Zamora Trophy in 2021–22?",
+    "correctAnswer": "Yassine Bounou",
+    "options": ["Jan Oblak", "Thibaut Courtois", "Yassine Bounou", "Marc-André ter Stegen"],
+    "hints": [
+      "He conceded just 24 goals in 31 La Liga appearances in 2021–22.",
+      "He previously played for Atlético Madrid B, Zaragoza, and Girona.",
+      "Months later, he kept clean sheets against Spain and Portugal at the 2022 World Cup."
+    ],
+    "explanation": "Moroccan goalkeeper Yassine 'Bono' Bounou won the 2021–22 Zamora Trophy with a 0.77 goals-against average for Sevilla."
+  },
+  {
+    "id": "fq-8",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Serie A",
+    "question": "Which striker equalled Gonzalo Higuaín's all-time Serie A single-season scoring record of 36 goals in 2019–20?",
+    "correctAnswer": "Ciro Immobile",
+    "options": ["Romelu Lukaku", "Ciro Immobile", "Duván Zapata", "Francesco Caputo"],
+    "hints": [
+      "He also won the European Golden Shoe that season.",
+      "He scored 14 penalties during that 36-goal campaign.",
+      "He is Lazio's all-time leading goalscorer."
+    ],
+    "explanation": "Lazio striker Ciro Immobile scored 36 Serie A goals in 2019–20, matching Gonzalo Higuaín's 2015–16 record and winning the European Golden Shoe."
+  },
+  {
+    "id": "fq-9",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Ligue 1",
+    "question": "Which Montpellier striker finished as Ligue 1 top scorer with 21 goals when Montpellier shockingly won the 2011–12 title?",
+    "correctAnswer": "Olivier Giroud",
+    "options": ["Younès Belhanda", "Olivier Giroud", "Souleymane Camara", "Kevin Gameiro"],
+    "hints": [
+      "He tied on 21 goals with PSG's Nenê, winning the award via fewer penalties.",
+      "He moved to Arsenal that summer for around £9.6m.",
+      "He later became France's all-time leading men's goalscorer."
+    ],
+    "explanation": "Olivier Giroud scored 21 Ligue 1 goals in 2011–12 to fire Montpellier to their first and only French top-flight title."
+  },
+  {
+    "id": "fq-10",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Premier League",
+    "question": "Which Tottenham player won both the Premier League Golden Boot (23 goals) and Playmaker Award (14 assists) in 2020–21?",
+    "correctAnswer": "Harry Kane",
+    "options": ["Mohamed Salah", "Harry Kane", "Kevin De Bruyne", "Son Heung-min"],
+    "hints": [
+      "He formed a record-breaking partnership with Son Heung-min that season.",
+      "It was his third Premier League Golden Boot.",
+      "He moved to Bayern Munich in August 2023."
+    ],
+    "explanation": "In 2020–21, Harry Kane topped both the Premier League goalscoring (23) and assist (14) charts — becoming the first player since Andy Cole (1993–94) to win both outright."
+  },
+  {
+    "id": "fq-11",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Champions League",
+    "question": "Which Tottenham winger scored a second-half hat-trick away at Ajax in May 2019 to send Spurs to the Champions League final?",
+    "correctAnswer": "Lucas Moura",
+    "options": ["Son Heung-min", "Christian Eriksen", "Lucas Moura", "Fernando Llorente"],
+    "hints": [
+      "He was signed from Paris Saint-Germain in January 2018.",
+      "His winning goal arrived in the 96th minute.",
+      "L'Équipe awarded him a rare 10/10 match rating."
+    ],
+    "explanation": "Lucas Moura scored in the 55th, 59th, and 90+6th minutes in Amsterdam to overturn a 3–0 aggregate deficit on away goals."
+  },
+  {
+    "id": "fq-12",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "World Cup",
+    "question": "Which goalkeeper was famously subbed on specifically for the penalty shootout in the 2014 World Cup quarter-final vs Costa Rica?",
+    "correctAnswer": "Tim Krul",
+    "options": ["Jasper Cillessen", "Michel Vorm", "Tim Krul", "Maarten Stekelenburg"],
+    "hints": [
+      "Louis van Gaal brought him on in the 121st minute.",
+      "He played his club football for Newcastle United at the time.",
+      "He saved penalties from Bryan Ruiz and Michael Umaña."
+    ],
+    "explanation": "Louis van Gaal substituted Jasper Cillessen for Tim Krul in the 121st minute, and Krul saved two spot-kicks to send the Netherlands into the semi-finals."
+  },
+  {
+    "id": "fq-13",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Bundesliga",
+    "question": "Which Stuttgart striker broke the Bundesliga record for goals in the opening 8 matchdays of a season (14 goals) in 2023–24?",
+    "correctAnswer": "Serhou Guirassy",
+    "options": ["Deniz Undav", "Victor Boniface", "Serhou Guirassy", "Niclas Füllkrug"],
+    "hints": [
+      "A Guinea international striker who finished runner-up to Harry Kane with 28 league goals.",
+      "Joined Borussia Dortmund in the summer of 2024.",
+      "Previously played for Stade Rennais."
+    ],
+    "explanation": "Serhou Guirassy netted 14 goals in Stuttgart's first 8 Bundesliga matches of 2023–24, surpassing Robert Lewandowski's previous mark of 13."
+  },
+  {
+    "id": "fq-14",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Premier League",
+    "question": "Who scored Chelsea's 83rd-minute equaliser in the 'Battle of the Bridge' (Chelsea 2–2 Tottenham) to mathematically hand Leicester City the 2015–16 title?",
+    "correctAnswer": "Eden Hazard",
+    "options": ["Gary Cahill", "Cesc Fàbregas", "Eden Hazard", "Diego Costa"],
+    "hints": [
+      "He came off the bench at half-time.",
+      "He played a one-two with Diego Costa before curling into the top-right corner.",
+      "He won PFA Player of the Year the previous season."
+    ],
+    "explanation": "Eden Hazard curled home an 83rd-minute equaliser against Tottenham on 2 May 2016 to mathematically confirm Leicester City as Premier League champions."
+  },
+  {
+    "id": "fq-15",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "La Liga",
+    "question": "Which Atlético Madrid defender scored the title-winning header at Camp Nou against Barcelona on the final day of 2013–14?",
+    "correctAnswer": "Diego Godín",
+    "options": ["Miranda", "Diego Godín", "Filipe Luís", "Raúl García"],
+    "hints": [
+      "He rose highest from a Gabi corner in the 49th minute.",
+      "A Uruguayan international centre-back.",
+      "Five days later, he also opened the scoring in the Champions League final."
+    ],
+    "explanation": "Diego Godín powered home a 49th-minute header at Camp Nou to secure the 1–1 draw that gave Atlético Madrid their first La Liga title since 1996."
+  },
+  {
+    "id": "fq-16",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Serie A",
+    "question": "Which Sampdoria veteran equalled Gabriel Batistuta's long-standing record of scoring in 11 consecutive Serie A appearances in 2018–19?",
+    "correctAnswer": "Fabio Quagliarella",
+    "options": ["Duván Zapata", "Fabio Quagliarella", "Ciro Immobile", "Krzysztof Piątek"],
+    "hints": [
+      "He won the Serie A Capocannoniere award that season with 26 goals at age 36.",
+      "He previously played for Udinese, Napoli, Juventus, and Torino.",
+      "Known for scoring spectacular long-range volleys."
+    ],
+    "explanation": "At age 36, Sampdoria captain Fabio Quagliarella scored in 11 straight Serie A matches in 2018–19 and finished top scorer ahead of Zapata and Ronaldo."
+  },
+  {
+    "id": "fq-17",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Champions League",
+    "question": "Who scored Borussia Dortmund's 93rd-minute aggregate winner against Málaga in the 2012–13 Champions League quarter-final?",
+    "correctAnswer": "Felipe Santana",
+    "options": ["Mats Hummels", "Marco Reus", "Felipe Santana", "Neven Subotić"],
+    "hints": [
+      "Dortmund scored twice in stoppage time to win 3–2 on the night.",
+      "A Brazilian centre-back who rarely started ahead of Hummels and Subotić.",
+      "He later crossed the Ruhr divide to join Schalke 04."
+    ],
+    "explanation": "Brazilian defender Felipe Santana bundled in the dramatic 90+3rd-minute winner as Dortmund stunned Málaga 3–2 in April 2013."
+  },
+  {
+    "id": "fq-18",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "World Cup",
+    "question": "Which midfielder won the FIFA World Cup Best Young Player Award at Brazil 2014?",
+    "correctAnswer": "Paul Pogba",
+    "options": ["Raphaël Varane", "Paul Pogba", "Memphis Depay", "James Rodríguez"],
+    "hints": [
+      "He beat out compatriot Raphaël Varane and Memphis Depay.",
+      "He scored his nation's opening goal in their Round of 16 win over Nigeria.",
+      "He was playing his club football at Juventus at the time."
+    ],
+    "explanation": "Juventus midfielder Paul Pogba won the 2014 World Cup Best Young Player award after helping France reach the quarter-finals."
+  },
+  {
+    "id": "fq-19",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Premier League",
+    "question": "Who became the first Newcastle United player since Alan Shearer to score four goals in a Premier League match, doing so against Norwich in October 2015?",
+    "correctAnswer": "Georginio Wijnaldum",
+    "options": ["Papiss Cissé", "Georginio Wijnaldum", "Aleksandar Mitrović", "Ayoze Pérez"],
+    "hints": [
+      "He was a Dutch midfielder playing his debut Premier League season.",
+      "Newcastle won the match 6–2 at St James' Park.",
+      "He moved to Liverpool the following summer."
+    ],
+    "explanation": "Georginio Wijnaldum netted four times in Newcastle United's 6–2 victory over Norwich City in October 2015."
+  },
+  {
+    "id": "fq-20",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Bundesliga",
+    "question": "Who scored Bayer Leverkusen's only goal in their 2023–24 DFB-Pokal final win over Kaiserslautern to complete an unbeaten domestic double?",
+    "correctAnswer": "Granit Xhaka",
+    "options": ["Florian Wirtz", "Granit Xhaka", "Álex Grimaldo", "Robert Andrich"],
+    "hints": [
+      "It was a curling 25-yard strike into the top corner.",
+      "He arrived from Arsenal in the summer of 2023.",
+      "He started almost every match of that historic unbeaten Bundesliga campaign."
+    ],
+    "explanation": "Granit Xhaka struck a 16th-minute thunderbolt in Berlin as 10-man Bayer Leverkusen beat Kaiserslautern 1–0 to seal an invincible domestic double."
+  },
+  {
+    "id": "fq-21",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "World Cup",
+    "question": "Which Costa Rica captain led his country to the 2014 World Cup quarter-finals and scored against both Italy and Greece?",
+    "correctAnswer": "Bryan Ruiz",
+    "options": ["Joel Campbell", "Celso Borges", "Bryan Ruiz", "Christian Bolaños"],
+    "hints": [
+      "A left-footed attacking midfielder who played for Twente, Fulham, and Sporting CP.",
+      "His header beat Gianluigi Buffon in Recife.",
+      "He appeared in three World Cups (2014, 2018, 2022)."
+    ],
+    "explanation": "Bryan Ruiz headed the winner against Italy in Group D and netted against Greece in the Round of 16 as Costa Rica shocked the 2014 World Cup."
+  },
+  {
+    "id": "fq-22",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Serie A",
+    "question": "Which Napoli centre-back scored a 90th-minute header at Juventus in April 2018 to cut the title gap to one point?",
+    "correctAnswer": "Kalidou Koulibaly",
+    "options": ["Raúl Albiol", "Kalidou Koulibaly", "Elseid Hysaj", "Faouzi Ghoulam"],
+    "hints": [
+      "He towered above Medhi Benatia from a José Callejón corner.",
+      "Napoli won 1–0 in Turin.",
+      "He later captained Senegal to the 2021 Africa Cup of Nations title."
+    ],
+    "explanation": "Kalidou Koulibaly's 90th-minute header gave Napoli a 1–0 victory in Turin in April 2018, setting up a dramatic final-month Scudetto race."
+  },
+  {
+    "id": "fq-23",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Ligue 1",
+    "question": "Which veteran striker scored 16 Ligue 1 goals at age 35 to lead Lille OSC to their shock 2020–21 French title?",
+    "correctAnswer": "Burak Yılmaz",
+    "options": ["Jonathan David", "Burak Yılmaz", "Jonathan Bamba", "Yusuf Yazıcı"],
+    "hints": [
+      "He joined Lille on a free transfer from Beşiktaş in 2020.",
+      "He scored twice in a pivotal 3–2 comeback win away at Lyon.",
+      "He was Turkey's long-serving national team captain."
+    ],
+    "explanation": "At 35 years old, Burak Yılmaz scored 16 Ligue 1 goals in 28 appearances to spearhead Lille's 2020–21 French title win ahead of PSG."
+  },
+  {
+    "id": "fq-24",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Premier League",
+    "question": "Who scored a hat-trick of headers in just 13 minutes for West Bromwich Albion against Swansea City in December 2016?",
+    "correctAnswer": "Salomón Rondón",
+    "options": ["Saido Berahino", "Salomón Rondón", "Jay Rodriguez", "Rickie Lambert"],
+    "hints": [
+      "A Venezuelan international striker.",
+      "All three headers were assisted from wide crosses in the second half.",
+      "He became only the second player in Premier League history to score three headers in one game."
+    ],
+    "explanation": "Salomón Rondón scored three headers in 13 minutes for West Bromwich Albion against Swansea City in December 2016, matching Duncan Ferguson (1997)."
+  },
+  {
+    "id": "fq-25",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Champions League",
+    "question": "Who scored his first-ever UEFA Champions League goal in the 2021 final in Porto?",
+    "correctAnswer": "Kai Havertz",
+    "options": ["Mason Mount", "Timo Werner", "Kai Havertz", "Christian Pulisic"],
+    "hints": [
+      "Mason Mount provided the through-ball assist.",
+      "He rounded Ederson in the 42nd minute to score.",
+      "He had joined his club from Bayer Leverkusen the previous summer."
+    ],
+    "explanation": "Kai Havertz broke his Champions League scoring duck on the biggest stage, rounding Ederson in the 42nd minute as Chelsea beat Man City 1–0."
+  },
+  {
+    "id": "fq-26",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "La Liga",
+    "question": "Which veteran defender captained Villarreal throughout the 2021 UEFA Europa League final win over Manchester United?",
+    "correctAnswer": "Raúl Albiol",
+    "options": ["Dani Parejo", "Gerard Moreno", "Raúl Albiol", "Pau Torres"],
+    "hints": [
+      "A 2010 World Cup winner with Spain.",
+      "He spent six seasons at Napoli before returning to La Liga in 2019.",
+      "He played all 120 minutes and converted his penalty in the Gdańsk shootout."
+    ],
+    "explanation": "Centre-back Raúl Albiol captained Villarreal throughout the 2021 final against Manchester United, winning the club's first major European trophy."
+  },
+  {
+    "id": "fq-27",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Bundesliga",
+    "question": "Which Austrian defender celebrated Real Madrid's 2022 Champions League comeback over PSG by hoisting a white plastic chair above his head?",
+    "correctAnswer": "David Alaba",
+    "options": ["Marcel Sabitzer", "David Alaba", "Konrad Laimer", "Stefan Lainer"],
+    "hints": [
+      "He joined Real Madrid on a free transfer in 2021.",
+      "He won 10 Bundesliga titles in Germany.",
+      "He inherited Sergio Ramos's #4 shirt."
+    ],
+    "explanation": "After winning 10 Bundesliga crowns at Bayern Munich, David Alaba went viral for celebrating Real Madrid's 2022 comeback over PSG with a pitchside folding chair."
+  },
+  {
+    "id": "fq-28",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "World Cup",
+    "question": "Which Madrid-born right-back chipped a Panenka penalty to eliminate Spain in the 2022 World Cup Round of 16 shootout?",
+    "correctAnswer": "Achraf Hakimi",
+    "options": ["Noussair Mazraoui", "Achraf Hakimi", "Hakim Ziyech", "Sofyan Amrabat"],
+    "hints": [
+      "He came through Real Madrid's youth academy.",
+      "He won the 2020–21 Serie A title with Inter Milan.",
+      "He later won consecutive Ligue 1 titles with PSG."
+    ],
+    "explanation": "Born in Madrid, Achraf Hakimi coolly converted a Panenka penalty past Unai Simón to send Morocco into the 2022 World Cup quarter-finals."
+  },
+  {
+    "id": "fq-29",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Premier League",
+    "question": "Which Liverpool goalkeeper scored a 95th-minute headed winner at West Bromwich Albion in May 2021?",
+    "correctAnswer": "Alisson Becker",
+    "options": ["Alisson Becker", "Adrián", "Caoimhín Kelleher", "Simon Mignolet"],
+    "hints": [
+      "He became the first goalkeeper in Liverpool history to score a competitive goal.",
+      "Trent Alexander-Arnold swung in the corner kick.",
+      "The win proved decisive in qualifying for the 2021–22 Champions League."
+    ],
+    "explanation": "Alisson Becker glanced home Trent Alexander-Arnold's 95th-minute corner on 16 May 2021 to secure a crucial 2–1 win at The Hawthorns."
+  },
+  {
+    "id": "fq-30",
+    "mode": "football-quiz",
+    "difficulty": "expert",
+    "category": "Champions League",
+    "question": "Which striker won the UEFA Europa League with both Chelsea (2013) and Atlético Madrid (2018)?",
+    "correctAnswer": "Fernando Torres",
+    "options": ["Diego Costa", "Fernando Torres", "Radamel Falcao", "Álvaro Morata"],
+    "hints": [
+      "He scored the opening goal in the 2013 final in Amsterdam.",
+      "He came on as a late substitute in the 2018 final in Lyon against Marseille.",
+      "He also won the Golden Boot at Euro 2012."
+    ],
+    "explanation": "Fernando Torres scored in Chelsea's 2–1 win over Benfica in the 2013 Europa League final and lifted the same trophy with his boyhood club Atlético Madrid in 2018."
+  }
+]
