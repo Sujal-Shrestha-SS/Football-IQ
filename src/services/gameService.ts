@@ -7,7 +7,10 @@ import footballQuizQuestions from '../data/footballQuizQuestions.json';
 import jumbledNameQuestions from '../data/jumbledNameQuestions.json';
 import transferQuizQuestions from '../data/transferQuizQuestions.json';
 import shirtNumberQuestions from '../data/shirtNumberQuestions.json';
-import { generateQuestions } from './questionGeneratorService';
+import {
+  generateQuestions,
+  recordSeenAnswers,
+} from './questionGeneratorService';
 
 import {
   Club,
@@ -337,16 +340,18 @@ export const gameService = {
       return { questions: [], source: 'cached' };
     }
 
-    // 1. Try Gemini generation first
+    // 1. Try fresh Gemini generation first
     const generated = await generateQuestions(mode, count);
     if (generated && generated.length >= count) {
+      const picked = generated.slice(0, count);
+      recordSeenAnswers(mode, picked);
       return {
-        questions: generated.slice(0, count),
+        questions: picked,
         source: 'ai',
       };
     }
 
-    // 2. Fallback: static seed bank JSON files
+    // 2. Load static seed bank for fallback or top-up
     let sourceQuestions: AnyQuestion[] = [];
     switch (mode) {
       case 'three-clubs':
@@ -373,13 +378,55 @@ export const gameService = {
     }
 
     const base = generated ?? [];
-    const seenIds = new Set(base.map((q) => q.id));
-    const extra = shuffleArray(sourceQuestions.filter((q) => !seenIds.has(q.id)));
+    const seenSeedKey = `fiq_seen_seeds_${mode}`;
+    let seenSeedIds = new Set<string>();
+    try {
+      const raw = sessionStorage.getItem(seenSeedKey);
+      if (raw) {
+        const arr = JSON.parse(raw);
+        if (Array.isArray(arr)) seenSeedIds = new Set(arr.map(String));
+      }
+    } catch {
+      // Ignore storage errors
+    }
+
+    const baseAnswers = new Set(base.map((q) => q.correctAnswer.trim().toLowerCase()));
+    const unseenPool = shuffleArray(
+      sourceQuestions.filter(
+        (q) =>
+          !seenSeedIds.has(q.id) &&
+          !baseAnswers.has(q.correctAnswer.trim().toLowerCase())
+      )
+    );
+    const seenPool = shuffleArray(
+      sourceQuestions.filter(
+        (q) =>
+          seenSeedIds.has(q.id) &&
+          !baseAnswers.has(q.correctAnswer.trim().toLowerCase())
+      )
+    );
+
+    const needed = Math.max(0, count - base.length);
+    const extra = [...unseenPool, ...seenPool].slice(0, needed);
+
+    // Update seen seed IDs; if we exhausted unseenPool, reset to just the newly dealt seed IDs
+    const nextSeen =
+      unseenPool.length >= needed
+        ? new Set([...seenSeedIds, ...extra.map((q) => q.id)])
+        : new Set(extra.map((q) => q.id));
+
+    try {
+      sessionStorage.setItem(seenSeedKey, JSON.stringify(Array.from(nextSeen)));
+    } catch {
+      // Ignore storage errors
+    }
+
     const merged = [...base, ...extra].slice(0, count);
+    recordSeenAnswers(mode, merged);
 
     return {
       questions: merged,
-      source: 'cached',
+      source: base.length >= Math.ceil(count / 2) ? 'ai' : 'cached',
     };
   },
 

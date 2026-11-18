@@ -5,6 +5,8 @@ const POOL_CACHE_KEY = 'fiq_player_pool_v2';
 const POOL_COOLDOWN_KEY = 'fiq_pool_cooldown_until';
 const POOL_EXPIRY_MS = 30 * 24 * 60 * 60 * 1000; // 30 days
 const QUOTA_COOLDOWN_MS = 15 * 60 * 1000; // 15 minutes
+const API = import.meta.env.VITE_API_URL ?? '';
+
 
 let lastPoolQuotaExceeded = false;
 
@@ -80,7 +82,7 @@ async function fetchLeaguePlayers(
   const timeoutId = setTimeout(() => controller.abort(), 35000);
 
   try {
-    const response = await fetch('/api/players/pool', {
+    const response = await fetch(`${API}/api/players/pool`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ league, country, count }),

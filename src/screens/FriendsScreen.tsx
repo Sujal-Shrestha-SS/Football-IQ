@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { GameModeId } from '../types/football';
 import { soundService } from '../services/soundService';
 import { gameService } from '../services/gameService';
@@ -18,6 +18,8 @@ import {
 } from 'lucide-react';
 
 interface FriendsScreenProps {
+  username: string;
+  onUsernameChange: (name: string) => void;
   onCreateBattle: (config: {
     modes: GameModeId[];
     questionCount: 5 | 10 | 15;
@@ -48,6 +50,8 @@ const MODE_ICONS: Record<string, React.ComponentType<{ size?: number }>> = {
 };
 
 export const FriendsScreen: React.FC<FriendsScreenProps> = ({
+  username,
+  onUsernameChange,
   onCreateBattle,
   onJoinBattle,
   roomError,
@@ -64,6 +68,20 @@ export const FriendsScreen: React.FC<FriendsScreenProps> = ({
 
   const [codeInput, setCodeInput] = useState<string>('');
   const [localError, setLocalError] = useState<string>('');
+  const [draftName, setDraftName] = useState<string>(username);
+
+  useEffect(() => {
+    setDraftName(username);
+  }, [username]);
+
+  const commitName = () => {
+    const trimmed = draftName.trim();
+    if (trimmed && trimmed !== username) {
+      onUsernameChange(trimmed);
+    } else if (!trimmed) {
+      setDraftName(username);
+    }
+  };
 
   const handleToggleMultiMode = (mode: GameModeId) => {
     soundService.playTap();
@@ -90,6 +108,7 @@ export const FriendsScreen: React.FC<FriendsScreenProps> = ({
 
   const handleCreateSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    commitName();
     if (battleFormat === 'multi' && selectedModes.length < 2) {
       soundService.playWrong();
       setLocalError('Select at least 2 modes for a Multi-Mode Battle.');
@@ -106,6 +125,7 @@ export const FriendsScreen: React.FC<FriendsScreenProps> = ({
 
   const handleJoinSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    commitName();
     const clean = codeInput.trim().toUpperCase();
     if (clean.length < 4) {
       soundService.playWrong();
@@ -138,8 +158,32 @@ export const FriendsScreen: React.FC<FriendsScreenProps> = ({
       <div className="px-3.5 py-2.5 rounded-2xl bg-amber-500/10 border border-amber-500/25 flex items-center gap-2.5">
         <Trophy size={16} className="text-amber-400 shrink-0" />
         <p className="text-[11px] text-amber-200 leading-snug">
-          <strong className="text-amber-300">Points Battle:</strong> 100 pts per correct answer + up to 50 speed bonus pts. Highest total wins!
+          <strong className="text-amber-300">Points Battle:</strong>{' '}
+          {selectedTimer === 0
+            ? '100 pts per correct answer (No Time Limit — pure accuracy wins!).'
+            : '100 pts per correct answer + up to 50 speed bonus pts. Highest total wins!'}
         </p>
+      </div>
+
+      {/* Player Battle Name */}
+      <div className="p-3.5 rounded-2xl bg-slate-900/70 border border-white/10 flex items-center justify-between gap-3">
+        <label className="text-xs font-semibold text-slate-300 shrink-0">
+          Your Name
+        </label>
+        <input
+          type="text"
+          value={draftName}
+          onChange={(e) => {
+            setDraftName(e.target.value);
+            if (e.target.value.trim()) {
+              onUsernameChange(e.target.value);
+            }
+          }}
+          onBlur={commitName}
+          placeholder="Enter battle name"
+          maxLength={20}
+          className="flex-1 min-w-0 h-10 px-3 rounded-xl bg-slate-950 border border-white/10 text-white text-xs font-semibold focus:outline-none focus:border-emerald-500"
+        />
       </div>
 
       {(localError || roomError) && (
@@ -351,22 +395,27 @@ export const FriendsScreen: React.FC<FriendsScreenProps> = ({
             <Clock size={12} className="text-slate-400" />
             <span>Timer Per Question</span>
           </label>
-          <div className="grid grid-cols-3 gap-2">
-            {[15, 30, 45].map((sec) => (
+          <div className="grid grid-cols-4 gap-2">
+            {[
+              { val: 0, label: 'No Limit' },
+              { val: 15, label: '15s' },
+              { val: 30, label: '30s' },
+              { val: 45, label: '45s' },
+            ].map((opt) => (
               <button
-                key={sec}
+                key={opt.val}
                 type="button"
                 onClick={() => {
                   soundService.playTap();
-                  setSelectedTimer(sec);
+                  setSelectedTimer(opt.val);
                 }}
                 className={`min-h-[44px] rounded-2xl border text-xs font-bold font-mono-numbers transition-all ${
-                  selectedTimer === sec
+                  selectedTimer === opt.val
                     ? 'bg-emerald-500/15 border-emerald-500 text-emerald-300'
                     : 'bg-slate-950 border-white/10 text-slate-400'
                 }`}
               >
-                {sec}s
+                {opt.label}
               </button>
             ))}
           </div>

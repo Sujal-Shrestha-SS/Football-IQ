@@ -248,7 +248,7 @@ export default function App() {
   }) => {
     setMpError(null);
     multiplayerService.createRoom({
-      profile,
+      profile: storageService.getProfile(),
       modes: config.modes,
       questionCount: config.questionCount,
       timerSeconds: config.timerSeconds,
@@ -257,7 +257,7 @@ export default function App() {
 
   const handleJoinBattle = (code: string) => {
     setMpError(null);
-    multiplayerService.joinRoom(code, profile);
+    multiplayerService.joinRoom(code, storageService.getProfile());
   };
 
   const handleMpAnswerSubmitted = (isCorrect: boolean, timeLeft?: number) => {
@@ -304,10 +304,12 @@ export default function App() {
     onSubmitted: (isCorrect: boolean, timeLeft?: number) => void;
   }) => {
     const { mode, question, qIndex, total, settings, onSubmitted } = params;
+    const questionKey = `${mode}-${qIndex}-${question.id}`;
     switch (mode) {
       case 'three-clubs':
         return (
           <ThreeClubsGame
+            key={questionKey}
             question={question as any}
             questionIndex={qIndex}
             totalQuestions={total}
@@ -320,6 +322,7 @@ export default function App() {
       case 'career-path':
         return (
           <CareerPathGame
+            key={questionKey}
             question={question as any}
             questionIndex={qIndex}
             totalQuestions={total}
@@ -332,6 +335,7 @@ export default function App() {
       case 'guess-player':
         return (
           <GuessPlayerGame
+            key={questionKey}
             question={question as any}
             questionIndex={qIndex}
             totalQuestions={total}
@@ -346,6 +350,7 @@ export default function App() {
       case 'shirt-number':
         return (
           <FootballQuizGame
+            key={questionKey}
             question={question as any}
             questionIndex={qIndex}
             totalQuestions={total}
@@ -357,6 +362,7 @@ export default function App() {
       case 'jumbled-name':
         return (
           <JumbledNameGame
+            key={questionKey}
             question={question as any}
             questionIndex={qIndex}
             totalQuestions={total}
@@ -401,7 +407,8 @@ export default function App() {
     );
   }
 
-  const mpCurrentPlayer = battleRoom?.players.find((p) => p.playerId === profile.id);
+  const myPlayerId = multiplayerService.getMyPlayerId();
+  const mpCurrentPlayer = battleRoom?.players.find((p) => p.playerId === myPlayerId);
   const isPlayingMultiplayerQuestion =
     Boolean(battleRoom) &&
     battleRoom!.phase === 'playing' &&
@@ -439,7 +446,7 @@ export default function App() {
 >          {battleRoom ? (
             isPlayingMultiplayerQuestion ? (
               <>
-                <MultiplayerTopBar room={battleRoom} profile={profile} />
+                <MultiplayerTopBar room={battleRoom} myPlayerId={myPlayerId} />
                 {renderQuestionMode({
                   mode: mpActiveMode,
                   question: battleRoom.currentQuestions[mpQuestionIndex],
@@ -458,7 +465,7 @@ export default function App() {
             ) : (
               <MultiplayerScreen
                 room={battleRoom}
-                profile={profile}
+                myPlayerId={myPlayerId}
                 onStartBattle={() => multiplayerService.startBattle()}
                 onResetLobby={() => multiplayerService.resetToLobby()}
                 onForceAdvance={() =>
@@ -483,6 +490,11 @@ export default function App() {
                   )}
                   {currentTab === 'friends' && (
                     <FriendsScreen
+                      username={profile.username}
+                      onUsernameChange={(name) => {
+                        const updated = storageService.updateUsername(name);
+                        setProfile(updated);
+                      }}
                       onCreateBattle={handleCreateBattle}
                       onJoinBattle={handleJoinBattle}
                       roomError={mpError}

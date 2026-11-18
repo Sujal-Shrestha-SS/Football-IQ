@@ -2,9 +2,20 @@ import { UserProfile } from '../types/football';
 
 const PROFILE_KEY = 'football_iq_profile';
 const SOUND_KEY = 'football_iq_sound';
+const SESSION_PLAYER_ID_KEY = 'football_iq_session_player_id';
 
-const DEFAULT_PROFILE: UserProfile = {
-  id: 'user_default',
+function createRandomId(prefix: string): string {
+  try {
+    if (typeof crypto !== 'undefined' && typeof crypto.randomUUID === 'function') {
+      return `${prefix}_${crypto.randomUUID().replace(/-/g, '').slice(0, 12)}`;
+    }
+  } catch {
+    // Fallback below
+  }
+  return `${prefix}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+const DEFAULT_PROFILE_TEMPLATE: Omit<UserProfile, 'id'> = {
   username: 'Striker99',
   avatarId: 'jersey_gold',
   createdAt: Date.now(),
@@ -26,21 +37,53 @@ export const storageService = {
       const data = localStorage.getItem(PROFILE_KEY);
       if (data) {
         const parsed = JSON.parse(data);
-        return {
-          id: parsed.id || DEFAULT_PROFILE.id,
-          username: parsed.username || DEFAULT_PROFILE.username,
-          avatarId: parsed.avatarId || DEFAULT_PROFILE.avatarId,
-          createdAt: parsed.createdAt || DEFAULT_PROFILE.createdAt,
+        const needsNewId = !parsed.id || parsed.id === 'user_default';
+        const profile: UserProfile = {
+          id: needsNewId ? createRandomId('u') : String(parsed.id),
+          username: parsed.username || DEFAULT_PROFILE_TEMPLATE.username,
+          avatarId: parsed.avatarId || DEFAULT_PROFILE_TEMPLATE.avatarId,
+          createdAt: parsed.createdAt || Date.now(),
           soundEnabled:
             typeof parsed.soundEnabled === 'boolean'
               ? parsed.soundEnabled
               : this.getSoundEnabled(),
         };
+        if (needsNewId) {
+          this.saveProfile(profile);
+        }
+        return profile;
       }
     } catch {
       // Fallback
     }
-    return { ...DEFAULT_PROFILE, soundEnabled: this.getSoundEnabled() };
+    const fresh: UserProfile = {
+      id: createRandomId('u'),
+      ...DEFAULT_PROFILE_TEMPLATE,
+      createdAt: Date.now(),
+      soundEnabled: this.getSoundEnabled(),
+    };
+    this.saveProfile(fresh);
+    return fresh;
+  },
+
+  /**
+   * Returns a stable ID for the current browser tab/window.
+   * Persists across page refreshes in the same tab (allowing WS reconnect)
+   * while keeping two tabs in the same browser completely isolated in multiplayer.
+   */
+  getSessionPlayerId(): string {
+    try {
+      const existing = sessionStorage.getItem(SESSION_PLAYER_ID_KEY);
+      if (existing && existing.trim().length > 4) {
+        return existing;
+      }
+      const profileId = this.getProfile().id;
+      const created = `${profileId}_${Math.random().toString(36).slice(2, 7)}`;
+      sessionStorage.setItem(SESSION_PLAYER_ID_KEY, created);
+      return created;
+    } catch {
+      return this.getProfile().id;
+    }
   },
 
   saveProfile(profile: UserProfile): void {

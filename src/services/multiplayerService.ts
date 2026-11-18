@@ -1,4 +1,5 @@
 import { BattleRoomState, GameModeId, UserProfile } from '../types/football';
+import { storageService } from './storageService';
 
 type RoomListener = (room: BattleRoomState | null) => void;
 type ErrorListener = (error: string) => void;
@@ -10,14 +11,35 @@ class MultiplayerService {
   private errorListeners = new Set<ErrorListener>();
   private pendingMessages: string[] = [];
   private reconnectTimer: ReturnType<typeof setTimeout> | null = null;
+  private heartbeatTimer: ReturnType<typeof setInterval> | null = null;
   private activeRoomCode: string | null = null;
   private lastProfile: UserProfile | null = null;
   private manualLeave = false;
 
-  private getWsUrl(): string {
+  getMyPlayerId(): string {
+    return storageService.getSessionPlayerId();
+  }
+
+ private getWsUrl(): string {
   const apiUrl = import.meta.env.VITE_API_URL ?? window.location.origin;
   return apiUrl.replace(/^https/, 'wss').replace(/^http/, 'ws') + '/ws';
 }
+
+  private startHeartbeat(socket: WebSocket): void {
+    this.stopHeartbeat();
+    this.heartbeatTimer = setInterval(() => {
+      if (socket.readyState === WebSocket.OPEN) {
+        socket.send(JSON.stringify({ type: 'ping' }));
+      }
+    }, 20000);
+  }
+
+  private stopHeartbeat(): void {
+    if (this.heartbeatTimer) {
+      clearInterval(this.heartbeatTimer);
+      this.heartbeatTimer = null;
+    }
+  }
 
   private ensureSocket(): void {
     if (
@@ -37,18 +59,36 @@ class MultiplayerService {
         clearTimeout(this.reconnectTimer);
         this.reconnectTimer = null;
       }
-      // If reconnecting to an active room, rejoin first before flushing queue
-      if (this.activeRoomCode && this.lastProfile && this.pendingMessages.length === 0) {
+      this.startHeartbeat(socket);
+
+      // Always rejoin active room first on reconnect unless pendingMessages[0] already creates/joins a room
+      const firstPending = this.pendingMessages[0];
+      let firstType = '';
+      if (firstPending) {
+        try {
+          firstType = String(JSON.parse(firstPending)?.type || '');
+        } catch {
+          firstType = '';
+        }
+      }
+
+      if (
+        this.activeRoomCode &&
+        this.lastProfile &&
+        firstType !== 'room:create' &&
+        firstType !== 'room:join'
+      ) {
         socket.send(
           JSON.stringify({
             type: 'room:join',
             code: this.activeRoomCode,
-            playerId: this.lastProfile.id,
+            playerId: this.getMyPlayerId(),
             username: this.lastProfile.username,
             avatarId: this.lastProfile.avatarId,
           })
         );
       }
+
       while (this.pendingMessages.length > 0 && socket.readyState === WebSocket.OPEN) {
         const msg = this.pendingMessages.shift();
         if (msg) socket.send(msg);
@@ -58,6 +98,7 @@ class MultiplayerService {
     socket.onmessage = (event) => {
       try {
         const data = JSON.parse(event.data);
+        if (data.type === 'pong') return;
         if (data.type === 'room:state' && data.room) {
           this.room = data.room as BattleRoomState;
           this.activeRoomCode = this.room.code;
@@ -71,6 +112,7 @@ class MultiplayerService {
     };
 
     socket.onclose = () => {
+      this.stopHeartbeat();
       if (this.ws === socket) {
         this.ws = null;
       }
@@ -78,7 +120,7 @@ class MultiplayerService {
         if (this.reconnectTimer) clearTimeout(this.reconnectTimer);
         this.reconnectTimer = setTimeout(() => {
           this.ensureSocket();
-        }, 1500);
+        }, 1200);
       }
     };
   }
@@ -132,9 +174,10 @@ class MultiplayerService {
   }): void {
     this.lastProfile = params.profile;
     this.activeRoomCode = null;
+    this.pendingMessages = [];
     this.send({
       type: 'room:create',
-      playerId: params.profile.id,
+      playerId: this.getMyPlayerId(),
       username: params.profile.username,
       avatarId: params.profile.avatarId,
       modes: params.modes,
@@ -148,10 +191,11 @@ class MultiplayerService {
     if (!cleanCode) return;
     this.lastProfile = profile;
     this.activeRoomCode = cleanCode;
+    this.pendingMessages = [];
     this.send({
       type: 'room:join',
       code: cleanCode,
-      playerId: profile.id,
+      playerId: this.getMyPlayerId(),
       username: profile.username,
       avatarId: profile.avatarId,
     });
@@ -199,6 +243,7 @@ class MultiplayerService {
     this.activeRoomCode = null;
     this.room = null;
     this.pendingMessages = [];
+    this.stopHeartbeat();
     if (this.reconnectTimer) {
       clearTimeout(this.reconnectTimer);
       this.reconnectTimer = null;

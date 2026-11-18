@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import confetti from 'canvas-confetti';
-import { BattleRoomState, UserProfile } from '../types/football';
+import { BattleRoomState } from '../types/football';
 import { gameService } from '../services/gameService';
 import { AVATAR_OPTIONS } from '../services/storageService';
 import { soundService } from '../services/soundService';
@@ -23,16 +23,16 @@ import {
 
 interface MultiplayerTopBarProps {
   room: BattleRoomState;
-  profile: UserProfile;
+  myPlayerId: string;
 }
 
 export const MultiplayerTopBar: React.FC<MultiplayerTopBarProps> = ({
   room,
-  profile,
+  myPlayerId,
 }) => {
   const currentModeId = room.modes[room.currentModeIndex];
   const modeInfo = gameService.getModeInfo(currentModeId);
-  const me = room.players.find((p) => p.playerId === profile.id);
+  const me = room.players.find((p) => p.playerId === myPlayerId);
   const sortedPlayers = [...room.players].sort((a, b) => b.totalPoints - a.totalPoints);
 
   return (
@@ -66,7 +66,7 @@ export const MultiplayerTopBar: React.FC<MultiplayerTopBarProps> = ({
             {sortedPlayers.map((p, idx) => {
               const av =
                 AVATAR_OPTIONS.find((a) => a.id === p.avatarId) || AVATAR_OPTIONS[0];
-              const isMe = p.playerId === profile.id;
+              const isMe = p.playerId === myPlayerId;
               return (
                 <div
                   key={p.playerId}
@@ -98,7 +98,7 @@ export const MultiplayerTopBar: React.FC<MultiplayerTopBarProps> = ({
 
 interface MultiplayerScreenProps {
   room: BattleRoomState;
-  profile: UserProfile;
+  myPlayerId: string;
   onStartBattle: () => void;
   onResetLobby: () => void;
   onForceAdvance: () => void;
@@ -107,7 +107,7 @@ interface MultiplayerScreenProps {
 
 export const MultiplayerScreen: React.FC<MultiplayerScreenProps> = ({
   room,
-  profile,
+  myPlayerId,
   onStartBattle,
   onResetLobby,
   onForceAdvance,
@@ -117,7 +117,7 @@ export const MultiplayerScreen: React.FC<MultiplayerScreenProps> = ({
   const [copiedLink, setCopiedLink] = useState(false);
   const [intermissionSecLeft, setIntermissionSecLeft] = useState<number>(5);
 
-  const isHost = room.hostId === profile.id;
+  const isHost = room.hostId === myPlayerId;
   const sortedPlayers = [...room.players].sort((a, b) => b.totalPoints - a.totalPoints);
 
   // Live 5-second countdown during intermission
@@ -140,7 +140,7 @@ export const MultiplayerScreen: React.FC<MultiplayerScreenProps> = ({
     if (room.phase !== 'finished' || sortedPlayers.length === 0) return;
     const topScore = sortedPlayers[0].totalPoints;
     const iWon = sortedPlayers.some(
-      (p) => p.playerId === profile.id && p.totalPoints === topScore && topScore > 0
+      (p) => p.playerId === myPlayerId && p.totalPoints === topScore && topScore > 0
     );
     if (iWon) {
       soundService.playCorrect();
@@ -235,7 +235,8 @@ export const MultiplayerScreen: React.FC<MultiplayerScreenProps> = ({
                 : 'Single-Mode Battle'}
             </h2>
             <span className="text-[11px] text-slate-400 font-mono-numbers">
-              {room.questionCount} Qs · {room.timerSeconds}s
+              {room.questionCount} Qs ·{' '}
+              {room.timerSeconds > 0 ? `${room.timerSeconds}s` : 'No Limit'}
             </span>
           </div>
 
@@ -279,7 +280,7 @@ export const MultiplayerScreen: React.FC<MultiplayerScreenProps> = ({
             {room.players.map((p) => {
               const av =
                 AVATAR_OPTIONS.find((a) => a.id === p.avatarId) || AVATAR_OPTIONS[0];
-              const isMe = p.playerId === profile.id;
+              const isMe = p.playerId === myPlayerId;
               return (
                 <div
                   key={p.playerId}
@@ -393,7 +394,7 @@ export const MultiplayerScreen: React.FC<MultiplayerScreenProps> = ({
           {sortedPlayers.map((p, idx) => {
             const av =
               AVATAR_OPTIONS.find((a) => a.id === p.avatarId) || AVATAR_OPTIONS[0];
-            const isMe = p.playerId === profile.id;
+            const isMe = p.playerId === myPlayerId;
             return (
               <div
                 key={p.playerId}
@@ -481,7 +482,7 @@ export const MultiplayerScreen: React.FC<MultiplayerScreenProps> = ({
           {sortedPlayers.map((p, idx) => {
             const av =
               AVATAR_OPTIONS.find((a) => a.id === p.avatarId) || AVATAR_OPTIONS[0];
-            const isMe = p.playerId === profile.id;
+            const isMe = p.playerId === myPlayerId;
             const roundPts = p.modePoints[room.currentModeIndex] ?? 0;
 
             return (
@@ -612,7 +613,7 @@ export const MultiplayerScreen: React.FC<MultiplayerScreenProps> = ({
         {sortedPlayers.map((p, idx) => {
           const av =
             AVATAR_OPTIONS.find((a) => a.id === p.avatarId) || AVATAR_OPTIONS[0];
-          const isMe = p.playerId === profile.id;
+          const isMe = p.playerId === myPlayerId;
           const isWinner = p.totalPoints === topScore;
 
           return (

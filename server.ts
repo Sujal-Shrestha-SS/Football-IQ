@@ -23,8 +23,32 @@ const ai = process.env.GEMINI_API_KEY
     })
   : null;
 
-function buildPrompt(mode: string, count: number): string {
-  const base = `You are a football trivia expert. Generate ${count} unique football quiz questions.
+const FOCUS_ANGLES = [
+  'Serie A, Bundesliga, and Europa League cult heroes',
+  'La Liga, Ligue 1, and Premier League mid-table standouts',
+  'Champions League knockout unsung heroes and domestic cup winners',
+  'Eredivisie, Liga Portugal, and international tournament surprises',
+  'Promoted club stars, free transfers, and tactical utility players',
+  'Goalkeepers, full-backs, and defensive midfielders post-2010',
+];
+
+function buildPrompt(
+  mode: string,
+  count: number,
+  excludeAnswers: string[] = []
+): string {
+  const angle = FOCUS_ANGLES[Math.floor(Math.random() * FOCUS_ANGLES.length)];
+  const uniqueBatchSeed = `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 6)}`;
+  const cleanExcludes = excludeAnswers
+    .map((a) => String(a).trim())
+    .filter(Boolean)
+    .slice(-45);
+  const excludeRule =
+    cleanExcludes.length > 0
+      ? `\n- CRITICAL UNIQUENESS RULE: Do NOT use any of these previously asked players/answers: ${cleanExcludes.join(', ')}`
+      : '';
+
+  const base = `You are a football trivia expert. Generate ${count} unique football quiz questions (Batch ${uniqueBatchSeed}, spotlight on: ${angle}).
 STRICT RULES:
 - All players and events must be from 2010 onwards only
 - Questions must be GENUINELY HARD — suitable for hardcore football fans, not casual viewers
@@ -35,7 +59,7 @@ STRICT RULES:
 - Every correctAnswer must be 100% factually accurate — do not hallucinate stats, fees, or dates
 - hints: never mention the player's name or nationality in hint 1. Work up gradually.
 - explanation must cite a specific fact: year, stat, club, trophy, or record
-- In the options array, place the correctAnswer at a RANDOM position (index 0, 1, 2, or 3), never always first
+- In the options array, place the correctAnswer at a RANDOM position (index 0, 1, 2, or 3), never always first${excludeRule}
 - Return ONLY a valid JSON array, no markdown, no extra text`;
 
   const schemas: Record<string, string> = {
@@ -260,6 +284,14 @@ function isQuotaError(err: unknown): boolean {
   );
 }
 
+function getQuotaCooldownMs(err: unknown): number {
+  const msg = String((err as { message?: string })?.message || '');
+  if (msg.includes('PerMinute') || msg.includes('RPM') || msg.includes('TPM')) {
+    return 60 * 1000;
+  }
+  return 15 * 60 * 1000;
+}
+
 async function generateJsonTextWithFallback(
   contents: string,
   maxOutputTokens?: number
@@ -300,10 +332,11 @@ async function generateJsonTextWithFallback(
       if (isQuotaError(err)) {
         sawQuotaError = true;
         const prevBlocked = modelCooldownUntil.get(candidate.model) || 0;
-        modelCooldownUntil.set(candidate.model, Date.now() + 15 * 60 * 1000);
+        const cooldownMs = getQuotaCooldownMs(err);
+        modelCooldownUntil.set(candidate.model, Date.now() + cooldownMs);
         if (Date.now() >= prevBlocked) {
           console.warn(
-            `[Server] Gemini quota limit reached on ${candidate.model}; cooling down 15m.`
+            `[Server] Gemini quota limit reached on ${candidate.model}; cooling down ${Math.round(cooldownMs / 1000)}s.`
           );
         }
         continue;
@@ -322,11 +355,13 @@ async function generateJsonTextWithFallback(
 
 async function generateOrFallbackModeQuestions(
   mode: string,
-  count: number
+  count: number,
+  excludeAnswers: string[] = [],
+  usedSeedIds?: Set<string>
 ): Promise<{ questions: Record<string, unknown>[]; source: 'ai' | 'cached' }> {
   let generated: Record<string, unknown>[] = [];
   if (ai) {
-    const prompt = buildPrompt(mode, count);
+    const prompt = buildPrompt(mode, count, excludeAnswers);
     if (prompt) {
       try {
         const rawText = await generateJsonTextWithFallback(prompt);
@@ -350,12 +385,34 @@ async function generateOrFallbackModeQuestions(
     return { questions: generated.slice(0, count), source: 'ai' };
   }
 
-  const seed = shuffleServerArray(readSeedQuestions(mode));
-  const seen = new Set(generated.map((q) => String(q.id || '')));
-  const extra = seed.filter((q) => !seen.has(String(q.id || '')));
+  const allSeed = readSeedQuestions(mode);
+  const seenAnswers = new Set(generated.map((q) => String(q.correctAnswer || '').trim().toLowerCase()));
+  const unseenSeed = shuffleServerArray(
+    allSeed.filter(
+      (q) =>
+        (!usedSeedIds || !usedSeedIds.has(String(q.id || ''))) &&
+        !seenAnswers.has(String(q.correctAnswer || '').trim().toLowerCase())
+    )
+  );
+  const previouslyUsedSeed = shuffleServerArray(
+    allSeed.filter(
+      (q) =>
+        usedSeedIds?.has(String(q.id || '')) &&
+        !seenAnswers.has(String(q.correctAnswer || '').trim().toLowerCase())
+    )
+  );
+
+  const needed = Math.max(0, count - generated.length);
+  const extra = [...unseenSeed, ...previouslyUsedSeed].slice(0, needed);
+  if (usedSeedIds) {
+    for (const q of extra) {
+      if (q.id) usedSeedIds.add(String(q.id));
+    }
+  }
+
   return {
     questions: [...generated, ...extra].slice(0, count),
-    source: 'cached',
+    source: generated.length >= Math.ceil(count / 2) ? 'ai' : 'cached',
   };
 }
 
@@ -386,6 +443,8 @@ interface ServerRoom {
   intermissionTimer: ReturnType<typeof setTimeout> | null;
   players: Map<string, ServerPlayer>;
   modeQuestionSets: Map<number, { questions: Record<string, unknown>[]; source: 'ai' | 'cached' }>;
+  usedAnswers: string[];
+  usedSeedIds: Set<string>;
   updatedAt: number;
 }
 
@@ -475,12 +534,18 @@ function maybeAdvanceAfterModeComplete(room: ServerRoom, force = false) {
   const nextIndex = room.currentModeIndex + 1;
   const ensureNextQuestions = room.modeQuestionSets.has(nextIndex)
     ? Promise.resolve(room.modeQuestionSets.get(nextIndex)!)
-    : generateOrFallbackModeQuestions(room.modes[nextIndex], room.questionCount).then(
-        (res) => {
-          room.modeQuestionSets.set(nextIndex, res);
-          return res;
+    : generateOrFallbackModeQuestions(
+        room.modes[nextIndex],
+        room.questionCount,
+        room.usedAnswers,
+        room.usedSeedIds
+      ).then((res) => {
+        room.modeQuestionSets.set(nextIndex, res);
+        for (const q of res.questions) {
+          if (q.correctAnswer) room.usedAnswers.push(String(q.correctAnswer));
         }
-      );
+        return res;
+      });
 
   room.intermissionTimer = setTimeout(async () => {
     room.intermissionTimer = null;
@@ -535,6 +600,13 @@ async function startServer() {
 
       const type = String(msg.type || '');
 
+      if (type === 'ping') {
+        if (ws.readyState === WebSocket.OPEN) {
+          ws.send(JSON.stringify({ type: 'pong' }));
+        }
+        return;
+      }
+
       if (type === 'room:create') {
         const playerId = String(msg.playerId || '').trim();
         const username = String(msg.username || 'Player').trim().slice(0, 24) || 'Player';
@@ -567,6 +639,8 @@ async function startServer() {
           intermissionTimer: null,
           players: new Map(),
           modeQuestionSets: new Map(),
+          usedAnswers: [],
+          usedSeedIds: new Set(),
           updatedAt: Date.now(),
         };
 
@@ -705,19 +779,30 @@ async function startServer() {
         // Generate/load mode 0 immediately, and pre-generate remaining modes in parallel
         const firstRes = await generateOrFallbackModeQuestions(
           room.modes[0],
-          room.questionCount
+          room.questionCount,
+          room.usedAnswers,
+          room.usedSeedIds
         );
         room.modeQuestionSets.set(0, firstRes);
+        for (const q of firstRes.questions) {
+          if (q.correctAnswer) room.usedAnswers.push(String(q.correctAnswer));
+        }
 
         for (let idx = 1; idx < room.modes.length; idx++) {
           const targetIdx = idx;
-          generateOrFallbackModeQuestions(room.modes[targetIdx], room.questionCount).then(
-            (res) => {
-              if (rooms.has(room.code)) {
-                room.modeQuestionSets.set(targetIdx, res);
+          generateOrFallbackModeQuestions(
+            room.modes[targetIdx],
+            room.questionCount,
+            room.usedAnswers,
+            room.usedSeedIds
+          ).then((res) => {
+            if (rooms.has(room.code)) {
+              room.modeQuestionSets.set(targetIdx, res);
+              for (const q of res.questions) {
+                if (q.correctAnswer) room.usedAnswers.push(String(q.correctAnswer));
               }
             }
-          );
+          });
         }
 
         if (!rooms.has(room.code)) return;
@@ -753,7 +838,9 @@ async function startServer() {
         const modeIndex = Number(msg.modeIndex);
         const questionIndex = Number(msg.questionIndex);
         if (modeIndex !== room.currentModeIndex) return;
-        if (questionIndex < 0 || questionIndex >= room.questionCount) return;
+        const activeQuestionsCount =
+          room.modeQuestionSets.get(modeIndex)?.questions.length ?? room.questionCount;
+        if (questionIndex < 0 || questionIndex >= activeQuestionsCount) return;
 
         const key = `${modeIndex}:${questionIndex}`;
         if (player.answeredKeys.has(key)) return;
@@ -770,7 +857,7 @@ async function startServer() {
                     room.timerSeconds) *
                     50
                 )
-              : 25;
+              : 0;
           earned = 100 + speedBonus;
           player.correctCount += 1;
         }
@@ -803,20 +890,30 @@ async function startServer() {
 
     ws.on('close', () => {
       if (!joinedRoomCode || !joinedPlayerId) return;
-      const room = rooms.get(joinedRoomCode);
+      const code = joinedRoomCode;
+      const pid = joinedPlayerId;
+      const room = rooms.get(code);
       if (!room) return;
-      const player = room.players.get(joinedPlayerId);
+      const player = room.players.get(pid);
       if (player && player.ws === ws) {
         player.connected = false;
         player.ws = null;
         broadcastRoom(room);
-        maybeAdvanceAfterModeComplete(room);
+        // Give 8s grace period for mobile/proxy reconnects before advancing without this player
+        setTimeout(() => {
+          const currentRoom = rooms.get(code);
+          if (!currentRoom) return;
+          const p = currentRoom.players.get(pid);
+          if (p && !p.connected) {
+            maybeAdvanceAfterModeComplete(currentRoom);
+          }
+        }, 8000);
       }
     });
   });
 
   app.post('/api/questions/generate', async (req, res) => {
-    const { mode, count } = req.body ?? {};
+    const { mode, count, excludeAnswers } = req.body ?? {};
     if (!mode || typeof count !== 'number' || mode === 'tictactoe') {
       res.status(400).json({ error: 'Invalid mode or count' });
       return;
@@ -827,7 +924,10 @@ async function startServer() {
       return;
     }
 
-    const prompt = buildPrompt(mode, Math.min(Math.max(count, 1), 15));
+    const excludes = Array.isArray(excludeAnswers)
+      ? excludeAnswers.map((a) => String(a))
+      : [];
+    const prompt = buildPrompt(mode, Math.min(Math.max(count, 1), 15), excludes);
     if (!prompt) {
       res.status(400).json({ error: 'Unsupported mode' });
       return;
