@@ -1,0 +1,572 @@
+[
+  {
+    "id": "jn-1",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Shinji Kagawa",
+    "jumbledLetters": "KAHIJWAGISAN",
+    "options": ["Shinji Kagawa", "Keisuke Honda", "Shinji Okazaki", "Takumi Minamino"],
+    "hints": [
+      "Signed for Borussia Dortmund from Cerezo Osaka for €350k in 2010 and won back-to-back Bundesliga titles.",
+      "Scored a Premier League hat-trick against Norwich City in March 2013 while wearing #26 for Manchester United.",
+      "Japanese attacking midfielder who later also played for Beşiktaş, Real Zaragoza, and PAOK."
+    ],
+    "explanation": "Shinji Kagawa won consecutive Bundesliga titles with Borussia Dortmund before winning the 2012–13 Premier League at Manchester United.",
+    "nationality": "Japan",
+    "position": "MF",
+    "era": "2010–2023"
+  },
+  {
+    "id": "jn-2",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Kasper Dolberg",
+    "jumbledLetters": "GROPBAKELRSED",
+    "options": ["Kasper Dolberg", "Jonas Wind", "Yussuf Poulsen", "Christian Eriksen"],
+    "hints": [
+      "Broke through at Ajax in 2016–17 with 23 goals in all competitions, helping them reach the Europa League final.",
+      "Later played for OGC Nice, Sevilla, Hoffenheim, and Anderlecht.",
+      "Danish centre-forward who scored twice against Wales in the Euro 2020 Round of 16."
+    ],
+    "explanation": "Danish striker Kasper Dolberg netted 23 goals in his breakout 2016–17 season for Ajax before spells at Nice, Sevilla, and Anderlecht.",
+    "nationality": "Denmark",
+    "position": "FW",
+    "era": "2016–present"
+  },
+  {
+    "id": "jn-3",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Emil Forsberg",
+    "jumbledLetters": "GRSEBMILFROE",
+    "options": ["Emil Forsberg", "Dejan Kulusevski", "Viktor Claesson", "Alexander Isak"],
+    "hints": [
+      "Joined RB Leipzig in January 2015 while they were in the 2. Bundesliga and helped them reach the 2020 Champions League semi-finals.",
+      "Topped the 2016–17 Bundesliga assist chart with 22 assists wearing the #10 shirt.",
+      "Swedish playmaker who moved to New York Red Bulls in 2024."
+    ],
+    "explanation": "Swedish playmaker Emil Forsberg topped the 2016–17 Bundesliga assist chart with 22 assists during nine years at RB Leipzig.",
+    "nationality": "Sweden",
+    "position": "MF",
+    "era": "2013–present"
+  },
+  {
+    "id": "jn-4",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Sofiane Feghouli",
+    "jumbledLetters": "FEIOGHSALINEUOF",
+    "options": ["Sofiane Feghouli", "Yacine Brahimi", "Riyad Mahrez", "Islam Slimani"],
+    "hints": [
+      "Made over 200 appearances for Valencia CF between 2010 and 2016 before spending one season at West Ham United.",
+      "Won two Turkish Süper Lig titles during five seasons at Galatasaray.",
+      "Algerian right winger who helped his nation win the 2019 Africa Cup of Nations."
+    ],
+    "explanation": "Sofiane Feghouli made over 200 appearances for Valencia CF before playing for West Ham and winning two Süper Lig titles at Galatasaray.",
+    "nationality": "Algeria",
+    "position": "MF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-5",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Roberto Pereyra",
+    "jumbledLetters": "EYREPRABRRTOEO",
+    "options": ["Roberto Pereyra", "Rodrigo De Paul", "Manuel Lanzini", "Lucas Ocampos"],
+    "hints": [
+      "Won two Serie A titles and reached the 2015 Champions League final with Juventus.",
+      "Spent four seasons in the Premier League with Watford (2016–2020), reaching the 2019 FA Cup final.",
+      "Argentine midfielder who had two separate spells at Udinese, serving as club captain."
+    ],
+    "explanation": "Argentine midfielder Roberto Pereyra won two Serie A titles at Juventus and spent four years at Watford before returning to captain Udinese.",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2011–present"
+  },
+  {
+    "id": "jn-6",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Joel Matip",
+    "jumbledLetters": "PIMATOELJ",
+    "options": ["Joel Matip", "Dejan Lovren", "Joe Gomez", "Ragnar Klavan"],
+    "hints": [
+      "Came through Schalke 04's academy and won the 2010–11 DFB-Pokal before leaving on a free transfer in 2016.",
+      "Assisted Divock Origi's clinching goal in the 2019 UEFA Champions League final.",
+      "Cameroonian centre-back who made 201 appearances for Liverpool before retiring in 2024."
+    ],
+    "explanation": "Joel Matip joined Liverpool on a free transfer from Schalke 04 in 2016 and assisted the second goal in the 2019 Champions League final.",
+    "nationality": "Cameroon",
+    "position": "DF",
+    "era": "2010–2024"
+  },
+  {
+    "id": "jn-7",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Jonjo Shelvey",
+    "jumbledLetters": "YVHEELJOSNOJ",
+    "options": ["Jonjo Shelvey", "Jack Cork", "Joe Allen", "Charlie Adam"],
+    "hints": [
+      "Joined Liverpool from Charlton Athletic in 2010 before spending two and a half seasons at Swansea City.",
+      "Made over 200 appearances for Newcastle United across seven seasons (2016–2023).",
+      "English central midfielder known for his long-range passing who later played in Turkey."
+    ],
+    "explanation": "Jonjo Shelvey played for Liverpool and Swansea before making over 200 appearances for Newcastle United.",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-8",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Wilfried Zaha",
+    "jumbledLetters": "HZAWFDLIRIEA",
+    "options": ["Wilfried Zaha", "Wilfried Bony", "Gervinho", "Nicolas Pépé"],
+    "hints": [
+      "Signed by Sir Alex Ferguson for Manchester United in 2013, making four senior appearances there.",
+      "Made 458 career appearances across two spells for Crystal Palace before joining Galatasaray in 2023.",
+      "Ivorian winger who represented England in two friendlies before switching international allegiance."
+    ],
+    "explanation": "Wilfried Zaha made 458 appearances across two spells for Crystal Palace before lifting the Turkish Süper Lig with Galatasaray.",
+    "nationality": "Ivory Coast",
+    "position": "FW",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-9",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Adam Lallana",
+    "jumbledLetters": "LANLAMAADAL",
+    "options": ["Adam Lallana", "James Milner", "Jordan Henderson", "Rickie Lambert"],
+    "hints": [
+      "Captained Southampton through consecutive promotions into the Premier League and joined Liverpool in 2014.",
+      "Won the 2019 Champions League and 2019–20 Premier League before spending four seasons at Brighton.",
+      "English attacking midfielder voted England Player of the Year in 2016."
+    ],
+    "explanation": "Adam Lallana captained Southampton into the Premier League, won the Champions League at Liverpool, and spent four years at Brighton.",
+    "nationality": "England",
+    "position": "MF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-10",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Kevin Strootman",
+    "jumbledLetters": "TROVONKMNAESTI",
+    "options": ["Kevin Strootman", "Davy Klaassen", "Jordy Clasie", "Georginio Wijnaldum"],
+    "hints": [
+      "Left PSV Eindhoven in 2013 to spend five seasons anchoring AS Roma's midfield.",
+      "Joined Olympique de Marseille in 2018 and later played in Serie A for Genoa and Cagliari.",
+      "Left-footed Dutch central midfielder nicknamed 'The Washing Machine' for recycling possession."
+    ],
+    "explanation": "Dutch midfielder Kevin Strootman starred at PSV Eindhoven and AS Roma before playing for Marseille and Genoa.",
+    "nationality": "Netherlands",
+    "position": "MF",
+    "era": "2011–2024"
+  },
+  {
+    "id": "jn-11",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Raul Meireles",
+    "jumbledLetters": "SLEREUAMIELR",
+    "options": ["Raul Meireles", "João Moutinho", "Tiago Mendes", "André Gomes"],
+    "hints": [
+      "Joined Liverpool from FC Porto in August 2010 and won the PFA Fans' Player of the Year award in his lone full season at Anfield.",
+      "Scored a decisive late goal against Benfica during Chelsea's 2011–12 UEFA Champions League triumph.",
+      "Heavily tattooed Portuguese midfielder who finished his career at Fenerbahçe."
+    ],
+    "explanation": "Raul Meireles moved from Porto to Liverpool in 2010 and won the 2012 UEFA Champions League with Chelsea.",
+    "nationality": "Portugal",
+    "position": "MF",
+    "era": "2010–2016"
+  },
+  {
+    "id": "jn-12",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Lucas Digne",
+    "jumbledLetters": "GIEDNCLSAU",
+    "options": ["Lucas Digne", "Lucas Hernandez", "Theo Hernández", "Layvin Kurzawa"],
+    "hints": [
+      "Won two Ligue 1 titles with PSG before spells at AS Roma and FC Barcelona.",
+      "Joined Everton in 2018, winning their Players' Player of the Season award, before moving to Aston Villa in 2022.",
+      "French left-back who began his senior career at Lille OSC."
+    ],
+    "explanation": "French left-back Lucas Digne represented PSG, Roma, Barcelona, Everton, and Aston Villa across his post-2010 career.",
+    "nationality": "France",
+    "position": "DF",
+    "era": "2011–present"
+  },
+  {
+    "id": "jn-13",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Javi Martínez",
+    "jumbledLetters": "ZIRMEATNIVAJ",
+    "options": ["Javi Martínez", "Ander Herrera", "Iñigo Martínez", "Mikel Arteta"],
+    "hints": [
+      "Became the Bundesliga's then-record €40m signing when he joined Bayern Munich from Athletic Bilbao in 2012.",
+      "Won two continental trebles in Bavaria (2012–13 and 2019–20), scoring the 2020 UEFA Super Cup winner.",
+      "Spanish defensive midfielder and centre-back who won the 2010 World Cup and Euro 2012."
+    ],
+    "explanation": "Javi Martínez joined Bayern Munich for €40m in 2012 and won two continental trebles during nine years in Bavaria.",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-14",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Wilfried Bony",
+    "jumbledLetters": "YOBIRWENFLID",
+    "options": ["Wilfried Bony", "Wilfried Zaha", "Seydou Doumbia", "Salomon Kalou"],
+    "hints": [
+      "Won the 2012–13 Eredivisie Golden Boot with 31 goals for Vitesse Arnhem.",
+      "Joined Swansea City in 2013 and scored more Premier League goals in calendar year 2014 (20) than any other player.",
+      "Ivorian striker who moved to Manchester City in January 2015 for £28m and won the 2015 AFCON."
+    ],
+    "explanation": "Wilfried Bony won the 2012–13 Eredivisie Golden Boot with 31 goals and led Premier League scoring in calendar year 2014 at Swansea.",
+    "nationality": "Ivory Coast",
+    "position": "FW",
+    "era": "2011–2023"
+  },
+  {
+    "id": "jn-15",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Robert Snodgrass",
+    "jumbledLetters": "SSAGDRSNTORREBO",
+    "options": ["Robert Snodgrass", "Charlie Adam", "Matt Ritchie", "James Forrest"],
+    "hints": [
+      "Left Leeds United in 2012 to play Premier League football with Norwich City, Hull City, and West Ham United.",
+      "Also had spells at Aston Villa, West Bromwich Albion, Luton Town, and Hearts.",
+      "Left-footed Scottish set-piece specialist who earned 28 senior international caps."
+    ],
+    "explanation": "Scottish winger Robert Snodgrass played in the Premier League for Norwich, Hull, and West Ham, earning 28 Scotland caps.",
+    "nationality": "Scotland",
+    "position": "MF",
+    "era": "2010–2024"
+  },
+  {
+    "id": "jn-16",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Jermain Defoe",
+    "jumbledLetters": "EDEOIRFAJEMN",
+    "options": ["Jermain Defoe", "Darren Bent", "Danny Ings", "Peter Crouch"],
+    "hints": [
+      "Scored 162 Premier League goals across West Ham, Tottenham, Portsmouth, Sunderland, and Bournemouth.",
+      "Won the 2020–21 Scottish Premiership unbeaten under Steven Gerrard at Rangers.",
+      "English striker who netted 20 international goals, including a winner against Slovenia at the 2010 World Cup."
+    ],
+    "explanation": "Jermain Defoe scored 162 Premier League goals across West Ham, Tottenham, Portsmouth, Sunderland, and Bournemouth.",
+    "nationality": "England",
+    "position": "FW",
+    "era": "2010–2022"
+  },
+  {
+    "id": "jn-17",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Mario Götze",
+    "jumbledLetters": "ZOEOTRIGMA",
+    "options": ["Mario Götze", "Marco Reus", "Julian Brandt", "Mario Gómez"],
+    "hints": [
+      "Won two Bundesliga titles at Borussia Dortmund before Bayern Munich triggered his €37m release clause in 2013.",
+      "Revived his career at PSV Eindhoven (2020–2022) before returning to Germany with Eintracht Frankfurt.",
+      "German playmaker who chested down André Schürrle's cross to score the 2014 World Cup final winner."
+    ],
+    "explanation": "Mario Götze scored Germany's 2014 World Cup final winner and later revived his club career at PSV Eindhoven and Eintracht Frankfurt.",
+    "nationality": "Germany",
+    "position": "MF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-18",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Fabián Ruiz",
+    "jumbledLetters": "UZRAIIBNFA",
+    "options": ["Fabián Ruiz", "Dani Ceballos", "Carlos Soler", "Mikel Merino"],
+    "hints": [
+      "Came through Real Betis's academy before spending four seasons at SSC Napoli (2018–2022), winning the 2020 Coppa Italia.",
+      "Joined Paris Saint-Germain in 2022 and helped them win consecutive Ligue 1 titles.",
+      "Tall left-footed Spanish midfielder named in the UEFA Euro 2024 Team of the Tournament."
+    ],
+    "explanation": "Spanish midfielder Fabián Ruiz starred at Real Betis and Napoli before winning Ligue 1 titles with PSG and Euro 2024 with Spain.",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2014–present"
+  },
+  {
+    "id": "jn-19",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Kasper Schmeichel",
+    "jumbledLetters": "CHKLISCEHREAMESP",
+    "options": ["Kasper Schmeichel", "Thomas Sørensen", "Anders Lindegaard", "Tim Krul"],
+    "hints": [
+      "Signed for Leicester City from Leeds United in 2011 and played every minute of their 2015–16 Premier League title campaign.",
+      "Made 479 appearances for Leicester before spells at OGC Nice, Anderlecht, and Celtic.",
+      "Danish international goalkeeper who has earned over 100 caps for his country."
+    ],
+    "explanation": "Kasper Schmeichel made 479 appearances for Leicester City, lifting the 2015–16 Premier League and 2021 FA Cup.",
+    "nationality": "Denmark",
+    "position": "GK",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-20",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Miralem Pjanić",
+    "jumbledLetters": "CNIJAIMLEMPRA",
+    "options": ["Miralem Pjanić", "Edin Džeko", "Senad Lulić", "Sead Kolašinac"],
+    "hints": [
+      "Starred for Olympique Lyonnais and AS Roma before joining Juventus in 2016 for €32m.",
+      "Won four consecutive Serie A titles in Turin before moving to FC Barcelona in 2020.",
+      "Bosnian free-kick specialist who reached the 2017 Champions League final with Juventus."
+    ],
+    "explanation": "Bosnian playmaker Miralem Pjanić won four consecutive Serie A titles with Juventus after starring for Lyon and AS Roma.",
+    "nationality": "Bosnia",
+    "position": "MF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-21",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Rodrigo De Paul",
+    "jumbledLetters": "PAORUDLDGOREI",
+    "options": ["Rodrigo De Paul", "Roberto Pereyra", "Ángel Correa", "Nahuel Molina"],
+    "hints": [
+      "Wore the #10 shirt during five seasons at Udinese (2016–2021) after an earlier spell at Valencia.",
+      "Joined Atlético Madrid for €35m in July 2021.",
+      "Argentine midfielder who assisted Ángel Di María's winner in the 2021 Copa América final and won the 2022 World Cup."
+    ],
+    "explanation": "Rodrigo De Paul starred for Udinese before joining Atlético Madrid in 2021 and winning the 2022 World Cup with Argentina.",
+    "nationality": "Argentina",
+    "position": "MF",
+    "era": "2012–present"
+  },
+  {
+    "id": "jn-22",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Ivan Perišić",
+    "jumbledLetters": "ICIVISPRENA",
+    "options": ["Ivan Perišić", "Ivan Rakitić", "Mario Mandžukić", "Marcelo Brozović"],
+    "hints": [
+      "Won the Bundesliga with both Borussia Dortmund and Bayern Munich, plus Serie A with Inter Milan.",
+      "Won the 2019–20 Champions League on loan at Bayern before joining Tottenham in 2022.",
+      "Two-footed Croatian winger who scored in the 2018 World Cup final."
+    ],
+    "explanation": "Croatian wide player Ivan Perišić won league titles in Germany and Italy plus the 2019–20 Champions League with Bayern Munich.",
+    "nationality": "Croatia",
+    "position": "MF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-23",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Xherdan Shaqiri",
+    "jumbledLetters": "RIIAQNXDERSHAH",
+    "options": ["Xherdan Shaqiri", "Granit Xhaka", "Breel Embolo", "Haris Seferović"],
+    "hints": [
+      "Won the Champions League with both Bayern Munich (2013) and Liverpool (2019), also playing for Inter Milan and Stoke City.",
+      "Played for Olympique Lyonnais and Chicago Fire before returning to FC Basel in 2024.",
+      "Left-footed Swiss winger who scored a hat-trick against Honduras at the 2014 World Cup."
+    ],
+    "explanation": "Swiss winger Xherdan Shaqiri won Champions League titles with Bayern Munich and Liverpool and scored at three World Cups.",
+    "nationality": "Switzerland",
+    "position": "MF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-24",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Matteo Darmian",
+    "jumbledLetters": "ATDRMIANATOEM",
+    "options": ["Matteo Darmian", "Danilo D'Ambrosio", "Giovanni Di Lorenzo", "Alessandro Florenzi"],
+    "hints": [
+      "Moved from Torino to Manchester United in 2015, winning the 2016 FA Cup and 2017 Europa League.",
+      "Returned to Italy with Parma before winning two Serie A titles with Inter Milan.",
+      "Versatile Italian defender who started at the 2014 World Cup and Euro 2016."
+    ],
+    "explanation": "Italian defender Matteo Darmian spent four seasons at Manchester United before winning two Scudetti with Inter Milan.",
+    "nationality": "Italy",
+    "position": "DF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-25",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Toby Alderweireld",
+    "jumbledLetters": "DWERLEIEYLBOTDAR",
+    "options": ["Toby Alderweireld", "Jan Vertonghen", "Thomas Vermaelen", "Vincent Kompany"],
+    "hints": [
+      "Won the 2013–14 La Liga title with Atlético Madrid before spending a season on loan at Southampton.",
+      "Formed a renowned centre-back partnership with Jan Vertonghen during six years at Tottenham Hotspur.",
+      "Belgian defender who scored a dramatic 94th-minute title-winning volley for Royal Antwerp in 2023."
+    ],
+    "explanation": "Toby Alderweireld won titles at Ajax, Atlético Madrid, and Royal Antwerp, anchoring Tottenham's defence for six seasons.",
+    "nationality": "Belgium",
+    "position": "DF",
+    "era": "2010–present"
+  },
+  {
+    "id": "jn-26",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Luis Alberto",
+    "jumbledLetters": "BOILRSLUTEA",
+    "options": ["Luis Alberto", "Suso", "Iago Aspas", "José Callejón"],
+    "hints": [
+      "Joined Liverpool from Sevilla in 2013 but made only nine Premier League appearances before departing in 2016.",
+      "Made over 300 appearances for SS Lazio, winning the 2019 Coppa Italia and topping Serie A's assist charts in 2017–18.",
+      "Spanish playmaker who moved to Qatari side Al-Duhail in 2024."
+    ],
+    "explanation": "Spanish playmaker Luis Alberto left Liverpool in 2016 and made over 300 appearances for SS Lazio.",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2011–present"
+  },
+  {
+    "id": "jn-27",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Ragnar Klavan",
+    "jumbledLetters": "KRNGRAALVNAA",
+    "options": ["Ragnar Klavan", "Joel Matip", "Dejan Lovren", "Kostas Tsimikas"],
+    "hints": [
+      "Made over 120 Bundesliga appearances for FC Augsburg before joining Jürgen Klopp's Liverpool in 2016.",
+      "Scored a 94th-minute winner at Burnley on New Year's Day 2018 and later played in Serie A for Cagliari.",
+      "Estonian international centre-back who won his country's Footballer of the Year award seven times."
+    ],
+    "explanation": "Estonian centre-back Ragnar Klavan played for FC Augsburg, Liverpool, and Cagliari between 2012 and 2021.",
+    "nationality": "Estonia",
+    "position": "DF",
+    "era": "2010–2022"
+  },
+  {
+    "id": "jn-28",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Lucas Ocampos",
+    "jumbledLetters": "OMSOCPALSAUC",
+    "options": ["Lucas Ocampos", "Érik Lamela", "Papu Gómez", "Marcos Acuña"],
+    "hints": [
+      "Played for AS Monaco, Olympique de Marseille, Genoa, AC Milan, and Ajax.",
+      "Won two UEFA Europa League titles with Sevilla FC (2020 and 2023) before moving to Monterrey.",
+      "Argentine winger who began his senior career with River Plate."
+    ],
+    "explanation": "Argentine winger Lucas Ocampos represented Monaco, Marseille, AC Milan, Ajax, and won two Europa Leagues with Sevilla.",
+    "nationality": "Argentina",
+    "position": "FW",
+    "era": "2011–present"
+  },
+  {
+    "id": "jn-29",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Wilfred Ndidi",
+    "jumbledLetters": "FIDWLEIDDNIR",
+    "options": ["Wilfred Ndidi", "Nampalys Mendy", "Idrissa Gueye", "Alex Iwobi"],
+    "hints": [
+      "Joined Leicester City from Belgian club Genk in January 2017 for £17m as a defensive midfield anchor.",
+      "Won the 2021 FA Cup and 2023–24 EFL Championship title with the Foxes.",
+      "Nigerian international who repeatedly led the Premier League in tackles won."
+    ],
+    "explanation": "Nigerian midfielder Wilfred Ndidi joined Leicester City from Genk in January 2017 and won the 2021 FA Cup.",
+    "nationality": "Nigeria",
+    "position": "MF",
+    "era": "2014–present"
+  },
+  {
+    "id": "jn-30",
+    "mode": "jumbled-name",
+    "difficulty": "expert",
+    "category": "Jumbled Name",
+    "question": "Unscramble the letters to find the footballer:",
+    "correctAnswer": "Pablo Sarabia",
+    "jumbledLetters": "ABAOAPLSBARI",
+    "options": ["Pablo Sarabia", "Pablo Hernández", "Carlos Soler", "Jesé Rodríguez"],
+    "hints": [
+      "Came through Real Madrid's academy before starring at Getafe and Sevilla, scoring 23 goals in all competitions in 2018–19.",
+      "Won Ligue 1 titles with PSG and the Taça da Liga on loan at Sporting CP before joining Wolves in 2023.",
+      "Left-footed Spanish attacking midfielder who scored at Euro 2020."
+    ],
+    "explanation": "Pablo Sarabia starred for Getafe, Sevilla, PSG, and Sporting CP before joining Wolverhampton Wanderers.",
+    "nationality": "Spain",
+    "position": "MF",
+    "era": "2010–present"
+  }
+]
