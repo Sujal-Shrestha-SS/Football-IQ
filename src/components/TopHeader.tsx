@@ -38,10 +38,12 @@ export const TopHeader: React.FC<TopHeaderProps> = ({
 <header className="sticky top-0 z-30 header-safe bg-[#070D18]/90 backdrop-blur-md border-b border-white/5">
   <div className="h-14 px-4 flex items-center justify-between">
           {/* Brand Zone */}
-      <div className="flex items-center gap-2">
-        <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center shadow-md shadow-emerald-500/20">
-          <span className="font-athletic text-base font-black text-black">IQ</span>
-        </div>
+      <div className="flex items-center gap-2.5">
+        <img
+          src="/icon.png"
+          alt="Football IQ"
+          className="w-8 h-8 rounded-xl object-cover shadow-md shadow-emerald-500/25 border border-emerald-400/30"
+        />
         <div className="flex flex-col">
           <span className="font-athletic text-lg font-black tracking-wider text-white leading-none">
             FOOTBALL<span className="text-emerald-400 ml-1">IQ</span>
